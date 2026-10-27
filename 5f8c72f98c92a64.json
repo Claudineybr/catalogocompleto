@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Invasão 2021 - Episódio 6 - Marilyn - 🍿Clau", "description": "Assista Invasão 2021 - Episódio 6 - Marilyn", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wDR8diLNJdlH5d4KzNnZXur9A6.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.cnvsplay.com/m/Invasion.S03E06.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://cdn.cnvsplay.com/m/Invasion.S03E06.1080p.WEB-DL.DUAL.5.1.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Invasão 2021 - T1E6 - Marilyn - 🍿Clau", "description": "Assista Invasão 2021 - Episódio 6 - Marilyn", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wDR8diLNJdlH5d4KzNnZXur9A6.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.cnvsplay.com/m/Invasion.S03E06.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://cdn.cnvsplay.com/m/Invasion.S03E06.1080p.WEB-DL.DUAL.5.1.mp4", "episodeNumber": 6, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Invasão 2021"}}
 </script>
-<title>Invasão 2021 - Episódio 6 - Marilyn - 🍿Clau</title>
+<title>Invasão 2021 - T1E6 - Marilyn - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wDR8diLNJdlH5d4KzNnZXur9A6.jpg" alt="Invasão 2021 - Episódio 6 - Marilyn - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Invasão 2021 - Episódio 6 - Marilyn - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/wDR8diLNJdlH5d4KzNnZXur9A6.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Invasão 2021 - T1E6 - Marilyn - 🍿Clau</h1>
 </body>
 </html>

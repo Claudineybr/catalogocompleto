@@ -6,10 +6,9 @@
 </script>
 <title>Dog - A Aventura de uma Vida 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1C2qbfUW3lTzb8vpZeG8pjYzW3Q.jpg" alt="Dog - A Aventura de uma Vida 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<img src="https://image.tmdb.org/t/p/w500/1C2qbfUW3lTzb8vpZeG8pjYzW3Q.jpg" style="width:100%;max-height:220px;object-fit:cover;">
 <h1>Dog - A Aventura de uma Vida 2022 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona - 🍿Clau", "description": "Assista Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/4622a5ba-9fee-4c49-b75a-c59c86443e52/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/4622a5ba-9fee-4c49-b75a-c59c86443e52/playlist.m3u8"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Uma Família Perfeita - T1E5 - A Verdade Vem à Tona - 🍿Clau", "description": "Assista Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/4622a5ba-9fee-4c49-b75a-c59c86443e52/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/4622a5ba-9fee-4c49-b75a-c59c86443e52/playlist.m3u8", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Uma Família Perfeita"}}
 </script>
-<title>Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona - 🍿Clau</title>
+<title>Uma Família Perfeita - T1E5 - A Verdade Vem à Tona - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg" alt="Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Uma Família Perfeita - Episódio 5 - A Verdade Vem à Tona - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/A8re5I0nzEfsDX82ka5Rljgd5do.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Uma Família Perfeita - T1E5 - A Verdade Vem à Tona - 🍿Clau</h1>
 </body>
 </html>

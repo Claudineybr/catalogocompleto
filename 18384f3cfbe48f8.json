@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Twisted Metal 2023 - Episódio 7 - NUTH0UZ - 🍿Clau", "description": "Assista Twisted Metal 2023 - Episódio 7 - NUTH0UZ", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/7/406465ba-4e14-4e37-bbc2-d51d49a8501a/stream.mp4?type=serie&expires=1771024342&signature=9de3a81bff0ed5e22359a6d7e3db34f9b1a815c579927c353b6640fcdf0164af", "embedUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/7/406465ba-4e14-4e37-bbc2-d51d49a8501a/stream.mp4?type=serie&expires=1771024342&signature=9de3a81bff0ed5e22359a6d7e3db34f9b1a815c579927c353b6640fcdf0164af"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Twisted Metal 2023 - T1E7 - NUTH0UZ - 🍿Clau", "description": "Assista Twisted Metal 2023 - Episódio 7 - NUTH0UZ", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/7/406465ba-4e14-4e37-bbc2-d51d49a8501a/stream.mp4?type=serie&expires=1771024342&signature=9de3a81bff0ed5e22359a6d7e3db34f9b1a815c579927c353b6640fcdf0164af", "embedUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/7/406465ba-4e14-4e37-bbc2-d51d49a8501a/stream.mp4?type=serie&expires=1771024342&signature=9de3a81bff0ed5e22359a6d7e3db34f9b1a815c579927c353b6640fcdf0164af", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Twisted Metal 2023"}}
 </script>
-<title>Twisted Metal 2023 - Episódio 7 - NUTH0UZ - 🍿Clau</title>
+<title>Twisted Metal 2023 - T1E7 - NUTH0UZ - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg" alt="Twisted Metal 2023 - Episódio 7 - NUTH0UZ - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Twisted Metal 2023 - Episódio 7 - NUTH0UZ - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Twisted Metal 2023 - T1E7 - NUTH0UZ - 🍿Clau</h1>
 </body>
 </html>

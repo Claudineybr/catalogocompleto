@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "The Witcher 2019 - Episódio 2 - Quatro Marcas - 🍿Clau", "description": "Assista The Witcher 2019 - Episódio 2 - Quatro Marcas", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/71912/1x2.mp4", "embedUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/71912/1x2.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "The Witcher 2019 - T1E2 - Quatro Marcas - 🍿Clau", "description": "Assista The Witcher 2019 - Episódio 2 - Quatro Marcas", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/71912/1x2.mp4", "embedUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/71912/1x2.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "The Witcher 2019"}}
 </script>
-<title>The Witcher 2019 - Episódio 2 - Quatro Marcas - 🍿Clau</title>
+<title>The Witcher 2019 - T1E2 - Quatro Marcas - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg" alt="The Witcher 2019 - Episódio 2 - Quatro Marcas - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>The Witcher 2019 - Episódio 2 - Quatro Marcas - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/uJ1kQWTY1nElMcrrbHtDitbV85K.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>The Witcher 2019 - T1E2 - Quatro Marcas - 🍿Clau</h1>
 </body>
 </html>

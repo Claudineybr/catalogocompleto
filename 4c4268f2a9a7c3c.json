@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja - 🍿Clau", "description": "Assista BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/2/6e3af1b7-b86d-42fd-8418-f7e1ff78eeca/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/2/6e3af1b7-b86d-42fd-8418-f7e1ff78eeca/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "BLUE LOCK 2022 - T1E2 - O assassino e o ninja - 🍿Clau", "description": "Assista BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/2/6e3af1b7-b86d-42fd-8418-f7e1ff78eeca/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/2/6e3af1b7-b86d-42fd-8418-f7e1ff78eeca/stream.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "BLUE LOCK 2022"}}
 </script>
-<title>BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja - 🍿Clau</title>
+<title>BLUE LOCK 2022 - T1E2 - O assassino e o ninja - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" alt="BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>BLUE LOCK 2022 - Episódio 2 - O assassino e o ninja - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>BLUE LOCK 2022 - T1E2 - O assassino e o ninja - 🍿Clau</h1>
 </body>
 </html>

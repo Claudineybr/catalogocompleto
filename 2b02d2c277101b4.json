@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Black Mirror 2011 - Episódio 4 - Natal Branco - 🍿Clau", "description": "Assista Black Mirror 2011 - Episódio 4 - Natal Branco", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aCTL24B8ZuiI2osMwoUI5rqBXoF.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://1a-1791.com/video/fwe1/bf/s8/2/I/M/S/q/IMSqw.caa.mp4", "embedUrl": "https://1a-1791.com/video/fwe1/bf/s8/2/I/M/S/q/IMSqw.caa.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Black Mirror 2011 - T1E4 - Natal Branco - 🍿Clau", "description": "Assista Black Mirror 2011 - Episódio 4 - Natal Branco", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aCTL24B8ZuiI2osMwoUI5rqBXoF.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://1a-1791.com/video/fwe1/bf/s8/2/I/M/S/q/IMSqw.caa.mp4", "embedUrl": "https://1a-1791.com/video/fwe1/bf/s8/2/I/M/S/q/IMSqw.caa.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Black Mirror 2011"}}
 </script>
-<title>Black Mirror 2011 - Episódio 4 - Natal Branco - 🍿Clau</title>
+<title>Black Mirror 2011 - T1E4 - Natal Branco - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aCTL24B8ZuiI2osMwoUI5rqBXoF.jpg" alt="Black Mirror 2011 - Episódio 4 - Natal Branco - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Black Mirror 2011 - Episódio 4 - Natal Branco - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/aCTL24B8ZuiI2osMwoUI5rqBXoF.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Black Mirror 2011 - T1E4 - Natal Branco - 🍿Clau</h1>
 </body>
 </html>

@@ -6,10 +6,9 @@
 </script>
 <title>Lucy 2014 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/6f10Yn1vooCMhb6DrY6AvsK19Yh.jpg" alt="Lucy 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<img src="https://image.tmdb.org/t/p/w500/6f10Yn1vooCMhb6DrY6AvsK19Yh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
 <h1>Lucy 2014 - 🍿Clau</h1>
 </body>
 </html>

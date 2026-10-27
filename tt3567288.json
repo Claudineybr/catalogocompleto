@@ -6,10 +6,9 @@
 </script>
 <title>A Visita 2015 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg" alt="A Visita 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<img src="https://image.tmdb.org/t/p/w500/dZkwEdP3ILzIXkRBNFdbYPb6WFL.jpg" style="width:100%;max-height:220px;object-fit:cover;">
 <h1>A Visita 2015 - 🍿Clau</h1>
 </body>
 </html>

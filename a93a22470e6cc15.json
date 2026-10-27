@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau", "description": "Assista Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://vddclocd.kmj51gtf.com/vod/4211B70786A64F069A75A73740D99FCE_media.mp4", "embedUrl": "http://vddclocd.kmj51gtf.com/vod/4211B70786A64F069A75A73740D99FCE_media.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau", "description": "Assista Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://vddclocd.kmj51gtf.com/vod/4211B70786A64F069A75A73740D99FCE_media.mp4", "embedUrl": "http://vddclocd.kmj51gtf.com/vod/4211B70786A64F069A75A73740D99FCE_media.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
 </script>
-<title>Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau</title>
+<title>Você (You) - T1E3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Você (You) - Episódio 3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Você (You) - T1E3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau</h1>
 </body>
 </html>

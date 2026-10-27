@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Você (You) - Episódio 4 - Não Há Lugar Como o Lar - 🍿Clau", "description": "Assista Você (You) - Episódio 4 - Não Há Lugar Como o Lar", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://vddclocd.kmj51gtf.com/vod/FAB693AEFCEE44C0958BA2D15F0F04AD_media.mp4?dev_id=4cd8cedfbdac0f500fc72be7b1643dfc&user_id=433218432&trans_id=28qOGTWPP3kH_oqvxb532JzED&expired=1745538836&app_id=uvnetmob&app_ver=10502&host=vddclocd.kmj51gtf.com&media_code=FAB693AEFCEE44C0958BA2D15F0F04AD&auth_id=433218432_uvnetmob__0&client_ip=45.187.99.20&Expires=1745538836&KeyName=&Signature=zWLYWsgaeZbsdG8aXEUP5eiMl4c=", "embedUrl": "http://vddclocd.kmj51gtf.com/vod/FAB693AEFCEE44C0958BA2D15F0F04AD_media.mp4?dev_id=4cd8cedfbdac0f500fc72be7b1643dfc&user_id=433218432&trans_id=28qOGTWPP3kH_oqvxb532JzED&expired=1745538836&app_id=uvnetmob&app_ver=10502&host=vddclocd.kmj51gtf.com&media_code=FAB693AEFCEE44C0958BA2D15F0F04AD&auth_id=433218432_uvnetmob__0&client_ip=45.187.99.20&Expires=1745538836&KeyName=&Signature=zWLYWsgaeZbsdG8aXEUP5eiMl4c="}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E4 - Não Há Lugar Como o Lar - 🍿Clau", "description": "Assista Você (You) - Episódio 4 - Não Há Lugar Como o Lar", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://vddclocd.kmj51gtf.com/vod/FAB693AEFCEE44C0958BA2D15F0F04AD_media.mp4?dev_id=4cd8cedfbdac0f500fc72be7b1643dfc&user_id=433218432&trans_id=28qOGTWPP3kH_oqvxb532JzED&expired=1745538836&app_id=uvnetmob&app_ver=10502&host=vddclocd.kmj51gtf.com&media_code=FAB693AEFCEE44C0958BA2D15F0F04AD&auth_id=433218432_uvnetmob__0&client_ip=45.187.99.20&Expires=1745538836&KeyName=&Signature=zWLYWsgaeZbsdG8aXEUP5eiMl4c=", "embedUrl": "http://vddclocd.kmj51gtf.com/vod/FAB693AEFCEE44C0958BA2D15F0F04AD_media.mp4?dev_id=4cd8cedfbdac0f500fc72be7b1643dfc&user_id=433218432&trans_id=28qOGTWPP3kH_oqvxb532JzED&expired=1745538836&app_id=uvnetmob&app_ver=10502&host=vddclocd.kmj51gtf.com&media_code=FAB693AEFCEE44C0958BA2D15F0F04AD&auth_id=433218432_uvnetmob__0&client_ip=45.187.99.20&Expires=1745538836&KeyName=&Signature=zWLYWsgaeZbsdG8aXEUP5eiMl4c=", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
 </script>
-<title>Você (You) - Episódio 4 - Não Há Lugar Como o Lar - 🍿Clau</title>
+<title>Você (You) - T1E4 - Não Há Lugar Como o Lar - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - Episódio 4 - Não Há Lugar Como o Lar - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Você (You) - Episódio 4 - Não Há Lugar Como o Lar - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Você (You) - T1E4 - Não Há Lugar Como o Lar - 🍿Clau</h1>
 </body>
 </html>

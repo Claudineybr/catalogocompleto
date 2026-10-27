@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Bates Motel 2013 - Episódio 5 - Ocean View - 🍿Clau", "description": "Assista Bates Motel 2013 - Episódio 5 - Ocean View", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qlVLk28uGOwVHqxSZlakdRyGMdU.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/46786/1x5.mp4", "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/46786/1x5.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Bates Motel 2013 - T1E5 - Ocean View - 🍿Clau", "description": "Assista Bates Motel 2013 - Episódio 5 - Ocean View", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qlVLk28uGOwVHqxSZlakdRyGMdU.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/46786/1x5.mp4", "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/46786/1x5.mp4", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Bates Motel 2013"}}
 </script>
-<title>Bates Motel 2013 - Episódio 5 - Ocean View - 🍿Clau</title>
+<title>Bates Motel 2013 - T1E5 - Ocean View - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qlVLk28uGOwVHqxSZlakdRyGMdU.jpg" alt="Bates Motel 2013 - Episódio 5 - Ocean View - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Bates Motel 2013 - Episódio 5 - Ocean View - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/qlVLk28uGOwVHqxSZlakdRyGMdU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Bates Motel 2013 - T1E5 - Ocean View - 🍿Clau</h1>
 </body>
 </html>

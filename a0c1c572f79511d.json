@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau", "description": "Assista Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/2/587f1c0a-d7b3-4e4b-8624-ef7dabe0b638/stream.mp4", "embedUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/2/587f1c0a-d7b3-4e4b-8624-ef7dabe0b638/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Bob Esponja Calça Quadrada - T1E2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau", "description": "Assista Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/2/587f1c0a-d7b3-4e4b-8624-ef7dabe0b638/stream.mp4", "embedUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/2/587f1c0a-d7b3-4e4b-8624-ef7dabe0b638/stream.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Bob Esponja Calça Quadrada"}}
 </script>
-<title>Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau</title>
+<title>Bob Esponja Calça Quadrada - T1E2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" alt="Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Bob Esponja Calça Quadrada - Episódio 2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Bob Esponja Calça Quadrada - T1E2 - Está Cheirando Alguma Coisa / Nas Botas do Chefe - 🍿Clau</h1>
 </body>
 </html>

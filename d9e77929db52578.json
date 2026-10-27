@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Você (You) - Episódio 2 - O Último Cara Decente - 🍿Clau", "description": "Assista Você (You) - Episódio 2 - O Último Cara Decente", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/2/18e9a493-92b4-440a-8416-c56ab5b82cee/stream.mp4?storage=0043&expires=1775414611&signature=a28c389b44b4f771bbadd50bce77fa0b3ee36fa41eab7593dbbace26dc656185&type=serie", "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/2/18e9a493-92b4-440a-8416-c56ab5b82cee/stream.mp4?storage=0043&expires=1775414611&signature=a28c389b44b4f771bbadd50bce77fa0b3ee36fa41eab7593dbbace26dc656185&type=serie"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E2 - O Último Cara Decente - 🍿Clau", "description": "Assista Você (You) - Episódio 2 - O Último Cara Decente", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/2/18e9a493-92b4-440a-8416-c56ab5b82cee/stream.mp4?storage=0043&expires=1775414611&signature=a28c389b44b4f771bbadd50bce77fa0b3ee36fa41eab7593dbbace26dc656185&type=serie", "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/2/18e9a493-92b4-440a-8416-c56ab5b82cee/stream.mp4?storage=0043&expires=1775414611&signature=a28c389b44b4f771bbadd50bce77fa0b3ee36fa41eab7593dbbace26dc656185&type=serie", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
 </script>
-<title>Você (You) - Episódio 2 - O Último Cara Decente - 🍿Clau</title>
+<title>Você (You) - T1E2 - O Último Cara Decente - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - Episódio 2 - O Último Cara Decente - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Você (You) - Episódio 2 - O Último Cara Decente - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Você (You) - T1E2 - O Último Cara Decente - 🍿Clau</h1>
 </body>
 </html>

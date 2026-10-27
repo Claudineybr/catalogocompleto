@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver - 🍿Clau", "description": "Assista IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/3/7d8661ce-aba1-4f96-9dd9-fdbc70c4a28e/stream.mp4?type=serie&expires=1770840187&signature=b8b40d07c3d49ebc76c7de5d82a96040dd89b36be4d0afd17ae370eeecb0b2ad", "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/3/7d8661ce-aba1-4f96-9dd9-fdbc70c4a28e/stream.mp4?type=serie&expires=1770840187&signature=b8b40d07c3d49ebc76c7de5d82a96040dd89b36be4d0afd17ae370eeecb0b2ad"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "IT: Bem-Vindos à Derry 2025 - T1E3 - Agora Você Vai Ver - 🍿Clau", "description": "Assista IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/3/7d8661ce-aba1-4f96-9dd9-fdbc70c4a28e/stream.mp4?type=serie&expires=1770840187&signature=b8b40d07c3d49ebc76c7de5d82a96040dd89b36be4d0afd17ae370eeecb0b2ad", "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/3/7d8661ce-aba1-4f96-9dd9-fdbc70c4a28e/stream.mp4?type=serie&expires=1770840187&signature=b8b40d07c3d49ebc76c7de5d82a96040dd89b36be4d0afd17ae370eeecb0b2ad", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "IT: Bem-Vindos à Derry 2025"}}
 </script>
-<title>IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver - 🍿Clau</title>
+<title>IT: Bem-Vindos à Derry 2025 - T1E3 - Agora Você Vai Ver - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg" alt="IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>IT: Bem-Vindos à Derry 2025 - Episódio 3 - Agora Você Vai Ver - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>IT: Bem-Vindos à Derry 2025 - T1E3 - Agora Você Vai Ver - 🍿Clau</h1>
 </body>
 </html>

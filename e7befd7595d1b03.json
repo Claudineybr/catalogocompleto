@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra - 🍿Clau", "description": "Assista Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/4/d81ea104-d669-4214-9276-9e49c8473ec4/stream.mp4?type=serie&expires=1769462804&signature=07450be32fb88c7c1191a8d534765d191da5899067b816cf9afd665e5ba0b3fe", "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/4/d81ea104-d669-4214-9276-9e49c8473ec4/stream.mp4?type=serie&expires=1769462804&signature=07450be32fb88c7c1191a8d534765d191da5899067b816cf9afd665e5ba0b3fe"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Game of Thrones (GOT) - T1E4 - O Botim de Guerra - 🍿Clau", "description": "Assista Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/4/d81ea104-d669-4214-9276-9e49c8473ec4/stream.mp4?type=serie&expires=1769462804&signature=07450be32fb88c7c1191a8d534765d191da5899067b816cf9afd665e5ba0b3fe", "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/4/d81ea104-d669-4214-9276-9e49c8473ec4/stream.mp4?type=serie&expires=1769462804&signature=07450be32fb88c7c1191a8d534765d191da5899067b816cf9afd665e5ba0b3fe", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Game of Thrones (GOT)"}}
 </script>
-<title>Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra - 🍿Clau</title>
+<title>Game of Thrones (GOT) - T1E4 - O Botim de Guerra - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" alt="Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Game of Thrones (GOT) - Episódio 4 - O Botim de Guerra - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Game of Thrones (GOT) - T1E4 - O Botim de Guerra - 🍿Clau</h1>
 </body>
 </html>

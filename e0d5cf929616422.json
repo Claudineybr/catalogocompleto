@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau", "description": "Assista Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-onxj7ixldkjwtbh5.orbitcache.com/engine/hls2/01/15303/6ddjkhsjtmcc_,o,.urlset/master.m3u8?t=lzk05SaBk1YxzwDFqqQAzdJOnOm69Y3JZhoEP4p0h6U&s=1757158812&e=14400&f=76515173&node=w8oQtbGzlnpHpjVdAxkrsHCuM1EFlTmP72nR7PvOUAw=&i=0.1&sp=2500&asn=263327&q=o&rq=H7LZNs3HZmtuKsVqSgaTRAo5cHEoUGtcY0Fm48wv", "embedUrl": "https://cdn-onxj7ixldkjwtbh5.orbitcache.com/engine/hls2/01/15303/6ddjkhsjtmcc_,o,.urlset/master.m3u8?t=lzk05SaBk1YxzwDFqqQAzdJOnOm69Y3JZhoEP4p0h6U&s=1757158812&e=14400&f=76515173&node=w8oQtbGzlnpHpjVdAxkrsHCuM1EFlTmP72nR7PvOUAw=&i=0.1&sp=2500&asn=263327&q=o&rq=H7LZNs3HZmtuKsVqSgaTRAo5cHEoUGtcY0Fm48wv"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Bob Esponja Calça Quadrada - T1E1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau", "description": "Assista Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-onxj7ixldkjwtbh5.orbitcache.com/engine/hls2/01/15303/6ddjkhsjtmcc_,o,.urlset/master.m3u8?t=lzk05SaBk1YxzwDFqqQAzdJOnOm69Y3JZhoEP4p0h6U&s=1757158812&e=14400&f=76515173&node=w8oQtbGzlnpHpjVdAxkrsHCuM1EFlTmP72nR7PvOUAw=&i=0.1&sp=2500&asn=263327&q=o&rq=H7LZNs3HZmtuKsVqSgaTRAo5cHEoUGtcY0Fm48wv", "embedUrl": "https://cdn-onxj7ixldkjwtbh5.orbitcache.com/engine/hls2/01/15303/6ddjkhsjtmcc_,o,.urlset/master.m3u8?t=lzk05SaBk1YxzwDFqqQAzdJOnOm69Y3JZhoEP4p0h6U&s=1757158812&e=14400&f=76515173&node=w8oQtbGzlnpHpjVdAxkrsHCuM1EFlTmP72nR7PvOUAw=&i=0.1&sp=2500&asn=263327&q=o&rq=H7LZNs3HZmtuKsVqSgaTRAo5cHEoUGtcY0Fm48wv", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Bob Esponja Calça Quadrada"}}
 </script>
-<title>Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau</title>
+<title>Bob Esponja Calça Quadrada - T1E1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" alt="Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Bob Esponja Calça Quadrada - Episódio 1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Bob Esponja Calça Quadrada - T1E1 - Precisa-se de Ajudante / Assoprador de Recife / Chá em Terra Firme - 🍿Clau</h1>
 </body>
 </html>

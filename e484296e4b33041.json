@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Caçador de Demônios - Episódio 8 - 🍿Clau", "description": "Assista Caçador de Demônios - Episódio 8", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/45fd52f0-843d-47c9-bfaf-aa7c58d54503/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/45fd52f0-843d-47c9-bfaf-aa7c58d54503/playlist.m3u8"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Caçador de Demônios - T1E8 - 🍿Clau", "description": "Assista Caçador de Demônios - Episódio 8", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/45fd52f0-843d-47c9-bfaf-aa7c58d54503/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/45fd52f0-843d-47c9-bfaf-aa7c58d54503/playlist.m3u8", "episodeNumber": 8, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Caçador de Demônios"}}
 </script>
-<title>Caçador de Demônios - Episódio 8 - 🍿Clau</title>
+<title>Caçador de Demônios - T1E8 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg" alt="Caçador de Demônios - Episódio 8 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Caçador de Demônios - Episódio 8 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Caçador de Demônios - T1E8 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Haikyu!! 2014 - Episódio 79 - O Grande Desafiante - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio 79 - O Grande Desafiante", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/19/70763757-f2bd-4baf-8152-c2e4efd9167f/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/19/70763757-f2bd-4baf-8152-c2e4efd9167f/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Haikyu!! 2014 - T1E79 - O Grande Desafiante - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio 79 - O Grande Desafiante", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/19/70763757-f2bd-4baf-8152-c2e4efd9167f/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/19/70763757-f2bd-4baf-8152-c2e4efd9167f/stream.mp4", "episodeNumber": 79, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Haikyu!! 2014"}}
 </script>
-<title>Haikyu!! 2014 - Episódio 79 - O Grande Desafiante - 🍿Clau</title>
+<title>Haikyu!! 2014 - T1E79 - O Grande Desafiante - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" alt="Haikyu!! 2014 - Episódio 79 - O Grande Desafiante - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Haikyu!! 2014 - Episódio 79 - O Grande Desafiante - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Haikyu!! 2014 - T1E79 - O Grande Desafiante - 🍿Clau</h1>
 </body>
 </html>

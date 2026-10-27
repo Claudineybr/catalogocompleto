@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Haikyu!! 2014 - Episódio 58 - Um homem desagradável - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio 58 - Um homem desagradável", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/8/b657e4d7-3ef7-4510-8a23-8b0fa9b2ded1/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/8/b657e4d7-3ef7-4510-8a23-8b0fa9b2ded1/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Haikyu!! 2014 - T1E58 - Um homem desagradável - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio 58 - Um homem desagradável", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/8/b657e4d7-3ef7-4510-8a23-8b0fa9b2ded1/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/8/b657e4d7-3ef7-4510-8a23-8b0fa9b2ded1/stream.mp4", "episodeNumber": 58, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Haikyu!! 2014"}}
 </script>
-<title>Haikyu!! 2014 - Episódio 58 - Um homem desagradável - 🍿Clau</title>
+<title>Haikyu!! 2014 - T1E58 - Um homem desagradável - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" alt="Haikyu!! 2014 - Episódio 58 - Um homem desagradável - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Haikyu!! 2014 - Episódio 58 - Um homem desagradável - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Haikyu!! 2014 - T1E58 - Um homem desagradável - 🍿Clau</h1>
 </body>
 </html>

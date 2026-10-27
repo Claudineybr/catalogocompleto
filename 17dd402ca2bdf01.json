@@ -6,10 +6,9 @@
 </script>
 <title>Projeto Gemini 2019 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/lU1vh3TjGrMRkh7wxs6Ecu7ZMf3.jpg" alt="Projeto Gemini 2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<img src="https://image.tmdb.org/t/p/w500/lU1vh3TjGrMRkh7wxs6Ecu7ZMf3.jpg" style="width:100%;max-height:220px;object-fit:cover;">
 <h1>Projeto Gemini 2019 - 🍿Clau</h1>
 </body>
 </html>

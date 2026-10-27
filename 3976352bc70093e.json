@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo - 🍿Clau", "description": "Assista Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Friends 1994 - T1E7 - Aquele em que Ross Fica Sabendo - 🍿Clau", "description": "Assista Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Friends 1994"}}
 </script>
-<title>Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo - 🍿Clau</title>
+<title>Friends 1994 - T1E7 - Aquele em que Ross Fica Sabendo - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Friends 1994 - T1E7 - Aquele em que Ross Fica Sabendo - 🍿Clau</h1>
 </body>
 </html>

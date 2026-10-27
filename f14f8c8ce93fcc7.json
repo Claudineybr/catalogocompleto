@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 1 - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 1", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/1/55e1e82d-07bc-4770-87e5-8d3599961f93/stream.mp4?type=serie&expires=1770764972&signature=a2eb5d4bbe38f56e2062d533ec21dab009e5e4b482ddc1a7c11ad28039db1697", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/1/55e1e82d-07bc-4770-87e5-8d3599961f93/stream.mp4?type=serie&expires=1770764972&signature=a2eb5d4bbe38f56e2062d533ec21dab009e5e4b482ddc1a7c11ad28039db1697"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "True Detective 2014 - T1E1 - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 1", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/1/55e1e82d-07bc-4770-87e5-8d3599961f93/stream.mp4?type=serie&expires=1770764972&signature=a2eb5d4bbe38f56e2062d533ec21dab009e5e4b482ddc1a7c11ad28039db1697", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/1/55e1e82d-07bc-4770-87e5-8d3599961f93/stream.mp4?type=serie&expires=1770764972&signature=a2eb5d4bbe38f56e2062d533ec21dab009e5e4b482ddc1a7c11ad28039db1697", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "True Detective 2014"}}
 </script>
-<title>True Detective 2014 - Episódio 1 - 🍿Clau</title>
+<title>True Detective 2014 - T1E1 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 1 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>True Detective 2014 - Episódio 1 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>True Detective 2014 - T1E1 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Meu Namorado Coreano 2026 - Episódio 7 - 🍿Clau", "description": "Assista Meu Namorado Coreano 2026 - Episódio 7", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aiI3uREUvRGa7vawCG58yd4jJz8.jpg"], "uploadDate": "2026-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/292493/1x7.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/292493/1x7.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Meu Namorado Coreano 2026 - T1E7 - 🍿Clau", "description": "Assista Meu Namorado Coreano 2026 - Episódio 7", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aiI3uREUvRGa7vawCG58yd4jJz8.jpg"], "uploadDate": "2026-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/292493/1x7.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/292493/1x7.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Meu Namorado Coreano 2026"}}
 </script>
-<title>Meu Namorado Coreano 2026 - Episódio 7 - 🍿Clau</title>
+<title>Meu Namorado Coreano 2026 - T1E7 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aiI3uREUvRGa7vawCG58yd4jJz8.jpg" alt="Meu Namorado Coreano 2026 - Episódio 7 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Meu Namorado Coreano 2026 - Episódio 7 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/aiI3uREUvRGa7vawCG58yd4jJz8.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Meu Namorado Coreano 2026 - T1E7 - 🍿Clau</h1>
 </body>
 </html>

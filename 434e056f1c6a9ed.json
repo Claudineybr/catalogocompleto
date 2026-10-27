@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Dr. Stone 2019 - Episódio 3 - Armas da Ciência - 🍿Clau", "description": "Assista Dr. Stone 2019 - Episódio 3 - Armas da Ciência", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/3/e851e8fe-96f5-4a15-8e57-c14ef736631e/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/3/e851e8fe-96f5-4a15-8e57-c14ef736631e/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Dr. Stone 2019 - T1E3 - Armas da Ciência - 🍿Clau", "description": "Assista Dr. Stone 2019 - Episódio 3 - Armas da Ciência", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/3/e851e8fe-96f5-4a15-8e57-c14ef736631e/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/3/e851e8fe-96f5-4a15-8e57-c14ef736631e/stream.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Dr. Stone 2019"}}
 </script>
-<title>Dr. Stone 2019 - Episódio 3 - Armas da Ciência - 🍿Clau</title>
+<title>Dr. Stone 2019 - T1E3 - Armas da Ciência - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" alt="Dr. Stone 2019 - Episódio 3 - Armas da Ciência - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Dr. Stone 2019 - Episódio 3 - Armas da Ciência - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Dr. Stone 2019 - T1E3 - Armas da Ciência - 🍿Clau</h1>
 </body>
 </html>

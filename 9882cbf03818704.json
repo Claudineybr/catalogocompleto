@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus - 🍿Clau", "description": "Assista Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/5/a0aae29c-2967-4b06-b679-13a302aff058/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/5/a0aae29c-2967-4b06-b679-13a302aff058/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Friends 1994 - T1E6 - Aquele com o Bebê no Ônibus - 🍿Clau", "description": "Assista Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/5/a0aae29c-2967-4b06-b679-13a302aff058/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/5/a0aae29c-2967-4b06-b679-13a302aff058/stream.mp4", "episodeNumber": 6, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Friends 1994"}}
 </script>
-<title>Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus - 🍿Clau</title>
+<title>Friends 1994 - T1E6 - Aquele com o Bebê no Ônibus - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Friends 1994 - Episódio 6 - Aquele com o Bebê no Ônibus - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Friends 1994 - T1E6 - Aquele com o Bebê no Ônibus - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "The Walking Dead 2010 - Episódio 10 - Novas Assombrações - 🍿Clau", "description": "Assista The Walking Dead 2010 - Episódio 10 - Novas Assombrações", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0053.speed-stream.online/the-walking-dead-a6971731/s11/dubbed/10/6c2d8157-fe6f-4403-a7bf-e0fa7f223cc5/stream.mp4", "embedUrl": "https://cdn-0053.speed-stream.online/the-walking-dead-a6971731/s11/dubbed/10/6c2d8157-fe6f-4403-a7bf-e0fa7f223cc5/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "The Walking Dead 2010 - T1E10 - Novas Assombrações - 🍿Clau", "description": "Assista The Walking Dead 2010 - Episódio 10 - Novas Assombrações", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0053.speed-stream.online/the-walking-dead-a6971731/s11/dubbed/10/6c2d8157-fe6f-4403-a7bf-e0fa7f223cc5/stream.mp4", "embedUrl": "https://cdn-0053.speed-stream.online/the-walking-dead-a6971731/s11/dubbed/10/6c2d8157-fe6f-4403-a7bf-e0fa7f223cc5/stream.mp4", "episodeNumber": 10, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "The Walking Dead 2010"}}
 </script>
-<title>The Walking Dead 2010 - Episódio 10 - Novas Assombrações - 🍿Clau</title>
+<title>The Walking Dead 2010 - T1E10 - Novas Assombrações - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg" alt="The Walking Dead 2010 - Episódio 10 - Novas Assombrações - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>The Walking Dead 2010 - Episódio 10 - Novas Assombrações - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9lb02gTh4LLB17yAEXFd4C3R4JP.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>The Walking Dead 2010 - T1E10 - Novas Assombrações - 🍿Clau</h1>
 </body>
 </html>

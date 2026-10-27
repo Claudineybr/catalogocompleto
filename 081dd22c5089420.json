@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Você (You) - Episódio 2 - Justiça Poética - 🍿Clau", "description": "Assista Você (You) - Episódio 2 - Justiça Poética", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E02_78191.mp4", "embedUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E02_78191.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E2 - Justiça Poética - 🍿Clau", "description": "Assista Você (You) - Episódio 2 - Justiça Poética", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E02_78191.mp4", "embedUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E02_78191.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
 </script>
-<title>Você (You) - Episódio 2 - Justiça Poética - 🍿Clau</title>
+<title>Você (You) - T1E2 - Justiça Poética - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - Episódio 2 - Justiça Poética - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Você (You) - Episódio 2 - Justiça Poética - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Você (You) - T1E2 - Justiça Poética - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Doctor Who - Episódio 8 - Silêncio na Biblioteca - 🍿Clau", "description": "Assista Doctor Who - Episódio 8 - Silêncio na Biblioteca", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/04/DW.S04E08.Dual.%5Bwww.torrentdosfilmes.com%5D.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/04/DW.S04E08.Dual.%5Bwww.torrentdosfilmes.com%5D.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Doctor Who - T1E8 - Silêncio na Biblioteca - 🍿Clau", "description": "Assista Doctor Who - Episódio 8 - Silêncio na Biblioteca", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/04/DW.S04E08.Dual.%5Bwww.torrentdosfilmes.com%5D.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/04/DW.S04E08.Dual.%5Bwww.torrentdosfilmes.com%5D.mp4", "episodeNumber": 8, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Doctor Who"}}
 </script>
-<title>Doctor Who - Episódio 8 - Silêncio na Biblioteca - 🍿Clau</title>
+<title>Doctor Who - T1E8 - Silêncio na Biblioteca - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" alt="Doctor Who - Episódio 8 - Silêncio na Biblioteca - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Doctor Who - Episódio 8 - Silêncio na Biblioteca - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Doctor Who - T1E8 - Silêncio na Biblioteca - 🍿Clau</h1>
 </body>
 </html>

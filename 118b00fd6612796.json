@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo? - 🍿Clau", "description": "Assista Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo?", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/155537/1x4.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/155537/1x4.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Black Bird 2022 - T1E4 - Qual é o nome dela mesmo? - 🍿Clau", "description": "Assista Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo?", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/155537/1x4.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/155537/1x4.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Black Bird 2022"}}
 </script>
-<title>Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo? - 🍿Clau</title>
+<title>Black Bird 2022 - T1E4 - Qual é o nome dela mesmo? - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg" alt="Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo? - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Black Bird 2022 - Episódio 4 - Qual é o nome dela mesmo? - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/qu312pwM61NPTr7nexvovCClDNP.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Black Bird 2022 - T1E4 - Qual é o nome dela mesmo? - 🍿Clau</h1>
 </body>
 </html>

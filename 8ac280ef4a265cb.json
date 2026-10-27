@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Overlord 2017 - Episódio 11 - Uma Outra Batalha - 🍿Clau", "description": "Assista Overlord 2017 - Episódio 11 - Uma Outra Batalha", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/11/149212e3-ba85-44c0-a7ed-fd25ff0693ca/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/11/149212e3-ba85-44c0-a7ed-fd25ff0693ca/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Overlord 2017 - T1E11 - Uma Outra Batalha - 🍿Clau", "description": "Assista Overlord 2017 - Episódio 11 - Uma Outra Batalha", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/11/149212e3-ba85-44c0-a7ed-fd25ff0693ca/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/11/149212e3-ba85-44c0-a7ed-fd25ff0693ca/stream.mp4", "episodeNumber": 11, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Overlord 2017"}}
 </script>
-<title>Overlord 2017 - Episódio 11 - Uma Outra Batalha - 🍿Clau</title>
+<title>Overlord 2017 - T1E11 - Uma Outra Batalha - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" alt="Overlord 2017 - Episódio 11 - Uma Outra Batalha - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Overlord 2017 - Episódio 11 - Uma Outra Batalha - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Overlord 2017 - T1E11 - Uma Outra Batalha - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Doctor Who 2024 - Episódio 2 - 🍿Clau", "description": "Assista Doctor Who 2024 - Episódio 2", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/2/0393e955-55fa-487b-a5eb-a271c624d95d/stream.mp4?type=serie&expires=1769554002&signature=e1244ef5aa81c534fd60623e9a02ec0d65ff9e754dbec4c68200b083df8c98e9", "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/2/0393e955-55fa-487b-a5eb-a271c624d95d/stream.mp4?type=serie&expires=1769554002&signature=e1244ef5aa81c534fd60623e9a02ec0d65ff9e754dbec4c68200b083df8c98e9"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Doctor Who 2024 - T1E2 - 🍿Clau", "description": "Assista Doctor Who 2024 - Episódio 2", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/2/0393e955-55fa-487b-a5eb-a271c624d95d/stream.mp4?type=serie&expires=1769554002&signature=e1244ef5aa81c534fd60623e9a02ec0d65ff9e754dbec4c68200b083df8c98e9", "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/2/0393e955-55fa-487b-a5eb-a271c624d95d/stream.mp4?type=serie&expires=1769554002&signature=e1244ef5aa81c534fd60623e9a02ec0d65ff9e754dbec4c68200b083df8c98e9", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Doctor Who 2024"}}
 </script>
-<title>Doctor Who 2024 - Episódio 2 - 🍿Clau</title>
+<title>Doctor Who 2024 - T1E2 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" alt="Doctor Who 2024 - Episódio 2 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Doctor Who 2024 - Episódio 2 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Doctor Who 2024 - T1E2 - 🍿Clau</h1>
 </body>
 </html>

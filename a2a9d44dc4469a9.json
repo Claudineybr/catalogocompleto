@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Lost 2004 - Episódio 4 - No Frigir dos Ovos - 🍿Clau", "description": "Assista Lost 2004 - Episódio 4 - No Frigir dos Ovos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/h0AIjSt9u2yjSzgTBhuQZVCXwCv.jpg"], "uploadDate": "2004-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s4/dubbed/4/f4610e09-21ff-4d4b-b122-3c9fb8c9f3c6/stream.mp4", "embedUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s4/dubbed/4/f4610e09-21ff-4d4b-b122-3c9fb8c9f3c6/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Lost 2004 - T1E4 - No Frigir dos Ovos - 🍿Clau", "description": "Assista Lost 2004 - Episódio 4 - No Frigir dos Ovos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/h0AIjSt9u2yjSzgTBhuQZVCXwCv.jpg"], "uploadDate": "2004-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s4/dubbed/4/f4610e09-21ff-4d4b-b122-3c9fb8c9f3c6/stream.mp4", "embedUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s4/dubbed/4/f4610e09-21ff-4d4b-b122-3c9fb8c9f3c6/stream.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Lost 2004"}}
 </script>
-<title>Lost 2004 - Episódio 4 - No Frigir dos Ovos - 🍿Clau</title>
+<title>Lost 2004 - T1E4 - No Frigir dos Ovos - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/h0AIjSt9u2yjSzgTBhuQZVCXwCv.jpg" alt="Lost 2004 - Episódio 4 - No Frigir dos Ovos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Lost 2004 - Episódio 4 - No Frigir dos Ovos - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/h0AIjSt9u2yjSzgTBhuQZVCXwCv.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Lost 2004 - T1E4 - No Frigir dos Ovos - 🍿Clau</h1>
 </body>
 </html>

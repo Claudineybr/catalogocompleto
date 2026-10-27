@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Agente 2025 - Episódio 1 - Construindo História - 🍿Clau", "description": "Assista A Agente 2025 - Episódio 1 - Construindo História", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yk44xZCWWzcgmwlyCWCQyFyxVIw.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E01_Construindo%20a%20hist%C3%B3ria.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E01_Construindo%20a%20hist%C3%B3ria.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "A Agente 2025 - T1E1 - Construindo História - 🍿Clau", "description": "Assista A Agente 2025 - Episódio 1 - Construindo História", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yk44xZCWWzcgmwlyCWCQyFyxVIw.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E01_Construindo%20a%20hist%C3%B3ria.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E01_Construindo%20a%20hist%C3%B3ria.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "A Agente 2025"}}
 </script>
-<title>A Agente 2025 - Episódio 1 - Construindo História - 🍿Clau</title>
+<title>A Agente 2025 - T1E1 - Construindo História - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/yk44xZCWWzcgmwlyCWCQyFyxVIw.jpg" alt="A Agente 2025 - Episódio 1 - Construindo História - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>A Agente 2025 - Episódio 1 - Construindo História - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/yk44xZCWWzcgmwlyCWCQyFyxVIw.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>A Agente 2025 - T1E1 - Construindo História - 🍿Clau</h1>
 </body>
 </html>

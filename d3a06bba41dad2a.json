@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Apenas Um Show - Episódio 20 - O Último Round - 🍿Clau", "description": "Assista Apenas Um Show - Episódio 20 - O Último Round", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yzMCb7quOMGtR51CIsCqWzqx8rz.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/20/21281093-7f40-4b22-84d3-105082f0b6e4/stream.mp4", "embedUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/20/21281093-7f40-4b22-84d3-105082f0b6e4/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Apenas Um Show - T1E20 - O Último Round - 🍿Clau", "description": "Assista Apenas Um Show - Episódio 20 - O Último Round", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yzMCb7quOMGtR51CIsCqWzqx8rz.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/20/21281093-7f40-4b22-84d3-105082f0b6e4/stream.mp4", "embedUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/20/21281093-7f40-4b22-84d3-105082f0b6e4/stream.mp4", "episodeNumber": 20, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Apenas Um Show"}}
 </script>
-<title>Apenas Um Show - Episódio 20 - O Último Round - 🍿Clau</title>
+<title>Apenas Um Show - T1E20 - O Último Round - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/yzMCb7quOMGtR51CIsCqWzqx8rz.jpg" alt="Apenas Um Show - Episódio 20 - O Último Round - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Apenas Um Show - Episódio 20 - O Último Round - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/yzMCb7quOMGtR51CIsCqWzqx8rz.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Apenas Um Show - T1E20 - O Último Round - 🍿Clau</h1>
 </body>
 </html>

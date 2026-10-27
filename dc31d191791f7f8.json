@@ -6,10 +6,9 @@
 </script>
 <title>O Grito 3 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/tGCwcQU9NuTqdugtb8vwrF36Awd.jpg" alt="O Grito 3 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<img src="https://image.tmdb.org/t/p/w500/tGCwcQU9NuTqdugtb8vwrF36Awd.jpg" style="width:100%;max-height:220px;object-fit:cover;">
 <h1>O Grito 3 - 🍿Clau</h1>
 </body>
 </html>

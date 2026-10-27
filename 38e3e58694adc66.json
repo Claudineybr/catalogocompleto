@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Alien Earth 2025 - Episódio 4 - Observação - 🍿Clau", "description": "Assista Alien Earth 2025 - Episódio 4 - Observação", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wEMJxkaVw5hIHax9raBLd82TLAR.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/157239/1x4.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/157239/1x4.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Alien Earth 2025 - T1E4 - Observação - 🍿Clau", "description": "Assista Alien Earth 2025 - Episódio 4 - Observação", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wEMJxkaVw5hIHax9raBLd82TLAR.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/157239/1x4.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/157239/1x4.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Alien Earth 2025"}}
 </script>
-<title>Alien Earth 2025 - Episódio 4 - Observação - 🍿Clau</title>
+<title>Alien Earth 2025 - T1E4 - Observação - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wEMJxkaVw5hIHax9raBLd82TLAR.jpg" alt="Alien Earth 2025 - Episódio 4 - Observação - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Alien Earth 2025 - Episódio 4 - Observação - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/wEMJxkaVw5hIHax9raBLd82TLAR.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Alien Earth 2025 - T1E4 - Observação - 🍿Clau</h1>
 </body>
 </html>

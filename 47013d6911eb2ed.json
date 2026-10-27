@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Dr. Stone 2019 - Episódio 10 - Tênue Aliança - 🍿Clau", "description": "Assista Dr. Stone 2019 - Episódio 10 - Tênue Aliança", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Dr. Stone 2019 - T1E10 - Tênue Aliança - 🍿Clau", "description": "Assista Dr. Stone 2019 - Episódio 10 - Tênue Aliança", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4", "episodeNumber": 10, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Dr. Stone 2019"}}
 </script>
-<title>Dr. Stone 2019 - Episódio 10 - Tênue Aliança - 🍿Clau</title>
+<title>Dr. Stone 2019 - T1E10 - Tênue Aliança - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" alt="Dr. Stone 2019 - Episódio 10 - Tênue Aliança - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Dr. Stone 2019 - Episódio 10 - Tênue Aliança - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Dr. Stone 2019 - T1E10 - Tênue Aliança - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral - 🍿Clau", "description": "Assista Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4", "embedUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Dan Da Dan 2024 - T1E7 - Tá batendo um baixo astral - 🍿Clau", "description": "Assista Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4", "embedUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Dan Da Dan 2024"}}
 </script>
-<title>Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral - 🍿Clau</title>
+<title>Dan Da Dan 2024 - T1E7 - Tá batendo um baixo astral - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg" alt="Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Dan Da Dan 2024 - T1E7 - Tá batendo um baixo astral - 🍿Clau</h1>
 </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Nascer da Lua - Episódio 17 - 🍿Clau", "description": "Assista Nascer da Lua - Episódio 17", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/2a50c194-36a2-4fee-8db3-fedf728ed7b5/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/2a50c194-36a2-4fee-8db3-fedf728ed7b5/playlist.m3u8"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Nascer da Lua - T1E17 - 🍿Clau", "description": "Assista Nascer da Lua - Episódio 17", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/2a50c194-36a2-4fee-8db3-fedf728ed7b5/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/2a50c194-36a2-4fee-8db3-fedf728ed7b5/playlist.m3u8", "episodeNumber": 17, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Nascer da Lua"}}
 </script>
-<title>Nascer da Lua - Episódio 17 - 🍿Clau</title>
+<title>Nascer da Lua - T1E17 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg" alt="Nascer da Lua - Episódio 17 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Nascer da Lua - Episódio 17 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Nascer da Lua - T1E17 - 🍿Clau</h1>
 </body>
 </html>

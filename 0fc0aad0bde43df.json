@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Friends 1994 - Episódio 2 - Aquele do Leite Materno - 🍿Clau", "description": "Assista Friends 1994 - Episódio 2 - Aquele do Leite Materno", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/2/46240357-f52f-4fcd-9187-61ac02016085/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/2/46240357-f52f-4fcd-9187-61ac02016085/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Friends 1994 - T1E2 - Aquele do Leite Materno - 🍿Clau", "description": "Assista Friends 1994 - Episódio 2 - Aquele do Leite Materno", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/2/46240357-f52f-4fcd-9187-61ac02016085/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/2/46240357-f52f-4fcd-9187-61ac02016085/stream.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Friends 1994"}}
 </script>
-<title>Friends 1994 - Episódio 2 - Aquele do Leite Materno - 🍿Clau</title>
+<title>Friends 1994 - T1E2 - Aquele do Leite Materno - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Friends 1994 - Episódio 2 - Aquele do Leite Materno - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Friends 1994 - Episódio 2 - Aquele do Leite Materno - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Friends 1994 - T1E2 - Aquele do Leite Materno - 🍿Clau</h1>
 </body>
 </html>

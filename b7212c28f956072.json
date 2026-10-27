@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Shangri-La Frontier 2023 - Episódio 14 - Ploft - 🍿Clau", "description": "Assista Shangri-La Frontier 2023 - Episódio 14 - Ploft", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-13/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-35f56d12/dubbed/14/3e164a01-c20a-417e-98a5-9be05d8fbb84/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-13/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-35f56d12/dubbed/14/3e164a01-c20a-417e-98a5-9be05d8fbb84/stream.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Shangri-La Frontier 2023 - T1E14 - Ploft - 🍿Clau", "description": "Assista Shangri-La Frontier 2023 - Episódio 14 - Ploft", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-13/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-35f56d12/dubbed/14/3e164a01-c20a-417e-98a5-9be05d8fbb84/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-13/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-35f56d12/dubbed/14/3e164a01-c20a-417e-98a5-9be05d8fbb84/stream.mp4", "episodeNumber": 14, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Shangri-La Frontier 2023"}}
 </script>
-<title>Shangri-La Frontier 2023 - Episódio 14 - Ploft - 🍿Clau</title>
+<title>Shangri-La Frontier 2023 - T1E14 - Ploft - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg" alt="Shangri-La Frontier 2023 - Episódio 14 - Ploft - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Shangri-La Frontier 2023 - Episódio 14 - Ploft - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Shangri-La Frontier 2023 - T1E14 - Ploft - 🍿Clau</h1>
 </body>
 </html>

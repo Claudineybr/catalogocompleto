@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau", "description": "Assista As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1)", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/umlovDiFIbnR0mkFsDzmiHoxVOH.jpg"], "uploadDate": "1991-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/1570/1x1.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/1570/1x1.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "As Aventuras de Tintim 1991 - T1E1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau", "description": "Assista As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1)", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/umlovDiFIbnR0mkFsDzmiHoxVOH.jpg"], "uploadDate": "1991-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/1570/1x1.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/1570/1x1.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "As Aventuras de Tintim 1991"}}
 </script>
-<title>As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau</title>
+<title>As Aventuras de Tintim 1991 - T1E1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/umlovDiFIbnR0mkFsDzmiHoxVOH.jpg" alt="As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>As Aventuras de Tintim 1991 - Episódio 1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/umlovDiFIbnR0mkFsDzmiHoxVOH.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>As Aventuras de Tintim 1991 - T1E1 - O Caranguejo das Tenazes de Ouro (Parte 1) - 🍿Clau</h1>
 </body>
 </html>

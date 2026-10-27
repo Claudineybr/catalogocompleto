@@ -2,14 +2,13 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Resident Playbook 2025 - Episódio 4 - 🍿Clau", "description": "Assista Resident Playbook 2025 - Episódio 4", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rTUxQBriK8fkr4n0qijjkSGiBb3.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd12.oneplayer.site/token/SHD12/235355/1x4.mp4", "embedUrl": "http://shd12.oneplayer.site/token/SHD12/235355/1x4.mp4"}
+{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Resident Playbook 2025 - T1E4 - 🍿Clau", "description": "Assista Resident Playbook 2025 - Episódio 4", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rTUxQBriK8fkr4n0qijjkSGiBb3.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd12.oneplayer.site/token/SHD12/235355/1x4.mp4", "embedUrl": "http://shd12.oneplayer.site/token/SHD12/235355/1x4.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Resident Playbook 2025"}}
 </script>
-<title>Resident Playbook 2025 - Episódio 4 - 🍿Clau</title>
+<title>Resident Playbook 2025 - T1E4 - 🍿Clau</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rTUxQBriK8fkr4n0qijjkSGiBb3.jpg" alt="Resident Playbook 2025 - Episódio 4 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-<h1>Resident Playbook 2025 - Episódio 4 - 🍿Clau</h1>
+<img src="https://image.tmdb.org/t/p/w500/rTUxQBriK8fkr4n0qijjkSGiBb3.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<h1>Resident Playbook 2025 - T1E4 - 🍿Clau</h1>
 </body>
 </html>
