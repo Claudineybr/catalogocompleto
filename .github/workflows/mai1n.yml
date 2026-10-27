@@ -1,4 +1,4 @@
-name: Extrair MP4 do Tankie e Converter
+name: Corrigir Formato do Rave
 
 on:
   workflow_dispatch:
@@ -12,96 +12,77 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Instalar dependencias e rodar script
+      - name: Formatar e Corrigir JSONs
         run: |
-          pip install requests
-          cat > script.py << 'PYEOF'
+          cat > fix.py << 'PYEOF'
           import json
           import re
-          import requests
           from pathlib import Path
-          from concurrent.futures import ThreadPoolExecutor
 
-          def get_mp4_tankie(url):
-              # Se não for tankie, retorna o link original
-              if 'tankie.tube/videos/embed/' not in url:
-                  return url
-              
-              vid = url.split('/')[-1]
+          def corrigir(caminho):
               try:
-                  r = requests.get(f"https://tankie.tube/api/v1/videos/{vid}", timeout=10)
-                  if r.status_code == 200:
-                      data = r.json()
-                      if 'files' in data and len(data['files']) > 0:
-                          return data['files'][0]['fileUrl']
-              except Exception:
-                  pass
-              return url # Se falhar, mantém o original
-
-          def processar(caminho):
-              try:
-                  texto = caminho.read_text(encoding='utf-8-sig')
-                  if texto.strip().lower().startswith('<!doctype'):
-                      match = re.search(r'<script type="application/ld\+json">(.*?)</script>', texto, re.S)
+                  txt = caminho.read_text(encoding='utf-8-sig')
+                  if txt.strip().lower().startswith('<!doctype'):
+                      match = re.search(r'<script type="application/ld\+json">(.*?)</script>', txt, re.S)
                       if not match: return False
-                      texto = match.group(1)
-                      
-                  dados = json.loads(texto)
-                  nome = dados.get('name', '').replace(' - 🍿Clau', '').replace(' - Clau', '').strip()
+                      txt = match.group(1)
                   
-                  # Pega o link original
-                  url_video = dados.get('contentUrl', '')
-                  # Transforma o link do Tankie em MP4 real
-                  url_mp4 = get_mp4_tankie(url_video)
+                  dados = json.loads(txt)
                   
-                  dados['contentUrl'] = url_mp4
-                  dados['embedUrl'] = url_mp4
+                  # 1. Remove os campos que confundiram o Rave
+                  for campo in ['episodeNumber', 'partOfSeason', 'partOfSeries']:
+                      if campo in dados:
+                          del dados[campo]
+                          
+                  # 2. Força o tipo correto
+                  dados['@type'] = "VideoObject"
                   
-                  s, e, titulo, serie = 1, None, "", nome
-                  m1 = re.match(r'^(.*?)\s*-\s*T(\d+)E(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
-                  m2 = re.match(r'^(.*?)\s*-\s*(?:Episódio|Episodio)\s*(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
+                  # 3. Atualiza a descrição
+                  nome = dados.get('name', 'Sem Nome')
+                  dados['description'] = f"Assista {nome}"
                   
-                  if m1:
-                      serie, s, e, titulo = m1.group(1).strip(), int(m1.group(2)), int(m1.group(3)), (m1.group(4) or "").strip()
-                  elif m2:
-                      serie, e, titulo = m2.group(1).strip(), int(m2.group(2)), (m2.group(3) or "").strip()
-                      
-                  if e is not None:
-                      dados['name'] = f"{serie} - T{s}E{e}" + (f" - {titulo}" if titulo else "") + " - 🍿Clau"
-                      dados['@type'] = "TVEpisode"
-                      dados['episodeNumber'] = e
-                      dados['partOfSeason'] = {"@type": "TVSeason", "seasonNumber": s}
-                      dados['partOfSeries'] = {"@type": "TVSeries", "name": serie}
-                  else:
-                      dados['name'] = f"{nome} - 🍿Clau"
-                      
                   capa = dados.get('thumbnailUrl', [''])[0]
                   if not capa:
                       capa = 'https://via.placeholder.com/500x750?text=Sem+Capa'
-                      
-                  json_final = json.dumps(dados, ensure_ascii=False)
                   
-                  html = '<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<script type="application/ld+json">\n' + json_final + '\n</script>\n<title>' + dados['name'] + '</title>\n<meta charset="UTF-8">\n</head>\n<body>\n<img src="' + capa + '" style="width:100%;max-height:220px;object-fit:cover;">\n<h1>' + dados['name'] + '</h1>\n</body>\n</html>'
+                  # 4. MUITO IMPORTANTE: indent=2 para o JSON ter quebras de linha e espaços
+                  json_final = json.dumps(dados, ensure_ascii=False, indent=2)
+                  
+                  # 5. Monta o HTML exatamente igual ao que funcionava
+                  html = f"""<!DOCTYPE html>
+          <html lang="pt-BR">
+          <head>
+          <script type="application/ld+json">
+          {json_final}
+          </script>
+          <title>{nome}</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          </head>
+          <body>
+          <img src="{capa}" alt="{nome}" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+          <h1>{nome}</h1>
+          </body>
+          </html>"""
                   
                   caminho.write_text(html, encoding='utf-8')
                   return True
-              except Exception as ex:
+              except Exception as e:
+                  print(f"Erro em {caminho.name}: {e}")
                   return False
 
-          arquivos = list(Path('.').glob('*.json'))
+          print("Corrigindo arquivos...")
           cont = 0
-          # Usa 10 threads para fazer as requisições no Tankie mais rápido
-          with ThreadPoolExecutor(max_workers=10) as executor:
-              resultados = list(executor.map(processar, arquivos))
-              cont = sum(1 for r in resultados if r)
-                  
-          print(f"Arquivos processados com link MP4: {cont}")
+          for arq in Path('.').glob('*.json'):
+              if corrigir(arq):
+                  cont += 1
+          print(f"Total corrigido: {cont}")
           PYEOF
 
-          python3 script.py
+          python3 fix.py
 
           git config user.name "Claudineybr"
           git config user.email "Claudineybr@users.noreply.github.com"
           git add .
-          git commit -m "fix: extrair mp4 real do tankie e formatar HTML" || echo "Nada para commitar"
+          git commit -m "fix: reverter para VideoObject e formatar JSON com indentacao" || echo "Nada para commitar"
           git push origin HEAD:main
