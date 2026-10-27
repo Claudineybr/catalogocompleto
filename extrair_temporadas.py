@@ -1,99 +1,128 @@
-import requests
+import asyncio
 import re
 import json
+import requests
 from bs4 import BeautifulSoup
 from pathlib import Path
+from playwright.async_api import async_playwright
 
-# Link da série que queremos testar
 URL_SERIE = "https://www.vini7xgrave.site/2025/09/inix-arqueiro-verde-arrow-2012.html"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 
-def extrair_video_da_pagina(url_ep):
-    try:
-        r = requests.get(url_ep, headers=HEADERS, timeout=15)
-        soup = BeautifulSoup(r.text, 'html.parser')
-        
-        # Tenta achar o iframe do player
-        iframe = soup.find('iframe')
-        if iframe and iframe.get('src'):
-            return iframe.get('src')
-        return None
-    except Exception:
-        return None
-
-print(f"Abrindo a página da série: {URL_SERIE}")
-r = requests.get(URL_SERIE, headers=HEADERS, timeout=15)
-soup = BeautifulSoup(r.text, 'html.parser')
-
-temporada_atual = 1
-episodios = []
-
-# Vamos varrer TODOS os elementos da página em ordem
-for tag in soup.find_all(['b', 'h2', 'h3', 'span', 'a']):
-    texto = tag.get_text(strip=True)
+async def extrair_video_playwright(context, url_ep):
+    page = await context.new_page()
+    capturados = []
     
-    # Se achar um título de temporada (ex: "2ª Temporada")
-    match_temp = re.search(r'(\d+)\s*[ªº]\s*Temporada', texto, re.I)
-    if match_temp:
-        temporada_atual = int(match_temp.group(1))
-        print(f" -> Encontrada Temporada {temporada_atual}")
-        continue
-        
-    # Se for um link de episódio (ex: "Episódio 1 - Piloto")
-    if tag.name == 'a' and 'episódio' in texto.lower():
-        href = tag.get('href')
-        if href:
-            # Corrige o link se for relativo
-            if href.startswith('/'):
-                href = "https://www.vini7xgrave.site" + href
-                
-            # Tenta extrair o número do episódio (ex: "Episódio 1")
-            match_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
-            num_ep = match_ep.group(1) if match_ep else "0"
+    def on_response(res):
+        u = res.url
+        # Procura mp4, m3u8, tankie ou oneplayer
+        if re.search(r"[.](mp4|m3u8)([?]|$)", u, re.I) or 'tankie' in u or 'oneplayer' in u:
+            capturados.append(u)
             
-            # Limpa o título (tira a parte "Episódio 1 -")
-            titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
-            if not titulo_limpo:
-                titulo_limpo = "Episódio " + num_ep
-                
-            episodios.append({
-                'temporada': temporada_atual,
-                'episodio': num_ep,
-                'titulo': titulo_limpo,
-                'url_ep': href
-            })
-
-print(f"Total de episódios encontrados na página: {len(episodios)}")
-
-# Agora baixa o vídeo de cada episódio
-cont = 0
-for ep in episodios:
-    print(f"Buscando vídeo do Episódio {ep['episodio']} (T{ep['temporada']})...")
-    link_video = extrair_video_da_pagina(ep['url_ep'])
+    page.on("response", on_response)
     
-    if not link_video:
-        continue
+    try:
+        await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
+        await asyncio.sleep(3.0) # Espera 3 segundos para o JS do Blogger rodar
         
-    nome_json = f"Arqueiro Verde (Arrow) - T{ep['temporada']}E{ep['episodio']} - {ep['titulo']} - 🍿Clau"
-    
-    dados = {
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        "name": nome_json,
-        "description": f"Assista {nome_json}",
-        "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"],
-        "uploadDate": "2012-01-01T00:00:00+00:00",
-        "inLanguage": "pt",
-        "contentUrl": link_video,
-        "embedUrl": link_video
-    }
-    
-    json_str = json.dumps(dados, ensure_ascii=False, indent=2)
-    html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
-    
-    # Salva o arquivo (ex: arrow_t2e5.json)
-    nome_arquivo = f"arrow_t{ep['temporada']}e{ep['episodio']}.json"
-    Path(nome_arquivo).write_text(html, encoding='utf-8')
-    cont += 1
+        # Procura iframes no HTML renderizado
+        html = await page.content()
+        if not capturados:
+            # Tenta achar iframe
+            soup = BeautifulSoup(html, 'html.parser')
+            iframes = soup.find_all('iframe')
+            for iframe in iframes:
+                src = iframe.get('src', '')
+                if 'google' not in src.lower():
+                    capturados.append(src)
+                    
+        # Se achou iframe do tankie, tenta pegar o mp4
+        if not capturados:
+            match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
+            if match:
+                capturados.append(match.group(1))
+                
+    except Exception:
+        pass
+    finally:
+        await page.close()
+        
+    if capturados:
+        uniq = list(dict.fromkeys(capturados))
+        return uniq[0]
+    return None
 
-print(f"Concluído! {cont} episódios salvos.")
+async def main():
+    print("Buscando lista de episódios na página da série...")
+    r = requests.get(URL_SERIE, headers=HEADERS, timeout=15)
+    soup = BeautifulSoup(r.text, 'html.parser')
+
+    temporada_atual = 1
+    episodios = []
+
+    for tag in soup.find_all(['b', 'h2', 'h3', 'p', 'a', 'div']):
+        texto = tag.get_text(strip=True)
+        match_temp = re.search(r'(\d+)\s*[ªº]\s*Temporada', texto, re.I)
+        if match_temp:
+            temporada_atual = int(match_temp.group(1))
+            continue
+            
+        if tag.name == 'a' and 'episódio' in texto.lower():
+            href = tag.get('href')
+            if href:
+                if href.startswith('/'):
+                    href = "https://www.vini7xgrave.site" + href
+                match_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
+                num_ep = match_ep.group(1) if match_ep else "0"
+                titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
+                
+                episodios.append({
+                    'temp': temporada_atual,
+                    'ep': num_ep,
+                    'titulo': titulo_limpo,
+                    'url': href
+                })
+
+    print(f"Total de episódios encontrados: {len(episodios)}")
+    print("Iniciando navegador para buscar os links dos vídeos...")
+    
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=True)
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"])
+        
+        cont = 0
+        for item in episodios:
+            print(f"Buscando T{item['temp']}E{item['ep']}...")
+            link_video = await extrair_video_playwright(context, item['url'])
+            
+            if not link_video:
+                print(f"  [!] Falhou.")
+                continue
+                
+            nome_json = f"Arqueiro Verde (Arrow) - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau"
+            
+            dados = {
+                "@context": "https://schema.org",
+                "@type": "VideoObject",
+                "name": nome_json,
+                "description": f"Assista {nome_json}",
+                "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"],
+                "uploadDate": "2012-01-01T00:00:00+00:00",
+                "inLanguage": "pt",
+                "contentUrl": link_video,
+                "embedUrl": link_video
+            }
+            
+            json_str = json.dumps(dados, ensure_ascii=False, indent=2)
+            html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
+            
+            nome_arquivo = f"arrow_t{item['temp']}e{item['ep']}.json"
+            Path(nome_arquivo).write_text(html, encoding='utf-8')
+            cont += 1
+            print(f"  [+] Salvo: {nome_arquivo}")
+            
+        await browser.close()
+        print(f"Concluído! {cont} episódios salvos.")
+
+if __name__ == "__main__":
+    asyncio.run(main())
