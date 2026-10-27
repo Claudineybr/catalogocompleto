@@ -1,130 +1,56 @@
-name: Extrair Temporadas Faltantes
+name: Debug Arrow
 
 on:
   workflow_dispatch:
 
-permissions:
-  contents: write
-
 jobs:
-  extrair:
+  debug:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
-
-      - name: Instalar dependencias
-        run: pip install requests beautifulsoup4
-
-      - name: Extrair Episódios Faltantes
+      - run: pip install requests beautifulsoup4
+      - name: Testar acesso ao episódio
         run: |
-          cat > extrair_temporadas.py << 'PYEOF'
+          cat > debug.py << 'PYEOF'
           import requests
           import re
-          import json
           from bs4 import BeautifulSoup
-          from pathlib import Path
 
-          # Link da série que queremos testar
-          URL_SERIE = "https://www.vini7xgrave.site/2025/09/inix-arqueiro-verde-arrow-2012.html"
-          HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
-
-          def extrair_video_da_pagina(url_ep):
-              try:
-                  r = requests.get(url_ep, headers=HEADERS, timeout=15)
-                  soup = BeautifulSoup(r.text, 'html.parser')
-                  
-                  # Tenta achar o iframe do player
-                  iframe = soup.find('iframe')
-                  if iframe and iframe.get('src'):
-                      return iframe.get('src')
-                  return None
-              except Exception:
-                  return None
-
-          print(f"Abrindo a página da série: {URL_SERIE}")
-          r = requests.get(URL_SERIE, headers=HEADERS, timeout=15)
+          url_serie = "https://www.vini7xgrave.site/2025/09/inix-arqueiro-verde-arrow-2012.html"
+          headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+          
+          r = requests.get(url_serie, headers=headers)
           soup = BeautifulSoup(r.text, 'html.parser')
-
-          temporada_atual = 1
-          episodios = []
-
-          # Vamos varrer TODOS os elementos da página em ordem
-          for tag in soup.find_all(['b', 'h2', 'h3', 'span', 'a']):
-              texto = tag.get_text(strip=True)
-              
-              # Se achar um título de temporada (ex: "2ª Temporada")
-              match_temp = re.search(r'(\d+)\s*[ªº]\s*Temporada', texto, re.I)
-              if match_temp:
-                  temporada_atual = int(match_temp.group(1))
-                  print(f" -> Encontrada Temporada {temporada_atual}")
-                  continue
+          
+          # Acha o link do Episódio 1
+          link_ep = None
+          for a in soup.find_all('a'):
+              if 'Episódio 1' in a.text:
+                  link_ep = a.get('href')
+                  break
                   
-              # Se for um link de episódio (ex: "Episódio 1 - Piloto")
-              if tag.name == 'a' and 'episódio' in texto.lower():
-                  href = tag.get('href')
-                  if href:
-                      # Corrige o link se for relativo
-                      if href.startswith('/'):
-                          href = "https://www.vini7xgrave.site" + href
-                          
-                      # Tenta extrair o número do episódio (ex: "Episódio 1")
-                      match_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
-                      num_ep = match_ep.group(1) if match_ep else "0"
-                      
-                      # Limpa o título (tira a parte "Episódio 1 -")
-                      titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
-                      if not titulo_limpo:
-                          titulo_limpo = "Episódio " + num_ep
-                          
-                      episodios.append({
-                          'temporada': temporada_atual,
-                          'episodio': num_ep,
-                          'titulo': titulo_limpo,
-                          'url_ep': href
-                      })
-
-          print(f"Total de episódios encontrados na página: {len(episodios)}")
-
-          # Agora baixa o vídeo de cada episódio
-          cont = 0
-          for ep in episodios:
-              print(f"Buscando vídeo do Episódio {ep['episodio']} (T{ep['temporada']})...")
-              link_video = extrair_video_da_pagina(ep['url_ep'])
+          if not link_ep:
+              print("Não achou o link do episódio 1.")
+              exit(0)
               
-              if not link_video:
-                  continue
-                  
-              nome_json = f"Arqueiro Verde (Arrow) - T{ep['temporada']}E{ep['episodio']} - {ep['titulo']} - 🍿Clau"
+          if link_ep.startswith('/'):
+              link_ep = "https://www.vini7xgrave.site" + link_ep
               
-              dados = {
-                  "@context": "https://schema.org",
-                  "@type": "VideoObject",
-                  "name": nome_json,
-                  "description": f"Assista {nome_json}",
-                  "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"],
-                  "uploadDate": "2012-01-01T00:00:00+00:00",
-                  "inLanguage": "pt",
-                  "contentUrl": link_video,
-                  "embedUrl": link_video
-              }
+          print(f"Testando URL do Episódio: {link_ep}")
+          
+          r_ep = requests.get(link_ep, headers=headers)
+          print(f"Status Code: {r_ep.status_code}")
+          print(f"Tamanho do HTML: {len(r_ep.text)} caracteres")
+          
+          # Verifica se achou iframe
+          soup_ep = BeautifulSoup(r_ep.text, 'html.parser')
+          iframes = soup_ep.find_all('iframe')
+          print(f"Quantidade de iframes encontrados: {len(iframes)}")
+          for i, iframe in enumerate(iframes):
+              print(f"  Iframe {i+1}: {iframe.get('src')}")
               
-              json_str = json.dumps(dados, ensure_ascii=False, indent=2)
-              html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
-              
-              # Salva o arquivo (ex: arrow_t2e5.json)
-              nome_arquivo = f"arrow_t{ep['temporada']}e{ep['episodio']}.json"
-              Path(nome_arquivo).write_text(html, encoding='utf-8')
-              cont += 1
-
-          print(f"Concluído! {cont} episódios salvos.")
+          print("\n--- PRINT DO HTML (primeiros 1000 caracteres) ---")
+          print(r_ep.text[:1000])
           PYEOF
 
-          python3 extrair_temporadas.py
-
-      - name: Salvar arquivos
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "feat: adicionar todas as temporadas do Arrow" || echo "Nada novo"
-          git push origin HEAD:main
+          python3 debug.py
