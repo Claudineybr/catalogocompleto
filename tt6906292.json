@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Chamada 2023 - 🍿Clau", "description": "Assista A Chamada 2023", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wK3TtT1xoeaXjb0Rn2UA5Df0TU4.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/A%20Chamada_2023_tt6906292.mp4?cnvs_token=TjJGaVl6TmxaREZtWWpSaE1URTFPUXNoaStjY1hMRENlZG5WOUVseUNQSW1kaDZSRDVRMTMrLzh1c3ZrVEZvSzM0by9OL0d3MWw2VWxlSVowQzRaOElwQlJPRFhqelFNM0tSRkRvOXBtalpHSzhKcy9zME9SVmpIVEhrenFzUFc", "embedUrl": "https://server-1.cnvods.com/m/A%20Chamada_2023_tt6906292.mp4?cnvs_token=TjJGaVl6TmxaREZtWWpSaE1URTFPUXNoaStjY1hMRENlZG5WOUVseUNQSW1kaDZSRDVRMTMrLzh1c3ZrVEZvSzM0by9OL0d3MWw2VWxlSVowQzRaOElwQlJPRFhqelFNM0tSRkRvOXBtalpHSzhKcy9zME9SVmpIVEhrenFzUFc"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Chamada 2023 - 🍿Clau",
+  "description": "Assista A Chamada 2023 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wK3TtT1xoeaXjb0Rn2UA5Df0TU4.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/A%20Chamada_2023_tt6906292.mp4?cnvs_token=TjJGaVl6TmxaREZtWWpSaE1URTFPUXNoaStjY1hMRENlZG5WOUVseUNQSW1kaDZSRDVRMTMrLzh1c3ZrVEZvSzM0by9OL0d3MWw2VWxlSVowQzRaOElwQlJPRFhqelFNM0tSRkRvOXBtalpHSzhKcy9zME9SVmpIVEhrenFzUFc",
+  "embedUrl": "https://server-1.cnvods.com/m/A%20Chamada_2023_tt6906292.mp4?cnvs_token=TjJGaVl6TmxaREZtWWpSaE1URTFPUXNoaStjY1hMRENlZG5WOUVseUNQSW1kaDZSRDVRMTMrLzh1c3ZrVEZvSzM0by9OL0d3MWw2VWxlSVowQzRaOElwQlJPRFhqelFNM0tSRkRvOXBtalpHSzhKcy9zME9SVmpIVEhrenFzUFc"
+}
 </script>
 <title>A Chamada 2023 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wK3TtT1xoeaXjb0Rn2UA5Df0TU4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/wK3TtT1xoeaXjb0Rn2UA5Df0TU4.jpg" alt="A Chamada 2023 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Chamada 2023 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Os Farofeiros 2018 - 🍿Clau", "description": "Assista Os Farofeiros 2018", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/tSUGsF1GSNLZAEjeePsDlHBhG0a.jpg"], "uploadDate": "2018-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://pc2.playhdlugo.online/token:s21expires11365uslink1578l2/mmfilmes/osfarofeiros-dub-720p.mp4", "embedUrl": "http://pc2.playhdlugo.online/token:s21expires11365uslink1578l2/mmfilmes/osfarofeiros-dub-720p.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Farofeiros 2018 - 🍿Clau",
+  "description": "Assista Os Farofeiros 2018 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tSUGsF1GSNLZAEjeePsDlHBhG0a.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://pc2.playhdlugo.online/token:s21expires11365uslink1578l2/mmfilmes/osfarofeiros-dub-720p.mp4",
+  "embedUrl": "http://pc2.playhdlugo.online/token:s21expires11365uslink1578l2/mmfilmes/osfarofeiros-dub-720p.mp4"
+}
 </script>
 <title>Os Farofeiros 2018 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/tSUGsF1GSNLZAEjeePsDlHBhG0a.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/tSUGsF1GSNLZAEjeePsDlHBhG0a.jpg" alt="Os Farofeiros 2018 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Os Farofeiros 2018 - 🍿Clau</h1>
 </body>
 </html>

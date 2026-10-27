@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Lutador De Rua 2008 - 🍿Clau", "description": "Assista Lutador De Rua 2008", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/i6RmXWZ63YFw5uSO7pTqXS5e1iA.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0031.l1s0-cdn-3123123.com/lutador-de-rua-2b407f89/dubbed/1/24f86151-ce43-4fea-8e37-d7e8723c0988/stream.mp4?type=movie&expires=1771448745&signature=646edebbf3261cc3c8e14d3a4c1a661bc9300b9a56376c78d4031475bceca253", "embedUrl": "https://cdn-0031.l1s0-cdn-3123123.com/lutador-de-rua-2b407f89/dubbed/1/24f86151-ce43-4fea-8e37-d7e8723c0988/stream.mp4?type=movie&expires=1771448745&signature=646edebbf3261cc3c8e14d3a4c1a661bc9300b9a56376c78d4031475bceca253"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Lutador De Rua 2008 - 🍿Clau",
+  "description": "Assista Lutador De Rua 2008 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/i6RmXWZ63YFw5uSO7pTqXS5e1iA.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0031.l1s0-cdn-3123123.com/lutador-de-rua-2b407f89/dubbed/1/24f86151-ce43-4fea-8e37-d7e8723c0988/stream.mp4?type=movie&expires=1771448745&signature=646edebbf3261cc3c8e14d3a4c1a661bc9300b9a56376c78d4031475bceca253",
+  "embedUrl": "https://cdn-0031.l1s0-cdn-3123123.com/lutador-de-rua-2b407f89/dubbed/1/24f86151-ce43-4fea-8e37-d7e8723c0988/stream.mp4?type=movie&expires=1771448745&signature=646edebbf3261cc3c8e14d3a4c1a661bc9300b9a56376c78d4031475bceca253"
+}
 </script>
 <title>Lutador De Rua 2008 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/i6RmXWZ63YFw5uSO7pTqXS5e1iA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/i6RmXWZ63YFw5uSO7pTqXS5e1iA.jpg" alt="Lutador De Rua 2008 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Lutador De Rua 2008 - 🍿Clau</h1>
 </body>
 </html>

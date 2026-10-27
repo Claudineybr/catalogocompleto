@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Um Lobisomem Americano 1981 - 🍿Clau", "description": "Assista Um Lobisomem Americano 1981", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/sfYUcV6iSH4DLVUtLYQ1wViBSw6.jpg"], "uploadDate": "1981-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/x6XhHWwfpbFFFK5PF21VDq", "embedUrl": "https://tankie.tube/w/x6XhHWwfpbFFFK5PF21VDq"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Lobisomem Americano 1981 - 🍿Clau",
+  "description": "Assista Um Lobisomem Americano 1981 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sfYUcV6iSH4DLVUtLYQ1wViBSw6.jpg"
+  ],
+  "uploadDate": "1981-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/x6XhHWwfpbFFFK5PF21VDq",
+  "embedUrl": "https://tankie.tube/w/x6XhHWwfpbFFFK5PF21VDq"
+}
 </script>
 <title>Um Lobisomem Americano 1981 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/sfYUcV6iSH4DLVUtLYQ1wViBSw6.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/sfYUcV6iSH4DLVUtLYQ1wViBSw6.jpg" alt="Um Lobisomem Americano 1981 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Um Lobisomem Americano 1981 - 🍿Clau</h1>
 </body>
 </html>

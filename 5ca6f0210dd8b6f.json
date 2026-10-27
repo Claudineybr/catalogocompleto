@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau", "description": "Assista Star Contra as Forças do Mal - Episódio 17 - Mama Star; Preparar, Apontar, Atirar", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/17/2f4c2d10-a1de-485d-b16c-c827cf7d799a/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/17/2f4c2d10-a1de-485d-b16c-c827cf7d799a/stream.mp4", "episodeNumber": 17, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Star Contra as Forças do Mal"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau",
+  "description": "Assista Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/17/2f4c2d10-a1de-485d-b16c-c827cf7d799a/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/17/2f4c2d10-a1de-485d-b16c-c827cf7d799a/stream.mp4"
+}
 </script>
 <title>Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" alt="Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Star Contra as Forças do Mal - T1E17 - Mama Star; Preparar, Apontar, Atirar - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau", "description": "Assista Tulsa King 2019 - Episódio 5 - Lembrança do Joe", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Tulsa.King/01/Tulsa.King.S01E05.MP4.DUB.BaixarSeriesMP4.xyz.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Tulsa.King/01/Tulsa.King.S01E05.MP4.DUB.BaixarSeriesMP4.xyz.mp4", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Tulsa King 2019"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau",
+  "description": "Assista Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloud2.playhdlugo.online/series/Tulsa.King/01/Tulsa.King.S01E05.MP4.DUB.BaixarSeriesMP4.xyz.mp4",
+  "embedUrl": "http://cloud2.playhdlugo.online/series/Tulsa.King/01/Tulsa.King.S01E05.MP4.DUB.BaixarSeriesMP4.xyz.mp4"
+}
 </script>
 <title>Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg" alt="Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Tulsa King 2019 - T1E5 - Lembrança do Joe - 🍿Clau</h1>
 </body>
 </html>

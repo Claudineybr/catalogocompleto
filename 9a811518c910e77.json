@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau", "description": "Assista Você (You) - Episódio 5 - Vivendo com o Passado", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/5/389df4de-563e-4d3f-875a-7473c8adca89/stream.mp4?storage=0043&expires=1775414649&signature=d84e06bbfa9b076421dd2a89976158fa9ac75a5682534e99d4fb7232024ca74b&type=serie", "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/5/389df4de-563e-4d3f-875a-7473c8adca89/stream.mp4?storage=0043&expires=1775414649&signature=d84e06bbfa9b076421dd2a89976158fa9ac75a5682534e99d4fb7232024ca74b&type=serie", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau",
+  "description": "Assista Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/5/389df4de-563e-4d3f-875a-7473c8adca89/stream.mp4?storage=0043&expires=1775414649&signature=d84e06bbfa9b076421dd2a89976158fa9ac75a5682534e99d4fb7232024ca74b&type=serie",
+  "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/5/389df4de-563e-4d3f-875a-7473c8adca89/stream.mp4?storage=0043&expires=1775414649&signature=d84e06bbfa9b076421dd2a89976158fa9ac75a5682534e99d4fb7232024ca74b&type=serie"
+}
 </script>
 <title>Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau</h1>
 </body>
 </html>

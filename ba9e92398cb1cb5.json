@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Você (You) - T1E4 - O Capitão - 🍿Clau", "description": "Assista Você (You) - Episódio 4 - O Capitão", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/4/b661f708-87c5-4906-8455-2e38c1baef38/stream.mp4?storage=0043&expires=1775414636&signature=cf0c849ba2999b7b5855b91dec684a11286929c47bdd8206f2d14651b1421260&type=serie", "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/4/b661f708-87c5-4906-8455-2e38c1baef38/stream.mp4?storage=0043&expires=1775414636&signature=cf0c849ba2999b7b5855b91dec684a11286929c47bdd8206f2d14651b1421260&type=serie", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Você (You)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - T1E4 - O Capitão - 🍿Clau",
+  "description": "Assista Você (You) - T1E4 - O Capitão - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/4/b661f708-87c5-4906-8455-2e38c1baef38/stream.mp4?storage=0043&expires=1775414636&signature=cf0c849ba2999b7b5855b91dec684a11286929c47bdd8206f2d14651b1421260&type=serie",
+  "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/4/b661f708-87c5-4906-8455-2e38c1baef38/stream.mp4?storage=0043&expires=1775414636&signature=cf0c849ba2999b7b5855b91dec684a11286929c47bdd8206f2d14651b1421260&type=serie"
+}
 </script>
 <title>Você (You) - T1E4 - O Capitão - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - T1E4 - O Capitão - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Você (You) - T1E4 - O Capitão - 🍿Clau</h1>
 </body>
 </html>

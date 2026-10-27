@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Os Parças - 🍿Clau", "description": "Assista Os Parças", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9PuLtiji3ZN6o2Uan9SqDl8wdYX.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD3/tt9207188.mp4", "embedUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD3/tt9207188.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Parças - 🍿Clau",
+  "description": "Assista Os Parças - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9PuLtiji3ZN6o2Uan9SqDl8wdYX.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD3/tt9207188.mp4",
+  "embedUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD3/tt9207188.mp4"
+}
 </script>
 <title>Os Parças - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9PuLtiji3ZN6o2Uan9SqDl8wdYX.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9PuLtiji3ZN6o2Uan9SqDl8wdYX.jpg" alt="Os Parças - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Os Parças - 🍿Clau</h1>
 </body>
 </html>

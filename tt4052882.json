@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Exorcista 1973 - Episódio - 🍿Clau", "description": "Assista O Exorcista 1973 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg"], "uploadDate": "1973-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/%C3%81guas%20Rasas_2016_tt4052882.mp4?cnvs_token=TnpFeE1EZGpabUptWm1NNE5qa3dZbXRmRTdLUkdCekZjN29uckVabGZRbDllTFBhd1pLaU9SNWkvUFZkVEhPZnM0Ky85Wkp1SkIyaWZGV1VBYUNRTFJJS3AzcjdIUE1DbmhqZUVDQmt6dUlaZTZLY25NaUV1Q0Q3ZUlSR3lxMC8", "embedUrl": "https://server-1.cnvods.com/m/%C3%81guas%20Rasas_2016_tt4052882.mp4?cnvs_token=TnpFeE1EZGpabUptWm1NNE5qa3dZbXRmRTdLUkdCekZjN29uckVabGZRbDllTFBhd1pLaU9SNWkvUFZkVEhPZnM0Ky85Wkp1SkIyaWZGV1VBYUNRTFJJS3AzcjdIUE1DbmhqZUVDQmt6dUlaZTZLY25NaUV1Q0Q3ZUlSR3lxMC8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Exorcista 1973 - Episódio - 🍿Clau",
+  "description": "Assista O Exorcista 1973 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg"
+  ],
+  "uploadDate": "1973-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/%C3%81guas%20Rasas_2016_tt4052882.mp4?cnvs_token=TnpFeE1EZGpabUptWm1NNE5qa3dZbXRmRTdLUkdCekZjN29uckVabGZRbDllTFBhd1pLaU9SNWkvUFZkVEhPZnM0Ky85Wkp1SkIyaWZGV1VBYUNRTFJJS3AzcjdIUE1DbmhqZUVDQmt6dUlaZTZLY25NaUV1Q0Q3ZUlSR3lxMC8",
+  "embedUrl": "https://server-1.cnvods.com/m/%C3%81guas%20Rasas_2016_tt4052882.mp4?cnvs_token=TnpFeE1EZGpabUptWm1NNE5qa3dZbXRmRTdLUkdCekZjN29uckVabGZRbDllTFBhd1pLaU9SNWkvUFZkVEhPZnM0Ky85Wkp1SkIyaWZGV1VBYUNRTFJJS3AzcjdIUE1DbmhqZUVDQmt6dUlaZTZLY25NaUV1Q0Q3ZUlSR3lxMC8"
+}
 </script>
 <title>O Exorcista 1973 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg" alt="O Exorcista 1973 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Exorcista 1973 - Episódio - 🍿Clau</h1>
 </body>
 </html>

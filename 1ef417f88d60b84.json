@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Mary E George 2024 - T1E1 - 🍿Clau", "description": "Assista Mary E George 2024 - Episódio 1", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd11.oneplayer.site/token/SHD11/212462/1x1.mp4", "embedUrl": "http://shd11.oneplayer.site/token/SHD11/212462/1x1.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Mary E George 2024"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mary E George 2024 - T1E1 - 🍿Clau",
+  "description": "Assista Mary E George 2024 - T1E1 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd11.oneplayer.site/token/SHD11/212462/1x1.mp4",
+  "embedUrl": "http://shd11.oneplayer.site/token/SHD11/212462/1x1.mp4"
+}
 </script>
 <title>Mary E George 2024 - T1E1 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://via.placeholder.com/500x750?text=Sem+Capa" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="Mary E George 2024 - T1E1 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Mary E George 2024 - T1E1 - 🍿Clau</h1>
 </body>
 </html>

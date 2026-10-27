@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau", "description": "Assista Naruto Shippuden O Filme: Laços 2008 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/mVxwJGCJmbeL9d6C85IhNbAq4TT.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Super:%20Broly_2019_tt7961060.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Super:%20Broly_2019_tt7961060.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau",
+  "description": "Assista Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mVxwJGCJmbeL9d6C85IhNbAq4TT.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Super:%20Broly_2019_tt7961060.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Super:%20Broly_2019_tt7961060.mp4"
+}
 </script>
 <title>Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/mVxwJGCJmbeL9d6C85IhNbAq4TT.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/mVxwJGCJmbeL9d6C85IhNbAq4TT.jpg" alt="Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Naruto Shippuden O Filme: Laços 2008 - Episódio - 🍿Clau</h1>
 </body>
 </html>

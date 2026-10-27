@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau", "description": "Assista Vovó... Zona 3: Tal Pai, Tal Filho 2011", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yxaPxWQz0L5qaNligqgND2FKutH.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/c750f0e1-4138-4397-9c93-c1b8bcce05d7", "embedUrl": "https://tankie.tube/videos/embed/c750f0e1-4138-4397-9c93-c1b8bcce05d7"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau",
+  "description": "Assista Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/yxaPxWQz0L5qaNligqgND2FKutH.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/c750f0e1-4138-4397-9c93-c1b8bcce05d7",
+  "embedUrl": "https://tankie.tube/videos/embed/c750f0e1-4138-4397-9c93-c1b8bcce05d7"
+}
 </script>
 <title>Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/yxaPxWQz0L5qaNligqgND2FKutH.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/yxaPxWQz0L5qaNligqgND2FKutH.jpg" alt="Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Vovó... Zona 3: Tal Pai, Tal Filho 2011 - 🍿Clau</h1>
 </body>
 </html>

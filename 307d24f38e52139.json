@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau", "description": "Assista Doctor Who - Episódio 6 - Amor &amp; Monstros", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/02/Doctor.Who.S02E06.Dual.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/02/Doctor.Who.S02E06.Dual.mp4", "episodeNumber": 6, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Doctor Who"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau",
+  "description": "Assista Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/02/Doctor.Who.S02E06.Dual.mp4",
+  "embedUrl": "http://cloud2.playhdlugo.online/series/Doctor.Who/02/Doctor.Who.S02E06.Dual.mp4"
+}
 </script>
 <title>Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" alt="Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Doctor Who - T1E6 - Amor &amp; Monstros - 🍿Clau</h1>
 </body>
 </html>

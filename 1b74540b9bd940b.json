@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Muita Calma Nessa Hora 2010 - 🍿Clau", "description": "Assista Muita Calma Nessa Hora 2010", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gpyl7xI1SEb8WgC5PeRUQcw19cx.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1", "embedUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Muita Calma Nessa Hora 2010 - 🍿Clau",
+  "description": "Assista Muita Calma Nessa Hora 2010 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gpyl7xI1SEb8WgC5PeRUQcw19cx.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1",
+  "embedUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1"
+}
 </script>
 <title>Muita Calma Nessa Hora 2010 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gpyl7xI1SEb8WgC5PeRUQcw19cx.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/gpyl7xI1SEb8WgC5PeRUQcw19cx.jpg" alt="Muita Calma Nessa Hora 2010 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Muita Calma Nessa Hora 2010 - 🍿Clau</h1>
 </body>
 </html>

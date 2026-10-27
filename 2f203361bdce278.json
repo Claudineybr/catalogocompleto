@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Corra ou Morra 2013 - Abrir Player - 🍿Clau", "description": "Assista Corra ou Morra 2013 - Abrir Player", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ilZW5PF3Ux7HgwB82fsVhtWb2rL.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://videa.hu/videok/film-animacio/animerco.com-hikari-no-ou-05.mp4-ckTJ9nwnVcGtJ7CJ", "embedUrl": "https://videa.hu/videok/film-animacio/animerco.com-hikari-no-ou-05.mp4-ckTJ9nwnVcGtJ7CJ"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Corra ou Morra 2013 - Abrir Player - 🍿Clau",
+  "description": "Assista Corra ou Morra 2013 - Abrir Player - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ilZW5PF3Ux7HgwB82fsVhtWb2rL.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://videa.hu/videok/film-animacio/animerco.com-hikari-no-ou-05.mp4-ckTJ9nwnVcGtJ7CJ",
+  "embedUrl": "https://videa.hu/videok/film-animacio/animerco.com-hikari-no-ou-05.mp4-ckTJ9nwnVcGtJ7CJ"
+}
 </script>
 <title>Corra ou Morra 2013 - Abrir Player - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ilZW5PF3Ux7HgwB82fsVhtWb2rL.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ilZW5PF3Ux7HgwB82fsVhtWb2rL.jpg" alt="Corra ou Morra 2013 - Abrir Player - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Corra ou Morra 2013 - Abrir Player - 🍿Clau</h1>
 </body>
 </html>

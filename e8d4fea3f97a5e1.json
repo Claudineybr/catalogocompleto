@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "The 100 - T1E13 - Sangue de Sanctum - 🍿Clau", "description": "Assista The 100 - Episódio 13 - Sangue de Sanctum", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/cfhfcEt4bOXuVZkTC0nNBpqqiWb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0086.speed-stream.online/the-100-010d0989/s6/dubbed/13/54d4b82d-0669-4cc3-b83b-24e7fe79f03c/stream.mp4", "embedUrl": "https://cdn-0086.speed-stream.online/the-100-010d0989/s6/dubbed/13/54d4b82d-0669-4cc3-b83b-24e7fe79f03c/stream.mp4", "episodeNumber": 13, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "The 100"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The 100 - T1E13 - Sangue de Sanctum - 🍿Clau",
+  "description": "Assista The 100 - T1E13 - Sangue de Sanctum - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cfhfcEt4bOXuVZkTC0nNBpqqiWb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0086.speed-stream.online/the-100-010d0989/s6/dubbed/13/54d4b82d-0669-4cc3-b83b-24e7fe79f03c/stream.mp4",
+  "embedUrl": "https://cdn-0086.speed-stream.online/the-100-010d0989/s6/dubbed/13/54d4b82d-0669-4cc3-b83b-24e7fe79f03c/stream.mp4"
+}
 </script>
 <title>The 100 - T1E13 - Sangue de Sanctum - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/cfhfcEt4bOXuVZkTC0nNBpqqiWb.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/cfhfcEt4bOXuVZkTC0nNBpqqiWb.jpg" alt="The 100 - T1E13 - Sangue de Sanctum - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>The 100 - T1E13 - Sangue de Sanctum - 🍿Clau</h1>
 </body>
 </html>

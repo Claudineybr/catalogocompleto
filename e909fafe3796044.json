@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau", "description": "Assista Overlord 2017 - Episódio 8 - Um Punhado de Esperança", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/8/cc92e72f-4258-4dcd-aef3-d46473d91e74/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/8/cc92e72f-4258-4dcd-aef3-d46473d91e74/stream.mp4", "episodeNumber": 8, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Overlord 2017"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau",
+  "description": "Assista Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/8/cc92e72f-4258-4dcd-aef3-d46473d91e74/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/8/cc92e72f-4258-4dcd-aef3-d46473d91e74/stream.mp4"
+}
 </script>
 <title>Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" alt="Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Overlord 2017 - T1E8 - Um Punhado de Esperança - 🍿Clau</h1>
 </body>
 </html>

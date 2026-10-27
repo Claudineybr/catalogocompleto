@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Retorno da Múmia 2001 - 🍿Clau", "description": "Assista O Retorno da Múmia 2001", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/34X3xSSriMVdHHO9EEpe8thhDCC.jpg"], "uploadDate": "2001-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0209163.mp4", "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0209163.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Retorno da Múmia 2001 - 🍿Clau",
+  "description": "Assista O Retorno da Múmia 2001 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/34X3xSSriMVdHHO9EEpe8thhDCC.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0209163.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0209163.mp4"
+}
 </script>
 <title>O Retorno da Múmia 2001 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/34X3xSSriMVdHHO9EEpe8thhDCC.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/34X3xSSriMVdHHO9EEpe8thhDCC.jpg" alt="O Retorno da Múmia 2001 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Retorno da Múmia 2001 - 🍿Clau</h1>
 </body>
 </html>

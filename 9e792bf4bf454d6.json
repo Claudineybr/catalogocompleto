@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau", "description": "Assista Contagem Regressiva 2025 - Episódio 12 - Essa é a Assinatura Dele", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/amIxsDLVvJp974KHLLnV6wUBUf8.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.iageni.com/m/Contagem.Regressiva.S01E12.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://cdn.iageni.com/m/Contagem.Regressiva.S01E12.1080p.WEB-DL.DUAL.5.1.mp4", "episodeNumber": 12, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Contagem Regressiva 2025"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau",
+  "description": "Assista Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/amIxsDLVvJp974KHLLnV6wUBUf8.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.iageni.com/m/Contagem.Regressiva.S01E12.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.iageni.com/m/Contagem.Regressiva.S01E12.1080p.WEB-DL.DUAL.5.1.mp4"
+}
 </script>
 <title>Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/amIxsDLVvJp974KHLLnV6wUBUf8.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/amIxsDLVvJp974KHLLnV6wUBUf8.jpg" alt="Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Contagem Regressiva 2025 - T1E12 - Essa é a Assinatura Dele - 🍿Clau</h1>
 </body>
 </html>

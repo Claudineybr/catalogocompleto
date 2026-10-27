@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Velozes e Furiosos 2001 - Episódio - 🍿Clau", "description": "Assista Velozes e Furiosos 2001 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/liC9NvzJzHW1LZi41KTKURDq2Pr.jpg"], "uploadDate": "2001-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0039.speed-stream.online/pesadelo-nas-alturas-f5db50c1/dubbed/1/12c4738e-8dab-4080-bf14-eb2ebc2d7a2b/stream.mp4", "embedUrl": "https://cdn-0039.speed-stream.online/pesadelo-nas-alturas-f5db50c1/dubbed/1/12c4738e-8dab-4080-bf14-eb2ebc2d7a2b/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Velozes e Furiosos 2001 - Episódio - 🍿Clau",
+  "description": "Assista Velozes e Furiosos 2001 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/liC9NvzJzHW1LZi41KTKURDq2Pr.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0039.speed-stream.online/pesadelo-nas-alturas-f5db50c1/dubbed/1/12c4738e-8dab-4080-bf14-eb2ebc2d7a2b/stream.mp4",
+  "embedUrl": "https://cdn-0039.speed-stream.online/pesadelo-nas-alturas-f5db50c1/dubbed/1/12c4738e-8dab-4080-bf14-eb2ebc2d7a2b/stream.mp4"
+}
 </script>
 <title>Velozes e Furiosos 2001 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/liC9NvzJzHW1LZi41KTKURDq2Pr.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/liC9NvzJzHW1LZi41KTKURDq2Pr.jpg" alt="Velozes e Furiosos 2001 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Velozes e Furiosos 2001 - Episódio - 🍿Clau</h1>
 </body>
 </html>

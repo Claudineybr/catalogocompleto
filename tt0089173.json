@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau", "description": "Assista Sexta-Feira 13 - Parte 5: O Regresso 1985", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rdrVW0qN16Ho8BDwmcqW9oLQtn3.jpg"], "uploadDate": "1985-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Sexta-Feira%2013%20-%20Parte%205:%20Um%20Novo%20Come%C3%A7o_1986_tt0089173.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Sexta-Feira%2013%20-%20Parte%205:%20Um%20Novo%20Come%C3%A7o_1986_tt0089173.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau",
+  "description": "Assista Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rdrVW0qN16Ho8BDwmcqW9oLQtn3.jpg"
+  ],
+  "uploadDate": "1985-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Sexta-Feira%2013%20-%20Parte%205:%20Um%20Novo%20Come%C3%A7o_1986_tt0089173.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Sexta-Feira%2013%20-%20Parte%205:%20Um%20Novo%20Come%C3%A7o_1986_tt0089173.mp4"
+}
 </script>
 <title>Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rdrVW0qN16Ho8BDwmcqW9oLQtn3.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rdrVW0qN16Ho8BDwmcqW9oLQtn3.jpg" alt="Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Sexta-Feira 13 - Parte 5: O Regresso 1985 - 🍿Clau</h1>
 </body>
 </html>

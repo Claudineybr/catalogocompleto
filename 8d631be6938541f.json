@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Madagascar 2005 - 🍿Clau", "description": "Assista Madagascar 2005", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg"], "uploadDate": "2005-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/88e677dd-9e59-41c5-9769-833a9010e2d9", "embedUrl": "https://tankie.tube/videos/embed/88e677dd-9e59-41c5-9769-833a9010e2d9"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Madagascar 2005 - 🍿Clau",
+  "description": "Assista Madagascar 2005 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/88e677dd-9e59-41c5-9769-833a9010e2d9",
+  "embedUrl": "https://tankie.tube/videos/embed/88e677dd-9e59-41c5-9769-833a9010e2d9"
+}
 </script>
 <title>Madagascar 2005 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9OFYnKQBdSfoSunwkImoTtYo9S9.jpg" alt="Madagascar 2005 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Madagascar 2005 - 🍿Clau</h1>
 </body>
 </html>

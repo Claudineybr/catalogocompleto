@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau", "description": "Assista Prison Break: Em Busca da Verdade - Episódio 1 - Caçada Humana", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/2288/2x1.mp4", "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/2288/2x1.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Prison Break: Em Busca da Verdade"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau",
+  "description": "Assista Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/2288/2x1.mp4",
+  "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/2288/2x1.mp4"
+}
 </script>
 <title>Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg" alt="Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Prison Break: Em Busca da Verdade - T1E1 - Caçada Humana - 🍿Clau</h1>
 </body>
 </html>

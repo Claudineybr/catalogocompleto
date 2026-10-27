@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Pacote 2018 - 🍿Clau", "description": "Assista O Pacote 2018", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/m0KRI829O1cHy8YxTB2aoDUYQP5.jpg"], "uploadDate": "2018-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/tt7525778.mp4", "embedUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/tt7525778.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Pacote 2018 - 🍿Clau",
+  "description": "Assista O Pacote 2018 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/m0KRI829O1cHy8YxTB2aoDUYQP5.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/tt7525778.mp4",
+  "embedUrl": "http://fhd1.oneplayer.site/ertg43r5g34ty34yt543t43wer234t34y3s7/FHD10/tt7525778.mp4"
+}
 </script>
 <title>O Pacote 2018 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/m0KRI829O1cHy8YxTB2aoDUYQP5.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/m0KRI829O1cHy8YxTB2aoDUYQP5.jpg" alt="O Pacote 2018 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Pacote 2018 - 🍿Clau</h1>
 </body>
 </html>

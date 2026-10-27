@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Filme - 🍿Clau", "description": "Assista Filme", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/b15d924f-2c5a-4069-bdd4-ef0f2b2995bd/9433fca1-de78-43a5-91fd-64a64cb15153-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/b15d924f-2c5a-4069-bdd4-ef0f2b2995bd/9433fca1-de78-43a5-91fd-64a64cb15153-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Filme - 🍿Clau",
+  "description": "Assista Filme - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/b15d924f-2c5a-4069-bdd4-ef0f2b2995bd/9433fca1-de78-43a5-91fd-64a64cb15153-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/b15d924f-2c5a-4069-bdd4-ef0f2b2995bd/9433fca1-de78-43a5-91fd-64a64cb15153-master.m3u8"
+}
 </script>
 <title>Filme - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg" alt="Filme - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Filme - 🍿Clau</h1>
 </body>
 </html>

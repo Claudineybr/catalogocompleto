@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Missão Resgate 2021 - 🍿Clau", "description": "Assista Missão Resgate 2021", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5JRkb2C0kvtlSySZZd73Cle43gU.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.speed-stream.online/missao-resgate-b0fd3b28/dubbed/1/c91934be-5467-4342-bfac-4da0e3154a8f/stream.mp4", "embedUrl": "https://cdn-0090.speed-stream.online/missao-resgate-b0fd3b28/dubbed/1/c91934be-5467-4342-bfac-4da0e3154a8f/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Missão Resgate 2021 - 🍿Clau",
+  "description": "Assista Missão Resgate 2021 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5JRkb2C0kvtlSySZZd73Cle43gU.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.speed-stream.online/missao-resgate-b0fd3b28/dubbed/1/c91934be-5467-4342-bfac-4da0e3154a8f/stream.mp4",
+  "embedUrl": "https://cdn-0090.speed-stream.online/missao-resgate-b0fd3b28/dubbed/1/c91934be-5467-4342-bfac-4da0e3154a8f/stream.mp4"
+}
 </script>
 <title>Missão Resgate 2021 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/5JRkb2C0kvtlSySZZd73Cle43gU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/5JRkb2C0kvtlSySZZd73Cle43gU.jpg" alt="Missão Resgate 2021 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Missão Resgate 2021 - 🍿Clau</h1>
 </body>
 </html>

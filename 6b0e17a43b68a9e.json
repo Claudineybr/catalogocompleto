@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau", "description": "Assista Game of Thrones (GOT) - Episódio 8 - Ninguém", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s6/dubbed/8/9c5044bb-4454-4a3f-8629-3ec7ca3f038e/stream.mp4", "embedUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s6/dubbed/8/9c5044bb-4454-4a3f-8629-3ec7ca3f038e/stream.mp4", "episodeNumber": 8, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Game of Thrones (GOT)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s6/dubbed/8/9c5044bb-4454-4a3f-8629-3ec7ca3f038e/stream.mp4",
+  "embedUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s6/dubbed/8/9c5044bb-4454-4a3f-8629-3ec7ca3f038e/stream.mp4"
+}
 </script>
 <title>Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" alt="Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Game of Thrones (GOT) - T1E8 - Ninguém - 🍿Clau</h1>
 </body>
 </html>

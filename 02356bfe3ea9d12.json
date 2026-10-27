@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Super Choque - E10 - 🍿Clau", "description": "Assista Super Choque - E10", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s1/dubbed/10/9c9c5aba-d61e-4b36-87e0-7c211c11b49e/stream.mp4", "embedUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s1/dubbed/10/9c9c5aba-d61e-4b36-87e0-7c211c11b49e/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Super Choque - E10 - 🍿Clau",
+  "description": "Assista Super Choque - E10 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s1/dubbed/10/9c9c5aba-d61e-4b36-87e0-7c211c11b49e/stream.mp4",
+  "embedUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s1/dubbed/10/9c9c5aba-d61e-4b36-87e0-7c211c11b49e/stream.mp4"
+}
 </script>
 <title>Super Choque - E10 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg" alt="Super Choque - E10 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Super Choque - E10 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Caça-Fantasmas 2016 - 🍿Clau", "description": "Assista Caça-Fantasmas 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/vPF74wPayuAbvt5kOJB9j7PYomz.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0062.speed-stream.online/caca-fantasmas-c5895f53/dubbed/1/035d3b18-a636-4c75-836b-43224ff9f170/stream.mp4", "embedUrl": "https://cdn-0062.speed-stream.online/caca-fantasmas-c5895f53/dubbed/1/035d3b18-a636-4c75-836b-43224ff9f170/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Caça-Fantasmas 2016 - 🍿Clau",
+  "description": "Assista Caça-Fantasmas 2016 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vPF74wPayuAbvt5kOJB9j7PYomz.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0062.speed-stream.online/caca-fantasmas-c5895f53/dubbed/1/035d3b18-a636-4c75-836b-43224ff9f170/stream.mp4",
+  "embedUrl": "https://cdn-0062.speed-stream.online/caca-fantasmas-c5895f53/dubbed/1/035d3b18-a636-4c75-836b-43224ff9f170/stream.mp4"
+}
 </script>
 <title>Caça-Fantasmas 2016 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/vPF74wPayuAbvt5kOJB9j7PYomz.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/vPF74wPayuAbvt5kOJB9j7PYomz.jpg" alt="Caça-Fantasmas 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Caça-Fantasmas 2016 - 🍿Clau</h1>
 </body>
 </html>

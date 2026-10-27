@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "À Prova de Fogo 2008 - 🍿Clau", "description": "Assista À Prova de Fogo 2008", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/%C3%80%20Prova%20de%20Fogo_2008_tt1129423.mp4", "embedUrl": "https://vods1.watchingvs.com/m/%C3%80%20Prova%20de%20Fogo_2008_tt1129423.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "À Prova de Fogo 2008 - 🍿Clau",
+  "description": "Assista À Prova de Fogo 2008 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/%C3%80%20Prova%20de%20Fogo_2008_tt1129423.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/%C3%80%20Prova%20de%20Fogo_2008_tt1129423.mp4"
+}
 </script>
 <title>À Prova de Fogo 2008 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fX1n097j6l7Y47jtph8Z4SwJkbR.jpg" alt="À Prova de Fogo 2008 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>À Prova de Fogo 2008 - 🍿Clau</h1>
 </body>
 </html>

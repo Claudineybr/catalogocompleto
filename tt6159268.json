@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Babá 2018 - 🍿Clau", "description": "Assista A Babá 2018", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wfs8vJ5TfEvKEK8OsUJzx3GriGg.jpg"], "uploadDate": "2018-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/A%20Bab%C3%A1_2018_tt6159268.mp4?cnvs_token=1772919072-J7bKbL3VSuWlxmeuM8TuxCwb3oZVbunUOnRBhXA1%2Fr0%3D&vid=&pid=&t=1772919072", "embedUrl": "https://play-1.cnvods.com/m/A%20Bab%C3%A1_2018_tt6159268.mp4?cnvs_token=1772919072-J7bKbL3VSuWlxmeuM8TuxCwb3oZVbunUOnRBhXA1%2Fr0%3D&vid=&pid=&t=1772919072"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Babá 2018 - 🍿Clau",
+  "description": "Assista A Babá 2018 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wfs8vJ5TfEvKEK8OsUJzx3GriGg.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/A%20Bab%C3%A1_2018_tt6159268.mp4?cnvs_token=1772919072-J7bKbL3VSuWlxmeuM8TuxCwb3oZVbunUOnRBhXA1%2Fr0%3D&vid=&pid=&t=1772919072",
+  "embedUrl": "https://play-1.cnvods.com/m/A%20Bab%C3%A1_2018_tt6159268.mp4?cnvs_token=1772919072-J7bKbL3VSuWlxmeuM8TuxCwb3oZVbunUOnRBhXA1%2Fr0%3D&vid=&pid=&t=1772919072"
+}
 </script>
 <title>A Babá 2018 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wfs8vJ5TfEvKEK8OsUJzx3GriGg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/wfs8vJ5TfEvKEK8OsUJzx3GriGg.jpg" alt="A Babá 2018 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Babá 2018 - 🍿Clau</h1>
 </body>
 </html>

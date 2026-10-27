@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau", "description": "Assista O Verão Que Mudou Minha Vida 2022 - Episódio 11 - E por Último", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/49AV6vqypkekwI5kjKTvBokB9n1.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn01.vod-cinevs.com/s/tt14016500/O%20Ver%C3%A3o%20Que%20Mudou%20Minha%20Vida%20S03E11.mp4", "embedUrl": "https://cdn01.vod-cinevs.com/s/tt14016500/O%20Ver%C3%A3o%20Que%20Mudou%20Minha%20Vida%20S03E11.mp4", "episodeNumber": 11, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "O Verão Que Mudou Minha Vida 2022"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau",
+  "description": "Assista O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/49AV6vqypkekwI5kjKTvBokB9n1.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn01.vod-cinevs.com/s/tt14016500/O%20Ver%C3%A3o%20Que%20Mudou%20Minha%20Vida%20S03E11.mp4",
+  "embedUrl": "https://cdn01.vod-cinevs.com/s/tt14016500/O%20Ver%C3%A3o%20Que%20Mudou%20Minha%20Vida%20S03E11.mp4"
+}
 </script>
 <title>O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/49AV6vqypkekwI5kjKTvBokB9n1.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/49AV6vqypkekwI5kjKTvBokB9n1.jpg" alt="O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Verão Que Mudou Minha Vida 2022 - T1E11 - E por Último - 🍿Clau</h1>
 </body>
 </html>

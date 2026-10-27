@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau", "description": "Assista Dr. Stone 2019 - Episódio 7 - Luz do Desespero e da Esperança", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/7/095594b8-3dff-42ea-966a-4c3be4011144/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/7/095594b8-3dff-42ea-966a-4c3be4011144/stream.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Dr. Stone 2019"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/7/095594b8-3dff-42ea-966a-4c3be4011144/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/7/095594b8-3dff-42ea-966a-4c3be4011144/stream.mp4"
+}
 </script>
 <title>Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg" alt="Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Dr. Stone 2019 - T1E7 - Luz do Desespero e da Esperança - 🍿Clau</h1>
 </body>
 </html>

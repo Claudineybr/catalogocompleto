@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Iluminado 1980 - Episódio - 🍿Clau", "description": "Assista O Iluminado 1980 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/47BdQqDWnj3VIzpH9bd2agho2PN.jpg"], "uploadDate": "1980-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/Madrugada%20dos%20Mortos_2004_tt0363547.mp4?cnvs_token=TUdJNE5EUXlNbUZqTmpNMU9XWm1ONEVZSXppRlU5WjhhaWIvMGRzZURleVNCZkNmTVhtYXBhSWFSMEVpT2svR1BEd0pJaFVnSTkvM01JZmxsK2FsKzB0bEoxdFVPcWlsR3doVno3cGRERlhuZkFKa2pVNEkzWTMzVE9PNUlMalM", "embedUrl": "https://play-1.cnvods.com/m/Madrugada%20dos%20Mortos_2004_tt0363547.mp4?cnvs_token=TUdJNE5EUXlNbUZqTmpNMU9XWm1ONEVZSXppRlU5WjhhaWIvMGRzZURleVNCZkNmTVhtYXBhSWFSMEVpT2svR1BEd0pJaFVnSTkvM01JZmxsK2FsKzB0bEoxdFVPcWlsR3doVno3cGRERlhuZkFKa2pVNEkzWTMzVE9PNUlMalM"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Iluminado 1980 - Episódio - 🍿Clau",
+  "description": "Assista O Iluminado 1980 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/47BdQqDWnj3VIzpH9bd2agho2PN.jpg"
+  ],
+  "uploadDate": "1980-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/Madrugada%20dos%20Mortos_2004_tt0363547.mp4?cnvs_token=TUdJNE5EUXlNbUZqTmpNMU9XWm1ONEVZSXppRlU5WjhhaWIvMGRzZURleVNCZkNmTVhtYXBhSWFSMEVpT2svR1BEd0pJaFVnSTkvM01JZmxsK2FsKzB0bEoxdFVPcWlsR3doVno3cGRERlhuZkFKa2pVNEkzWTMzVE9PNUlMalM",
+  "embedUrl": "https://play-1.cnvods.com/m/Madrugada%20dos%20Mortos_2004_tt0363547.mp4?cnvs_token=TUdJNE5EUXlNbUZqTmpNMU9XWm1ONEVZSXppRlU5WjhhaWIvMGRzZURleVNCZkNmTVhtYXBhSWFSMEVpT2svR1BEd0pJaFVnSTkvM01JZmxsK2FsKzB0bEoxdFVPcWlsR3doVno3cGRERlhuZkFKa2pVNEkzWTMzVE9PNUlMalM"
+}
 </script>
 <title>O Iluminado 1980 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/47BdQqDWnj3VIzpH9bd2agho2PN.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/47BdQqDWnj3VIzpH9bd2agho2PN.jpg" alt="O Iluminado 1980 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Iluminado 1980 - Episódio - 🍿Clau</h1>
 </body>
 </html>

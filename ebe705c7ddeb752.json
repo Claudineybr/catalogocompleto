@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau", "description": "Assista Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/5/7c305ac4-c909-4e93-9a9c-b26e6dfb0e5e/stream.mp4?storage=0019&expires=1775007196&signature=41f967ea852eeb7339abbc8b8437fe4ff955ba599982182f4f0cefcbb2831891&type=serie", "embedUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/5/7c305ac4-c909-4e93-9a9c-b26e6dfb0e5e/stream.mp4?storage=0019&expires=1775007196&signature=41f967ea852eeb7339abbc8b8437fe4ff955ba599982182f4f0cefcbb2831891&type=serie"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau",
+  "description": "Assista Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/5/7c305ac4-c909-4e93-9a9c-b26e6dfb0e5e/stream.mp4?storage=0019&expires=1775007196&signature=41f967ea852eeb7339abbc8b8437fe4ff955ba599982182f4f0cefcbb2831891&type=serie",
+  "embedUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/5/7c305ac4-c909-4e93-9a9c-b26e6dfb0e5e/stream.mp4?storage=0019&expires=1775007196&signature=41f967ea852eeb7339abbc8b8437fe4ff955ba599982182f4f0cefcbb2831891&type=serie"
+}
 </script>
 <title>Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" alt="Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Chernobyl 2019 - Episódio 5 – Vichnaya Pamyat - 🍿Clau</h1>
 </body>
 </html>

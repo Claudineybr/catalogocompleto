@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Voz do Silêncio 2016 - Episódio - 🍿Clau", "description": "Assista A Voz do Silêncio 2016 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm25/UmFilho2022.mp4", "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm25/UmFilho2022.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Voz do Silêncio 2016 - Episódio - 🍿Clau",
+  "description": "Assista A Voz do Silêncio 2016 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm25/UmFilho2022.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm25/UmFilho2022.mp4"
+}
 </script>
 <title>A Voz do Silêncio 2016 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/haMUCn5bNgeKb2EkILvhYGoHXZX.jpg" alt="A Voz do Silêncio 2016 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Voz do Silêncio 2016 - Episódio - 🍿Clau</h1>
 </body>
 </html>

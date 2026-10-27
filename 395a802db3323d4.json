@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau", "description": "Assista Futurama 1999 - Episódio 18 – O Problema com os Popplers", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg"], "uploadDate": "1999-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/615/2x18.mp4", "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/615/2x18.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau",
+  "description": "Assista Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg"
+  ],
+  "uploadDate": "1999-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/615/2x18.mp4",
+  "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/615/2x18.mp4"
+}
 </script>
 <title>Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/eM8bbTn8C8vUwwS6upzzm7gX31u.jpg" alt="Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Futurama 1999 - Episódio 18 – O Problema com os Popplers - 🍿Clau</h1>
 </body>
 </html>

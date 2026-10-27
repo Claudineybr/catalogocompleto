@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/5/1ff94774-3e26-4e9a-a876-2d1c2d2a097c/stream.mp4?type=serie&expires=1770767331&signature=10441b388ad7a07b0e9b51dbe1957027cdb76d52dbcbd00342b5614f415ba241", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/5/1ff94774-3e26-4e9a-a876-2d1c2d2a097c/stream.mp4?type=serie&expires=1770767331&signature=10441b388ad7a07b0e9b51dbe1957027cdb76d52dbcbd00342b5614f415ba241"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/5/1ff94774-3e26-4e9a-a876-2d1c2d2a097c/stream.mp4?type=serie&expires=1770767331&signature=10441b388ad7a07b0e9b51dbe1957027cdb76d52dbcbd00342b5614f415ba241",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/5/1ff94774-3e26-4e9a-a876-2d1c2d2a097c/stream.mp4?type=serie&expires=1770767331&signature=10441b388ad7a07b0e9b51dbe1957027cdb76d52dbcbd00342b5614f415ba241"
+}
 </script>
 <title>True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>True Detective 2014 - Episódio 5 – Terra Noturna: Parte 5 - 🍿Clau</h1>
 </body>
 </html>

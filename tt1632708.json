@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau", "description": "Assista K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/AvfWX5HMqrbol6i0Td57rv0XXis.jpg"], "uploadDate": "2002-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau",
+  "description": "Assista K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AvfWX5HMqrbol6i0Td57rv0XXis.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4"
+}
 </script>
 <title>K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/AvfWX5HMqrbol6i0Td57rv0XXis.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/AvfWX5HMqrbol6i0Td57rv0XXis.jpg" alt="K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau</h1>
 </body>
 </html>

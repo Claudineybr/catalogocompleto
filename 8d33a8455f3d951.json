@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 4 – Baixa Maré", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/4/5579b5ee-9630-457c-ac4f-c5a4e0780fa8/stream.mp4?type=serie&expires=1770765860&signature=67d2abebf3f2699d237a5e5a5efa4ba936f747dff516693bb79652d9b7914259", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/4/5579b5ee-9630-457c-ac4f-c5a4e0780fa8/stream.mp4?type=serie&expires=1770765860&signature=67d2abebf3f2699d237a5e5a5efa4ba936f747dff516693bb79652d9b7914259"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/4/5579b5ee-9630-457c-ac4f-c5a4e0780fa8/stream.mp4?type=serie&expires=1770765860&signature=67d2abebf3f2699d237a5e5a5efa4ba936f747dff516693bb79652d9b7914259",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/4/5579b5ee-9630-457c-ac4f-c5a4e0780fa8/stream.mp4?type=serie&expires=1770765860&signature=67d2abebf3f2699d237a5e5a5efa4ba936f747dff516693bb79652d9b7914259"
+}
 </script>
 <title>True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>True Detective 2014 - Episódio 4 – Baixa Maré - 🍿Clau</h1>
 </body>
 </html>

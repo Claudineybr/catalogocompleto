@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Radar: As Aventuras do Cão Biônico - 🍿Clau", "description": "Assista Radar: As Aventuras do Cão Biônico", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/soeNXIJxdm67CJc0DTWBxrroXma.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/dy4trBFZAvD8eJcfRx5Vac", "embedUrl": "https://tankie.tube/w/dy4trBFZAvD8eJcfRx5Vac"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Radar: As Aventuras do Cão Biônico - 🍿Clau",
+  "description": "Assista Radar: As Aventuras do Cão Biônico - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/soeNXIJxdm67CJc0DTWBxrroXma.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/dy4trBFZAvD8eJcfRx5Vac",
+  "embedUrl": "https://tankie.tube/w/dy4trBFZAvD8eJcfRx5Vac"
+}
 </script>
 <title>Radar: As Aventuras do Cão Biônico - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/soeNXIJxdm67CJc0DTWBxrroXma.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/soeNXIJxdm67CJc0DTWBxrroXma.jpg" alt="Radar: As Aventuras do Cão Biônico - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Radar: As Aventuras do Cão Biônico - 🍿Clau</h1>
 </body>
 </html>

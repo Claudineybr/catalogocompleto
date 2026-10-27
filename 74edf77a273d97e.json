@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau", "description": "Assista Star Contra as Forças do Mal - Episódio 10 - Ludo em Conserto / Festival de Inverno", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s1/dubbed/10/ac8aeb3a-93ed-4a0d-a97e-eeed56c8773a/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s1/dubbed/10/ac8aeb3a-93ed-4a0d-a97e-eeed56c8773a/stream.mp4", "episodeNumber": 10, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Star Contra as Forças do Mal"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau",
+  "description": "Assista Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s1/dubbed/10/ac8aeb3a-93ed-4a0d-a97e-eeed56c8773a/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s1/dubbed/10/ac8aeb3a-93ed-4a0d-a97e-eeed56c8773a/stream.mp4"
+}
 </script>
 <title>Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" alt="Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Star Contra as Forças do Mal - T1E10 - Ludo em Conserto / Festival de Inverno - 🍿Clau</h1>
 </body>
 </html>

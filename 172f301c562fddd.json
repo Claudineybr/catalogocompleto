@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Ted 2 - 2015 - Episódio - 🍿Clau", "description": "Assista Ted 2 - 2015 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://vods.conexao-vs.live/movie/649786.mp4?token=633ffe928395f20fbe02a49be0af81bcde71d0ffe8a1dbdeebdc797f40c5a23b&expires=1747968682", "embedUrl": "http://vods.conexao-vs.live/movie/649786.mp4?token=633ffe928395f20fbe02a49be0af81bcde71d0ffe8a1dbdeebdc797f40c5a23b&expires=1747968682"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ted 2 - 2015 - Episódio - 🍿Clau",
+  "description": "Assista Ted 2 - 2015 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://vods.conexao-vs.live/movie/649786.mp4?token=633ffe928395f20fbe02a49be0af81bcde71d0ffe8a1dbdeebdc797f40c5a23b&expires=1747968682",
+  "embedUrl": "http://vods.conexao-vs.live/movie/649786.mp4?token=633ffe928395f20fbe02a49be0af81bcde71d0ffe8a1dbdeebdc797f40c5a23b&expires=1747968682"
+}
 </script>
 <title>Ted 2 - 2015 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg" alt="Ted 2 - 2015 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Ted 2 - 2015 - Episódio - 🍿Clau</h1>
 </body>
 </html>

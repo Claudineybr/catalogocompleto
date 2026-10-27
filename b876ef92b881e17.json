@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau", "description": "Assista BLUE LOCK 2022 - Episódio 3 - O Zero do Futebol", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/3/9208c822-8bcc-45a6-9c17-196079cfa796/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/3/9208c822-8bcc-45a6-9c17-196079cfa796/stream.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "BLUE LOCK 2022"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/3/9208c822-8bcc-45a6-9c17-196079cfa796/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/3/9208c822-8bcc-45a6-9c17-196079cfa796/stream.mp4"
+}
 </script>
 <title>BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" alt="BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>BLUE LOCK 2022 - T1E3 - O Zero do Futebol - 🍿Clau</h1>
 </body>
 </html>

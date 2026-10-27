@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Pior Pessoa Do Mundo 2022 - 🍿Clau", "description": "Assista A Pior Pessoa Do Mundo 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/k2Uvqj0oiwjEprdIL6YDt06v7UQ.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/A%20Pior%20Pessoa%20do%20Mundo_2022_tt10370710.mp4?cnvs_token=TXpWa09EVXdPR0ZoTW1GaE9HWmhZeFhwMHFic1lGU05iRmN2S2tBMFBleU5tbDQ1WVpjQUdLS25xSm1YbENXR3R0U3hJMWRPOUxXSFRxeFgvclpnNmF4WmR0TUZsaHp4d1hLZ2ErdUgrZGhsWWpjWTlrWVl5T1NPQXRBQTNMSk1TTzZPS2lnUDFwcVoyWkhFMHliOWJmMFNmbndhZmloMHl4Zzh6OU9WT25RMTZ0REtndzdYL0ljVUl0ekJIdU1s", "embedUrl": "https://server-1.cnvods.com/m/A%20Pior%20Pessoa%20do%20Mundo_2022_tt10370710.mp4?cnvs_token=TXpWa09EVXdPR0ZoTW1GaE9HWmhZeFhwMHFic1lGU05iRmN2S2tBMFBleU5tbDQ1WVpjQUdLS25xSm1YbENXR3R0U3hJMWRPOUxXSFRxeFgvclpnNmF4WmR0TUZsaHp4d1hLZ2ErdUgrZGhsWWpjWTlrWVl5T1NPQXRBQTNMSk1TTzZPS2lnUDFwcVoyWkhFMHliOWJmMFNmbndhZmloMHl4Zzh6OU9WT25RMTZ0REtndzdYL0ljVUl0ekJIdU1s"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Pior Pessoa Do Mundo 2022 - 🍿Clau",
+  "description": "Assista A Pior Pessoa Do Mundo 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/k2Uvqj0oiwjEprdIL6YDt06v7UQ.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/A%20Pior%20Pessoa%20do%20Mundo_2022_tt10370710.mp4?cnvs_token=TXpWa09EVXdPR0ZoTW1GaE9HWmhZeFhwMHFic1lGU05iRmN2S2tBMFBleU5tbDQ1WVpjQUdLS25xSm1YbENXR3R0U3hJMWRPOUxXSFRxeFgvclpnNmF4WmR0TUZsaHp4d1hLZ2ErdUgrZGhsWWpjWTlrWVl5T1NPQXRBQTNMSk1TTzZPS2lnUDFwcVoyWkhFMHliOWJmMFNmbndhZmloMHl4Zzh6OU9WT25RMTZ0REtndzdYL0ljVUl0ekJIdU1s",
+  "embedUrl": "https://server-1.cnvods.com/m/A%20Pior%20Pessoa%20do%20Mundo_2022_tt10370710.mp4?cnvs_token=TXpWa09EVXdPR0ZoTW1GaE9HWmhZeFhwMHFic1lGU05iRmN2S2tBMFBleU5tbDQ1WVpjQUdLS25xSm1YbENXR3R0U3hJMWRPOUxXSFRxeFgvclpnNmF4WmR0TUZsaHp4d1hLZ2ErdUgrZGhsWWpjWTlrWVl5T1NPQXRBQTNMSk1TTzZPS2lnUDFwcVoyWkhFMHliOWJmMFNmbndhZmloMHl4Zzh6OU9WT25RMTZ0REtndzdYL0ljVUl0ekJIdU1s"
+}
 </script>
 <title>A Pior Pessoa Do Mundo 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/k2Uvqj0oiwjEprdIL6YDt06v7UQ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/k2Uvqj0oiwjEprdIL6YDt06v7UQ.jpg" alt="A Pior Pessoa Do Mundo 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Pior Pessoa Do Mundo 2022 - 🍿Clau</h1>
 </body>
 </html>

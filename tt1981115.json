@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Thor: Ragnarok 2017 - Episódio - 🍿Clau", "description": "Assista Thor: Ragnarok 2017 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: Ragnarok 2017 - Episódio - 🍿Clau",
+  "description": "Assista Thor: Ragnarok 2017 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4"
+}
 </script>
 <title>Thor: Ragnarok 2017 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg" alt="Thor: Ragnarok 2017 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Thor: Ragnarok 2017 - Episódio - 🍿Clau</h1>
 </body>
 </html>

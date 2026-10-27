@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Capitão América 2: O Soldado Invernal 2014 - 🍿Clau", "description": "Assista Capitão América 2: O Soldado Invernal 2014", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9sTDXtIIfHza1rAbmHU2djyzEXA.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/b707d214-542a-4bff-ada8-36bd7693938c", "embedUrl": "https://tankie.tube/videos/embed/b707d214-542a-4bff-ada8-36bd7693938c"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Capitão América 2: O Soldado Invernal 2014 - 🍿Clau",
+  "description": "Assista Capitão América 2: O Soldado Invernal 2014 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9sTDXtIIfHza1rAbmHU2djyzEXA.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/b707d214-542a-4bff-ada8-36bd7693938c",
+  "embedUrl": "https://tankie.tube/videos/embed/b707d214-542a-4bff-ada8-36bd7693938c"
+}
 </script>
 <title>Capitão América 2: O Soldado Invernal 2014 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9sTDXtIIfHza1rAbmHU2djyzEXA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9sTDXtIIfHza1rAbmHU2djyzEXA.jpg" alt="Capitão América 2: O Soldado Invernal 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Capitão América 2: O Soldado Invernal 2014 - 🍿Clau</h1>
 </body>
 </html>

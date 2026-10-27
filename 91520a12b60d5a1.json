@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Saga X-Men - 🍿Clau", "description": "Assista A Saga X-Men", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/vJ8WaVb3KCRkUYEM7VWZTG", "embedUrl": "https://tankie.tube/w/vJ8WaVb3KCRkUYEM7VWZTG"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Saga X-Men - 🍿Clau",
+  "description": "Assista A Saga X-Men - 🍿Clau",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/vJ8WaVb3KCRkUYEM7VWZTG",
+  "embedUrl": "https://tankie.tube/w/vJ8WaVb3KCRkUYEM7VWZTG"
+}
 </script>
 <title>A Saga X-Men - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://via.placeholder.com/500x750?text=Sem+Capa" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="A Saga X-Men - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Saga X-Men - 🍿Clau</h1>
 </body>
 </html>

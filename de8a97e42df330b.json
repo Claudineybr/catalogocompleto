@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau", "description": "Assista Gen V 2023 - Episódio 1 - Novo Ano, Nova Faculdade", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/6yk9MUwSB9LUviSdrgMebLrObrf.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/205715/2x1.mp4", "embedUrl": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/205715/2x1.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Gen V 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau",
+  "description": "Assista Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6yk9MUwSB9LUviSdrgMebLrObrf.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/205715/2x1.mp4",
+  "embedUrl": "http://shd9.oneplayer.site/y456y654uj54tyg34gfwer45r3hj465yh354rtgfwe4rfgtwku51/SHD9/205715/2x1.mp4"
+}
 </script>
 <title>Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/6yk9MUwSB9LUviSdrgMebLrObrf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/6yk9MUwSB9LUviSdrgMebLrObrf.jpg" alt="Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Gen V 2023 - T1E1 - Novo Ano, Nova Faculdade - 🍿Clau</h1>
 </body>
 </html>

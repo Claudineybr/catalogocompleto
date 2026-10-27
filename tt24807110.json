@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Não se Mexa 2024 - 🍿Clau", "description": "Assista Não se Mexa 2024", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xTRnj5wD6KvPaaW8eVM29ZtxhKF.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/N%C3%A3o%20Se%20Mexa_2024_tt24807110.mp4", "embedUrl": "https://vods1.watchingvs.com/m/N%C3%A3o%20Se%20Mexa_2024_tt24807110.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Não se Mexa 2024 - 🍿Clau",
+  "description": "Assista Não se Mexa 2024 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xTRnj5wD6KvPaaW8eVM29ZtxhKF.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/N%C3%A3o%20Se%20Mexa_2024_tt24807110.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/N%C3%A3o%20Se%20Mexa_2024_tt24807110.mp4"
+}
 </script>
 <title>Não se Mexa 2024 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xTRnj5wD6KvPaaW8eVM29ZtxhKF.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xTRnj5wD6KvPaaW8eVM29ZtxhKF.jpg" alt="Não se Mexa 2024 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Não se Mexa 2024 - 🍿Clau</h1>
 </body>
 </html>

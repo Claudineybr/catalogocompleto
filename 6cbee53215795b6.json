@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Natal Extraordinário de Zoey 2021 - 🍿Clau", "description": "Assista O Natal Extraordinário de Zoey 2021", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/g9y1PDZQ4MBV9OQ0dLi92Ft7u3m.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/O.Natal.Extraordinario.De.Zoey.2021.1080p.WEB-DL.DUBLADO.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/O.Natal.Extraordinario.De.Zoey.2021.1080p.WEB-DL.DUBLADO.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Natal Extraordinário de Zoey 2021 - 🍿Clau",
+  "description": "Assista O Natal Extraordinário de Zoey 2021 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/g9y1PDZQ4MBV9OQ0dLi92Ft7u3m.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/O.Natal.Extraordinario.De.Zoey.2021.1080p.WEB-DL.DUBLADO.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/O.Natal.Extraordinario.De.Zoey.2021.1080p.WEB-DL.DUBLADO.mp4"
+}
 </script>
 <title>O Natal Extraordinário de Zoey 2021 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/g9y1PDZQ4MBV9OQ0dLi92Ft7u3m.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/g9y1PDZQ4MBV9OQ0dLi92Ft7u3m.jpg" alt="O Natal Extraordinário de Zoey 2021 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Natal Extraordinário de Zoey 2021 - 🍿Clau</h1>
 </body>
 </html>

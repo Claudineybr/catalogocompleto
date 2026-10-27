@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Hora do Rush 2 - 2001 - 🍿Clau", "description": "Assista A Hora do Rush 2 - 2001", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg"], "uploadDate": "2001-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0055.l1s0-cdn-3123123.com/a-hora-do-rush-2-d5f63c60/dubbed/1/2b328af6-9d17-4455-a655-3999db32524c/stream.mp4?type=movie&expires=1771964262&signature=01d71f4f954ee28def40a1e82976e6508b8e559239c08717e05692f7911f45a1", "embedUrl": "https://cdn-0055.l1s0-cdn-3123123.com/a-hora-do-rush-2-d5f63c60/dubbed/1/2b328af6-9d17-4455-a655-3999db32524c/stream.mp4?type=movie&expires=1771964262&signature=01d71f4f954ee28def40a1e82976e6508b8e559239c08717e05692f7911f45a1"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Hora do Rush 2 - 2001 - 🍿Clau",
+  "description": "Assista A Hora do Rush 2 - 2001 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0055.l1s0-cdn-3123123.com/a-hora-do-rush-2-d5f63c60/dubbed/1/2b328af6-9d17-4455-a655-3999db32524c/stream.mp4?type=movie&expires=1771964262&signature=01d71f4f954ee28def40a1e82976e6508b8e559239c08717e05692f7911f45a1",
+  "embedUrl": "https://cdn-0055.l1s0-cdn-3123123.com/a-hora-do-rush-2-d5f63c60/dubbed/1/2b328af6-9d17-4455-a655-3999db32524c/stream.mp4?type=movie&expires=1771964262&signature=01d71f4f954ee28def40a1e82976e6508b8e559239c08717e05692f7911f45a1"
+}
 </script>
 <title>A Hora do Rush 2 - 2001 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/q8tqJRz8MQ5CS0gtlVB1CH12Wvv.jpg" alt="A Hora do Rush 2 - 2001 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Hora do Rush 2 - 2001 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 3 – A Grande Escuridão", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/3/b5d5ffee-4a0d-44c2-8f8f-715880d554fb/stream.mp4?type=serie&expires=1770766844&signature=e1fd36548fb3e51b67e26de9d7c96be94e78fb8471e7ad069ac349a36fac8cfe", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/3/b5d5ffee-4a0d-44c2-8f8f-715880d554fb/stream.mp4?type=serie&expires=1770766844&signature=e1fd36548fb3e51b67e26de9d7c96be94e78fb8471e7ad069ac349a36fac8cfe"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/3/b5d5ffee-4a0d-44c2-8f8f-715880d554fb/stream.mp4?type=serie&expires=1770766844&signature=e1fd36548fb3e51b67e26de9d7c96be94e78fb8471e7ad069ac349a36fac8cfe",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/3/b5d5ffee-4a0d-44c2-8f8f-715880d554fb/stream.mp4?type=serie&expires=1770766844&signature=e1fd36548fb3e51b67e26de9d7c96be94e78fb8471e7ad069ac349a36fac8cfe"
+}
 </script>
 <title>True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>True Detective 2014 - Episódio 3 – A Grande Escuridão - 🍿Clau</h1>
 </body>
 </html>

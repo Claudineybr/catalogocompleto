@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau", "description": "Assista BLUE LOCK 2022 - Episódio 10 - Os substitutos entram no palco", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/10/44b3c2cd-fb42-4d2b-922d-fa83b01c9fe4/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/10/44b3c2cd-fb42-4d2b-922d-fa83b01c9fe4/stream.mp4", "episodeNumber": 10, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "BLUE LOCK 2022"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/10/44b3c2cd-fb42-4d2b-922d-fa83b01c9fe4/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/10/44b3c2cd-fb42-4d2b-922d-fa83b01c9fe4/stream.mp4"
+}
 </script>
 <title>BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" alt="BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>BLUE LOCK 2022 - T1E10 - Os substitutos entram no palco - 🍿Clau</h1>
 </body>
 </html>

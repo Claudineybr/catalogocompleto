@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "All of Us Are Dead - T1E12 - 🍿Clau", "description": "Assista All of Us Are Dead - Episódio 12", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/99966/1x12.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/99966/1x12.mp4", "episodeNumber": 12, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "All of Us Are Dead"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "All of Us Are Dead - T1E12 - 🍿Clau",
+  "description": "Assista All of Us Are Dead - T1E12 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/99966/1x12.mp4",
+  "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/99966/1x12.mp4"
+}
 </script>
 <title>All of Us Are Dead - T1E12 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/d9yefq8dNke4UbuqStBtUcO9TxD.jpg" alt="All of Us Are Dead - T1E12 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>All of Us Are Dead - T1E12 - 🍿Clau</h1>
 </body>
 </html>

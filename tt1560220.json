@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau", "description": "Assista Zumbilândia: Atire Duas Vezes 2019", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/x8T7xy6usNhTWphfQTH7vmr4tOC.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Zumbil%C3%A2ndia:%20Atire%20Duas%20Vezes_2019_tt1560220.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Zumbil%C3%A2ndia:%20Atire%20Duas%20Vezes_2019_tt1560220.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau",
+  "description": "Assista Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/x8T7xy6usNhTWphfQTH7vmr4tOC.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Zumbil%C3%A2ndia:%20Atire%20Duas%20Vezes_2019_tt1560220.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Zumbil%C3%A2ndia:%20Atire%20Duas%20Vezes_2019_tt1560220.mp4"
+}
 </script>
 <title>Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/x8T7xy6usNhTWphfQTH7vmr4tOC.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/x8T7xy6usNhTWphfQTH7vmr4tOC.jpg" alt="Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Zumbilândia: Atire Duas Vezes 2019 - 🍿Clau</h1>
 </body>
 </html>

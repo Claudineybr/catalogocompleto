@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau", "description": "Assista Kakegurui 2017 - Episódio 10. A Garota que Escolhe", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/10/27b9face-bfd6-4536-b1eb-1c1697912407/stream.mp4", "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/10/27b9face-bfd6-4536-b1eb-1c1697912407/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/10/27b9face-bfd6-4536-b1eb-1c1697912407/stream.mp4",
+  "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/10/27b9face-bfd6-4536-b1eb-1c1697912407/stream.mp4"
+}
 </script>
 <title>Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg" alt="Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Kakegurui 2017 - Episódio 10. A Garota que Escolhe - 🍿Clau</h1>
 </body>
 </html>

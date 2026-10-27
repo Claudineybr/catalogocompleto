@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Doctor Who 2024 - T1E11 - 🍿Clau", "description": "Assista Doctor Who 2024 - Episódio 11", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s4/dubbed/11/da8da2fe-cd04-4163-8e2d-89dd57b6300c/stream.mp4?type=serie&expires=1769553459&signature=009301bc332bb4ad4c0b4c3829dfff64ae982bd4243156eb089abbb4e19c4720", "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s4/dubbed/11/da8da2fe-cd04-4163-8e2d-89dd57b6300c/stream.mp4?type=serie&expires=1769553459&signature=009301bc332bb4ad4c0b4c3829dfff64ae982bd4243156eb089abbb4e19c4720", "episodeNumber": 11, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Doctor Who 2024"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - T1E11 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - T1E11 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s4/dubbed/11/da8da2fe-cd04-4163-8e2d-89dd57b6300c/stream.mp4?type=serie&expires=1769553459&signature=009301bc332bb4ad4c0b4c3829dfff64ae982bd4243156eb089abbb4e19c4720",
+  "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s4/dubbed/11/da8da2fe-cd04-4163-8e2d-89dd57b6300c/stream.mp4?type=serie&expires=1769553459&signature=009301bc332bb4ad4c0b4c3829dfff64ae982bd4243156eb089abbb4e19c4720"
+}
 </script>
 <title>Doctor Who 2024 - T1E11 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg" alt="Doctor Who 2024 - T1E11 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Doctor Who 2024 - T1E11 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Homem-Aranha 2002 - 🍿Clau", "description": "Assista Homem-Aranha 2002", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg"], "uploadDate": "2002-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/bfc5b15e-9320-4bd8-8bc7-75a58e593b1c", "embedUrl": "https://tankie.tube/videos/embed/bfc5b15e-9320-4bd8-8bc7-75a58e593b1c"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Homem-Aranha 2002 - 🍿Clau",
+  "description": "Assista Homem-Aranha 2002 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/bfc5b15e-9320-4bd8-8bc7-75a58e593b1c",
+  "embedUrl": "https://tankie.tube/videos/embed/bfc5b15e-9320-4bd8-8bc7-75a58e593b1c"
+}
 </script>
 <title>Homem-Aranha 2002 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/x0nvYzQpyJc5pdT9lMnkMuYAg0O.jpg" alt="Homem-Aranha 2002 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Homem-Aranha 2002 - 🍿Clau</h1>
 </body>
 </html>

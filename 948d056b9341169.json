@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Imbatível III 2010 - 🍿Clau", "description": "Assista O Imbatível III 2010", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2qnvv6vI6XXakSOPwOICUZH3EZ7.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/giuK1Ti8n8xLZAeZrFbA1x", "embedUrl": "https://tankie.tube/w/giuK1Ti8n8xLZAeZrFbA1x"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Imbatível III 2010 - 🍿Clau",
+  "description": "Assista O Imbatível III 2010 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2qnvv6vI6XXakSOPwOICUZH3EZ7.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/giuK1Ti8n8xLZAeZrFbA1x",
+  "embedUrl": "https://tankie.tube/w/giuK1Ti8n8xLZAeZrFbA1x"
+}
 </script>
 <title>O Imbatível III 2010 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2qnvv6vI6XXakSOPwOICUZH3EZ7.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2qnvv6vI6XXakSOPwOICUZH3EZ7.jpg" alt="O Imbatível III 2010 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Imbatível III 2010 - 🍿Clau</h1>
 </body>
 </html>

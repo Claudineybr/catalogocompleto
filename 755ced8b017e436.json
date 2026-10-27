@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Lutador 2006 - Episódio - 🍿Clau", "description": "Assista O Lutador 2006 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/zGXvybw9N2KSLkJ6T6pKJpT6Gfc.jpg"], "uploadDate": "2006-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.l1s0-cdn-3123123.com/paciente-zero-a-origem-do-virus-4d18fe4e/dubbed/1/cfcf02ee-83dc-45d6-a3e5-a374d05ebc4d/stream.mp4?type=movie&expires=1770065292&signature=9330a9c669f79b5c4bf1bfb909b5ec3cafff7809e3ceebd3f92010fda6395c4f", "embedUrl": "https://cdn-0082.l1s0-cdn-3123123.com/paciente-zero-a-origem-do-virus-4d18fe4e/dubbed/1/cfcf02ee-83dc-45d6-a3e5-a374d05ebc4d/stream.mp4?type=movie&expires=1770065292&signature=9330a9c669f79b5c4bf1bfb909b5ec3cafff7809e3ceebd3f92010fda6395c4f"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Lutador 2006 - Episódio - 🍿Clau",
+  "description": "Assista O Lutador 2006 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zGXvybw9N2KSLkJ6T6pKJpT6Gfc.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.l1s0-cdn-3123123.com/paciente-zero-a-origem-do-virus-4d18fe4e/dubbed/1/cfcf02ee-83dc-45d6-a3e5-a374d05ebc4d/stream.mp4?type=movie&expires=1770065292&signature=9330a9c669f79b5c4bf1bfb909b5ec3cafff7809e3ceebd3f92010fda6395c4f",
+  "embedUrl": "https://cdn-0082.l1s0-cdn-3123123.com/paciente-zero-a-origem-do-virus-4d18fe4e/dubbed/1/cfcf02ee-83dc-45d6-a3e5-a374d05ebc4d/stream.mp4?type=movie&expires=1770065292&signature=9330a9c669f79b5c4bf1bfb909b5ec3cafff7809e3ceebd3f92010fda6395c4f"
+}
 </script>
 <title>O Lutador 2006 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/zGXvybw9N2KSLkJ6T6pKJpT6Gfc.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/zGXvybw9N2KSLkJ6T6pKJpT6Gfc.jpg" alt="O Lutador 2006 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Lutador 2006 - Episódio - 🍿Clau</h1>
 </body>
 </html>

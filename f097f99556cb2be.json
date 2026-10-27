@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Crash: No Limite 2005 - 🍿Clau", "description": "Assista Crash: No Limite 2005", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4pwHDsYeOVsdLT8TykM047hIkKA.jpg"], "uploadDate": "2005-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0029.speed-stream.online/crash-no-limite-575ac230/dubbed/1/296eae63-f654-4926-bab3-2673aa3a998f/stream.mp4", "embedUrl": "https://cdn-0029.speed-stream.online/crash-no-limite-575ac230/dubbed/1/296eae63-f654-4926-bab3-2673aa3a998f/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Crash: No Limite 2005 - 🍿Clau",
+  "description": "Assista Crash: No Limite 2005 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4pwHDsYeOVsdLT8TykM047hIkKA.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0029.speed-stream.online/crash-no-limite-575ac230/dubbed/1/296eae63-f654-4926-bab3-2673aa3a998f/stream.mp4",
+  "embedUrl": "https://cdn-0029.speed-stream.online/crash-no-limite-575ac230/dubbed/1/296eae63-f654-4926-bab3-2673aa3a998f/stream.mp4"
+}
 </script>
 <title>Crash: No Limite 2005 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/4pwHDsYeOVsdLT8TykM047hIkKA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/4pwHDsYeOVsdLT8TykM047hIkKA.jpg" alt="Crash: No Limite 2005 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Crash: No Limite 2005 - 🍿Clau</h1>
 </body>
 </html>

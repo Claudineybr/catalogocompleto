@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau", "description": "Assista Demolidor: Renascido - Episódio 5 - Vozes nas Sombras", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/5/588730b2-561c-4a87-85be-9ad103ffc525/stream.mp4", "embedUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/5/588730b2-561c-4a87-85be-9ad103ffc525/stream.mp4", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Demolidor: Renascido"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau",
+  "description": "Assista Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/5/588730b2-561c-4a87-85be-9ad103ffc525/stream.mp4",
+  "embedUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/5/588730b2-561c-4a87-85be-9ad103ffc525/stream.mp4"
+}
 </script>
 <title>Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg" alt="Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Demolidor: Renascido - T1E5 - Vozes nas Sombras - 🍿Clau</h1>
 </body>
 </html>

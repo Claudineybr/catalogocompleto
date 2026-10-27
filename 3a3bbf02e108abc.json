@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Gigantes de Aço 2011 - 🍿Clau", "description": "Assista Gigantes de Aço 2011", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0012.l1s0-cdn-3123123.com/gigantes-de-aco-9129e0b9/dubbed/1/a66794ca-dd1c-4e42-a47c-48cc8a7e4a65/stream.mp4?type=movie&expires=1770521075&signature=aefe73f711432671ee88cb42f2aee22bdc29d2c262b7f7a128f7866c7a7e6c62", "embedUrl": "https://cdn-0012.l1s0-cdn-3123123.com/gigantes-de-aco-9129e0b9/dubbed/1/a66794ca-dd1c-4e42-a47c-48cc8a7e4a65/stream.mp4?type=movie&expires=1770521075&signature=aefe73f711432671ee88cb42f2aee22bdc29d2c262b7f7a128f7866c7a7e6c62"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Gigantes de Aço 2011 - 🍿Clau",
+  "description": "Assista Gigantes de Aço 2011 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0012.l1s0-cdn-3123123.com/gigantes-de-aco-9129e0b9/dubbed/1/a66794ca-dd1c-4e42-a47c-48cc8a7e4a65/stream.mp4?type=movie&expires=1770521075&signature=aefe73f711432671ee88cb42f2aee22bdc29d2c262b7f7a128f7866c7a7e6c62",
+  "embedUrl": "https://cdn-0012.l1s0-cdn-3123123.com/gigantes-de-aco-9129e0b9/dubbed/1/a66794ca-dd1c-4e42-a47c-48cc8a7e4a65/stream.mp4?type=movie&expires=1770521075&signature=aefe73f711432671ee88cb42f2aee22bdc29d2c262b7f7a128f7866c7a7e6c62"
+}
 </script>
 <title>Gigantes de Aço 2011 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/pp74uUjwQTknGPqNrerj4FvU0ce.jpg" alt="Gigantes de Aço 2011 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Gigantes de Aço 2011 - 🍿Clau</h1>
 </body>
 </html>

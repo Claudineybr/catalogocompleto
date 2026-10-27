@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Profecia 2006 - 🍿Clau", "description": "Assista A Profecia 2006", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg"], "uploadDate": "2006-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://s1-cnvs.watchingvs.com/m/A%20Profecia_2006_tt0466909.mp4?cnvs_token=T0ROak9HWm1NbUZrWkRVNE0yRmhOcVpxUGV3bEMwZ0M0dHpnY1kweWt6Rzl5NWVQNFA3VzVmeThYVE1qK2ViQg", "embedUrl": "https://s1-cnvs.watchingvs.com/m/A%20Profecia_2006_tt0466909.mp4?cnvs_token=T0ROak9HWm1NbUZrWkRVNE0yRmhOcVpxUGV3bEMwZ0M0dHpnY1kweWt6Rzl5NWVQNFA3VzVmeThYVE1qK2ViQg"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Profecia 2006 - 🍿Clau",
+  "description": "Assista A Profecia 2006 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s1-cnvs.watchingvs.com/m/A%20Profecia_2006_tt0466909.mp4?cnvs_token=T0ROak9HWm1NbUZrWkRVNE0yRmhOcVpxUGV3bEMwZ0M0dHpnY1kweWt6Rzl5NWVQNFA3VzVmeThYVE1qK2ViQg",
+  "embedUrl": "https://s1-cnvs.watchingvs.com/m/A%20Profecia_2006_tt0466909.mp4?cnvs_token=T0ROak9HWm1NbUZrWkRVNE0yRmhOcVpxUGV3bEMwZ0M0dHpnY1kweWt6Rzl5NWVQNFA3VzVmeThYVE1qK2ViQg"
+}
 </script>
 <title>A Profecia 2006 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9kyqa103Ih22hT955ZaZdipAOAD.jpg" alt="A Profecia 2006 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Profecia 2006 - 🍿Clau</h1>
 </body>
 </html>

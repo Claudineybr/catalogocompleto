@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau", "description": "Assista Twisted Metal 2023 - Episódio 3 - T3STDRV", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E03.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E03.1080p.WEB-DL.DUAL.5.1.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Twisted Metal 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau",
+  "description": "Assista Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E03.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E03.1080p.WEB-DL.DUAL.5.1.mp4"
+}
 </script>
 <title>Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg" alt="Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Twisted Metal 2023 - T1E3 - T3STDRV - 🍿Clau</h1>
 </body>
 </html>

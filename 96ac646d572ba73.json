@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau", "description": "Assista Hell's Paradise 2023 - Episódio 1 - O Condenado e a Executora", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fusvI9NECr7T97JpRwV50BKTk9p.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/jigokuraku-hells-paradise-a9fe9697/dubbed/1/c115d5eb-2c43-407c-8c68-cf41548a685e/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/jigokuraku-hells-paradise-a9fe9697/dubbed/1/c115d5eb-2c43-407c-8c68-cf41548a685e/stream.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Hell's Paradise 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau",
+  "description": "Assista Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fusvI9NECr7T97JpRwV50BKTk9p.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/jigokuraku-hells-paradise-a9fe9697/dubbed/1/c115d5eb-2c43-407c-8c68-cf41548a685e/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/jigokuraku-hells-paradise-a9fe9697/dubbed/1/c115d5eb-2c43-407c-8c68-cf41548a685e/stream.mp4"
+}
 </script>
 <title>Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fusvI9NECr7T97JpRwV50BKTk9p.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fusvI9NECr7T97JpRwV50BKTk9p.jpg" alt="Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Hell's Paradise 2023 - T1E1 - O Condenado e a Executora - 🍿Clau</h1>
 </body>
 </html>

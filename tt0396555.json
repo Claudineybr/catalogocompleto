@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Família do Futuro 2007 - 🍿Clau", "description": "Assista A Família do Futuro 2007", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg"], "uploadDate": "2007-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/A%20Fam%C3%ADlia%20do%20Futuro_2007_tt0396555.mp4", "embedUrl": "https://vods1.watchingvs.com/m/A%20Fam%C3%ADlia%20do%20Futuro_2007_tt0396555.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Família do Futuro 2007 - 🍿Clau",
+  "description": "Assista A Família do Futuro 2007 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Fam%C3%ADlia%20do%20Futuro_2007_tt0396555.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Fam%C3%ADlia%20do%20Futuro_2007_tt0396555.mp4"
+}
 </script>
 <title>A Família do Futuro 2007 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/uR9rV69x4saB2vh9yfgQ5PA5E0r.jpg" alt="A Família do Futuro 2007 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Família do Futuro 2007 - 🍿Clau</h1>
 </body>
 </html>

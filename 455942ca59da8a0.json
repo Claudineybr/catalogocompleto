@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Um Panda em Apuros 2 - 2022 - 🍿Clau", "description": "Assista Um Panda em Apuros 2 - 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/f4EpxPtKZf0fTnjHE4oIxOJwvKx.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.vod-cinevs.com/m/Um.Panda.em.Apuros.2.2022.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://cdn.vod-cinevs.com/m/Um.Panda.em.Apuros.2.2022.1080p.WEB-DL.DUAL.5.1.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Panda em Apuros 2 - 2022 - 🍿Clau",
+  "description": "Assista Um Panda em Apuros 2 - 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/f4EpxPtKZf0fTnjHE4oIxOJwvKx.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/Um.Panda.em.Apuros.2.2022.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/Um.Panda.em.Apuros.2.2022.1080p.WEB-DL.DUAL.5.1.mp4"
+}
 </script>
 <title>Um Panda em Apuros 2 - 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/f4EpxPtKZf0fTnjHE4oIxOJwvKx.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/f4EpxPtKZf0fTnjHE4oIxOJwvKx.jpg" alt="Um Panda em Apuros 2 - 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Um Panda em Apuros 2 - 2022 - 🍿Clau</h1>
 </body>
 </html>

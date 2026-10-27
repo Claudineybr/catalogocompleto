@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Bala Perdida 2014 - 🍿Clau", "description": "Assista Bala Perdida 2014", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/8jlQRdIJPtXWKerPfJGmqaSUZP7.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0024.speed-stream.online/bala-perdida-176fa461/dubbed/1/79832cd9-ae66-4946-b527-c53502a7501b/stream.mp4", "embedUrl": "https://cdn-0024.speed-stream.online/bala-perdida-176fa461/dubbed/1/79832cd9-ae66-4946-b527-c53502a7501b/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Bala Perdida 2014 - 🍿Clau",
+  "description": "Assista Bala Perdida 2014 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8jlQRdIJPtXWKerPfJGmqaSUZP7.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0024.speed-stream.online/bala-perdida-176fa461/dubbed/1/79832cd9-ae66-4946-b527-c53502a7501b/stream.mp4",
+  "embedUrl": "https://cdn-0024.speed-stream.online/bala-perdida-176fa461/dubbed/1/79832cd9-ae66-4946-b527-c53502a7501b/stream.mp4"
+}
 </script>
 <title>Bala Perdida 2014 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/8jlQRdIJPtXWKerPfJGmqaSUZP7.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/8jlQRdIJPtXWKerPfJGmqaSUZP7.jpg" alt="Bala Perdida 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Bala Perdida 2014 - 🍿Clau</h1>
 </body>
 </html>

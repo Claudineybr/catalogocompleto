@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Ford Vs Ferrari  2019 - 🍿Clau", "description": "Assista Ford Vs Ferrari  2019", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt1950186.mp4", "embedUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt1950186.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ford Vs Ferrari  2019 - 🍿Clau",
+  "description": "Assista Ford Vs Ferrari  2019 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt1950186.mp4",
+  "embedUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt1950186.mp4"
+}
 </script>
 <title>Ford Vs Ferrari  2019 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/t8L9dqNMclXJHP0TesPsPS2RvB1.jpg" alt="Ford Vs Ferrari  2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Ford Vs Ferrari  2019 - 🍿Clau</h1>
 </body>
 </html>

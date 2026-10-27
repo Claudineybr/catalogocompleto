@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Perfil Falso - T1E7 - Ciúmes - 🍿Clau", "description": "Assista Perfil Falso - Episódio 7 - Ciúmes", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/f8if1SpSQU9dCJmTOsiOyf0BwjW.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/227371/1x7.mp4", "embedUrl": "http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/227371/1x7.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Perfil Falso"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Perfil Falso - T1E7 - Ciúmes - 🍿Clau",
+  "description": "Assista Perfil Falso - T1E7 - Ciúmes - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/f8if1SpSQU9dCJmTOsiOyf0BwjW.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/227371/1x7.mp4",
+  "embedUrl": "http://shd8.oneplayer.site/67i567uyh56r4tgyh54rteh45yhg465uhy456ju56l2q/SHD8/227371/1x7.mp4"
+}
 </script>
 <title>Perfil Falso - T1E7 - Ciúmes - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/f8if1SpSQU9dCJmTOsiOyf0BwjW.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/f8if1SpSQU9dCJmTOsiOyf0BwjW.jpg" alt="Perfil Falso - T1E7 - Ciúmes - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Perfil Falso - T1E7 - Ciúmes - 🍿Clau</h1>
 </body>
 </html>

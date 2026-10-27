@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Preço do Amanhã 2011 - Episódio - 🍿Clau", "description": "Assista O Preço do Amanhã 2011 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xuFZVPVebRrRwiH14uST8m4ulXj.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Preço do Amanhã 2011 - Episódio - 🍿Clau",
+  "description": "Assista O Preço do Amanhã 2011 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xuFZVPVebRrRwiH14uST8m4ulXj.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4"
+}
 </script>
 <title>O Preço do Amanhã 2011 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xuFZVPVebRrRwiH14uST8m4ulXj.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xuFZVPVebRrRwiH14uST8m4ulXj.jpg" alt="O Preço do Amanhã 2011 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Preço do Amanhã 2011 - Episódio - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Guardiões da Galáxia 2014 - 🍿Clau", "description": "Assista Guardiões da Galáxia 2014", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4yycSPnchdNAZirGkmCYQwTd3cr.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/a9f1aad6-dadb-46b0-92be-c28ffc3d12b4", "embedUrl": "https://tankie.tube/videos/embed/a9f1aad6-dadb-46b0-92be-c28ffc3d12b4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Guardiões da Galáxia 2014 - 🍿Clau",
+  "description": "Assista Guardiões da Galáxia 2014 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4yycSPnchdNAZirGkmCYQwTd3cr.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a9f1aad6-dadb-46b0-92be-c28ffc3d12b4",
+  "embedUrl": "https://tankie.tube/videos/embed/a9f1aad6-dadb-46b0-92be-c28ffc3d12b4"
+}
 </script>
 <title>Guardiões da Galáxia 2014 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/4yycSPnchdNAZirGkmCYQwTd3cr.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/4yycSPnchdNAZirGkmCYQwTd3cr.jpg" alt="Guardiões da Galáxia 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Guardiões da Galáxia 2014 - 🍿Clau</h1>
 </body>
 </html>

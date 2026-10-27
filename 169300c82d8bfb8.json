@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Flow 2024 - 🍿Clau", "description": "Assista Flow 2024", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/o16J2ezv2rITe0ubuQOBen1L2Hk.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0035.l1s0-cdn-3123123.com/flow-9318ce22/dubbed/1/117c336d-1430-4666-a04b-497b5c94833f/stream.mp4?storage=0035&expires=1782243849&signature=d5dc7e9d1a4724f500ecf650eba21227f549067c0bac09d37da5c1170f181c88&type=movie", "embedUrl": "https://cdn-0035.l1s0-cdn-3123123.com/flow-9318ce22/dubbed/1/117c336d-1430-4666-a04b-497b5c94833f/stream.mp4?storage=0035&expires=1782243849&signature=d5dc7e9d1a4724f500ecf650eba21227f549067c0bac09d37da5c1170f181c88&type=movie"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Flow 2024 - 🍿Clau",
+  "description": "Assista Flow 2024 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/o16J2ezv2rITe0ubuQOBen1L2Hk.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0035.l1s0-cdn-3123123.com/flow-9318ce22/dubbed/1/117c336d-1430-4666-a04b-497b5c94833f/stream.mp4?storage=0035&expires=1782243849&signature=d5dc7e9d1a4724f500ecf650eba21227f549067c0bac09d37da5c1170f181c88&type=movie",
+  "embedUrl": "https://cdn-0035.l1s0-cdn-3123123.com/flow-9318ce22/dubbed/1/117c336d-1430-4666-a04b-497b5c94833f/stream.mp4?storage=0035&expires=1782243849&signature=d5dc7e9d1a4724f500ecf650eba21227f549067c0bac09d37da5c1170f181c88&type=movie"
+}
 </script>
 <title>Flow 2024 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/o16J2ezv2rITe0ubuQOBen1L2Hk.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/o16J2ezv2rITe0ubuQOBen1L2Hk.jpg" alt="Flow 2024 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Flow 2024 - 🍿Clau</h1>
 </body>
 </html>

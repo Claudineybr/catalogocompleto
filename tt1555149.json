@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Tropa de Elite 2007 - Episódio - 🍿Clau", "description": "Assista Tropa de Elite 2007 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg"], "uploadDate": "2007-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Tropa%20de%20Elite%202:%20O%20Inimigo%20Agora%20%C3%A9%20Outro_2010_tt1555149.mp4?cnvs_token=WldVMFl6Wm1OVGcwTmpoa01EUmlOb05kVGJtUUtJNlRzZ1NDKzhZU3M0Sm5FRVZHTkhHU0xPVWd3d0p6M2tub0EwRktqYmRzUFpSWVZxNFIwSGh4WmVrcVEwc3Q2UEpvdEppZ1dTb2hQZkJtZG54WW9oeTFxMEtmUWNXYldBWVo0ZTBmeVByR3ZWUTZuVGFEOEtpT0dQRTBMbjc4dkloSitBR2xTMklvYmJHanlsejNTN2VBQXlMT1FRWWl2TFdM", "embedUrl": "https://server-1.cnvods.com/m/Tropa%20de%20Elite%202:%20O%20Inimigo%20Agora%20%C3%A9%20Outro_2010_tt1555149.mp4?cnvs_token=WldVMFl6Wm1OVGcwTmpoa01EUmlOb05kVGJtUUtJNlRzZ1NDKzhZU3M0Sm5FRVZHTkhHU0xPVWd3d0p6M2tub0EwRktqYmRzUFpSWVZxNFIwSGh4WmVrcVEwc3Q2UEpvdEppZ1dTb2hQZkJtZG54WW9oeTFxMEtmUWNXYldBWVo0ZTBmeVByR3ZWUTZuVGFEOEtpT0dQRTBMbjc4dkloSitBR2xTMklvYmJHanlsejNTN2VBQXlMT1FRWWl2TFdM"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tropa de Elite 2007 - Episódio - 🍿Clau",
+  "description": "Assista Tropa de Elite 2007 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/Tropa%20de%20Elite%202:%20O%20Inimigo%20Agora%20%C3%A9%20Outro_2010_tt1555149.mp4?cnvs_token=WldVMFl6Wm1OVGcwTmpoa01EUmlOb05kVGJtUUtJNlRzZ1NDKzhZU3M0Sm5FRVZHTkhHU0xPVWd3d0p6M2tub0EwRktqYmRzUFpSWVZxNFIwSGh4WmVrcVEwc3Q2UEpvdEppZ1dTb2hQZkJtZG54WW9oeTFxMEtmUWNXYldBWVo0ZTBmeVByR3ZWUTZuVGFEOEtpT0dQRTBMbjc4dkloSitBR2xTMklvYmJHanlsejNTN2VBQXlMT1FRWWl2TFdM",
+  "embedUrl": "https://server-1.cnvods.com/m/Tropa%20de%20Elite%202:%20O%20Inimigo%20Agora%20%C3%A9%20Outro_2010_tt1555149.mp4?cnvs_token=WldVMFl6Wm1OVGcwTmpoa01EUmlOb05kVGJtUUtJNlRzZ1NDKzhZU3M0Sm5FRVZHTkhHU0xPVWd3d0p6M2tub0EwRktqYmRzUFpSWVZxNFIwSGh4WmVrcVEwc3Q2UEpvdEppZ1dTb2hQZkJtZG54WW9oeTFxMEtmUWNXYldBWVo0ZTBmeVByR3ZWUTZuVGFEOEtpT0dQRTBMbjc4dkloSitBR2xTMklvYmJHanlsejNTN2VBQXlMT1FRWWl2TFdM"
+}
 </script>
 <title>Tropa de Elite 2007 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg" alt="Tropa de Elite 2007 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Tropa de Elite 2007 - Episódio - 🍿Clau</h1>
 </body>
 </html>

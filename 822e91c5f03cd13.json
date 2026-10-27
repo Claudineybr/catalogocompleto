@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau", "description": "Assista A Batalha dos 100: Ásia 2025 - Episódio 7", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/eil4HqrB6LXko0E6ec7yAsleEQA.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/293613/1x7.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/293613/1x7.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "A Batalha dos 100: Ásia 2025"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau",
+  "description": "Assista A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eil4HqrB6LXko0E6ec7yAsleEQA.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd13.oneplayer.site/SHD13/293613/1x7.mp4",
+  "embedUrl": "http://shd13.oneplayer.site/SHD13/293613/1x7.mp4"
+}
 </script>
 <title>A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/eil4HqrB6LXko0E6ec7yAsleEQA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/eil4HqrB6LXko0E6ec7yAsleEQA.jpg" alt="A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Batalha dos 100: Ásia 2025 - T1E7 - 🍿Clau</h1>
 </body>
 </html>

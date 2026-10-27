@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Quando a Morte Chega 2022 - 🍿Clau", "description": "Assista Quando a Morte Chega 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/iJGLHZaa9AmmKABkxr8kPDJS8XQ.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://c.com/m/Quando.Chega.a.Morte.2022.1080p.WEB-DL.DUAL.5.1.mp4", "embedUrl": "https://c.com/m/Quando.Chega.a.Morte.2022.1080p.WEB-DL.DUAL.5.1.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Quando a Morte Chega 2022 - 🍿Clau",
+  "description": "Assista Quando a Morte Chega 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iJGLHZaa9AmmKABkxr8kPDJS8XQ.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://c.com/m/Quando.Chega.a.Morte.2022.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://c.com/m/Quando.Chega.a.Morte.2022.1080p.WEB-DL.DUAL.5.1.mp4"
+}
 </script>
 <title>Quando a Morte Chega 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/iJGLHZaa9AmmKABkxr8kPDJS8XQ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/iJGLHZaa9AmmKABkxr8kPDJS8XQ.jpg" alt="Quando a Morte Chega 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Quando a Morte Chega 2022 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau", "description": "Assista Prison Break: Em Busca da Verdade - Episódio 13 - Tratamento Silencioso", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0073.speed-stream.online/prison-break-em-busca-da-verdade-58760fb7/s4/dubbed/13/f65e9ac7-01a9-4c19-97b6-84e69e1cee00/stream.mp4", "embedUrl": "https://cdn-0073.speed-stream.online/prison-break-em-busca-da-verdade-58760fb7/s4/dubbed/13/f65e9ac7-01a9-4c19-97b6-84e69e1cee00/stream.mp4", "episodeNumber": 13, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Prison Break: Em Busca da Verdade"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau",
+  "description": "Assista Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0073.speed-stream.online/prison-break-em-busca-da-verdade-58760fb7/s4/dubbed/13/f65e9ac7-01a9-4c19-97b6-84e69e1cee00/stream.mp4",
+  "embedUrl": "https://cdn-0073.speed-stream.online/prison-break-em-busca-da-verdade-58760fb7/s4/dubbed/13/f65e9ac7-01a9-4c19-97b6-84e69e1cee00/stream.mp4"
+}
 </script>
 <title>Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rK3Vwe0Wm0VXxf4IJCdlHeEREYx.jpg" alt="Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Prison Break: Em Busca da Verdade - T1E13 - Tratamento Silencioso - 🍿Clau</h1>
 </body>
 </html>

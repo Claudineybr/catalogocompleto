@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau", "description": "Assista Shadowhunters: Instrumentos Mortais 2016 - Episódio 16 - Dia do Perdão", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1OIeVKb5ZdjPfZNtCoUYkH1bTQK.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0005.speed-stream.online/shadowhunters-instrumentos-mortais-b885576a/s2/dubbed/16/f731ee76-62ee-449d-b0f4-83462b7c4df0/stream.mp4", "embedUrl": "https://cdn-0005.speed-stream.online/shadowhunters-instrumentos-mortais-b885576a/s2/dubbed/16/f731ee76-62ee-449d-b0f4-83462b7c4df0/stream.mp4", "episodeNumber": 16, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Shadowhunters: Instrumentos Mortais 2016"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau",
+  "description": "Assista Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1OIeVKb5ZdjPfZNtCoUYkH1bTQK.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0005.speed-stream.online/shadowhunters-instrumentos-mortais-b885576a/s2/dubbed/16/f731ee76-62ee-449d-b0f4-83462b7c4df0/stream.mp4",
+  "embedUrl": "https://cdn-0005.speed-stream.online/shadowhunters-instrumentos-mortais-b885576a/s2/dubbed/16/f731ee76-62ee-449d-b0f4-83462b7c4df0/stream.mp4"
+}
 </script>
 <title>Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1OIeVKb5ZdjPfZNtCoUYkH1bTQK.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1OIeVKb5ZdjPfZNtCoUYkH1bTQK.jpg" alt="Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Shadowhunters: Instrumentos Mortais 2016 - T1E16 - Dia do Perdão - 🍿Clau</h1>
 </body>
 </html>

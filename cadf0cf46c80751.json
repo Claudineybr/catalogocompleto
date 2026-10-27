@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "O Jogo Da Morte 2023 - T1E5 - 🍿Clau", "description": "Assista O Jogo Da Morte 2023 - Episódio 5", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/3JkL7dMFw3gXtPRrmMOKXJD1Ude.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0030.l1s0-cdn-3123123.com/o-jogo-da-morte-50693c48/s1/dubbed/5/e7f46e10-2cb1-4bbd-a662-aba82e5d737f/stream.mp4?type=serie&expires=1769893040&signature=c9d9241dd5ba618edf006744391302c702dede31de8c76bcfe673d0b4159d791", "embedUrl": "https://cdn-0030.l1s0-cdn-3123123.com/o-jogo-da-morte-50693c48/s1/dubbed/5/e7f46e10-2cb1-4bbd-a662-aba82e5d737f/stream.mp4?type=serie&expires=1769893040&signature=c9d9241dd5ba618edf006744391302c702dede31de8c76bcfe673d0b4159d791", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "O Jogo Da Morte 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Jogo Da Morte 2023 - T1E5 - 🍿Clau",
+  "description": "Assista O Jogo Da Morte 2023 - T1E5 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3JkL7dMFw3gXtPRrmMOKXJD1Ude.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0030.l1s0-cdn-3123123.com/o-jogo-da-morte-50693c48/s1/dubbed/5/e7f46e10-2cb1-4bbd-a662-aba82e5d737f/stream.mp4?type=serie&expires=1769893040&signature=c9d9241dd5ba618edf006744391302c702dede31de8c76bcfe673d0b4159d791",
+  "embedUrl": "https://cdn-0030.l1s0-cdn-3123123.com/o-jogo-da-morte-50693c48/s1/dubbed/5/e7f46e10-2cb1-4bbd-a662-aba82e5d737f/stream.mp4?type=serie&expires=1769893040&signature=c9d9241dd5ba618edf006744391302c702dede31de8c76bcfe673d0b4159d791"
+}
 </script>
 <title>O Jogo Da Morte 2023 - T1E5 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/3JkL7dMFw3gXtPRrmMOKXJD1Ude.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/3JkL7dMFw3gXtPRrmMOKXJD1Ude.jpg" alt="O Jogo Da Morte 2023 - T1E5 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Jogo Da Morte 2023 - T1E5 - 🍿Clau</h1>
 </body>
 </html>

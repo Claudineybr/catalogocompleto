@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Hora de Aventuras - E01 - 🍿Clau", "description": "Assista Hora de Aventuras - E01", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gslEVybs2mXWZSTBN9BPVQqO5GT.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0049.speed-stream.online/hora-de-aventura-e5757fb5/s1/dubbed/1/814a10a7-bf55-45a2-8a6c-9ec583496efb/stream.mp4", "embedUrl": "https://cdn-0049.speed-stream.online/hora-de-aventura-e5757fb5/s1/dubbed/1/814a10a7-bf55-45a2-8a6c-9ec583496efb/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hora de Aventuras - E01 - 🍿Clau",
+  "description": "Assista Hora de Aventuras - E01 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gslEVybs2mXWZSTBN9BPVQqO5GT.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0049.speed-stream.online/hora-de-aventura-e5757fb5/s1/dubbed/1/814a10a7-bf55-45a2-8a6c-9ec583496efb/stream.mp4",
+  "embedUrl": "https://cdn-0049.speed-stream.online/hora-de-aventura-e5757fb5/s1/dubbed/1/814a10a7-bf55-45a2-8a6c-9ec583496efb/stream.mp4"
+}
 </script>
 <title>Hora de Aventuras - E01 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gslEVybs2mXWZSTBN9BPVQqO5GT.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/gslEVybs2mXWZSTBN9BPVQqO5GT.jpg" alt="Hora de Aventuras - E01 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Hora de Aventuras - E01 - 🍿Clau</h1>
 </body>
 </html>

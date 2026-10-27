@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau", "description": "Assista Cobra Kai 2018 - Episódio 3 - Agora Você Vai Pagar", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"], "uploadDate": "2018-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/77169/3x3.mp4", "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/77169/3x3.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Cobra Kai 2018"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau",
+  "description": "Assista Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/77169/3x3.mp4",
+  "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/77169/3x3.mp4"
+}
 </script>
 <title>Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg" alt="Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Cobra Kai 2018 - T1E3 - Agora Você Vai Pagar - 🍿Clau</h1>
 </body>
 </html>

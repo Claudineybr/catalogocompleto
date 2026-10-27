@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "As Bem-Armadas 2013 - Episódio - 🍿Clau", "description": "Assista As Bem-Armadas 2013 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2SMBBtsVYCTIDpJPSw4oFzXkQy6.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%202_2015_tt2848292.mp4", "embedUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%202_2015_tt2848292.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "As Bem-Armadas 2013 - Episódio - 🍿Clau",
+  "description": "Assista As Bem-Armadas 2013 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2SMBBtsVYCTIDpJPSw4oFzXkQy6.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%202_2015_tt2848292.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%202_2015_tt2848292.mp4"
+}
 </script>
 <title>As Bem-Armadas 2013 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2SMBBtsVYCTIDpJPSw4oFzXkQy6.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2SMBBtsVYCTIDpJPSw4oFzXkQy6.jpg" alt="As Bem-Armadas 2013 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>As Bem-Armadas 2013 - Episódio - 🍿Clau</h1>
 </body>
 </html>

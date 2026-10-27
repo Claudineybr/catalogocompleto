@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Busca Explosiva 2006 - Episódio - 🍿Clau", "description": "Assista Busca Explosiva 2006 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ngRBNPSSeQ3aga7I51B2gN6jUaJ.jpg"], "uploadDate": "2006-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0057.l1s0-cdn-3123123.com/alice-no-pais-das-maravilhas-2cc26b93/dubbed/1/19af049f-fd35-4af1-9047-4b1f51295304/stream.mp4?type=movie&expires=1771125407&signature=c9eb0152db67aa200333be1bf37244425f50e3981ef7f6ebbd9c08c141f7ea58", "embedUrl": "https://cdn-0057.l1s0-cdn-3123123.com/alice-no-pais-das-maravilhas-2cc26b93/dubbed/1/19af049f-fd35-4af1-9047-4b1f51295304/stream.mp4?type=movie&expires=1771125407&signature=c9eb0152db67aa200333be1bf37244425f50e3981ef7f6ebbd9c08c141f7ea58"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Busca Explosiva 2006 - Episódio - 🍿Clau",
+  "description": "Assista Busca Explosiva 2006 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ngRBNPSSeQ3aga7I51B2gN6jUaJ.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0057.l1s0-cdn-3123123.com/alice-no-pais-das-maravilhas-2cc26b93/dubbed/1/19af049f-fd35-4af1-9047-4b1f51295304/stream.mp4?type=movie&expires=1771125407&signature=c9eb0152db67aa200333be1bf37244425f50e3981ef7f6ebbd9c08c141f7ea58",
+  "embedUrl": "https://cdn-0057.l1s0-cdn-3123123.com/alice-no-pais-das-maravilhas-2cc26b93/dubbed/1/19af049f-fd35-4af1-9047-4b1f51295304/stream.mp4?type=movie&expires=1771125407&signature=c9eb0152db67aa200333be1bf37244425f50e3981ef7f6ebbd9c08c141f7ea58"
+}
 </script>
 <title>Busca Explosiva 2006 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ngRBNPSSeQ3aga7I51B2gN6jUaJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ngRBNPSSeQ3aga7I51B2gN6jUaJ.jpg" alt="Busca Explosiva 2006 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Busca Explosiva 2006 - Episódio - 🍿Clau</h1>
 </body>
 </html>

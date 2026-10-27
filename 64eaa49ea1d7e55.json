@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Drake e Josh - Episódio - 🍿Clau", "description": "Assista Drake e Josh - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/udCvGctktHvvf8w51XyTPfcmzDa.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0015.l1s0-cdn-3123123.com/branca-de-neve-b669a8e3/dubbed/1/9467304c-2878-4b31-bb11-d4ce7a82d276/stream.mp4", "embedUrl": "https://cdn-0015.l1s0-cdn-3123123.com/branca-de-neve-b669a8e3/dubbed/1/9467304c-2878-4b31-bb11-d4ce7a82d276/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Drake e Josh - Episódio - 🍿Clau",
+  "description": "Assista Drake e Josh - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/udCvGctktHvvf8w51XyTPfcmzDa.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0015.l1s0-cdn-3123123.com/branca-de-neve-b669a8e3/dubbed/1/9467304c-2878-4b31-bb11-d4ce7a82d276/stream.mp4",
+  "embedUrl": "https://cdn-0015.l1s0-cdn-3123123.com/branca-de-neve-b669a8e3/dubbed/1/9467304c-2878-4b31-bb11-d4ce7a82d276/stream.mp4"
+}
 </script>
 <title>Drake e Josh - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/udCvGctktHvvf8w51XyTPfcmzDa.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/udCvGctktHvvf8w51XyTPfcmzDa.jpg" alt="Drake e Josh - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Drake e Josh - Episódio - 🍿Clau</h1>
 </body>
 </html>

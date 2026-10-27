@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Sol é Para Todos 1962 - 🍿Clau", "description": "Assista O Sol é Para Todos 1962", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xGxD1n1BrMKoX2PCUt4mVgwLcCC.jpg"], "uploadDate": "1962-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/O%20Sol%20%C3%A9%20Para%20Todos.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/O%20Sol%20%C3%A9%20Para%20Todos.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Sol é Para Todos 1962 - 🍿Clau",
+  "description": "Assista O Sol é Para Todos 1962 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xGxD1n1BrMKoX2PCUt4mVgwLcCC.jpg"
+  ],
+  "uploadDate": "1962-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/O%20Sol%20%C3%A9%20Para%20Todos.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/O%20Sol%20%C3%A9%20Para%20Todos.mp4"
+}
 </script>
 <title>O Sol é Para Todos 1962 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xGxD1n1BrMKoX2PCUt4mVgwLcCC.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xGxD1n1BrMKoX2PCUt4mVgwLcCC.jpg" alt="O Sol é Para Todos 1962 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Sol é Para Todos 1962 - 🍿Clau</h1>
 </body>
 </html>

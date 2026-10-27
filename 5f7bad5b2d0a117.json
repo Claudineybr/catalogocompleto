@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau", "description": "Assista Friends 1994 - Episódio 12 - Aquele com uma Dúzia de Lasanhas", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/12/f4275004-45cd-4c8b-9ad8-3306325e3e95/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/12/f4275004-45cd-4c8b-9ad8-3306325e3e95/stream.mp4", "episodeNumber": 12, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Friends 1994"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau",
+  "description": "Assista Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/12/f4275004-45cd-4c8b-9ad8-3306325e3e95/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/12/f4275004-45cd-4c8b-9ad8-3306325e3e95/stream.mp4"
+}
 </script>
 <title>Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg" alt="Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Friends 1994 - T1E12 - Aquele com uma Dúzia de Lasanhas - 🍿Clau</h1>
 </body>
 </html>

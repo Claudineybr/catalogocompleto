@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "The Pitt - Episódio - 🍿Clau", "description": "Assista The Pitt - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0064.speed-stream.online/entre-tiros-e-beijos-18c68376/dubbed/1/acc52890-aa66-4540-9944-8c252759c990/stream.mp4", "embedUrl": "https://cdn-0064.speed-stream.online/entre-tiros-e-beijos-18c68376/dubbed/1/acc52890-aa66-4540-9944-8c252759c990/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Pitt - Episódio - 🍿Clau",
+  "description": "Assista The Pitt - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0064.speed-stream.online/entre-tiros-e-beijos-18c68376/dubbed/1/acc52890-aa66-4540-9944-8c252759c990/stream.mp4",
+  "embedUrl": "https://cdn-0064.speed-stream.online/entre-tiros-e-beijos-18c68376/dubbed/1/acc52890-aa66-4540-9944-8c252759c990/stream.mp4"
+}
 </script>
 <title>The Pitt - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg" alt="The Pitt - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>The Pitt - Episódio - 🍿Clau</h1>
 </body>
 </html>

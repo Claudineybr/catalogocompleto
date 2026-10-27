@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau", "description": "Assista Game of Thrones (GOT) - Episódio 5 - Os Sinos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/5/0d23296c-7736-46d3-be09-a41605d97cf5/stream.mp4?type=serie&expires=1769463234&signature=f4221c7ae386fbc4b8db1799d5d780ff57445e58251188536619b0f6532bd52d", "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/5/0d23296c-7736-46d3-be09-a41605d97cf5/stream.mp4?type=serie&expires=1769463234&signature=f4221c7ae386fbc4b8db1799d5d780ff57445e58251188536619b0f6532bd52d", "episodeNumber": 5, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Game of Thrones (GOT)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/5/0d23296c-7736-46d3-be09-a41605d97cf5/stream.mp4?type=serie&expires=1769463234&signature=f4221c7ae386fbc4b8db1799d5d780ff57445e58251188536619b0f6532bd52d",
+  "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/5/0d23296c-7736-46d3-be09-a41605d97cf5/stream.mp4?type=serie&expires=1769463234&signature=f4221c7ae386fbc4b8db1799d5d780ff57445e58251188536619b0f6532bd52d"
+}
 </script>
 <title>Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" alt="Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Game of Thrones (GOT) - T1E5 - Os Sinos - 🍿Clau</h1>
 </body>
 </html>

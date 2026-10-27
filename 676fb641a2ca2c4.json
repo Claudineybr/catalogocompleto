@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Reféns na Ponte 2024 - 🍿Clau", "description": "Assista Reféns na Ponte 2024", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fkAI1rf9I7fmiks7e2k9GLYaRBi.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/e5669857-16c6-40fe-8bc6-a12b257aba0f/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/e5669857-16c6-40fe-8bc6-a12b257aba0f/playlist.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Reféns na Ponte 2024 - 🍿Clau",
+  "description": "Assista Reféns na Ponte 2024 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fkAI1rf9I7fmiks7e2k9GLYaRBi.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/e5669857-16c6-40fe-8bc6-a12b257aba0f/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/e5669857-16c6-40fe-8bc6-a12b257aba0f/playlist.m3u8"
+}
 </script>
 <title>Reféns na Ponte 2024 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fkAI1rf9I7fmiks7e2k9GLYaRBi.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fkAI1rf9I7fmiks7e2k9GLYaRBi.jpg" alt="Reféns na Ponte 2024 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Reféns na Ponte 2024 - 🍿Clau</h1>
 </body>
 </html>

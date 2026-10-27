@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Perdido em Marte 2015 - 🍿Clau", "description": "Assista Perdido em Marte 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Perdido%20em%20Marte_2015_tt3659388.mp4?cnvs_token=TkdaallUTTJZbVJtTkRrM05XSmlPQ0VQTnhGdHVUbGtHN3hrVkNMWUk2N0RFMDA0VVZaMWx4MCthbU1BSGREZ256Ny9sSHRSWmg3WlVrN1NqSTRPem1vTUZyVEI2Ym93dHdSbitkMktjdWlhUnhYOTM3UnFPbThVRXdCU0ZNVU04d21sOEVqQlNDaXJuZHYzZ2x1bC9CUElGYklUcXN5Tzk4cjdjU0FGcng4PQ==", "embedUrl": "https://server-1.cnvods.com/m/Perdido%20em%20Marte_2015_tt3659388.mp4?cnvs_token=TkdaallUTTJZbVJtTkRrM05XSmlPQ0VQTnhGdHVUbGtHN3hrVkNMWUk2N0RFMDA0VVZaMWx4MCthbU1BSGREZ256Ny9sSHRSWmg3WlVrN1NqSTRPem1vTUZyVEI2Ym93dHdSbitkMktjdWlhUnhYOTM3UnFPbThVRXdCU0ZNVU04d21sOEVqQlNDaXJuZHYzZ2x1bC9CUElGYklUcXN5Tzk4cjdjU0FGcng4PQ=="}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Perdido em Marte 2015 - 🍿Clau",
+  "description": "Assista Perdido em Marte 2015 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/Perdido%20em%20Marte_2015_tt3659388.mp4?cnvs_token=TkdaallUTTJZbVJtTkRrM05XSmlPQ0VQTnhGdHVUbGtHN3hrVkNMWUk2N0RFMDA0VVZaMWx4MCthbU1BSGREZ256Ny9sSHRSWmg3WlVrN1NqSTRPem1vTUZyVEI2Ym93dHdSbitkMktjdWlhUnhYOTM3UnFPbThVRXdCU0ZNVU04d21sOEVqQlNDaXJuZHYzZ2x1bC9CUElGYklUcXN5Tzk4cjdjU0FGcng4PQ==",
+  "embedUrl": "https://server-1.cnvods.com/m/Perdido%20em%20Marte_2015_tt3659388.mp4?cnvs_token=TkdaallUTTJZbVJtTkRrM05XSmlPQ0VQTnhGdHVUbGtHN3hrVkNMWUk2N0RFMDA0VVZaMWx4MCthbU1BSGREZ256Ny9sSHRSWmg3WlVrN1NqSTRPem1vTUZyVEI2Ym93dHdSbitkMktjdWlhUnhYOTM3UnFPbThVRXdCU0ZNVU04d21sOEVqQlNDaXJuZHYzZ2x1bC9CUElGYklUcXN5Tzk4cjdjU0FGcng4PQ=="
+}
 </script>
 <title>Perdido em Marte 2015 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fG3S4zdgnsaF77tJGK3rA9tHBu4.jpg" alt="Perdido em Marte 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Perdido em Marte 2015 - 🍿Clau</h1>
 </body>
 </html>

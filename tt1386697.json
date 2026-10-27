@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Garota Sequestrada 2026 - Episódio - 🍿Clau", "description": "Assista Garota Sequestrada 2026 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fmEpzViU0inpXdaP7GJKMU8cnOw.jpg"], "uploadDate": "2026-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Suicida_2016_tt1386697.mp4?cnvs_token=1780333627-iqaDuZQCcUjpsyw5dvbuwMLnMGdYJniBZCS6AZkdpBI%3D&vid=5378&pid=6181&t=1780333627", "embedUrl": "https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Suicida_2016_tt1386697.mp4?cnvs_token=1780333627-iqaDuZQCcUjpsyw5dvbuwMLnMGdYJniBZCS6AZkdpBI%3D&vid=5378&pid=6181&t=1780333627"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Garota Sequestrada 2026 - Episódio - 🍿Clau",
+  "description": "Assista Garota Sequestrada 2026 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fmEpzViU0inpXdaP7GJKMU8cnOw.jpg"
+  ],
+  "uploadDate": "2026-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Suicida_2016_tt1386697.mp4?cnvs_token=1780333627-iqaDuZQCcUjpsyw5dvbuwMLnMGdYJniBZCS6AZkdpBI%3D&vid=5378&pid=6181&t=1780333627",
+  "embedUrl": "https://play-1.cnvods.com/m/Esquadr%C3%A3o%20Suicida_2016_tt1386697.mp4?cnvs_token=1780333627-iqaDuZQCcUjpsyw5dvbuwMLnMGdYJniBZCS6AZkdpBI%3D&vid=5378&pid=6181&t=1780333627"
+}
 </script>
 <title>Garota Sequestrada 2026 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fmEpzViU0inpXdaP7GJKMU8cnOw.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fmEpzViU0inpXdaP7GJKMU8cnOw.jpg" alt="Garota Sequestrada 2026 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Garota Sequestrada 2026 - Episódio - 🍿Clau</h1>
 </body>
 </html>

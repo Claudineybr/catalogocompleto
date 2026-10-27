@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau", "description": "Assista Supernatural (Sobrenatural) - Episódio 6 - Sonhos Roubados", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/1622/3x6.mp4", "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/1622/3x6.mp4", "episodeNumber": 6, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Supernatural (Sobrenatural)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau",
+  "description": "Assista Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/1622/3x6.mp4",
+  "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/1622/3x6.mp4"
+}
 </script>
 <title>Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg" alt="Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Supernatural (Sobrenatural) - T1E6 - Sonhos Roubados - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Mártires 2008 - 🍿Clau", "description": "Assista Mártires 2008", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/969mH6AnksRNWMHhGxVbFa6l9qj.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/M%C3%A1rtires_2008_tt1029234.mp4?cnvs_token=v_id=1&p_id=2&token=1771509728-3xFTCT4j0stoPmaBsvlQ4vQWIv2-DWyWbDR20T08bYw", "embedUrl": "https://play-1.cnvods.com/m/M%C3%A1rtires_2008_tt1029234.mp4?cnvs_token=v_id=1&p_id=2&token=1771509728-3xFTCT4j0stoPmaBsvlQ4vQWIv2-DWyWbDR20T08bYw"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mártires 2008 - 🍿Clau",
+  "description": "Assista Mártires 2008 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/969mH6AnksRNWMHhGxVbFa6l9qj.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/M%C3%A1rtires_2008_tt1029234.mp4?cnvs_token=v_id=1&p_id=2&token=1771509728-3xFTCT4j0stoPmaBsvlQ4vQWIv2-DWyWbDR20T08bYw",
+  "embedUrl": "https://play-1.cnvods.com/m/M%C3%A1rtires_2008_tt1029234.mp4?cnvs_token=v_id=1&p_id=2&token=1771509728-3xFTCT4j0stoPmaBsvlQ4vQWIv2-DWyWbDR20T08bYw"
+}
 </script>
 <title>Mártires 2008 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/969mH6AnksRNWMHhGxVbFa6l9qj.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/969mH6AnksRNWMHhGxVbFa6l9qj.jpg" alt="Mártires 2008 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Mártires 2008 - 🍿Clau</h1>
 </body>
 </html>

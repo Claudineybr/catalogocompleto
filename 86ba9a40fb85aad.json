@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau", "description": "Assista The Outsider - Episódio 4 - O bicho-papão está chegando", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/sDT2ZU9Xd2dt0svfO4qYYtziVP5.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0017.speed-stream.online/the-outsider-fb5ac378/s1/dubbed/4/b3efb807-9099-4e92-86fd-6f8d401a0bbb/stream.mp4", "embedUrl": "https://cdn-0017.speed-stream.online/the-outsider-fb5ac378/s1/dubbed/4/b3efb807-9099-4e92-86fd-6f8d401a0bbb/stream.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "The Outsider"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau",
+  "description": "Assista The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sDT2ZU9Xd2dt0svfO4qYYtziVP5.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0017.speed-stream.online/the-outsider-fb5ac378/s1/dubbed/4/b3efb807-9099-4e92-86fd-6f8d401a0bbb/stream.mp4",
+  "embedUrl": "https://cdn-0017.speed-stream.online/the-outsider-fb5ac378/s1/dubbed/4/b3efb807-9099-4e92-86fd-6f8d401a0bbb/stream.mp4"
+}
 </script>
 <title>The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/sDT2ZU9Xd2dt0svfO4qYYtziVP5.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/sDT2ZU9Xd2dt0svfO4qYYtziVP5.jpg" alt="The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>The Outsider - T1E4 - O bicho-papão está chegando - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "1911: A Revolução 2011 - 🍿Clau", "description": "Assista 1911: A Revolução 2011", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1cphPxaUqES91cWEVbqJX9ywp7k.jpg"], "uploadDate": "1911-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.vod-cinevs.com/f/1911%20-%20A%20Revolu%C3%A7%C3%A3o_76349.mp4", "embedUrl": "https://cdn.vod-cinevs.com/f/1911%20-%20A%20Revolu%C3%A7%C3%A3o_76349.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "1911: A Revolução 2011 - 🍿Clau",
+  "description": "Assista 1911: A Revolução 2011 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1cphPxaUqES91cWEVbqJX9ywp7k.jpg"
+  ],
+  "uploadDate": "1911-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/1911%20-%20A%20Revolu%C3%A7%C3%A3o_76349.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/1911%20-%20A%20Revolu%C3%A7%C3%A3o_76349.mp4"
+}
 </script>
 <title>1911: A Revolução 2011 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1cphPxaUqES91cWEVbqJX9ywp7k.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1cphPxaUqES91cWEVbqJX9ywp7k.jpg" alt="1911: A Revolução 2011 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>1911: A Revolução 2011 - 🍿Clau</h1>
 </body>
 </html>

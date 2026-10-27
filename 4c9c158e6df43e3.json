@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Homem de Ferro 3 - 2013 - Episódio - 🍿Clau", "description": "Assista Homem de Ferro 3 - 2013 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4", "embedUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Homem de Ferro 3 - 2013 - Episódio - 🍿Clau",
+  "description": "Assista Homem de Ferro 3 - 2013 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4"
+}
 </script>
 <title>Homem de Ferro 3 - 2013 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg" alt="Homem de Ferro 3 - 2013 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Homem de Ferro 3 - 2013 - Episódio - 🍿Clau</h1>
 </body>
 </html>

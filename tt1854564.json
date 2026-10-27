@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Percy Jackson e o Mar de Monstros 2013 - 🍿Clau", "description": "Assista Percy Jackson e o Mar de Monstros 2013", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/izLw6mf5coAJZV6n9wDfbYWXXHW.jpg"], "uploadDate": "2013-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Percy Jackson e o Mar de Monstros 2013 - 🍿Clau",
+  "description": "Assista Percy Jackson e o Mar de Monstros 2013 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/izLw6mf5coAJZV6n9wDfbYWXXHW.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4"
+}
 </script>
 <title>Percy Jackson e o Mar de Monstros 2013 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/izLw6mf5coAJZV6n9wDfbYWXXHW.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/izLw6mf5coAJZV6n9wDfbYWXXHW.jpg" alt="Percy Jackson e o Mar de Monstros 2013 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Percy Jackson e o Mar de Monstros 2013 - 🍿Clau</h1>
 </body>
 </html>

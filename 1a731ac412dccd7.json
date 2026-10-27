@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Thor: Amor e Trovão - 2022 - 🍿Clau", "description": "Assista Thor: Amor e Trovão - 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wSE3IdCWSrsAXkNC9XwnxgJJqIq.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: Amor e Trovão - 2022 - 🍿Clau",
+  "description": "Assista Thor: Amor e Trovão - 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wSE3IdCWSrsAXkNC9XwnxgJJqIq.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8"
+}
 </script>
 <title>Thor: Amor e Trovão - 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wSE3IdCWSrsAXkNC9XwnxgJJqIq.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/wSE3IdCWSrsAXkNC9XwnxgJJqIq.jpg" alt="Thor: Amor e Trovão - 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Thor: Amor e Trovão - 2022 - 🍿Clau</h1>
 </body>
 </html>

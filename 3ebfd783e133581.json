@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Plano de Aula 2022 - 🍿Clau", "description": "Assista Plano de Aula 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/akK0REohti8YWwGZGD1MHPZvBRh.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0074.speed-stream.online/plano-de-aula-9813a16c/dubbed/1/b0f82f6c-6f03-4972-9419-d23886e0d251/stream.mp4", "embedUrl": "https://cdn-0074.speed-stream.online/plano-de-aula-9813a16c/dubbed/1/b0f82f6c-6f03-4972-9419-d23886e0d251/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Plano de Aula 2022 - 🍿Clau",
+  "description": "Assista Plano de Aula 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/akK0REohti8YWwGZGD1MHPZvBRh.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0074.speed-stream.online/plano-de-aula-9813a16c/dubbed/1/b0f82f6c-6f03-4972-9419-d23886e0d251/stream.mp4",
+  "embedUrl": "https://cdn-0074.speed-stream.online/plano-de-aula-9813a16c/dubbed/1/b0f82f6c-6f03-4972-9419-d23886e0d251/stream.mp4"
+}
 </script>
 <title>Plano de Aula 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/akK0REohti8YWwGZGD1MHPZvBRh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/akK0REohti8YWwGZGD1MHPZvBRh.jpg" alt="Plano de Aula 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Plano de Aula 2022 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sinais 2002 - 🍿Clau", "description": "Assista Sinais 2002", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/96XBFBnH9PlGnxBWjA0U25PemVW.jpg"], "uploadDate": "2002-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0096.speed-stream.online/sinais-e05ee189/dubbed/1/19e10496-a26d-4dc7-a50f-bd03a8a3cba0/stream.mp4", "embedUrl": "https://cdn-0096.speed-stream.online/sinais-e05ee189/dubbed/1/19e10496-a26d-4dc7-a50f-bd03a8a3cba0/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sinais 2002 - 🍿Clau",
+  "description": "Assista Sinais 2002 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/96XBFBnH9PlGnxBWjA0U25PemVW.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0096.speed-stream.online/sinais-e05ee189/dubbed/1/19e10496-a26d-4dc7-a50f-bd03a8a3cba0/stream.mp4",
+  "embedUrl": "https://cdn-0096.speed-stream.online/sinais-e05ee189/dubbed/1/19e10496-a26d-4dc7-a50f-bd03a8a3cba0/stream.mp4"
+}
 </script>
 <title>Sinais 2002 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/96XBFBnH9PlGnxBWjA0U25PemVW.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/96XBFBnH9PlGnxBWjA0U25PemVW.jpg" alt="Sinais 2002 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Sinais 2002 - 🍿Clau</h1>
 </body>
 </html>

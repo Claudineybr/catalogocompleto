@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Apanhador de Pesadelos - 🍿Clau", "description": "Assista Apanhador de Pesadelos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/lEPlsJ8Tko01i1LLBSehVYJcWWU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/APANHADORDUB-BAIXO.mp4", "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/APANHADORDUB-BAIXO.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Apanhador de Pesadelos - 🍿Clau",
+  "description": "Assista Apanhador de Pesadelos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lEPlsJ8Tko01i1LLBSehVYJcWWU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/APANHADORDUB-BAIXO.mp4",
+  "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/APANHADORDUB-BAIXO.mp4"
+}
 </script>
 <title>Apanhador de Pesadelos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/lEPlsJ8Tko01i1LLBSehVYJcWWU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/lEPlsJ8Tko01i1LLBSehVYJcWWU.jpg" alt="Apanhador de Pesadelos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Apanhador de Pesadelos - 🍿Clau</h1>
 </body>
 </html>

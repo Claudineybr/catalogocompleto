@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 7 – O Último País - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 7 – O Último País", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/7/ccefb9a0-5458-4169-a24c-821c90e1e3d8/stream.mp4?type=serie&expires=1770766963&signature=0eb4f565f3b65d08fd7977f0ae204f69ac730801483dfeab5a6e19ed66e153bc", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/7/ccefb9a0-5458-4169-a24c-821c90e1e3d8/stream.mp4?type=serie&expires=1770766963&signature=0eb4f565f3b65d08fd7977f0ae204f69ac730801483dfeab5a6e19ed66e153bc"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 7 – O Último País - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 7 – O Último País - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/7/ccefb9a0-5458-4169-a24c-821c90e1e3d8/stream.mp4?type=serie&expires=1770766963&signature=0eb4f565f3b65d08fd7977f0ae204f69ac730801483dfeab5a6e19ed66e153bc",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/7/ccefb9a0-5458-4169-a24c-821c90e1e3d8/stream.mp4?type=serie&expires=1770766963&signature=0eb4f565f3b65d08fd7977f0ae204f69ac730801483dfeab5a6e19ed66e153bc"
+}
 </script>
 <title>True Detective 2014 - Episódio 7 – O Último País - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 7 – O Último País - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>True Detective 2014 - Episódio 7 – O Último País - 🍿Clau</h1>
 </body>
 </html>

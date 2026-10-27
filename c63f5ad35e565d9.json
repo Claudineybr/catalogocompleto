@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau", "description": "Assista Jogos Vorazes: A Esperança - O Final 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5KSQkozSelQj6bq8NCKtINvsSSj.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/604c7aa8-fa89-4f19-8f9f-9506af24c47f", "embedUrl": "https://tankie.tube/videos/embed/604c7aa8-fa89-4f19-8f9f-9506af24c47f"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau",
+  "description": "Assista Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5KSQkozSelQj6bq8NCKtINvsSSj.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/604c7aa8-fa89-4f19-8f9f-9506af24c47f",
+  "embedUrl": "https://tankie.tube/videos/embed/604c7aa8-fa89-4f19-8f9f-9506af24c47f"
+}
 </script>
 <title>Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/5KSQkozSelQj6bq8NCKtINvsSSj.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/5KSQkozSelQj6bq8NCKtINvsSSj.jpg" alt="Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Jogos Vorazes: A Esperança - O Final 2015 - 🍿Clau</h1>
 </body>
 </html>

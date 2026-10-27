@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Casa do Dragão - Episódio - 🍿Clau", "description": "Assista A Casa do Dragão - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Casa do Dragão - Episódio - 🍿Clau",
+  "description": "Assista A Casa do Dragão - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8"
+}
 </script>
 <title>A Casa do Dragão - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg" alt="A Casa do Dragão - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Casa do Dragão - Episódio - 🍿Clau</h1>
 </body>
 </html>

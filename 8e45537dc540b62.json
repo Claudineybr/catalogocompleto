@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau", "description": "Assista Shangri-La Frontier 2023 - Episódio 49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-81036262/dubbed/24/7e5d692e-5e76-49e7-ab3b-55b638e56a14/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-81036262/dubbed/24/7e5d692e-5e76-49e7-ab3b-55b638e56a14/stream.mp4", "episodeNumber": 49, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Shangri-La Frontier 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau",
+  "description": "Assista Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-81036262/dubbed/24/7e5d692e-5e76-49e7-ab3b-55b638e56a14/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/shangri-la-frontier-kusoge-hunter-kamige-ni-idoman-81036262/dubbed/24/7e5d692e-5e76-49e7-ab3b-55b638e56a14/stream.mp4"
+}
 </script>
 <title>Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xPxirRd6oTzGGCREKNm1UvW3Y9k.jpg" alt="Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Shangri-La Frontier 2023 - T1E49 - Grande rei das profundezas, eu humildemente desejo esmagá-lo - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Lamb 2021 (LEGENDADO) - 🍿Clau", "description": "Assista Lamb 2021 (LEGENDADO)", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt9812474LEG.mp4", "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt9812474LEG.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Lamb 2021 (LEGENDADO) - 🍿Clau",
+  "description": "Assista Lamb 2021 (LEGENDADO) - 🍿Clau",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt9812474LEG.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt9812474LEG.mp4"
+}
 </script>
 <title>Lamb 2021 (LEGENDADO) - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://via.placeholder.com/500x750?text=Sem+Capa" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="Lamb 2021 (LEGENDADO) - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Lamb 2021 (LEGENDADO) - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau", "description": "Assista Overlord 2017 - Episódio 12 - Invasão da capital real", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/12/b1e60c27-217c-4b3c-9a7b-cbc3239bcad2/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/12/b1e60c27-217c-4b3c-9a7b-cbc3239bcad2/stream.mp4", "episodeNumber": 12, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Overlord 2017"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau",
+  "description": "Assista Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/12/b1e60c27-217c-4b3c-9a7b-cbc3239bcad2/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/12/b1e60c27-217c-4b3c-9a7b-cbc3239bcad2/stream.mp4"
+}
 </script>
 <title>Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg" alt="Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Overlord 2017 - T1E12 - Invasão da capital real - 🍿Clau</h1>
 </body>
 </html>

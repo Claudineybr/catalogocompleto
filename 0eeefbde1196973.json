@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau", "description": "Assista Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau",
+  "description": "Assista Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4"
+}
 </script>
 <title>Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg" alt="Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau</h1>
 </body>
 </html>

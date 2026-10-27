@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau", "description": "Assista Star Contra as Forças do Mal - Episódio 13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/13/9e51992b-62e1-4c12-ad5f-f70af3228800/stream.mp4", "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/13/9e51992b-62e1-4c12-ad5f-f70af3228800/stream.mp4", "episodeNumber": 13, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Star Contra as Forças do Mal"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau",
+  "description": "Assista Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/13/9e51992b-62e1-4c12-ad5f-f70af3228800/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/star-vs-as-forcas-do-mal-00bcfa26/s4/dubbed/13/9e51992b-62e1-4c12-ad5f-f70af3228800/stream.mp4"
+}
 </script>
 <title>Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/mNJyeOwLHOw0vDPbtcWeA1q4Wmt.jpg" alt="Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Star Contra as Forças do Mal - T1E13 - Um Garoto e a Sua MD-700XE; O Monstro e a Rainha - 🍿Clau</h1>
 </body>
 </html>

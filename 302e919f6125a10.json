@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau", "description": "Assista Rick e Morty - Episódio 7 - A Mistura Ricklântica", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/7/0e29429a-6389-443b-86a6-416f26c3a39a/stream.mp4", "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/7/0e29429a-6389-443b-86a6-416f26c3a39a/stream.mp4", "episodeNumber": 7, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Rick e Morty"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau",
+  "description": "Assista Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/7/0e29429a-6389-443b-86a6-416f26c3a39a/stream.mp4",
+  "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/7/0e29429a-6389-443b-86a6-416f26c3a39a/stream.mp4"
+}
 </script>
 <title>Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg" alt="Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Rick e Morty - T1E7 - A Mistura Ricklântica - 🍿Clau</h1>
 </body>
 </html>

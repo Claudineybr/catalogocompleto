@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Sombra de Stalin 2019 - 🍿Clau", "description": "Assista A Sombra de Stalin 2019", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gtzri2oD8C5h36nBvOJN9SAXqlA.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-sombra-de-stalin-32203a13/dubbed/1/aa113ef8-b9ad-47e3-9e93-2bc39fd339c3/stream.mp4", "embedUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-sombra-de-stalin-32203a13/dubbed/1/aa113ef8-b9ad-47e3-9e93-2bc39fd339c3/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Sombra de Stalin 2019 - 🍿Clau",
+  "description": "Assista A Sombra de Stalin 2019 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gtzri2oD8C5h36nBvOJN9SAXqlA.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-sombra-de-stalin-32203a13/dubbed/1/aa113ef8-b9ad-47e3-9e93-2bc39fd339c3/stream.mp4",
+  "embedUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-sombra-de-stalin-32203a13/dubbed/1/aa113ef8-b9ad-47e3-9e93-2bc39fd339c3/stream.mp4"
+}
 </script>
 <title>A Sombra de Stalin 2019 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gtzri2oD8C5h36nBvOJN9SAXqlA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/gtzri2oD8C5h36nBvOJN9SAXqlA.jpg" alt="A Sombra de Stalin 2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Sombra de Stalin 2019 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau", "description": "Assista S.W.A.T.: Força de Intervenção 2017 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/f448daea-8730-4b50-a433-3a5d7c4ca68b/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/f448daea-8730-4b50-a433-3a5d7c4ca68b/playlist.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau",
+  "description": "Assista S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/f448daea-8730-4b50-a433-3a5d7c4ca68b/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/f448daea-8730-4b50-a433-3a5d7c4ca68b/playlist.m3u8"
+}
 </script>
 <title>S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg" alt="S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>S.W.A.T.: Força de Intervenção 2017 - Episódio - 🍿Clau</h1>
 </body>
 </html>

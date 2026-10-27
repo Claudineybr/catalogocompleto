@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Terror no Deserto 2022 - 🍿Clau", "description": "Assista Terror no Deserto 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd", "embedUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Terror no Deserto 2022 - 🍿Clau",
+  "description": "Assista Terror no Deserto 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd",
+  "embedUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd"
+}
 </script>
 <title>Terror no Deserto 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg" alt="Terror no Deserto 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Terror no Deserto 2022 - 🍿Clau</h1>
 </body>
 </html>

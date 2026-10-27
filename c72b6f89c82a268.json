@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Pulando a Vassoura 2011 - 🍿Clau", "description": "Assista Pulando a Vassoura 2011", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/f81nlZHjsyGRmLS0zfI3Dc1w3RU.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0046.l1s0-cdn-3123123.com/pulando-a-vassoura-8289cbc6/dubbed/1/4fba6dc5-0d39-4982-afd2-dc862e7fe37b/stream.mp4?type=movie&expires=1769630913&signature=ead2d55070fb2dfff061bd09a2ffce559224354eb139401d6df6d38264d5e607", "embedUrl": "https://cdn-0046.l1s0-cdn-3123123.com/pulando-a-vassoura-8289cbc6/dubbed/1/4fba6dc5-0d39-4982-afd2-dc862e7fe37b/stream.mp4?type=movie&expires=1769630913&signature=ead2d55070fb2dfff061bd09a2ffce559224354eb139401d6df6d38264d5e607"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pulando a Vassoura 2011 - 🍿Clau",
+  "description": "Assista Pulando a Vassoura 2011 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/f81nlZHjsyGRmLS0zfI3Dc1w3RU.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0046.l1s0-cdn-3123123.com/pulando-a-vassoura-8289cbc6/dubbed/1/4fba6dc5-0d39-4982-afd2-dc862e7fe37b/stream.mp4?type=movie&expires=1769630913&signature=ead2d55070fb2dfff061bd09a2ffce559224354eb139401d6df6d38264d5e607",
+  "embedUrl": "https://cdn-0046.l1s0-cdn-3123123.com/pulando-a-vassoura-8289cbc6/dubbed/1/4fba6dc5-0d39-4982-afd2-dc862e7fe37b/stream.mp4?type=movie&expires=1769630913&signature=ead2d55070fb2dfff061bd09a2ffce559224354eb139401d6df6d38264d5e607"
+}
 </script>
 <title>Pulando a Vassoura 2011 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/f81nlZHjsyGRmLS0zfI3Dc1w3RU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/f81nlZHjsyGRmLS0zfI3Dc1w3RU.jpg" alt="Pulando a Vassoura 2011 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Pulando a Vassoura 2011 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau", "description": "Assista Percy Jackson e os Olimpianos 2023 - Episódio 3", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E03_103540.mp4", "embedUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E03_103540.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Percy Jackson e os Olimpianos 2023"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau",
+  "description": "Assista Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E03_103540.mp4",
+  "embedUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E03_103540.mp4"
+}
 </script>
 <title>Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg" alt="Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Percy Jackson e os Olimpianos 2023 - T1E3 - 🍿Clau</h1>
 </body>
 </html>

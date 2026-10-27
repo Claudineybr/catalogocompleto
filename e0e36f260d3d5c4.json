@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Doze é Demais 2003 - 🍿Clau", "description": "Assista Doze é Demais 2003", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/8TytUmOaJbI3O7pedgGErvdcVOV.jpg"], "uploadDate": "2003-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d", "embedUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doze é Demais 2003 - 🍿Clau",
+  "description": "Assista Doze é Demais 2003 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8TytUmOaJbI3O7pedgGErvdcVOV.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d",
+  "embedUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d"
+}
 </script>
 <title>Doze é Demais 2003 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/8TytUmOaJbI3O7pedgGErvdcVOV.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/8TytUmOaJbI3O7pedgGErvdcVOV.jpg" alt="Doze é Demais 2003 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Doze é Demais 2003 - 🍿Clau</h1>
 </body>
 </html>

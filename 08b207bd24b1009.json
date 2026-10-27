@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau", "description": "Assista Bob Esponja Calça Quadrada - Episódio 16 - Turno Macabro / Amor Cascudo", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/16/0ab23222-225a-47cd-b459-7accd39133aa/stream.mp4", "embedUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/16/0ab23222-225a-47cd-b459-7accd39133aa/stream.mp4", "episodeNumber": 16, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Bob Esponja Calça Quadrada"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau",
+  "description": "Assista Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/16/0ab23222-225a-47cd-b459-7accd39133aa/stream.mp4",
+  "embedUrl": "https://cdn-0046.speed-stream.online/bob-esponja-calca-quadrada-bc9556fa/s2/dubbed/16/0ab23222-225a-47cd-b459-7accd39133aa/stream.mp4"
+}
 </script>
 <title>Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/obDYToEfPFNMKW6x0eamCrjTMzK.jpg" alt="Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Bob Esponja Calça Quadrada - T1E16 - Turno Macabro / Amor Cascudo - 🍿Clau</h1>
 </body>
 </html>

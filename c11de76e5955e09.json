@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau", "description": "Assista The Chosen: Os Escolhidos - Episódio 1 - O Pastor", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/85077/1x1.mp4", "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/85077/1x1.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "The Chosen: Os Escolhidos"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau",
+  "description": "Assista The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/85077/1x1.mp4",
+  "embedUrl": "http://shd7.oneplayer.site/u657uy56y5r4tfg4r3eftg345tgy45hj456th45tjh456uj56ujhryz3/SHD7/85077/1x1.mp4"
+}
 </script>
 <title>The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9lL4etMuaZnqlSzkf0zEm3gbvlR.jpg" alt="The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>The Chosen: Os Escolhidos - T1E1 - O Pastor - 🍿Clau</h1>
 </body>
 </html>

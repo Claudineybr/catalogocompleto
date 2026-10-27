@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Velozes & Furiosos 7 - 2015 - 🍿Clau", "description": "Assista Velozes & Furiosos 7 - 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/eefade55-7d4a-43ab-a391-8bffb2e3141e", "embedUrl": "https://tankie.tube/videos/embed/eefade55-7d4a-43ab-a391-8bffb2e3141e"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Velozes & Furiosos 7 - 2015 - 🍿Clau",
+  "description": "Assista Velozes & Furiosos 7 - 2015 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/eefade55-7d4a-43ab-a391-8bffb2e3141e",
+  "embedUrl": "https://tankie.tube/videos/embed/eefade55-7d4a-43ab-a391-8bffb2e3141e"
+}
 </script>
 <title>Velozes & Furiosos 7 - 2015 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/spydMyyD81HjGJVwZvjajkrWW1h.jpg" alt="Velozes & Furiosos 7 - 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Velozes & Furiosos 7 - 2015 - 🍿Clau</h1>
 </body>
 </html>

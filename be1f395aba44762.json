@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau", "description": "Assista IT: Bem-Vindos à Derry 2025 - Episódio 4 -", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/4/95f04f23-6c32-4fe4-a7f6-380181487065/stream.mp4?type=serie&expires=1770840201&signature=dec95de0f7eef1f731e2a704d299905bf1bd325bac0989402573e43648ad43e0", "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/4/95f04f23-6c32-4fe4-a7f6-380181487065/stream.mp4?type=serie&expires=1770840201&signature=dec95de0f7eef1f731e2a704d299905bf1bd325bac0989402573e43648ad43e0", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "IT: Bem-Vindos à Derry 2025"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau",
+  "description": "Assista IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/4/95f04f23-6c32-4fe4-a7f6-380181487065/stream.mp4?type=serie&expires=1770840201&signature=dec95de0f7eef1f731e2a704d299905bf1bd325bac0989402573e43648ad43e0",
+  "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/4/95f04f23-6c32-4fe4-a7f6-380181487065/stream.mp4?type=serie&expires=1770840201&signature=dec95de0f7eef1f731e2a704d299905bf1bd325bac0989402573e43648ad43e0"
+}
 </script>
 <title>IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg" alt="IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>IT: Bem-Vindos à Derry 2025 - T1E4 - 🍿Clau</h1>
 </body>
 </html>

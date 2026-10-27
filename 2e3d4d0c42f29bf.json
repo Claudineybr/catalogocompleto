@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 7 – Peixes Grandes", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/7/421fe0a3-81d9-439d-9a54-26bb7042631b/stream.mp4?type=serie&expires=1770765897&signature=2f306dc72e05a6f8b912455425a6e19c0d8f49af837fd8461a15799d5229103b", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/7/421fe0a3-81d9-439d-9a54-26bb7042631b/stream.mp4?type=serie&expires=1770765897&signature=2f306dc72e05a6f8b912455425a6e19c0d8f49af837fd8461a15799d5229103b"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/7/421fe0a3-81d9-439d-9a54-26bb7042631b/stream.mp4?type=serie&expires=1770765897&signature=2f306dc72e05a6f8b912455425a6e19c0d8f49af837fd8461a15799d5229103b",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/7/421fe0a3-81d9-439d-9a54-26bb7042631b/stream.mp4?type=serie&expires=1770765897&signature=2f306dc72e05a6f8b912455425a6e19c0d8f49af837fd8461a15799d5229103b"
+}
 </script>
 <title>True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>True Detective 2014 - Episódio 7 – Peixes Grandes - 🍿Clau</h1>
 </body>
 </html>

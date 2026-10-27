@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Eu, Robô 2004 - 🍿Clau", "description": "Assista Eu, Robô 2004", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2I8b8SScgbVONX0LCURG8O184Dy.jpg"], "uploadDate": "2004-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0087.speed-stream.online/eu-robo-d8cc1298/dubbed/1/9c691efb-5971-47f4-8694-9d121959933d/stream.mp4", "embedUrl": "https://cdn-0087.speed-stream.online/eu-robo-d8cc1298/dubbed/1/9c691efb-5971-47f4-8694-9d121959933d/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Eu, Robô 2004 - 🍿Clau",
+  "description": "Assista Eu, Robô 2004 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2I8b8SScgbVONX0LCURG8O184Dy.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0087.speed-stream.online/eu-robo-d8cc1298/dubbed/1/9c691efb-5971-47f4-8694-9d121959933d/stream.mp4",
+  "embedUrl": "https://cdn-0087.speed-stream.online/eu-robo-d8cc1298/dubbed/1/9c691efb-5971-47f4-8694-9d121959933d/stream.mp4"
+}
 </script>
 <title>Eu, Robô 2004 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2I8b8SScgbVONX0LCURG8O184Dy.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2I8b8SScgbVONX0LCURG8O184Dy.jpg" alt="Eu, Robô 2004 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Eu, Robô 2004 - 🍿Clau</h1>
 </body>
 </html>

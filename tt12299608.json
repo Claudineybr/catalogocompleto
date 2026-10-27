@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Mickey 17 - 2025 - 🍿Clau", "description": "Assista Mickey 17 - 2025", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Mickey%2017_2025_tt12299608.mp4?cnvs_token=WTJNNFptRmlaakptT0RVeE1ERmtPUUY4bGNFTlYyckRrMU44RU41MTd6Vm9GRkYzVXd5em9pMUduM2MyNHh6N2ZrUjJiZUpWSTBkWGkvUDROaTVrWlVsYWJhMFAvRHczWFRuY1dzVlVWaDVVUC94a0hIcTVzSFI2UHpJQy91WVc", "embedUrl": "https://server-1.cnvods.com/m/Mickey%2017_2025_tt12299608.mp4?cnvs_token=WTJNNFptRmlaakptT0RVeE1ERmtPUUY4bGNFTlYyckRrMU44RU41MTd6Vm9GRkYzVXd5em9pMUduM2MyNHh6N2ZrUjJiZUpWSTBkWGkvUDROaTVrWlVsYWJhMFAvRHczWFRuY1dzVlVWaDVVUC94a0hIcTVzSFI2UHpJQy91WVc"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mickey 17 - 2025 - 🍿Clau",
+  "description": "Assista Mickey 17 - 2025 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/Mickey%2017_2025_tt12299608.mp4?cnvs_token=WTJNNFptRmlaakptT0RVeE1ERmtPUUY4bGNFTlYyckRrMU44RU41MTd6Vm9GRkYzVXd5em9pMUduM2MyNHh6N2ZrUjJiZUpWSTBkWGkvUDROaTVrWlVsYWJhMFAvRHczWFRuY1dzVlVWaDVVUC94a0hIcTVzSFI2UHpJQy91WVc",
+  "embedUrl": "https://server-1.cnvods.com/m/Mickey%2017_2025_tt12299608.mp4?cnvs_token=WTJNNFptRmlaakptT0RVeE1ERmtPUUY4bGNFTlYyckRrMU44RU41MTd6Vm9GRkYzVXd5em9pMUduM2MyNHh6N2ZrUjJiZUpWSTBkWGkvUDROaTVrWlVsYWJhMFAvRHczWFRuY1dzVlVWaDVVUC94a0hIcTVzSFI2UHpJQy91WVc"
+}
 </script>
 <title>Mickey 17 - 2025 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/is1U9n0e9ofg50U1T7p2WZuIwiO.jpg" alt="Mickey 17 - 2025 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Mickey 17 - 2025 - 🍿Clau</h1>
 </body>
 </html>

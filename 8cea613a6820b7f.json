@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Bastardo - 🍿Clau", "description": "Assista O Bastardo", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xmFigFDrjHqXov3od5E0LvnyJhP.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OBastardo2024.mp4", "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OBastardo2024.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Bastardo - 🍿Clau",
+  "description": "Assista O Bastardo - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xmFigFDrjHqXov3od5E0LvnyJhP.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OBastardo2024.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OBastardo2024.mp4"
+}
 </script>
 <title>O Bastardo - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/xmFigFDrjHqXov3od5E0LvnyJhP.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/xmFigFDrjHqXov3od5E0LvnyJhP.jpg" alt="O Bastardo - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Bastardo - 🍿Clau</h1>
 </body>
 </html>

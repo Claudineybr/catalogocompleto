@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Coisa 1985 - Episódio - 🍿Clau", "description": "Assista A Coisa 1985 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg"], "uploadDate": "1985-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-utx.playmycnvs.com/m/Justi%C3%A7a.Artificial.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=v_id=1&p_id=2&token=1771455317-NrX95M2F2rxwbEWkho0VahZHg4hnEKomAyY_zBXoaAo", "embedUrl": "https://play-utx.playmycnvs.com/m/Justi%C3%A7a.Artificial.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=v_id=1&p_id=2&token=1771455317-NrX95M2F2rxwbEWkho0VahZHg4hnEKomAyY_zBXoaAo"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Coisa 1985 - Episódio - 🍿Clau",
+  "description": "Assista A Coisa 1985 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg"
+  ],
+  "uploadDate": "1985-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-utx.playmycnvs.com/m/Justi%C3%A7a.Artificial.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=v_id=1&p_id=2&token=1771455317-NrX95M2F2rxwbEWkho0VahZHg4hnEKomAyY_zBXoaAo",
+  "embedUrl": "https://play-utx.playmycnvs.com/m/Justi%C3%A7a.Artificial.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=v_id=1&p_id=2&token=1771455317-NrX95M2F2rxwbEWkho0VahZHg4hnEKomAyY_zBXoaAo"
+}
 </script>
 <title>A Coisa 1985 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/uYxz0lIiNgErrPhQbSjUdwYxtFc.jpg" alt="A Coisa 1985 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Coisa 1985 - Episódio - 🍿Clau</h1>
 </body>
 </html>

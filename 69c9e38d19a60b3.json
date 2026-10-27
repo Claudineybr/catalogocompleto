@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio 72 - Vívido", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/12/eb98ba47-0b29-4366-bc46-323f206e43c8/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/12/eb98ba47-0b29-4366-bc46-323f206e43c8/stream.mp4", "episodeNumber": 72, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Haikyu!! 2014"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/12/eb98ba47-0b29-4366-bc46-323f206e43c8/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/12/eb98ba47-0b29-4366-bc46-323f206e43c8/stream.mp4"
+}
 </script>
 <title>Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" alt="Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Haikyu!! 2014 - T1E72 - Vívido - 🍿Clau</h1>
 </body>
 </html>

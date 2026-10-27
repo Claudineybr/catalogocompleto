@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Scooby-Doo! Mistério S/A - Episódio - 🍿Clau", "description": "Assista Scooby-Doo! Mistério S/A - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/75ZldxGKFQDRHFn2G6FngCvlVzu.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0098.speed-stream.online/a-caminho-de-casa-814ea9e7/dubbed/1/99d5f502-5228-4042-ad70-a20642843231/stream.mp4", "embedUrl": "https://cdn-0098.speed-stream.online/a-caminho-de-casa-814ea9e7/dubbed/1/99d5f502-5228-4042-ad70-a20642843231/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Scooby-Doo! Mistério S/A - Episódio - 🍿Clau",
+  "description": "Assista Scooby-Doo! Mistério S/A - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/75ZldxGKFQDRHFn2G6FngCvlVzu.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0098.speed-stream.online/a-caminho-de-casa-814ea9e7/dubbed/1/99d5f502-5228-4042-ad70-a20642843231/stream.mp4",
+  "embedUrl": "https://cdn-0098.speed-stream.online/a-caminho-de-casa-814ea9e7/dubbed/1/99d5f502-5228-4042-ad70-a20642843231/stream.mp4"
+}
 </script>
 <title>Scooby-Doo! Mistério S/A - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/75ZldxGKFQDRHFn2G6FngCvlVzu.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/75ZldxGKFQDRHFn2G6FngCvlVzu.jpg" alt="Scooby-Doo! Mistério S/A - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Scooby-Doo! Mistério S/A - Episódio - 🍿Clau</h1>
 </body>
 </html>

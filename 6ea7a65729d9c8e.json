@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Apartamento 7A - 🍿Clau", "description": "Assista Apartamento 7A", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/oyZCDnH17nPtZxAomgLqPjMGqS2.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/5MBPTU9NiUCRHXaPytncct", "embedUrl": "https://tankie.tube/w/5MBPTU9NiUCRHXaPytncct"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Apartamento 7A - 🍿Clau",
+  "description": "Assista Apartamento 7A - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oyZCDnH17nPtZxAomgLqPjMGqS2.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/5MBPTU9NiUCRHXaPytncct",
+  "embedUrl": "https://tankie.tube/w/5MBPTU9NiUCRHXaPytncct"
+}
 </script>
 <title>Apartamento 7A - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/oyZCDnH17nPtZxAomgLqPjMGqS2.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/oyZCDnH17nPtZxAomgLqPjMGqS2.jpg" alt="Apartamento 7A - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Apartamento 7A - 🍿Clau</h1>
 </body>
 </html>

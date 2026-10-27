@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau", "description": "Assista South Park 1997 - Episódio 8 – Merda de Verão", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg"], "uploadDate": "1997-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/2190/2x8.mp4", "embedUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/2190/2x8.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau",
+  "description": "Assista South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg"
+  ],
+  "uploadDate": "1997-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/2190/2x8.mp4",
+  "embedUrl": "http://shd0.oneplayer.site/rfg54ry435y45y45y45y45y45rt23w4r324wt34tr34t3e4wtf582/SHD0/2190/2x8.mp4"
+}
 </script>
 <title>South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ojwZ7dO7CUVUjbUDW81XaBjqy6h.jpg" alt="South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>South Park 1997 - Episódio 8 – Merda de Verão - 🍿Clau</h1>
 </body>
 </html>

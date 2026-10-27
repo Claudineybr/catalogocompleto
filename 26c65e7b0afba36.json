@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Ben 10 - T1E12 - O Julgamento - 🍿Clau", "description": "Assista Ben 10 - Episódio 12 - O Julgamento", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/12/c1c340e2-d9e9-41db-9d94-e0f1dca5f236/stream.mp4", "embedUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/12/c1c340e2-d9e9-41db-9d94-e0f1dca5f236/stream.mp4", "episodeNumber": 12, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Ben 10"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ben 10 - T1E12 - O Julgamento - 🍿Clau",
+  "description": "Assista Ben 10 - T1E12 - O Julgamento - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/12/c1c340e2-d9e9-41db-9d94-e0f1dca5f236/stream.mp4",
+  "embedUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/12/c1c340e2-d9e9-41db-9d94-e0f1dca5f236/stream.mp4"
+}
 </script>
 <title>Ben 10 - T1E12 - O Julgamento - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg" alt="Ben 10 - T1E12 - O Julgamento - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Ben 10 - T1E12 - O Julgamento - 🍿Clau</h1>
 </body>
 </html>

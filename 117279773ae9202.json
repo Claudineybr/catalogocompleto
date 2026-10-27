@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Boneco do Mal 2016 - 🍿Clau", "description": "Assista Boneco do Mal 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/q4T7U5uhuNsHQBpFF2iSfKOuhgX.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/9294e795-7bb8-4d9f-a175-4473d822f236", "embedUrl": "https://tankie.tube/videos/embed/9294e795-7bb8-4d9f-a175-4473d822f236"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Boneco do Mal 2016 - 🍿Clau",
+  "description": "Assista Boneco do Mal 2016 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/q4T7U5uhuNsHQBpFF2iSfKOuhgX.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/9294e795-7bb8-4d9f-a175-4473d822f236",
+  "embedUrl": "https://tankie.tube/videos/embed/9294e795-7bb8-4d9f-a175-4473d822f236"
+}
 </script>
 <title>Boneco do Mal 2016 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/q4T7U5uhuNsHQBpFF2iSfKOuhgX.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/q4T7U5uhuNsHQBpFF2iSfKOuhgX.jpg" alt="Boneco do Mal 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Boneco do Mal 2016 - 🍿Clau</h1>
 </body>
 </html>

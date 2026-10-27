@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Assassino 2023 - 🍿Clau", "description": "Assista Assassino 2023", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/W2BUuw3cFR5lfxOkMjW2o7gJHE.jpg"], "uploadDate": "2023-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Assassino 2023 - 🍿Clau",
+  "description": "Assista Assassino 2023 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/W2BUuw3cFR5lfxOkMjW2o7gJHE.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8"
+}
 </script>
 <title>Assassino 2023 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/W2BUuw3cFR5lfxOkMjW2o7gJHE.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/W2BUuw3cFR5lfxOkMjW2o7gJHE.jpg" alt="Assassino 2023 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Assassino 2023 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau", "description": "Assista Teen Wolf 2011 - Episódio 11 - Uma Promessa aos Mortos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rXPm0h0ealhSDmAsjH4CgkF3pov.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/34524/4x11.mp4", "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/34524/4x11.mp4", "episodeNumber": 11, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Teen Wolf 2011"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau",
+  "description": "Assista Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rXPm0h0ealhSDmAsjH4CgkF3pov.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/34524/4x11.mp4",
+  "embedUrl": "http://shd1.oneplayer.site/y45y456y45y54eytg345t4rfwserdfwe4rtrf34t65435redso/SHD1/34524/4x11.mp4"
+}
 </script>
 <title>Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rXPm0h0ealhSDmAsjH4CgkF3pov.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rXPm0h0ealhSDmAsjH4CgkF3pov.jpg" alt="Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Teen Wolf 2011 - T1E11 - Uma Promessa aos Mortos - 🍿Clau</h1>
 </body>
 </html>

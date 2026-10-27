@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sem Saida Ano 2008 - Abrir Player - 🍿Clau", "description": "Assista Sem Saida Ano 2008 - Abrir Player", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/fd13de16-1cf9-4eca-887f-1ce15b37552b/1b21ad95-407d-44bd-a5a4-4ceb5bbf2bb4-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/fd13de16-1cf9-4eca-887f-1ce15b37552b/1b21ad95-407d-44bd-a5a4-4ceb5bbf2bb4-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sem Saida Ano 2008 - Abrir Player - 🍿Clau",
+  "description": "Assista Sem Saida Ano 2008 - Abrir Player - 🍿Clau",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/fd13de16-1cf9-4eca-887f-1ce15b37552b/1b21ad95-407d-44bd-a5a4-4ceb5bbf2bb4-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/fd13de16-1cf9-4eca-887f-1ce15b37552b/1b21ad95-407d-44bd-a5a4-4ceb5bbf2bb4-master.m3u8"
+}
 </script>
 <title>Sem Saida Ano 2008 - Abrir Player - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://via.placeholder.com/500x750?text=Sem+Capa" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="Sem Saida Ano 2008 - Abrir Player - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Sem Saida Ano 2008 - Abrir Player - 🍿Clau</h1>
 </body>
 </html>

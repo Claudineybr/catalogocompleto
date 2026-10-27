@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau", "description": "Assista Velozes e Furiosos 5: Operação Rio 2011 ‧", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/d02b97d4-c423-4254-b5cc-0faf79914879", "embedUrl": "https://tankie.tube/videos/embed/d02b97d4-c423-4254-b5cc-0faf79914879"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau",
+  "description": "Assista Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/d02b97d4-c423-4254-b5cc-0faf79914879",
+  "embedUrl": "https://tankie.tube/videos/embed/d02b97d4-c423-4254-b5cc-0faf79914879"
+}
 </script>
 <title>Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/5BKmQMUPOEtDFDCBW8jrUCI9ZbI.jpg" alt="Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Velozes e Furiosos 5: Operação Rio 2011 ‧ - 🍿Clau</h1>
 </body>
 </html>

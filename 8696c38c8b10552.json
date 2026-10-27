@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau", "description": "Assista Skins: Juventude A Flor Da Pele - Episódio 04", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/bf4L6bB9YOGyrPeLdlpz3FlMZQg.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/900/1x4LEG.mp4", "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/900/1x4LEG.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Skins: Juventude A Flor Da Pele"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau",
+  "description": "Assista Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bf4L6bB9YOGyrPeLdlpz3FlMZQg.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/900/1x4LEG.mp4",
+  "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/900/1x4LEG.mp4"
+}
 </script>
 <title>Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/bf4L6bB9YOGyrPeLdlpz3FlMZQg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/bf4L6bB9YOGyrPeLdlpz3FlMZQg.jpg" alt="Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Skins: Juventude A Flor Da Pele - T1E4 - 🍿Clau</h1>
 </body>
 </html>

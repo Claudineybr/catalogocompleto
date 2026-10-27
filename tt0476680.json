@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau", "description": "Assista Naruto: O Confronto Ninja no País da Neve 2004", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/cNG8IwOovhq8n9iBMOcxT2c2gc9.jpg"], "uploadDate": "2004-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Naruto%20O%20Filme:%20A%20Grande%20Miss%C3%A3o!%20Salvar%20a%20Princesa%20da%20Neve_2007_tt0476680.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Naruto%20O%20Filme:%20A%20Grande%20Miss%C3%A3o!%20Salvar%20a%20Princesa%20da%20Neve_2007_tt0476680.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau",
+  "description": "Assista Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cNG8IwOovhq8n9iBMOcxT2c2gc9.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Naruto%20O%20Filme:%20A%20Grande%20Miss%C3%A3o!%20Salvar%20a%20Princesa%20da%20Neve_2007_tt0476680.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Naruto%20O%20Filme:%20A%20Grande%20Miss%C3%A3o!%20Salvar%20a%20Princesa%20da%20Neve_2007_tt0476680.mp4"
+}
 </script>
 <title>Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/cNG8IwOovhq8n9iBMOcxT2c2gc9.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/cNG8IwOovhq8n9iBMOcxT2c2gc9.jpg" alt="Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Naruto: O Confronto Ninja no País da Neve 2004 - 🍿Clau</h1>
 </body>
 </html>

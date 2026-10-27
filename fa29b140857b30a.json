@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Congonhas - T1E3 - 🍿Clau", "description": "Assista Congonhas - Episódio 3", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/q5te3G0Z5fTbvzBtPYzLHZAmTwP.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://sinalprivado.info/cache/2014e847-3fe4-492e-a7ed-680d1db10a5d/playlist.m3u8", "embedUrl": "https://sinalprivado.info/cache/2014e847-3fe4-492e-a7ed-680d1db10a5d/playlist.m3u8", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Congonhas"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Congonhas - T1E3 - 🍿Clau",
+  "description": "Assista Congonhas - T1E3 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/q5te3G0Z5fTbvzBtPYzLHZAmTwP.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/2014e847-3fe4-492e-a7ed-680d1db10a5d/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/2014e847-3fe4-492e-a7ed-680d1db10a5d/playlist.m3u8"
+}
 </script>
 <title>Congonhas - T1E3 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/q5te3G0Z5fTbvzBtPYzLHZAmTwP.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/q5te3G0Z5fTbvzBtPYzLHZAmTwP.jpg" alt="Congonhas - T1E3 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Congonhas - T1E3 - 🍿Clau</h1>
 </body>
 </html>

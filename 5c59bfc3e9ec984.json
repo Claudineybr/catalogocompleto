@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Dolittle - 1998 - 🍿Clau", "description": "Assista Dolittle - 1998", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/tsa2NZ3QzR6zHg2e20yJfSOhUnS.jpg"], "uploadDate": "1998-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/30ce7889-847d-463a-ae22-fca74d972ca0/be8a1ba0-f409-4319-8c30-b28dec202e7c-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/30ce7889-847d-463a-ae22-fca74d972ca0/be8a1ba0-f409-4319-8c30-b28dec202e7c-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dolittle - 1998 - 🍿Clau",
+  "description": "Assista Dolittle - 1998 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tsa2NZ3QzR6zHg2e20yJfSOhUnS.jpg"
+  ],
+  "uploadDate": "1998-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/30ce7889-847d-463a-ae22-fca74d972ca0/be8a1ba0-f409-4319-8c30-b28dec202e7c-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/30ce7889-847d-463a-ae22-fca74d972ca0/be8a1ba0-f409-4319-8c30-b28dec202e7c-master.m3u8"
+}
 </script>
 <title>Dolittle - 1998 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/tsa2NZ3QzR6zHg2e20yJfSOhUnS.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/tsa2NZ3QzR6zHg2e20yJfSOhUnS.jpg" alt="Dolittle - 1998 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Dolittle - 1998 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Se Beber, Não Case! Parte III - 🍿Clau", "description": "Assista Se Beber, Não Case! Parte III", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/a784d277-bfec-49d2-b9b3-59a94ab17b28", "embedUrl": "https://tankie.tube/videos/embed/a784d277-bfec-49d2-b9b3-59a94ab17b28"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Se Beber, Não Case! Parte III - 🍿Clau",
+  "description": "Assista Se Beber, Não Case! Parte III - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a784d277-bfec-49d2-b9b3-59a94ab17b28",
+  "embedUrl": "https://tankie.tube/videos/embed/a784d277-bfec-49d2-b9b3-59a94ab17b28"
+}
 </script>
 <title>Se Beber, Não Case! Parte III - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/6SOnmTK0XoEcc7AoyXoce76to3Y.jpg" alt="Se Beber, Não Case! Parte III - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Se Beber, Não Case! Parte III - 🍿Clau</h1>
 </body>
 </html>

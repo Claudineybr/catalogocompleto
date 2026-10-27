@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau", "description": "Assista Dias Perfeitos 2025 - Episódio 8 - Dias perfeitos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/p4oCDJgtYPg8lWqmeNIsqPwzZ7X.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-utx.playmycnvs.com/m/T1%20E8%20-%20Dias%20perfeitos%20-%20Dias%20Perfeitos%20online%20no%20Globoplay.mp4?cnvs_token=T1dKbFkyRTFOMlEwWWpnNFpqVTBNZnhwdFJuSVRZSjJYK1czaVMvT3dBL2libUw4eU9LUEZzVEViUXpPM1RaZkwxQ1EzTkx0V2hicklkVlJhQ3JXanFKS0hiclc4cHR6QVdKUkExZDc0THVjWW93K20xRmtaaG9QRWZVUUtGOFFNYzJiMy9kUTN2Y2FqN2l5dm1qSDZuMGpQbHBkNTByVnBtTGpMWGE1R1FuUGN3T2pQNHJuTC83ZE5UQ1lVaDZD", "embedUrl": "https://play-utx.playmycnvs.com/m/T1%20E8%20-%20Dias%20perfeitos%20-%20Dias%20Perfeitos%20online%20no%20Globoplay.mp4?cnvs_token=T1dKbFkyRTFOMlEwWWpnNFpqVTBNZnhwdFJuSVRZSjJYK1czaVMvT3dBL2libUw4eU9LUEZzVEViUXpPM1RaZkwxQ1EzTkx0V2hicklkVlJhQ3JXanFKS0hiclc4cHR6QVdKUkExZDc0THVjWW93K20xRmtaaG9QRWZVUUtGOFFNYzJiMy9kUTN2Y2FqN2l5dm1qSDZuMGpQbHBkNTByVnBtTGpMWGE1R1FuUGN3T2pQNHJuTC83ZE5UQ1lVaDZD", "episodeNumber": 8, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Dias Perfeitos 2025"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau",
+  "description": "Assista Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/p4oCDJgtYPg8lWqmeNIsqPwzZ7X.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-utx.playmycnvs.com/m/T1%20E8%20-%20Dias%20perfeitos%20-%20Dias%20Perfeitos%20online%20no%20Globoplay.mp4?cnvs_token=T1dKbFkyRTFOMlEwWWpnNFpqVTBNZnhwdFJuSVRZSjJYK1czaVMvT3dBL2libUw4eU9LUEZzVEViUXpPM1RaZkwxQ1EzTkx0V2hicklkVlJhQ3JXanFKS0hiclc4cHR6QVdKUkExZDc0THVjWW93K20xRmtaaG9QRWZVUUtGOFFNYzJiMy9kUTN2Y2FqN2l5dm1qSDZuMGpQbHBkNTByVnBtTGpMWGE1R1FuUGN3T2pQNHJuTC83ZE5UQ1lVaDZD",
+  "embedUrl": "https://play-utx.playmycnvs.com/m/T1%20E8%20-%20Dias%20perfeitos%20-%20Dias%20Perfeitos%20online%20no%20Globoplay.mp4?cnvs_token=T1dKbFkyRTFOMlEwWWpnNFpqVTBNZnhwdFJuSVRZSjJYK1czaVMvT3dBL2libUw4eU9LUEZzVEViUXpPM1RaZkwxQ1EzTkx0V2hicklkVlJhQ3JXanFKS0hiclc4cHR6QVdKUkExZDc0THVjWW93K20xRmtaaG9QRWZVUUtGOFFNYzJiMy9kUTN2Y2FqN2l5dm1qSDZuMGpQbHBkNTByVnBtTGpMWGE1R1FuUGN3T2pQNHJuTC83ZE5UQ1lVaDZD"
+}
 </script>
 <title>Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/p4oCDJgtYPg8lWqmeNIsqPwzZ7X.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/p4oCDJgtYPg8lWqmeNIsqPwzZ7X.jpg" alt="Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Dias Perfeitos 2025 - T1E8 - Dias perfeitos - 🍿Clau</h1>
 </body>
 </html>

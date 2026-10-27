@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau", "description": "Assista Trailer Park Boys: A Série Animada 2019 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/emro60z8wYdPwuUOiCawbbqfAs0.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/Os%20Pestes.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/Os%20Pestes.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau",
+  "description": "Assista Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/emro60z8wYdPwuUOiCawbbqfAs0.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Os%20Pestes.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Os%20Pestes.mp4"
+}
 </script>
 <title>Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/emro60z8wYdPwuUOiCawbbqfAs0.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/emro60z8wYdPwuUOiCawbbqfAs0.jpg" alt="Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Trailer Park Boys: A Série Animada 2019 - Episódio - 🍿Clau</h1>
 </body>
 </html>

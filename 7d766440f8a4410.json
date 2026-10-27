@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau", "description": "Assista Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/4/0b5b89be-b36a-46d1-b631-e269085eb537/stream.mp4?storage=0019&expires=1775007178&signature=c8b2ed6352320d752086b14833427548f8e2b5af5cfbad818043a82af554d1dc&type=serie", "embedUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/4/0b5b89be-b36a-46d1-b631-e269085eb537/stream.mp4?storage=0019&expires=1775007178&signature=c8b2ed6352320d752086b14833427548f8e2b5af5cfbad818043a82af554d1dc&type=serie"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau",
+  "description": "Assista Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/4/0b5b89be-b36a-46d1-b631-e269085eb537/stream.mp4?storage=0019&expires=1775007178&signature=c8b2ed6352320d752086b14833427548f8e2b5af5cfbad818043a82af554d1dc&type=serie",
+  "embedUrl": "https://cdn-0019.l1s0-cdn-3123123.com/chernobyl-b259b08b/s1/dubbed/4/0b5b89be-b36a-46d1-b631-e269085eb537/stream.mp4?storage=0019&expires=1775007178&signature=c8b2ed6352320d752086b14833427548f8e2b5af5cfbad818043a82af554d1dc&type=serie"
+}
 </script>
 <title>Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/hlLXt2tOPT6RRnjiUmoxyG1LTFi.jpg" alt="Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Chernobyl 2019 - Episódio 4 – A Felicidade de Toda a Humanidade - 🍿Clau</h1>
 </body>
 </html>

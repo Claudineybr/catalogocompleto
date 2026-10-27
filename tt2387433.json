@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Labirinto Do Fauno 2009 - Episódio - 🍿Clau", "description": "Assista O Labirinto Do Fauno 2009 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5hMcZCR8qpJzeebm38Zi68XwcoA.jpg"], "uploadDate": "2009-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Os%20Escolhidos_2013_tt2387433.mp4?cnvs_token=WWpVNFpqRmtaREpsT0Rnd00ySXhZMEhjejRsT0NsQmJkUk9uZXN2U3pBc3AxVWVKUHlvaFhaQnh5am1RYXNOUHFNcWN6Uy8randKUjJZRmdvS0gvRC9nbEFTT3Z1ZExNTkI3VHhWaGgwRi9wTVhLT0tYa0VNOXlQUEpnVGEyczI", "embedUrl": "https://server-1.cnvods.com/m/Os%20Escolhidos_2013_tt2387433.mp4?cnvs_token=WWpVNFpqRmtaREpsT0Rnd00ySXhZMEhjejRsT0NsQmJkUk9uZXN2U3pBc3AxVWVKUHlvaFhaQnh5am1RYXNOUHFNcWN6Uy8randKUjJZRmdvS0gvRC9nbEFTT3Z1ZExNTkI3VHhWaGgwRi9wTVhLT0tYa0VNOXlQUEpnVGEyczI"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Labirinto Do Fauno 2009 - Episódio - 🍿Clau",
+  "description": "Assista O Labirinto Do Fauno 2009 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5hMcZCR8qpJzeebm38Zi68XwcoA.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/Os%20Escolhidos_2013_tt2387433.mp4?cnvs_token=WWpVNFpqRmtaREpsT0Rnd00ySXhZMEhjejRsT0NsQmJkUk9uZXN2U3pBc3AxVWVKUHlvaFhaQnh5am1RYXNOUHFNcWN6Uy8randKUjJZRmdvS0gvRC9nbEFTT3Z1ZExNTkI3VHhWaGgwRi9wTVhLT0tYa0VNOXlQUEpnVGEyczI",
+  "embedUrl": "https://server-1.cnvods.com/m/Os%20Escolhidos_2013_tt2387433.mp4?cnvs_token=WWpVNFpqRmtaREpsT0Rnd00ySXhZMEhjejRsT0NsQmJkUk9uZXN2U3pBc3AxVWVKUHlvaFhaQnh5am1RYXNOUHFNcWN6Uy8randKUjJZRmdvS0gvRC9nbEFTT3Z1ZExNTkI3VHhWaGgwRi9wTVhLT0tYa0VNOXlQUEpnVGEyczI"
+}
 </script>
 <title>O Labirinto Do Fauno 2009 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/5hMcZCR8qpJzeebm38Zi68XwcoA.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/5hMcZCR8qpJzeebm38Zi68XwcoA.jpg" alt="O Labirinto Do Fauno 2009 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Labirinto Do Fauno 2009 - Episódio - 🍿Clau</h1>
 </body>
 </html>

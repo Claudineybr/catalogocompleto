@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Grinch 2000 - 🍿Clau", "description": "Assista O Grinch 2000", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/hGnQmQARgtXtoesIGAsmmTbMKfH.jpg"], "uploadDate": "2000-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/O%20Grinch_2000_tt0170016.mp4", "embedUrl": "https://vods1.watchingvs.com/m/O%20Grinch_2000_tt0170016.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Grinch 2000 - 🍿Clau",
+  "description": "Assista O Grinch 2000 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hGnQmQARgtXtoesIGAsmmTbMKfH.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Grinch_2000_tt0170016.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Grinch_2000_tt0170016.mp4"
+}
 </script>
 <title>O Grinch 2000 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/hGnQmQARgtXtoesIGAsmmTbMKfH.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/hGnQmQARgtXtoesIGAsmmTbMKfH.jpg" alt="O Grinch 2000 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Grinch 2000 - 🍿Clau</h1>
 </body>
 </html>

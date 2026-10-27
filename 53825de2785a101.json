@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau", "description": "Assista Piratas do Caribe: Navegando em Águas Misteriosas 2011", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/blt7kBXEk1HgJjCTusaUMQ7BCTY.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/1a0767d5-61f3-4ad2-8706-5f0dfaed308e", "embedUrl": "https://tankie.tube/videos/embed/1a0767d5-61f3-4ad2-8706-5f0dfaed308e"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau",
+  "description": "Assista Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/blt7kBXEk1HgJjCTusaUMQ7BCTY.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/1a0767d5-61f3-4ad2-8706-5f0dfaed308e",
+  "embedUrl": "https://tankie.tube/videos/embed/1a0767d5-61f3-4ad2-8706-5f0dfaed308e"
+}
 </script>
 <title>Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/blt7kBXEk1HgJjCTusaUMQ7BCTY.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/blt7kBXEk1HgJjCTusaUMQ7BCTY.jpg" alt="Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Piratas do Caribe: Navegando em Águas Misteriosas 2011 - 🍿Clau</h1>
 </body>
 </html>

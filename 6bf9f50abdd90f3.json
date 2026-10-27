@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Atirador de Elite 2012 - 🍿Clau", "description": "Assista Atirador de Elite 2012", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/j6FEq9yYNDp7pAPQCG2yl5qTY3U.jpg"], "uploadDate": "2012-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0023.speed-stream.online/atirador-de-elite-aa303638/dubbed/1/03243ae9-a15d-4512-9b50-a3129ed9359f/stream.mp4", "embedUrl": "https://cdn-0023.speed-stream.online/atirador-de-elite-aa303638/dubbed/1/03243ae9-a15d-4512-9b50-a3129ed9359f/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Atirador de Elite 2012 - 🍿Clau",
+  "description": "Assista Atirador de Elite 2012 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/j6FEq9yYNDp7pAPQCG2yl5qTY3U.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0023.speed-stream.online/atirador-de-elite-aa303638/dubbed/1/03243ae9-a15d-4512-9b50-a3129ed9359f/stream.mp4",
+  "embedUrl": "https://cdn-0023.speed-stream.online/atirador-de-elite-aa303638/dubbed/1/03243ae9-a15d-4512-9b50-a3129ed9359f/stream.mp4"
+}
 </script>
 <title>Atirador de Elite 2012 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/j6FEq9yYNDp7pAPQCG2yl5qTY3U.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/j6FEq9yYNDp7pAPQCG2yl5qTY3U.jpg" alt="Atirador de Elite 2012 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Atirador de Elite 2012 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau", "description": "Assista O Exterminador do Futuro 2 - O Julgamento Final - 1991", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/eTIY2LO5cDclxgKtCHuvIKdF3c3.jpg"], "uploadDate": "1991-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/89754ccd-0a68-4535-b072-5aed78e16999/102b4bdd-e300-4193-9935-71dee138e79e-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/89754ccd-0a68-4535-b072-5aed78e16999/102b4bdd-e300-4193-9935-71dee138e79e-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau",
+  "description": "Assista O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eTIY2LO5cDclxgKtCHuvIKdF3c3.jpg"
+  ],
+  "uploadDate": "1991-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/89754ccd-0a68-4535-b072-5aed78e16999/102b4bdd-e300-4193-9935-71dee138e79e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/89754ccd-0a68-4535-b072-5aed78e16999/102b4bdd-e300-4193-9935-71dee138e79e-master.m3u8"
+}
 </script>
 <title>O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/eTIY2LO5cDclxgKtCHuvIKdF3c3.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/eTIY2LO5cDclxgKtCHuvIKdF3c3.jpg" alt="O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Exterminador do Futuro 2 - O Julgamento Final - 1991 - 🍿Clau</h1>
 </body>
 </html>

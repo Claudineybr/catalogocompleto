@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Amor com Data Marcada 2020 - 🍿Clau", "description": "Assista Amor com Data Marcada 2020", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/vsuhSOLAaEoZGR4paPFgxE29jIn.jpg"], "uploadDate": "2020-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://s1-cnvs.watchingvs.com/m/Amor%20com%20Data%20Marcada_2020_tt9866072.mp4?cnvs_token=TkROa05qUmtORGMyTTJVME1UUXdZdHY4ZFVQMjJEeFVUWk5EVHQ2R05FWExraUxzQjljVWVBdDNkeFdrK0U0dg", "embedUrl": "https://s1-cnvs.watchingvs.com/m/Amor%20com%20Data%20Marcada_2020_tt9866072.mp4?cnvs_token=TkROa05qUmtORGMyTTJVME1UUXdZdHY4ZFVQMjJEeFVUWk5EVHQ2R05FWExraUxzQjljVWVBdDNkeFdrK0U0dg"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Amor com Data Marcada 2020 - 🍿Clau",
+  "description": "Assista Amor com Data Marcada 2020 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vsuhSOLAaEoZGR4paPFgxE29jIn.jpg"
+  ],
+  "uploadDate": "2020-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s1-cnvs.watchingvs.com/m/Amor%20com%20Data%20Marcada_2020_tt9866072.mp4?cnvs_token=TkROa05qUmtORGMyTTJVME1UUXdZdHY4ZFVQMjJEeFVUWk5EVHQ2R05FWExraUxzQjljVWVBdDNkeFdrK0U0dg",
+  "embedUrl": "https://s1-cnvs.watchingvs.com/m/Amor%20com%20Data%20Marcada_2020_tt9866072.mp4?cnvs_token=TkROa05qUmtORGMyTTJVME1UUXdZdHY4ZFVQMjJEeFVUWk5EVHQ2R05FWExraUxzQjljVWVBdDNkeFdrK0U0dg"
+}
 </script>
 <title>Amor com Data Marcada 2020 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/vsuhSOLAaEoZGR4paPFgxE29jIn.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/vsuhSOLAaEoZGR4paPFgxE29jIn.jpg" alt="Amor com Data Marcada 2020 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Amor com Data Marcada 2020 - 🍿Clau</h1>
 </body>
 </html>

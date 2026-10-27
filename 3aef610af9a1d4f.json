@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau", "description": "Assista O Jardineiro - Episódio 4 - Tempestade de Segredos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gEjFUCTWamMeiQR4AIo9WnEXYiX.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/241883/1x4.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/241883/1x4.mp4", "episodeNumber": 4, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "O Jardineiro"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau",
+  "description": "Assista O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gEjFUCTWamMeiQR4AIo9WnEXYiX.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd13.oneplayer.site/SHD13/241883/1x4.mp4",
+  "embedUrl": "http://shd13.oneplayer.site/SHD13/241883/1x4.mp4"
+}
 </script>
 <title>O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/gEjFUCTWamMeiQR4AIo9WnEXYiX.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/gEjFUCTWamMeiQR4AIo9WnEXYiX.jpg" alt="O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Jardineiro - T1E4 - Tempestade de Segredos - 🍿Clau</h1>
 </body>
 </html>

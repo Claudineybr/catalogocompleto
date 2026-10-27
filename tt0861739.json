@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Tropa de Elite 2007 - 🍿Clau", "description": "Assista Tropa de Elite 2007", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg"], "uploadDate": "2007-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/Tropa%20de%20Elite_2007_tt0861739.mp4?cnvs_token=WWprNU5EUTRObVE1TUROaU1XRmpOUHcrcFdXYzVrbkhsZUlmR1V2YWErZ3ZVTUlUdTZ5WGxRbzdFb0M0WVptZkl5VHRsb0d6eDc2ekp1ekRkd2JIR2RHRVFMTlF0SGNFWGZ0UnhJS3lOU0Q2RkhLZkdKa0N2anE3Z3g4c0o5K3o", "embedUrl": "https://play-1.cnvods.com/m/Tropa%20de%20Elite_2007_tt0861739.mp4?cnvs_token=WWprNU5EUTRObVE1TUROaU1XRmpOUHcrcFdXYzVrbkhsZUlmR1V2YWErZ3ZVTUlUdTZ5WGxRbzdFb0M0WVptZkl5VHRsb0d6eDc2ekp1ekRkd2JIR2RHRVFMTlF0SGNFWGZ0UnhJS3lOU0Q2RkhLZkdKa0N2anE3Z3g4c0o5K3o"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tropa de Elite 2007 - 🍿Clau",
+  "description": "Assista Tropa de Elite 2007 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/Tropa%20de%20Elite_2007_tt0861739.mp4?cnvs_token=WWprNU5EUTRObVE1TUROaU1XRmpOUHcrcFdXYzVrbkhsZUlmR1V2YWErZ3ZVTUlUdTZ5WGxRbzdFb0M0WVptZkl5VHRsb0d6eDc2ekp1ekRkd2JIR2RHRVFMTlF0SGNFWGZ0UnhJS3lOU0Q2RkhLZkdKa0N2anE3Z3g4c0o5K3o",
+  "embedUrl": "https://play-1.cnvods.com/m/Tropa%20de%20Elite_2007_tt0861739.mp4?cnvs_token=WWprNU5EUTRObVE1TUROaU1XRmpOUHcrcFdXYzVrbkhsZUlmR1V2YWErZ3ZVTUlUdTZ5WGxRbzdFb0M0WVptZkl5VHRsb0d6eDc2ekp1ekRkd2JIR2RHRVFMTlF0SGNFWGZ0UnhJS3lOU0Q2RkhLZkdKa0N2anE3Z3g4c0o5K3o"
+}
 </script>
 <title>Tropa de Elite 2007 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/wFMkqerSlifIae2cja6K1fdvz2G.jpg" alt="Tropa de Elite 2007 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Tropa de Elite 2007 - 🍿Clau</h1>
 </body>
 </html>

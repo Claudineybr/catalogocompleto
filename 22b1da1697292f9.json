@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau", "description": "Assista BLUE LOCK 2022 - Episódio 1 - Sonho", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/1/f6a9c164-9e90-41bc-9363-a047a7deb65e/stream.mp4", "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/1/f6a9c164-9e90-41bc-9363-a047a7deb65e/stream.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "BLUE LOCK 2022"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/1/f6a9c164-9e90-41bc-9363-a047a7deb65e/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/1/f6a9c164-9e90-41bc-9363-a047a7deb65e/stream.mp4"
+}
 </script>
 <title>BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg" alt="BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>BLUE LOCK 2022 - T1E1 - Sonho - 🍿Clau</h1>
 </body>
 </html>

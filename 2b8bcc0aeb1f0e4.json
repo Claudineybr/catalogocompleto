@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Haikyu!! 2014 - Episódio - 🍿Clau", "description": "Assista Haikyu!! 2014 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.cnvslink.com/m/Viva.A.Vida.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4", "embedUrl": "https://cdn.cnvslink.com/m/Viva.A.Vida.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Viva.A.Vida.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Viva.A.Vida.2024.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4"
+}
 </script>
 <title>Haikyu!! 2014 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg" alt="Haikyu!! 2014 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Haikyu!! 2014 - Episódio - 🍿Clau</h1>
 </body>
 </html>

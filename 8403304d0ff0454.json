@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau", "description": "Assista S.W.A.T.: Força de Intervenção 2017 - Episódio 1 - Três Jovens de 17 Anos", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0070.speed-stream.online/swat-bb21ecf8/s4/dubbed/1/0e3c32d7-8624-4c61-99cf-a1273b472b84/stream.mp4", "embedUrl": "https://cdn-0070.speed-stream.online/swat-bb21ecf8/s4/dubbed/1/0e3c32d7-8624-4c61-99cf-a1273b472b84/stream.mp4", "episodeNumber": 1, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "S.W.A.T.: Força de Intervenção 2017"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau",
+  "description": "Assista S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0070.speed-stream.online/swat-bb21ecf8/s4/dubbed/1/0e3c32d7-8624-4c61-99cf-a1273b472b84/stream.mp4",
+  "embedUrl": "https://cdn-0070.speed-stream.online/swat-bb21ecf8/s4/dubbed/1/0e3c32d7-8624-4c61-99cf-a1273b472b84/stream.mp4"
+}
 </script>
 <title>S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/byFarhK0Wxmf9mSOOR9ZQ31sShJ.jpg" alt="S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>S.W.A.T.: Força de Intervenção 2017 - T1E1 - Três Jovens de 17 Anos - 🍿Clau</h1>
 </body>
 </html>

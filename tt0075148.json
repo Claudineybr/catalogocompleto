@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Rocky: Um Lutador 1976 - 🍿Clau", "description": "Assista Rocky: Um Lutador 1976", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/b9B1DXcPNsJfTtc4x2LKA3bykoJ.jpg"], "uploadDate": "1976-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0075148.mp4", "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0075148.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rocky: Um Lutador 1976 - 🍿Clau",
+  "description": "Assista Rocky: Um Lutador 1976 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/b9B1DXcPNsJfTtc4x2LKA3bykoJ.jpg"
+  ],
+  "uploadDate": "1976-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0075148.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0075148.mp4"
+}
 </script>
 <title>Rocky: Um Lutador 1976 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/b9B1DXcPNsJfTtc4x2LKA3bykoJ.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/b9B1DXcPNsJfTtc4x2LKA3bykoJ.jpg" alt="Rocky: Um Lutador 1976 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Rocky: Um Lutador 1976 - 🍿Clau</h1>
 </body>
 </html>

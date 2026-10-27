@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau", "description": "Assista O Peregrino: Uma Jornada Para o Céu 2008 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/lXQYxepa1C69bqBScsuUZsfUFHa.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.cnvslink.com/m/A.Ilha.das.Sombras.2023.1080p.WEB-DL.DUAL.2.0.mp4", "embedUrl": "https://cdn.cnvslink.com/m/A.Ilha.das.Sombras.2023.1080p.WEB-DL.DUAL.2.0.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau",
+  "description": "Assista O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lXQYxepa1C69bqBScsuUZsfUFHa.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/A.Ilha.das.Sombras.2023.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/A.Ilha.das.Sombras.2023.1080p.WEB-DL.DUAL.2.0.mp4"
+}
 </script>
 <title>O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/lXQYxepa1C69bqBScsuUZsfUFHa.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/lXQYxepa1C69bqBScsuUZsfUFHa.jpg" alt="O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Peregrino: Uma Jornada Para o Céu 2008 - Episódio - 🍿Clau</h1>
 </body>
 </html>

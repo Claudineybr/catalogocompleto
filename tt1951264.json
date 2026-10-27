@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sem Saída 2022 - 🍿Clau", "description": "Assista Sem Saída 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4wo92XBmytUWua1sHfNBwUcqhIj.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://s1-cnvs.watchingvs.com/m/Jogos%20Vorazes:%20Em%20Chamas_2013_tt1951264.mp4?cnvs_token=TVdZeVpXRmtZalZtWW1GaE56a3dPUzJlanZUNkY2T3N6S05mcStRTDNXOUpmWkZ0cDdMZW9PeTZzeHdYRmgwVQ", "embedUrl": "https://s1-cnvs.watchingvs.com/m/Jogos%20Vorazes:%20Em%20Chamas_2013_tt1951264.mp4?cnvs_token=TVdZeVpXRmtZalZtWW1GaE56a3dPUzJlanZUNkY2T3N6S05mcStRTDNXOUpmWkZ0cDdMZW9PeTZzeHdYRmgwVQ"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sem Saída 2022 - 🍿Clau",
+  "description": "Assista Sem Saída 2022 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4wo92XBmytUWua1sHfNBwUcqhIj.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s1-cnvs.watchingvs.com/m/Jogos%20Vorazes:%20Em%20Chamas_2013_tt1951264.mp4?cnvs_token=TVdZeVpXRmtZalZtWW1GaE56a3dPUzJlanZUNkY2T3N6S05mcStRTDNXOUpmWkZ0cDdMZW9PeTZzeHdYRmgwVQ",
+  "embedUrl": "https://s1-cnvs.watchingvs.com/m/Jogos%20Vorazes:%20Em%20Chamas_2013_tt1951264.mp4?cnvs_token=TVdZeVpXRmtZalZtWW1GaE56a3dPUzJlanZUNkY2T3N6S05mcStRTDNXOUpmWkZ0cDdMZW9PeTZzeHdYRmgwVQ"
+}
 </script>
 <title>Sem Saída 2022 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/4wo92XBmytUWua1sHfNBwUcqhIj.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/4wo92XBmytUWua1sHfNBwUcqhIj.jpg" alt="Sem Saída 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Sem Saída 2022 - 🍿Clau</h1>
 </body>
 </html>

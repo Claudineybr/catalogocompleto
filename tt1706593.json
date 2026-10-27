@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Poder Sem Limites 2012 - 🍿Clau", "description": "Assista Poder Sem Limites 2012", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/14xKxbF3Si8m5u0m5yPj9ZGlEkj.jpg"], "uploadDate": "2012-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/Poder%20Sem%20Limites_2012_tt1706593.mp4?cnvs_token=1776092512-mxaN0Zm0zEosRznu94wiclZGV8odtVgrVpEB6GcNqkI%3D&vid=73264&pid=6044382&t=1776092512", "embedUrl": "https://play-1.cnvods.com/m/Poder%20Sem%20Limites_2012_tt1706593.mp4?cnvs_token=1776092512-mxaN0Zm0zEosRznu94wiclZGV8odtVgrVpEB6GcNqkI%3D&vid=73264&pid=6044382&t=1776092512"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Poder Sem Limites 2012 - 🍿Clau",
+  "description": "Assista Poder Sem Limites 2012 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/14xKxbF3Si8m5u0m5yPj9ZGlEkj.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-1.cnvods.com/m/Poder%20Sem%20Limites_2012_tt1706593.mp4?cnvs_token=1776092512-mxaN0Zm0zEosRznu94wiclZGV8odtVgrVpEB6GcNqkI%3D&vid=73264&pid=6044382&t=1776092512",
+  "embedUrl": "https://play-1.cnvods.com/m/Poder%20Sem%20Limites_2012_tt1706593.mp4?cnvs_token=1776092512-mxaN0Zm0zEosRznu94wiclZGV8odtVgrVpEB6GcNqkI%3D&vid=73264&pid=6044382&t=1776092512"
+}
 </script>
 <title>Poder Sem Limites 2012 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/14xKxbF3Si8m5u0m5yPj9ZGlEkj.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/14xKxbF3Si8m5u0m5yPj9ZGlEkj.jpg" alt="Poder Sem Limites 2012 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Poder Sem Limites 2012 - 🍿Clau</h1>
 </body>
 </html>

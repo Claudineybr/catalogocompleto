@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau", "description": "Assista Monster High: Uma Fusão Muito Louca - 2014", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/rZLksXFruhQYUXzCgixkB9y2ms5.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae04d008-4a1e-42d4-b0d1-d69d60649993/423317ae-7c75-451a-80bc-b3ddb11069ce-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae04d008-4a1e-42d4-b0d1-d69d60649993/423317ae-7c75-451a-80bc-b3ddb11069ce-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau",
+  "description": "Assista Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rZLksXFruhQYUXzCgixkB9y2ms5.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae04d008-4a1e-42d4-b0d1-d69d60649993/423317ae-7c75-451a-80bc-b3ddb11069ce-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae04d008-4a1e-42d4-b0d1-d69d60649993/423317ae-7c75-451a-80bc-b3ddb11069ce-master.m3u8"
+}
 </script>
 <title>Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/rZLksXFruhQYUXzCgixkB9y2ms5.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/rZLksXFruhQYUXzCgixkB9y2ms5.jpg" alt="Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Monster High: Uma Fusão Muito Louca - 2014 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Titãs - E09 - 🍿Clau", "description": "Assista Titãs - E09", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/bKxDbm9KmMfqHpD6m6QjJ9JJXvh.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Titans/02/Tit%C3%A3s.S02E09.720p.WEB-DL.x264.DUAL-WWW.BLUDV.TV.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Titans/02/Tit%C3%A3s.S02E09.720p.WEB-DL.x264.DUAL-WWW.BLUDV.TV.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Titãs - E09 - 🍿Clau",
+  "description": "Assista Titãs - E09 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bKxDbm9KmMfqHpD6m6QjJ9JJXvh.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloud2.playhdlugo.online/series/Titans/02/Tit%C3%A3s.S02E09.720p.WEB-DL.x264.DUAL-WWW.BLUDV.TV.mp4",
+  "embedUrl": "http://cloud2.playhdlugo.online/series/Titans/02/Tit%C3%A3s.S02E09.720p.WEB-DL.x264.DUAL-WWW.BLUDV.TV.mp4"
+}
 </script>
 <title>Titãs - E09 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/bKxDbm9KmMfqHpD6m6QjJ9JJXvh.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/bKxDbm9KmMfqHpD6m6QjJ9JJXvh.jpg" alt="Titãs - E09 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Titãs - E09 - 🍿Clau</h1>
 </body>
 </html>

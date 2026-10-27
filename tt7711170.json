@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sozinha 2020 - 🍿Clau", "description": "Assista Sozinha 2020", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9T6CEkRXUuwFMamBcCQPCzE18kT.jpg"], "uploadDate": "2020-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt7711170.mp4", "embedUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt7711170.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sozinha 2020 - 🍿Clau",
+  "description": "Assista Sozinha 2020 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9T6CEkRXUuwFMamBcCQPCzE18kT.jpg"
+  ],
+  "uploadDate": "2020-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt7711170.mp4",
+  "embedUrl": "http://fhd4.oneplayer.site/343rt342wtg34wetg34retg4rgh5kh4/FHD4/tt7711170.mp4"
+}
 </script>
 <title>Sozinha 2020 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9T6CEkRXUuwFMamBcCQPCzE18kT.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9T6CEkRXUuwFMamBcCQPCzE18kT.jpg" alt="Sozinha 2020 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Sozinha 2020 - 🍿Clau</h1>
 </body>
 </html>

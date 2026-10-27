@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Nunca Mais 2002 - 🍿Clau", "description": "Assista Nunca Mais 2002", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ipHkQew8Y9Unv2vrNYhqMStxaQH.jpg"], "uploadDate": "2002-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0278435.mp4", "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0278435.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nunca Mais 2002 - 🍿Clau",
+  "description": "Assista Nunca Mais 2002 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ipHkQew8Y9Unv2vrNYhqMStxaQH.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0278435.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0278435.mp4"
+}
 </script>
 <title>Nunca Mais 2002 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/ipHkQew8Y9Unv2vrNYhqMStxaQH.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/ipHkQew8Y9Unv2vrNYhqMStxaQH.jpg" alt="Nunca Mais 2002 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Nunca Mais 2002 - 🍿Clau</h1>
 </body>
 </html>

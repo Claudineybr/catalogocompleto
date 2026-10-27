@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau", "description": "Assista Tucker & Dale Contra o Mal 2010 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fgTI1Azpk6iE2DCk5A8LN0SbAid.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://s1-cnvs.watchingvs.com/m/Uma%20Noite%20de%20Crime_2013_tt2184339.mp4?cnvs_token=TUdZMVpqSm1aakF6WkRZM05EaGxNeWtocGF2V1Nta0hJelZpRHlwMjZERnA5OWlKRGxlUDlKZUk3TDU3RXp6Mw", "embedUrl": "https://s1-cnvs.watchingvs.com/m/Uma%20Noite%20de%20Crime_2013_tt2184339.mp4?cnvs_token=TUdZMVpqSm1aakF6WkRZM05EaGxNeWtocGF2V1Nta0hJelZpRHlwMjZERnA5OWlKRGxlUDlKZUk3TDU3RXp6Mw"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau",
+  "description": "Assista Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fgTI1Azpk6iE2DCk5A8LN0SbAid.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s1-cnvs.watchingvs.com/m/Uma%20Noite%20de%20Crime_2013_tt2184339.mp4?cnvs_token=TUdZMVpqSm1aakF6WkRZM05EaGxNeWtocGF2V1Nta0hJelZpRHlwMjZERnA5OWlKRGxlUDlKZUk3TDU3RXp6Mw",
+  "embedUrl": "https://s1-cnvs.watchingvs.com/m/Uma%20Noite%20de%20Crime_2013_tt2184339.mp4?cnvs_token=TUdZMVpqSm1aakF6WkRZM05EaGxNeWtocGF2V1Nta0hJelZpRHlwMjZERnA5OWlKRGxlUDlKZUk3TDU3RXp6Mw"
+}
 </script>
 <title>Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fgTI1Azpk6iE2DCk5A8LN0SbAid.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fgTI1Azpk6iE2DCk5A8LN0SbAid.jpg" alt="Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Tucker & Dale Contra o Mal 2010 - Episódio - 🍿Clau</h1>
 </body>
 </html>

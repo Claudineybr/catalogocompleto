@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "X-Men - O Confronto Final - 2006 - 🍿Clau", "description": "Assista X-Men - O Confronto Final - 2006", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"], "uploadDate": "2006-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/2275e7db-a419-4fc1-93f2-14f6a64673b1/209f5770-f66d-47ce-b943-fb85f8ee89ef-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/2275e7db-a419-4fc1-93f2-14f6a64673b1/209f5770-f66d-47ce-b943-fb85f8ee89ef-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "X-Men - O Confronto Final - 2006 - 🍿Clau",
+  "description": "Assista X-Men - O Confronto Final - 2006 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/2275e7db-a419-4fc1-93f2-14f6a64673b1/209f5770-f66d-47ce-b943-fb85f8ee89ef-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/2275e7db-a419-4fc1-93f2-14f6a64673b1/209f5770-f66d-47ce-b943-fb85f8ee89ef-master.m3u8"
+}
 </script>
 <title>X-Men - O Confronto Final - 2006 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg" alt="X-Men - O Confronto Final - 2006 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>X-Men - O Confronto Final - 2006 - 🍿Clau</h1>
 </body>
 </html>

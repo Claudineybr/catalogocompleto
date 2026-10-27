@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau", "description": "Assista Demolidor: Renascido - Episódio 3 - Ecos do Passado", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/3/9fb3010a-754b-4772-8b5a-8d219434dc5e/stream.mp4", "embedUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/3/9fb3010a-754b-4772-8b5a-8d219434dc5e/stream.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Demolidor: Renascido"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau",
+  "description": "Assista Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/3/9fb3010a-754b-4772-8b5a-8d219434dc5e/stream.mp4",
+  "embedUrl": "https://cdn-0062.speed-stream.online/demolidor-renascido-38cde01a/s1/dubbed/3/9fb3010a-754b-4772-8b5a-8d219434dc5e/stream.mp4"
+}
 </script>
 <title>Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/r5hNFtkNAauxc2G4VUlnJOaVIb0.jpg" alt="Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Demolidor: Renascido - T1E3 - Ecos do Passado - 🍿Clau</h1>
 </body>
 </html>

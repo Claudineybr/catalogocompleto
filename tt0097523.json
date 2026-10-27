@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Querida, Encolhi as Crianças 1989 - 🍿Clau", "description": "Assista Querida, Encolhi as Crianças 1989", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/iw97oAbGwa8YLLhqzSywILDO0Ua.jpg"], "uploadDate": "1989-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/343rt342wtg34wetg34retghksi68ssk/FHD5/tt0097523.mp4", "embedUrl": "http://hd5.oneplayer.site/343rt342wtg34wetg34retghksi68ssk/FHD5/tt0097523.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Querida, Encolhi as Crianças 1989 - 🍿Clau",
+  "description": "Assista Querida, Encolhi as Crianças 1989 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iw97oAbGwa8YLLhqzSywILDO0Ua.jpg"
+  ],
+  "uploadDate": "1989-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/343rt342wtg34wetg34retghksi68ssk/FHD5/tt0097523.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/343rt342wtg34wetg34retghksi68ssk/FHD5/tt0097523.mp4"
+}
 </script>
 <title>Querida, Encolhi as Crianças 1989 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/iw97oAbGwa8YLLhqzSywILDO0Ua.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/iw97oAbGwa8YLLhqzSywILDO0Ua.jpg" alt="Querida, Encolhi as Crianças 1989 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Querida, Encolhi as Crianças 1989 - 🍿Clau</h1>
 </body>
 </html>

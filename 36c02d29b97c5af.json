@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "RED - Aposentados e Perigosos 2010 - 🍿Clau", "description": "Assista RED - Aposentados e Perigosos 2010", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/bLCflHS789mmJTXhoeQCFdA0Saz.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0099.l1s0-cdn-3123123.com/red-aposentados-e-perigosos-e0511dd8/dubbed/1/3aa4e010-2d19-4239-9f38-0981c1759492/stream.mp4?storage=0099&expires=1774930077&signature=306c31e5993ab46a38a6c52f421a4f2c1b1d3e5bf6d9279a9b744407bd8bb80a&type=movie", "embedUrl": "https://cdn-0099.l1s0-cdn-3123123.com/red-aposentados-e-perigosos-e0511dd8/dubbed/1/3aa4e010-2d19-4239-9f38-0981c1759492/stream.mp4?storage=0099&expires=1774930077&signature=306c31e5993ab46a38a6c52f421a4f2c1b1d3e5bf6d9279a9b744407bd8bb80a&type=movie"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "RED - Aposentados e Perigosos 2010 - 🍿Clau",
+  "description": "Assista RED - Aposentados e Perigosos 2010 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bLCflHS789mmJTXhoeQCFdA0Saz.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0099.l1s0-cdn-3123123.com/red-aposentados-e-perigosos-e0511dd8/dubbed/1/3aa4e010-2d19-4239-9f38-0981c1759492/stream.mp4?storage=0099&expires=1774930077&signature=306c31e5993ab46a38a6c52f421a4f2c1b1d3e5bf6d9279a9b744407bd8bb80a&type=movie",
+  "embedUrl": "https://cdn-0099.l1s0-cdn-3123123.com/red-aposentados-e-perigosos-e0511dd8/dubbed/1/3aa4e010-2d19-4239-9f38-0981c1759492/stream.mp4?storage=0099&expires=1774930077&signature=306c31e5993ab46a38a6c52f421a4f2c1b1d3e5bf6d9279a9b744407bd8bb80a&type=movie"
+}
 </script>
 <title>RED - Aposentados e Perigosos 2010 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/bLCflHS789mmJTXhoeQCFdA0Saz.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/bLCflHS789mmJTXhoeQCFdA0Saz.jpg" alt="RED - Aposentados e Perigosos 2010 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>RED - Aposentados e Perigosos 2010 - 🍿Clau</h1>
 </body>
 </html>

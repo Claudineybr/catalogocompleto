@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Um Time Muito Louco 1994 - 🍿Clau", "description": "Assista Um Time Muito Louco 1994", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1saPpP69T9FkxhBfl9Agpg9LjX5.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0083.l1s0-cdn-3123123.com/um-time-muito-louco-f9ad869e/dubbed/1/ffec9993-2fa1-471b-b161-4de4079fcfec/stream.mp4?type=movie&expires=1770758915&signature=13dc5cf52f49f1291bf9e00b21790eca0a89618b26bb9ba0e0fd6f77cec35dc1", "embedUrl": "https://cdn-0083.l1s0-cdn-3123123.com/um-time-muito-louco-f9ad869e/dubbed/1/ffec9993-2fa1-471b-b161-4de4079fcfec/stream.mp4?type=movie&expires=1770758915&signature=13dc5cf52f49f1291bf9e00b21790eca0a89618b26bb9ba0e0fd6f77cec35dc1"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Time Muito Louco 1994 - 🍿Clau",
+  "description": "Assista Um Time Muito Louco 1994 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1saPpP69T9FkxhBfl9Agpg9LjX5.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0083.l1s0-cdn-3123123.com/um-time-muito-louco-f9ad869e/dubbed/1/ffec9993-2fa1-471b-b161-4de4079fcfec/stream.mp4?type=movie&expires=1770758915&signature=13dc5cf52f49f1291bf9e00b21790eca0a89618b26bb9ba0e0fd6f77cec35dc1",
+  "embedUrl": "https://cdn-0083.l1s0-cdn-3123123.com/um-time-muito-louco-f9ad869e/dubbed/1/ffec9993-2fa1-471b-b161-4de4079fcfec/stream.mp4?type=movie&expires=1770758915&signature=13dc5cf52f49f1291bf9e00b21790eca0a89618b26bb9ba0e0fd6f77cec35dc1"
+}
 </script>
 <title>Um Time Muito Louco 1994 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/1saPpP69T9FkxhBfl9Agpg9LjX5.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/1saPpP69T9FkxhBfl9Agpg9LjX5.jpg" alt="Um Time Muito Louco 1994 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Um Time Muito Louco 1994 - 🍿Clau</h1>
 </body>
 </html>

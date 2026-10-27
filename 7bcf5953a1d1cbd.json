@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Alvin e os Esquilos 2 - 2009 - 🍿Clau", "description": "Assista Alvin e os Esquilos 2 - 2009", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9L9Cgl6VUlHrnjcJCBj0S338Kuo.jpg"], "uploadDate": "2009-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/a7454c51-5dd2-42a3-b369-ca59cd64ef1b", "embedUrl": "https://tankie.tube/videos/embed/a7454c51-5dd2-42a3-b369-ca59cd64ef1b"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Alvin e os Esquilos 2 - 2009 - 🍿Clau",
+  "description": "Assista Alvin e os Esquilos 2 - 2009 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9L9Cgl6VUlHrnjcJCBj0S338Kuo.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a7454c51-5dd2-42a3-b369-ca59cd64ef1b",
+  "embedUrl": "https://tankie.tube/videos/embed/a7454c51-5dd2-42a3-b369-ca59cd64ef1b"
+}
 </script>
 <title>Alvin e os Esquilos 2 - 2009 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/9L9Cgl6VUlHrnjcJCBj0S338Kuo.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/9L9Cgl6VUlHrnjcJCBj0S338Kuo.jpg" alt="Alvin e os Esquilos 2 - 2009 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Alvin e os Esquilos 2 - 2009 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau", "description": "Assista A Casa do Dragão - Episódio 3 - O Moinho Ardente", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://1a-1791.com/video/s8/2/I/u/N/o/IuNov.gaa.mp4", "embedUrl": "https://1a-1791.com/video/s8/2/I/u/N/o/IuNov.gaa.mp4", "episodeNumber": 3, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "A Casa do Dragão"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau",
+  "description": "Assista A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://1a-1791.com/video/s8/2/I/u/N/o/IuNov.gaa.mp4",
+  "embedUrl": "https://1a-1791.com/video/s8/2/I/u/N/o/IuNov.gaa.mp4"
+}
 </script>
 <title>A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg" alt="A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Casa do Dragão - T1E3 - O Moinho Ardente - 🍿Clau</h1>
 </body>
 </html>

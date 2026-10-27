@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "101 Dálmatas 1996 - 🍿Clau", "description": "Assista 101 Dálmatas 1996", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aq0MURghFbEKgHYGWyurtuwGzdx.jpg"], "uploadDate": "1996-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0053.speed-stream.online/101-dalmatas-2d566e30/dubbed/1/d6a3dc5d-a7cf-4272-96f2-15a0a860bfec/stream.mp4", "embedUrl": "https://cdn-0053.speed-stream.online/101-dalmatas-2d566e30/dubbed/1/d6a3dc5d-a7cf-4272-96f2-15a0a860bfec/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "101 Dálmatas 1996 - 🍿Clau",
+  "description": "Assista 101 Dálmatas 1996 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aq0MURghFbEKgHYGWyurtuwGzdx.jpg"
+  ],
+  "uploadDate": "1996-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0053.speed-stream.online/101-dalmatas-2d566e30/dubbed/1/d6a3dc5d-a7cf-4272-96f2-15a0a860bfec/stream.mp4",
+  "embedUrl": "https://cdn-0053.speed-stream.online/101-dalmatas-2d566e30/dubbed/1/d6a3dc5d-a7cf-4272-96f2-15a0a860bfec/stream.mp4"
+}
 </script>
 <title>101 Dálmatas 1996 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aq0MURghFbEKgHYGWyurtuwGzdx.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/aq0MURghFbEKgHYGWyurtuwGzdx.jpg" alt="101 Dálmatas 1996 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>101 Dálmatas 1996 - 🍿Clau</h1>
 </body>
 </html>

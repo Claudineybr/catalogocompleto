@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Americana 2025 (HDCAM) - 🍿Clau", "description": "Assista Americana 2025 (HDCAM)", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/Americana.2023.1080p.WEBRip.Dublado.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/Americana.2023.1080p.WEBRip.Dublado.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Americana 2025 (HDCAM) - 🍿Clau",
+  "description": "Assista Americana 2025 (HDCAM) - 🍿Clau",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Americana.2023.1080p.WEBRip.Dublado.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Americana.2023.1080p.WEBRip.Dublado.mp4"
+}
 </script>
 <title>Americana 2025 (HDCAM) - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://via.placeholder.com/500x750?text=Sem+Capa" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="Americana 2025 (HDCAM) - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Americana 2025 (HDCAM) - 🍿Clau</h1>
 </body>
 </html>

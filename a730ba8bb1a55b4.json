@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Mad Max: Estrada da Fúria - 2015 - 🍿Clau", "description": "Assista Mad Max: Estrada da Fúria - 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mad Max: Estrada da Fúria - 2015 - 🍿Clau",
+  "description": "Assista Mad Max: Estrada da Fúria - 2015 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8"
+}
 </script>
 <title>Mad Max: Estrada da Fúria - 2015 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg" alt="Mad Max: Estrada da Fúria - 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Mad Max: Estrada da Fúria - 2015 - 🍿Clau</h1>
 </body>
 </html>

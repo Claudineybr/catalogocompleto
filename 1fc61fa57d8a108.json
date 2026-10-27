@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "“O Morro dos Ventos Uivantes” 2026 - 🍿Clau", "description": "Assista “O Morro dos Ventos Uivantes” 2026", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/762vOiAWzosAH95sKLzUqYaAoHR.jpg"], "uploadDate": "2026-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0041.l1s0-cdn-3123123.com/o-morro-dos-ventos-uivantes-6b08f016/dubbed/1/92ef534c-53ec-4ecf-b885-0c6c0b48bdb1/stream.mp4?storage=0041&expires=1775159515&signature=6cd9c2174f9d03d2e332d97f8c65f265ea5f58221ddce3b3f2d602ea8d66157f&type=movie", "embedUrl": "https://cdn-0041.l1s0-cdn-3123123.com/o-morro-dos-ventos-uivantes-6b08f016/dubbed/1/92ef534c-53ec-4ecf-b885-0c6c0b48bdb1/stream.mp4?storage=0041&expires=1775159515&signature=6cd9c2174f9d03d2e332d97f8c65f265ea5f58221ddce3b3f2d602ea8d66157f&type=movie"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "“O Morro dos Ventos Uivantes” 2026 - 🍿Clau",
+  "description": "Assista “O Morro dos Ventos Uivantes” 2026 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/762vOiAWzosAH95sKLzUqYaAoHR.jpg"
+  ],
+  "uploadDate": "2026-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0041.l1s0-cdn-3123123.com/o-morro-dos-ventos-uivantes-6b08f016/dubbed/1/92ef534c-53ec-4ecf-b885-0c6c0b48bdb1/stream.mp4?storage=0041&expires=1775159515&signature=6cd9c2174f9d03d2e332d97f8c65f265ea5f58221ddce3b3f2d602ea8d66157f&type=movie",
+  "embedUrl": "https://cdn-0041.l1s0-cdn-3123123.com/o-morro-dos-ventos-uivantes-6b08f016/dubbed/1/92ef534c-53ec-4ecf-b885-0c6c0b48bdb1/stream.mp4?storage=0041&expires=1775159515&signature=6cd9c2174f9d03d2e332d97f8c65f265ea5f58221ddce3b3f2d602ea8d66157f&type=movie"
+}
 </script>
 <title>“O Morro dos Ventos Uivantes” 2026 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/762vOiAWzosAH95sKLzUqYaAoHR.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/762vOiAWzosAH95sKLzUqYaAoHR.jpg" alt="“O Morro dos Ventos Uivantes” 2026 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>“O Morro dos Ventos Uivantes” 2026 - 🍿Clau</h1>
 </body>
 </html>

@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Qualquer Custo 2016 - 🍿Clau", "description": "Assista A Qualquer Custo 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0039.speed-stream.online/a-qualquer-custo-5eb2f15f/dubbed/1/d6a80553-2087-4f29-ab62-a3f5d85710fe/stream.mp4", "embedUrl": "https://cdn-0039.speed-stream.online/a-qualquer-custo-5eb2f15f/dubbed/1/d6a80553-2087-4f29-ab62-a3f5d85710fe/stream.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Qualquer Custo 2016 - 🍿Clau",
+  "description": "Assista A Qualquer Custo 2016 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0039.speed-stream.online/a-qualquer-custo-5eb2f15f/dubbed/1/d6a80553-2087-4f29-ab62-a3f5d85710fe/stream.mp4",
+  "embedUrl": "https://cdn-0039.speed-stream.online/a-qualquer-custo-5eb2f15f/dubbed/1/d6a80553-2087-4f29-ab62-a3f5d85710fe/stream.mp4"
+}
 </script>
 <title>A Qualquer Custo 2016 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/fz3RPQPquiyb4xi0isCIf6lIx7F.jpg" alt="A Qualquer Custo 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Qualquer Custo 2016 - 🍿Clau</h1>
 </body>
 </html>

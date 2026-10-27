@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Última Casa 2009 - 🍿Clau", "description": "Assista A Última Casa 2009", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/AqOwuZ4X0Ssi3LIsYqXNw52IIvW.jpg"], "uploadDate": "2009-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD5/tt0844708.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T153244Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=77ddbf251c193f1f5088c087ac3092924540fa35fdc225329425fae6aef8bd5e", "embedUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD5/tt0844708.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T153244Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=77ddbf251c193f1f5088c087ac3092924540fa35fdc225329425fae6aef8bd5e"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Última Casa 2009 - 🍿Clau",
+  "description": "Assista A Última Casa 2009 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AqOwuZ4X0Ssi3LIsYqXNw52IIvW.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD5/tt0844708.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T153244Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=77ddbf251c193f1f5088c087ac3092924540fa35fdc225329425fae6aef8bd5e",
+  "embedUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD5/tt0844708.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T153244Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=77ddbf251c193f1f5088c087ac3092924540fa35fdc225329425fae6aef8bd5e"
+}
 </script>
 <title>A Última Casa 2009 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/AqOwuZ4X0Ssi3LIsYqXNw52IIvW.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/AqOwuZ4X0Ssi3LIsYqXNw52IIvW.jpg" alt="A Última Casa 2009 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>A Última Casa 2009 - 🍿Clau</h1>
 </body>
 </html>

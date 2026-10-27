@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Animais em Apuros - 🍿Clau", "description": "Assista Animais em Apuros", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/kiz3KNsePwMi9A5CYCkID6hi0C4.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/AnimaisEmApuros2018.mp4", "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/AnimaisEmApuros2018.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Animais em Apuros - 🍿Clau",
+  "description": "Assista Animais em Apuros - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kiz3KNsePwMi9A5CYCkID6hi0C4.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/AnimaisEmApuros2018.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/AnimaisEmApuros2018.mp4"
+}
 </script>
 <title>Animais em Apuros - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/kiz3KNsePwMi9A5CYCkID6hi0C4.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/kiz3KNsePwMi9A5CYCkID6hi0C4.jpg" alt="Animais em Apuros - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Animais em Apuros - 🍿Clau</h1>
 </body>
 </html>

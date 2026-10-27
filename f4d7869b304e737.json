@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau", "description": "Assista Game of Thrones (GOT) - Episódio 2 - Nascida da Tormenta", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/2/51c1d5dc-17a1-4e21-adca-1c65abc0f645/stream.mp4?type=serie&expires=1769462147&signature=a146ff1124c07080a512f133610fb3bc784b6d9c4fca3faf072f0ef3b92a7f75", "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/2/51c1d5dc-17a1-4e21-adca-1c65abc0f645/stream.mp4?type=serie&expires=1769462147&signature=a146ff1124c07080a512f133610fb3bc784b6d9c4fca3faf072f0ef3b92a7f75", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Game of Thrones (GOT)"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/2/51c1d5dc-17a1-4e21-adca-1c65abc0f645/stream.mp4?type=serie&expires=1769462147&signature=a146ff1124c07080a512f133610fb3bc784b6d9c4fca3faf072f0ef3b92a7f75",
+  "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s7/dubbed/2/51c1d5dc-17a1-4e21-adca-1c65abc0f645/stream.mp4?type=serie&expires=1769462147&signature=a146ff1124c07080a512f133610fb3bc784b6d9c4fca3faf072f0ef3b92a7f75"
+}
 </script>
 <title>Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg" alt="Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Game of Thrones (GOT) - T1E2 - Nascida da Tormenta - 🍿Clau</h1>
 </body>
 </html>

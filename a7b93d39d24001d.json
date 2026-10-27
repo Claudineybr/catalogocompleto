@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Guerra Mundial Z - 🍿Clau", "description": "Assista Guerra Mundial Z", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0085.l1s0-cdn-3123123.com/guerra-mundial-z-6cb9f66b/dubbed/1/d812237c-fb7f-49aa-b40f-bd3c79c8a58f/stream.mp4?type=movie&expires=1770183405&signature=86570905643b0efad137ca94bccc8dd031d91f100d783682769c899b5d7f86a2", "embedUrl": "https://cdn-0085.l1s0-cdn-3123123.com/guerra-mundial-z-6cb9f66b/dubbed/1/d812237c-fb7f-49aa-b40f-bd3c79c8a58f/stream.mp4?type=movie&expires=1770183405&signature=86570905643b0efad137ca94bccc8dd031d91f100d783682769c899b5d7f86a2"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Guerra Mundial Z - 🍿Clau",
+  "description": "Assista Guerra Mundial Z - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0085.l1s0-cdn-3123123.com/guerra-mundial-z-6cb9f66b/dubbed/1/d812237c-fb7f-49aa-b40f-bd3c79c8a58f/stream.mp4?type=movie&expires=1770183405&signature=86570905643b0efad137ca94bccc8dd031d91f100d783682769c899b5d7f86a2",
+  "embedUrl": "https://cdn-0085.l1s0-cdn-3123123.com/guerra-mundial-z-6cb9f66b/dubbed/1/d812237c-fb7f-49aa-b40f-bd3c79c8a58f/stream.mp4?type=movie&expires=1770183405&signature=86570905643b0efad137ca94bccc8dd031d91f100d783682769c899b5d7f86a2"
+}
 </script>
 <title>Guerra Mundial Z - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/2Sdz5gGrwN92pRanlJKeUqkIjRk.jpg" alt="Guerra Mundial Z - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Guerra Mundial Z - 🍿Clau</h1>
 </body>
 </html>

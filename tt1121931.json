@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "Adrenalina 2: Alta Voltagem 2009 - 🍿Clau", "description": "Assista Adrenalina 2: Alta Voltagem 2009", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg"], "uploadDate": "2009-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Adrenalina%202_2009_tt1121931.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Adrenalina%202_2009_tt1121931.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Adrenalina 2: Alta Voltagem 2009 - 🍿Clau",
+  "description": "Assista Adrenalina 2: Alta Voltagem 2009 - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Adrenalina%202_2009_tt1121931.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Adrenalina%202_2009_tt1121931.mp4"
+}
 </script>
 <title>Adrenalina 2: Alta Voltagem 2009 - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/yZzRqVfeKHU05O99kT8sS41Keh7.jpg" alt="Adrenalina 2: Alta Voltagem 2009 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Adrenalina 2: Alta Voltagem 2009 - 🍿Clau</h1>
 </body>
 </html>

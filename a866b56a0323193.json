@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Legado 2024 - Episódio - 🍿Clau", "description": "Assista O Legado 2024 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/l3rzKMa2MrHePatbLPqITp9TE2Y.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.vod-cinevs.com/m/%C3%9Altimas%20Palavras%202020%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4", "embedUrl": "https://cdn.vod-cinevs.com/m/%C3%9Altimas%20Palavras%202020%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4"}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Legado 2024 - Episódio - 🍿Clau",
+  "description": "Assista O Legado 2024 - Episódio - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/l3rzKMa2MrHePatbLPqITp9TE2Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/%C3%9Altimas%20Palavras%202020%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/%C3%9Altimas%20Palavras%202020%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4"
+}
 </script>
 <title>O Legado 2024 - Episódio - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/l3rzKMa2MrHePatbLPqITp9TE2Y.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/l3rzKMa2MrHePatbLPqITp9TE2Y.jpg" alt="O Legado 2024 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>O Legado 2024 - Episódio - 🍿Clau</h1>
 </body>
 </html>

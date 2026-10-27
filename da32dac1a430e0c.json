@@ -2,13 +2,26 @@
 <html lang="pt-BR">
 <head>
 <script type="application/ld+json">
-{"@context": "https://schema.org", "@type": "TVEpisode", "name": "Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau", "description": "Assista Os Donos do Jogo 2025 - Episódio 2 - All In", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/jwPI58JAidRzzbUI0j8uUu2rsyy.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://shd13.oneplayer.site/SHD13/282440/1x2.mp4", "embedUrl": "http://shd13.oneplayer.site/SHD13/282440/1x2.mp4", "episodeNumber": 2, "partOfSeason": {"@type": "TVSeason", "seasonNumber": 1}, "partOfSeries": {"@type": "TVSeries", "name": "Os Donos do Jogo 2025"}}
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau",
+  "description": "Assista Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jwPI58JAidRzzbUI0j8uUu2rsyy.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd13.oneplayer.site/SHD13/282440/1x2.mp4",
+  "embedUrl": "http://shd13.oneplayer.site/SHD13/282440/1x2.mp4"
+}
 </script>
 <title>Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
-<img src="https://image.tmdb.org/t/p/w500/jwPI58JAidRzzbUI0j8uUu2rsyy.jpg" style="width:100%;max-height:220px;object-fit:cover;">
+<img src="https://image.tmdb.org/t/p/w500/jwPI58JAidRzzbUI0j8uUu2rsyy.jpg" alt="Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
 <h1>Os Donos do Jogo 2025 - T1E2 - All In - 🍿Clau</h1>
 </body>
 </html>
