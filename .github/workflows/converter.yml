@@ -15,7 +15,7 @@ jobs:
       - name: Baixar o repositório
         uses: actions/checkout@v5
 
-      - name: Extrair dados e criar CSV
+      - name: Extrair dados e criar CSV Organizado
         env:
           REPO_NAME: ${{ github.repository }}
           BRANCH_NAME: ${{ github.ref_name }}
@@ -27,42 +27,66 @@ jobs:
           import os
           from pathlib import Path
 
-          # Pega o nome do repositório e a branch direto do GitHub Actions
           repo = os.environ.get("REPO_NAME", "Claudineybr/catalogocompleto")
           branch = os.environ.get("BRANCH_NAME", "main")
 
           arquivo_csv = Path('catalogo.csv')
-          total = 0
           
           print("Iniciando extração dos dados...")
+          dados_lista = []
           
+          for arq in Path('.').glob('*.json'):
+              try:
+                  texto = arq.read_text(encoding='utf-8-sig')
+                  match = re.search(r'<script type="application/ld\+json">(.*?)</script>', texto, re.S)
+                  if not match:
+                      continue
+                      
+                  dados = json.loads(match.group(1))
+                  nome = dados.get('name', '').strip()
+                  link_video = dados.get('contentUrl', '').strip()
+                  link_raw = f"https://raw.githubusercontent.com/{repo}/{branch}/{arq.name}"
+                  
+                  if nome and link_video:
+                      dados_lista.append({'nome': nome, 'link_raw': link_raw, 'link_video': link_video})
+              except Exception:
+                  pass
+
+          # Função de ordenação natural (entende T1E2 < T1E10)
+          def sort_key(item):
+              nome = item['nome']
+              temporada = 0
+              episodio = 0
+              nome_base = nome
+              
+              # Procura padrão T1E2
+              match_t = re.search(r'^(.*?)\s*-\s*T(\d+)E(\d+)', nome, re.I)
+              # Procura padrão Episódio 2
+              match_e = re.search(r'^(.*?)\s*-\s*(?:Episódio|Episodio)\s*(\d+)', nome, re.I)
+              
+              if match_t:
+                  nome_base = match_t.group(1).strip()
+                  temporada = int(match_t.group(2))
+                  episodio = int(match_t.group(3))
+              elif match_e:
+                  nome_base = match_e.group(1).strip()
+                  episodio = int(match_e.group(2))
+                  
+              # Retorna uma tupla: (Nome A-Z, Temporada, Episódio, Nome Original)
+              return (nome_base.lower(), temporada, episodio, nome.lower())
+
+          # Ordena a lista inteira
+          dados_lista.sort(key=sort_key)
+
+          # Salva o CSV
           with open(arquivo_csv, 'w', newline='', encoding='utf-8-sig') as f:
               writer = csv.writer(f, delimiter=';')
-              # Cria o cabeçalho com as 3 colunas
               writer.writerow(['Nome', 'Link_Raw_GitHub', 'Link_Video_MP4'])
               
-              for arq in Path('.').glob('*.json'):
-                  try:
-                      texto = arq.read_text(encoding='utf-8-sig')
-                      
-                      match = re.search(r'<script type="application/ld\+json">(.*?)</script>', texto, re.S)
-                      if not match:
-                          continue
-                          
-                      dados = json.loads(match.group(1))
-                      nome = dados.get('name', '').strip()
-                      link_video = dados.get('contentUrl', '').strip()
-                      
-                      # Monta o link Raw do GitHub dinamicamente
-                      link_raw = f"https://raw.githubusercontent.com/{repo}/{branch}/{arq.name}"
-                      
-                      if nome and link_video:
-                          writer.writerow([nome, link_raw, link_video])
-                          total += 1
-                  except Exception:
-                      pass
-                      
-          print(f"Concluído! {total} itens foram salvos no catalogo.csv")
+              for item in dados_lista:
+                  writer.writerow([item['nome'], item['link_raw'], item['link_video']])
+                  
+          print(f"Concluído! {len(dados_lista)} itens organizados por Nome, Temporada e Episódio.")
           PYEOF
 
           python3 gerar_csv.py
@@ -79,5 +103,5 @@ jobs:
             exit 0
           fi
           
-          git commit -m "automacao: atualizar catalogo.csv"
+          git commit -m "automacao: atualizar catalogo.csv ordenado"
           git push origin HEAD:main
