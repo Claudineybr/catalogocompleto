@@ -47,8 +47,9 @@ jobs:
                   link_video = dados.get('contentUrl', '').strip()
                   link_raw = f"https://raw.githubusercontent.com/{repo}/{branch}/{arq.name}"
                   
+                  # Só adiciona se tiver nome e um link de vídeo válido (mesmo que não vá para o CSV, garante que é um item funcional)
                   if nome and link_video:
-                      dados_lista.append({'nome': nome, 'link_raw': link_raw, 'link_video': link_video})
+                      dados_lista.append({'nome': nome, 'link_raw': link_raw})
               except Exception:
                   pass
 
@@ -78,15 +79,15 @@ jobs:
           # Ordena a lista inteira
           dados_lista.sort(key=sort_key)
 
-          # Salva o CSV
+          # Salva o CSV apenas com Nome e Link Raw
           with open(arquivo_csv, 'w', newline='', encoding='utf-8-sig') as f:
               writer = csv.writer(f, delimiter=';')
-              writer.writerow(['Nome', 'Link_Raw_GitHub', 'Link_Video_MP4'])
+              writer.writerow(['Nome', 'Link_Raw_GitHub'])
               
               for item in dados_lista:
-                  writer.writerow([item['nome'], item['link_raw'], item['link_video']])
+                  writer.writerow([item['nome'], item['link_raw']])
                   
-          print(f"Concluído! {len(dados_lista)} itens organizados por Nome, Temporada e Episódio.")
+          print(f"Concluído! {len(dados_lista)} itens organizados e salvos com apenas 2 colunas.")
           PYEOF
 
           python3 gerar_csv.py
@@ -103,5 +104,5 @@ jobs:
             exit 0
           fi
           
-          git commit -m "automacao: atualizar catalogo.csv ordenado"
+          git commit -m "automacao: atualizar catalogo.csv simplificado e ordenado"
           git push origin HEAD:main
