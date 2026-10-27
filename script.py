@@ -1,6 +1,24 @@
 import json
 import re
+import requests
 from pathlib import Path
+from concurrent.futures import ThreadPoolExecutor
+
+def get_mp4_tankie(url):
+    # Se não for tankie, retorna o link original
+    if 'tankie.tube/videos/embed/' not in url:
+        return url
+    
+    vid = url.split('/')[-1]
+    try:
+        r = requests.get(f"https://tankie.tube/api/v1/videos/{vid}", timeout=10)
+        if r.status_code == 200:
+            data = r.json()
+            if 'files' in data and len(data['files']) > 0:
+                return data['files'][0]['fileUrl']
+    except Exception:
+        pass
+    return url # Se falhar, mantém o original
 
 def processar(caminho):
     try:
@@ -12,6 +30,14 @@ def processar(caminho):
             
         dados = json.loads(texto)
         nome = dados.get('name', '').replace(' - 🍿Clau', '').replace(' - Clau', '').strip()
+        
+        # Pega o link original
+        url_video = dados.get('contentUrl', '')
+        # Transforma o link do Tankie em MP4 real
+        url_mp4 = get_mp4_tankie(url_video)
+        
+        dados['contentUrl'] = url_mp4
+        dados['embedUrl'] = url_mp4
         
         s, e, titulo, serie = 1, None, "", nome
         m1 = re.match(r'^(.*?)\s*-\s*T(\d+)E(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
@@ -42,12 +68,13 @@ def processar(caminho):
         caminho.write_text(html, encoding='utf-8')
         return True
     except Exception as ex:
-        print(f"Erro em {caminho.name}: {ex}")
         return False
 
+arquivos = list(Path('.').glob('*.json'))
 cont = 0
-for arq in Path('.').glob('*.json'):
-    if processar(arq):
-        cont += 1
+# Usa 10 threads para fazer as requisições no Tankie mais rápido
+with ThreadPoolExecutor(max_workers=10) as executor:
+    resultados = list(executor.map(processar, arquivos))
+    cont = sum(1 for r in resultados if r)
         
-print(f"Arquivos processados: {cont}")
+print(f"Arquivos processados com link MP4: {cont}")
