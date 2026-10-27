@@ -15,7 +15,6 @@ async def extrair_video_playwright(context, url_ep):
     
     def on_response(res):
         u = res.url
-        # Procura mp4, m3u8, tankie ou oneplayer
         if re.search(r"[.](mp4|m3u8)([?]|$)", u, re.I) or 'tankie' in u or 'oneplayer' in u:
             capturados.append(u)
             
@@ -23,20 +22,24 @@ async def extrair_video_playwright(context, url_ep):
     
     try:
         await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
-        await asyncio.sleep(3.0) # Espera 3 segundos para o JS do Blogger rodar
         
-        # Procura iframes no HTML renderizado
+        # ESPERA INTELIGENTE: Espera até 10s o iframe do player aparecer
+        try:
+            await page.wait_for_selector("iframe", timeout=10000)
+        except:
+            pass 
+            
+        # Dá mais 3 segundos de garantia para o vídeo começar a carregar
+        await asyncio.sleep(3.0)
+        
         html = await page.content()
         if not capturados:
-            # Tenta achar iframe
             soup = BeautifulSoup(html, 'html.parser')
-            iframes = soup.find_all('iframe')
-            for iframe in iframes:
+            for iframe in soup.find_all('iframe'):
                 src = iframe.get('src', '')
-                if 'google' not in src.lower():
+                if 'google' not in src.lower() and 'ads' not in src.lower():
                     capturados.append(src)
                     
-        # Se achou iframe do tankie, tenta pegar o mp4
         if not capturados:
             match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
             if match:
@@ -83,8 +86,7 @@ async def main():
                     'url': href
                 })
 
-    print(f"Total de episódios encontrados: {len(episodios)}")
-    print("Iniciando navegador para buscar os links dos vídeos...")
+    print(f"Total de episódios encontrados na página: {len(episodios)}")
     
     async with async_playwright() as pw:
         browser = await pw.chromium.launch(headless=True)
@@ -92,11 +94,18 @@ async def main():
         
         cont = 0
         for item in episodios:
-            print(f"Buscando T{item['temp']}E{item['ep']}...")
+            nome_arquivo = f"arrow_t{item['temp']}e{item['ep']}.json"
+            
+            # PULA OS ARQUIVOS QUE JÁ FORAM BAIXADOS COM SUCESSO
+            if Path(nome_arquivo).exists():
+                print(f"  [=] T{item['temp']}E{item['ep']} já existe. Pulando...")
+                continue
+                
+            print(f"Buscando T{item['temp']}E{item['ep']} (Aguardando carregar)...")
             link_video = await extrair_video_playwright(context, item['url'])
             
             if not link_video:
-                print(f"  [!] Falhou.")
+                print(f"  [!] Falhou novamente.")
                 continue
                 
             nome_json = f"Arqueiro Verde (Arrow) - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau"
@@ -116,13 +125,12 @@ async def main():
             json_str = json.dumps(dados, ensure_ascii=False, indent=2)
             html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
             
-            nome_arquivo = f"arrow_t{item['temp']}e{item['ep']}.json"
             Path(nome_arquivo).write_text(html, encoding='utf-8')
             cont += 1
             print(f"  [+] Salvo: {nome_arquivo}")
             
         await browser.close()
-        print(f"Concluído! {cont} episódios salvos.")
+        print(f"Concluído! {cont} novos episódios salvos.")
 
 if __name__ == "__main__":
     asyncio.run(main())
