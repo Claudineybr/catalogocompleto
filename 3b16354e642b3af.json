@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Ted 2012 - 🍿Clau",
-  "description": "Assista Ted 2012",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"
-  ],
-  "uploadDate": "2012-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/c9883bdc-203b-41c7-a826-3ce5a647f302",
-  "embedUrl": "https://tankie.tube/videos/embed/c9883bdc-203b-41c7-a826-3ce5a647f302"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Ted 2012 - 🍿Clau", "description": "Assista Ted 2012", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg"], "uploadDate": "2012-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/c9883bdc-203b-41c7-a826-3ce5a647f302", "embedUrl": "https://tankie.tube/videos/embed/c9883bdc-203b-41c7-a826-3ce5a647f302"}
+</script>
+<title>Ted 2012 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/uRHsiw1wLxPHFXkkv4Ix1s0O6f4.jpg" alt="Ted 2012 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Ted 2012 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Saga Mad Max - 🍿Clau",
-  "description": "Assista Saga Mad Max",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/7qOSKoOAPgemYhBwbJgBWcCxPWZ.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/w/56eqNpXB45Ccz21odLzwwS",
-  "embedUrl": "https://tankie.tube/w/56eqNpXB45Ccz21odLzwwS"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Saga Mad Max - 🍿Clau", "description": "Assista Saga Mad Max", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/7qOSKoOAPgemYhBwbJgBWcCxPWZ.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/56eqNpXB45Ccz21odLzwwS", "embedUrl": "https://tankie.tube/w/56eqNpXB45Ccz21odLzwwS"}
+</script>
+<title>Saga Mad Max - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/7qOSKoOAPgemYhBwbJgBWcCxPWZ.jpg" alt="Saga Mad Max - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Saga Mad Max - 🍿Clau</h1>
+</body>
+</html>

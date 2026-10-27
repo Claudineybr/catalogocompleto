@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Projecto Almanaque 2015 - 🍿Clau",
-  "description": "Assista Projecto Almanaque 2015",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/2krLUKMsKbnZk6j647IlkqlMZ2u.jpg"
-  ],
-  "uploadDate": "2015-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1",
-  "embedUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Projecto Almanaque 2015 - 🍿Clau", "description": "Assista Projecto Almanaque 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/2krLUKMsKbnZk6j647IlkqlMZ2u.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1", "embedUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1"}
+</script>
+<title>Projecto Almanaque 2015 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/2krLUKMsKbnZk6j647IlkqlMZ2u.jpg" alt="Projecto Almanaque 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Projecto Almanaque 2015 - 🍿Clau</h1>
+</body>
+</html>

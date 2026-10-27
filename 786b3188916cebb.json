@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "TRON: Ares 2025 - 🍿Clau",
-  "description": "Assista TRON: Ares 2025",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/4NO0mmJ7WEU3PcllcogmiQIUecq.jpg"
-  ],
-  "uploadDate": "2025-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4",
-  "embedUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "TRON: Ares 2025 - 🍿Clau", "description": "Assista TRON: Ares 2025", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4NO0mmJ7WEU3PcllcogmiQIUecq.jpg"], "uploadDate": "2025-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4"}
+</script>
+<title>TRON: Ares 2025 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/4NO0mmJ7WEU3PcllcogmiQIUecq.jpg" alt="TRON: Ares 2025 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>TRON: Ares 2025 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Scooby-Doo e o Fantasma da Bruxa 1999 - 🍿Clau",
-  "description": "Assista Scooby-Doo e o Fantasma da Bruxa 1999",
-  "thumbnailUrl": [
-    "https://via.placeholder.com/500x750?text=Sem+Capa"
-  ],
-  "uploadDate": "1999-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/Scooby-Doo%20e%20o%20Fantasma%20da%20Bruxa_1999_tt0196931.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/Scooby-Doo%20e%20o%20Fantasma%20da%20Bruxa_1999_tt0196931.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Scooby-Doo e o Fantasma da Bruxa 1999 - 🍿Clau", "description": "Assista Scooby-Doo e o Fantasma da Bruxa 1999", "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"], "uploadDate": "1999-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Scooby-Doo%20e%20o%20Fantasma%20da%20Bruxa_1999_tt0196931.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Scooby-Doo%20e%20o%20Fantasma%20da%20Bruxa_1999_tt0196931.mp4"}
+</script>
+<title>Scooby-Doo e o Fantasma da Bruxa 1999 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://via.placeholder.com/500x750?text=Sem+Capa" alt="Scooby-Doo e o Fantasma da Bruxa 1999 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Scooby-Doo e o Fantasma da Bruxa 1999 - 🍿Clau</h1>
+</body>
+</html>

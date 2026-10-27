@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Diário dos Mortos 2007 - 🍿Clau",
-  "description": "Assista Diário dos Mortos 2007",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/lJYSaRQ27LzotpCWndj3hBS8wvE.jpg"
-  ],
-  "uploadDate": "2007-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0848557.mp4",
-  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0848557.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Diário dos Mortos 2007 - 🍿Clau", "description": "Assista Diário dos Mortos 2007", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/lJYSaRQ27LzotpCWndj3hBS8wvE.jpg"], "uploadDate": "2007-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0848557.mp4", "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0848557.mp4"}
+</script>
+<title>Diário dos Mortos 2007 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/lJYSaRQ27LzotpCWndj3hBS8wvE.jpg" alt="Diário dos Mortos 2007 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Diário dos Mortos 2007 - 🍿Clau</h1>
+</body>
+</html>

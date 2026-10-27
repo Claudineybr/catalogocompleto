@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Mulher Maravilha 2017 - 🍿Clau",
-  "description": "Assista Mulher Maravilha 2017",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/miSHDjGoeoUFdwraljj6iCzus8P.jpg"
-  ],
-  "uploadDate": "2017-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0095.l1s0-cdn-3123123.com/mulher-maravilha-2dd65f8d/dubbed/1/4b1dbcf6-4210-40df-9038-4f273cc2928f/stream.mp4?type=movie&expires=1771017040&signature=8764b3cc79e3cf7dccaaf8af159173fd9618863351660b2623cd5d1ae0dc0b57",
-  "embedUrl": "https://cdn-0095.l1s0-cdn-3123123.com/mulher-maravilha-2dd65f8d/dubbed/1/4b1dbcf6-4210-40df-9038-4f273cc2928f/stream.mp4?type=movie&expires=1771017040&signature=8764b3cc79e3cf7dccaaf8af159173fd9618863351660b2623cd5d1ae0dc0b57"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Mulher Maravilha 2017 - 🍿Clau", "description": "Assista Mulher Maravilha 2017", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/miSHDjGoeoUFdwraljj6iCzus8P.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0095.l1s0-cdn-3123123.com/mulher-maravilha-2dd65f8d/dubbed/1/4b1dbcf6-4210-40df-9038-4f273cc2928f/stream.mp4?type=movie&expires=1771017040&signature=8764b3cc79e3cf7dccaaf8af159173fd9618863351660b2623cd5d1ae0dc0b57", "embedUrl": "https://cdn-0095.l1s0-cdn-3123123.com/mulher-maravilha-2dd65f8d/dubbed/1/4b1dbcf6-4210-40df-9038-4f273cc2928f/stream.mp4?type=movie&expires=1771017040&signature=8764b3cc79e3cf7dccaaf8af159173fd9618863351660b2623cd5d1ae0dc0b57"}
+</script>
+<title>Mulher Maravilha 2017 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/miSHDjGoeoUFdwraljj6iCzus8P.jpg" alt="Mulher Maravilha 2017 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Mulher Maravilha 2017 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Anaconda 1997 - 🍿Clau",
-  "description": "Assista Anaconda 1997",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/dFp7Qupi4MGVsVvSozo4J9Ton9d.jpg"
-  ],
-  "uploadDate": "1997-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0091.l1s0-cdn-3123123.com/anaconda-d99b1570/dubbed/1/3604dbe6-0bcd-4954-8f4b-ff844f9fa927/stream.mp4?type=movie&expires=1770943824&signature=fe1dc36743c7230992a15ca21b1935c9523312e73b4f319847e1007f8438e909",
-  "embedUrl": "https://cdn-0091.l1s0-cdn-3123123.com/anaconda-d99b1570/dubbed/1/3604dbe6-0bcd-4954-8f4b-ff844f9fa927/stream.mp4?type=movie&expires=1770943824&signature=fe1dc36743c7230992a15ca21b1935c9523312e73b4f319847e1007f8438e909"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Anaconda 1997 - 🍿Clau", "description": "Assista Anaconda 1997", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/dFp7Qupi4MGVsVvSozo4J9Ton9d.jpg"], "uploadDate": "1997-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0091.l1s0-cdn-3123123.com/anaconda-d99b1570/dubbed/1/3604dbe6-0bcd-4954-8f4b-ff844f9fa927/stream.mp4?type=movie&expires=1770943824&signature=fe1dc36743c7230992a15ca21b1935c9523312e73b4f319847e1007f8438e909", "embedUrl": "https://cdn-0091.l1s0-cdn-3123123.com/anaconda-d99b1570/dubbed/1/3604dbe6-0bcd-4954-8f4b-ff844f9fa927/stream.mp4?type=movie&expires=1770943824&signature=fe1dc36743c7230992a15ca21b1935c9523312e73b4f319847e1007f8438e909"}
+</script>
+<title>Anaconda 1997 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/dFp7Qupi4MGVsVvSozo4J9Ton9d.jpg" alt="Anaconda 1997 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Anaconda 1997 - 🍿Clau</h1>
+</body>
+</html>

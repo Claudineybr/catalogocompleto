@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Anjo Do Desejo 2011 - Episódio - 🍿Clau",
-  "description": "Assista Anjo Do Desejo 2011 - Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/jaTYwyLD40qlaFvhuoix5Jig58t.jpg"
-  ],
-  "uploadDate": "2011-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0073.l1s0-cdn-3123123.com/bailarina-do-universo-de-john-wick-aab78f66/dubbed/1/22025ade-27ac-4a50-8e51-c637405b580d/stream.mp4?type=movie&expires=1771877270&signature=17a2667b15e4ae435999b3be841bd7b0efb9fa002e43e5bdf5df71abf21bdbdf",
-  "embedUrl": "https://cdn-0073.l1s0-cdn-3123123.com/bailarina-do-universo-de-john-wick-aab78f66/dubbed/1/22025ade-27ac-4a50-8e51-c637405b580d/stream.mp4?type=movie&expires=1771877270&signature=17a2667b15e4ae435999b3be841bd7b0efb9fa002e43e5bdf5df71abf21bdbdf"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Anjo Do Desejo 2011 - Episódio - 🍿Clau", "description": "Assista Anjo Do Desejo 2011 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/jaTYwyLD40qlaFvhuoix5Jig58t.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0073.l1s0-cdn-3123123.com/bailarina-do-universo-de-john-wick-aab78f66/dubbed/1/22025ade-27ac-4a50-8e51-c637405b580d/stream.mp4?type=movie&expires=1771877270&signature=17a2667b15e4ae435999b3be841bd7b0efb9fa002e43e5bdf5df71abf21bdbdf", "embedUrl": "https://cdn-0073.l1s0-cdn-3123123.com/bailarina-do-universo-de-john-wick-aab78f66/dubbed/1/22025ade-27ac-4a50-8e51-c637405b580d/stream.mp4?type=movie&expires=1771877270&signature=17a2667b15e4ae435999b3be841bd7b0efb9fa002e43e5bdf5df71abf21bdbdf"}
+</script>
+<title>Anjo Do Desejo 2011 - Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/jaTYwyLD40qlaFvhuoix5Jig58t.jpg" alt="Anjo Do Desejo 2011 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Anjo Do Desejo 2011 - Episódio - 🍿Clau</h1>
+</body>
+</html>

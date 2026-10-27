@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "A Hora do Pesadelo 1984 - 🍿Clau",
-  "description": "Assista A Hora do Pesadelo 1984",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/8cXxfVhSdTL1tC5ivC0mX74QQyI.jpg"
-  ],
-  "uploadDate": "1984-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/311e38c0-ee9e-41f3-9a5f-ed626a1f01ae",
-  "embedUrl": "https://tankie.tube/videos/embed/311e38c0-ee9e-41f3-9a5f-ed626a1f01ae"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Hora do Pesadelo 1984 - 🍿Clau", "description": "Assista A Hora do Pesadelo 1984", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/8cXxfVhSdTL1tC5ivC0mX74QQyI.jpg"], "uploadDate": "1984-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/311e38c0-ee9e-41f3-9a5f-ed626a1f01ae", "embedUrl": "https://tankie.tube/videos/embed/311e38c0-ee9e-41f3-9a5f-ed626a1f01ae"}
+</script>
+<title>A Hora do Pesadelo 1984 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/8cXxfVhSdTL1tC5ivC0mX74QQyI.jpg" alt="A Hora do Pesadelo 1984 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>A Hora do Pesadelo 1984 - 🍿Clau</h1>
+</body>
+</html>

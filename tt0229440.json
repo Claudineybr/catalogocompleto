@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Hellraiser - Inferno 2000 - 🍿Clau",
-  "description": "Assista Hellraiser - Inferno 2000",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/77Jj3lwYCnI16yNPheHx6LwbKqZ.jpg"
-  ],
-  "uploadDate": "2000-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Hellraiser - Inferno 2000 - 🍿Clau", "description": "Assista Hellraiser - Inferno 2000", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/77Jj3lwYCnI16yNPheHx6LwbKqZ.jpg"], "uploadDate": "2000-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4"}
+</script>
+<title>Hellraiser - Inferno 2000 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/77Jj3lwYCnI16yNPheHx6LwbKqZ.jpg" alt="Hellraiser - Inferno 2000 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Hellraiser - Inferno 2000 - 🍿Clau</h1>
+</body>
+</html>

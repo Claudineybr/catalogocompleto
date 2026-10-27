@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "A Filha do General 1999 - 🍿Clau",
-  "description": "Assista A Filha do General 1999",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/qeKlL9mMi3LRUNeVo0mziO04Xo2.jpg"
-  ],
-  "uploadDate": "1999-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0012.speed-stream.online/a-filha-do-general-1603ec44/dubbed/1/d2d36933-a8a8-4ac6-9e44-8aa3736ba559/stream.mp4",
-  "embedUrl": "https://cdn-0012.speed-stream.online/a-filha-do-general-1603ec44/dubbed/1/d2d36933-a8a8-4ac6-9e44-8aa3736ba559/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Filha do General 1999 - 🍿Clau", "description": "Assista A Filha do General 1999", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qeKlL9mMi3LRUNeVo0mziO04Xo2.jpg"], "uploadDate": "1999-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0012.speed-stream.online/a-filha-do-general-1603ec44/dubbed/1/d2d36933-a8a8-4ac6-9e44-8aa3736ba559/stream.mp4", "embedUrl": "https://cdn-0012.speed-stream.online/a-filha-do-general-1603ec44/dubbed/1/d2d36933-a8a8-4ac6-9e44-8aa3736ba559/stream.mp4"}
+</script>
+<title>A Filha do General 1999 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/qeKlL9mMi3LRUNeVo0mziO04Xo2.jpg" alt="A Filha do General 1999 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>A Filha do General 1999 - 🍿Clau</h1>
+</body>
+</html>

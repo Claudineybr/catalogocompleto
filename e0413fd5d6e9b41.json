@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Pokémon: Detetive Pikachu 2019 - 🍿Clau",
-  "description": "Assista Pokémon: Detetive Pikachu 2019",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/p72utWsmz5ZAmvVQPUhovq0jFK3.jpg"
-  ],
-  "uploadDate": "2019-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0063.speed-stream.online/pokemon-detetive-pikachu-12905649/dubbed/1/a148d0be-b4da-4f26-be93-a70d3f63de40/stream.mp4",
-  "embedUrl": "https://cdn-0063.speed-stream.online/pokemon-detetive-pikachu-12905649/dubbed/1/a148d0be-b4da-4f26-be93-a70d3f63de40/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Pokémon: Detetive Pikachu 2019 - 🍿Clau", "description": "Assista Pokémon: Detetive Pikachu 2019", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/p72utWsmz5ZAmvVQPUhovq0jFK3.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0063.speed-stream.online/pokemon-detetive-pikachu-12905649/dubbed/1/a148d0be-b4da-4f26-be93-a70d3f63de40/stream.mp4", "embedUrl": "https://cdn-0063.speed-stream.online/pokemon-detetive-pikachu-12905649/dubbed/1/a148d0be-b4da-4f26-be93-a70d3f63de40/stream.mp4"}
+</script>
+<title>Pokémon: Detetive Pikachu 2019 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/p72utWsmz5ZAmvVQPUhovq0jFK3.jpg" alt="Pokémon: Detetive Pikachu 2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Pokémon: Detetive Pikachu 2019 - 🍿Clau</h1>
+</body>
+</html>

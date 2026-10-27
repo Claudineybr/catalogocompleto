@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Refém do Silêncio 2001 - 🍿Clau",
-  "description": "Assista Refém do Silêncio 2001",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/v5eF86ADsJ7KvtAPPBW6Ns8PgY3.jpg"
-  ],
-  "uploadDate": "2001-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn.playmycnvs.com/m/Ref%C3%A9m%20do%20Sil%C3%AAncio.mp4",
-  "embedUrl": "https://cdn.playmycnvs.com/m/Ref%C3%A9m%20do%20Sil%C3%AAncio.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Refém do Silêncio 2001 - 🍿Clau", "description": "Assista Refém do Silêncio 2001", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/v5eF86ADsJ7KvtAPPBW6Ns8PgY3.jpg"], "uploadDate": "2001-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn.playmycnvs.com/m/Ref%C3%A9m%20do%20Sil%C3%AAncio.mp4", "embedUrl": "https://cdn.playmycnvs.com/m/Ref%C3%A9m%20do%20Sil%C3%AAncio.mp4"}
+</script>
+<title>Refém do Silêncio 2001 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/v5eF86ADsJ7KvtAPPBW6Ns8PgY3.jpg" alt="Refém do Silêncio 2001 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Refém do Silêncio 2001 - 🍿Clau</h1>
+</body>
+</html>

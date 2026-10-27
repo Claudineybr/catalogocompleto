@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Você (You) - Episódio 6 - Farewell, My Bunny - 🍿Clau",
-  "description": "Assista Você (You) - Episódio 6 - Farewell, My Bunny",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E06_78191.mp4",
-  "embedUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E06_78191.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Você (You) - Episódio 6 - Farewell, My Bunny - 🍿Clau", "description": "Assista Você (You) - Episódio 6 - Farewell, My Bunny", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E06_78191.mp4", "embedUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E06_78191.mp4"}
+</script>
+<title>Você (You) - Episódio 6 - Farewell, My Bunny - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg" alt="Você (You) - Episódio 6 - Farewell, My Bunny - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Você (You) - Episódio 6 - Farewell, My Bunny - 🍿Clau</h1>
+</body>
+</html>

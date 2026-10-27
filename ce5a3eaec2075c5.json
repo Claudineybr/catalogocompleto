@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Que Mais Pode Acontecer? 2001 - 🍿Clau",
-  "description": "Assista O Que Mais Pode Acontecer? 2001",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/qGspgm433lXQtKRIa5hbpYNFCt6.jpg"
-  ],
-  "uploadDate": "2001-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/o-que-mais-pode-acontecer-b3175983/dubbed/1/33bf603f-722d-4c60-93b7-8d3be285a58d/stream.mp4?type=movie&expires=1771183151&signature=f4da487f8c35b67d3910471c548068fcc2efa307789554196840d176d5edc585",
-  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/o-que-mais-pode-acontecer-b3175983/dubbed/1/33bf603f-722d-4c60-93b7-8d3be285a58d/stream.mp4?type=movie&expires=1771183151&signature=f4da487f8c35b67d3910471c548068fcc2efa307789554196840d176d5edc585"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Que Mais Pode Acontecer? 2001 - 🍿Clau", "description": "Assista O Que Mais Pode Acontecer? 2001", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qGspgm433lXQtKRIa5hbpYNFCt6.jpg"], "uploadDate": "2001-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/o-que-mais-pode-acontecer-b3175983/dubbed/1/33bf603f-722d-4c60-93b7-8d3be285a58d/stream.mp4?type=movie&expires=1771183151&signature=f4da487f8c35b67d3910471c548068fcc2efa307789554196840d176d5edc585", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/o-que-mais-pode-acontecer-b3175983/dubbed/1/33bf603f-722d-4c60-93b7-8d3be285a58d/stream.mp4?type=movie&expires=1771183151&signature=f4da487f8c35b67d3910471c548068fcc2efa307789554196840d176d5edc585"}
+</script>
+<title>O Que Mais Pode Acontecer? 2001 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/qGspgm433lXQtKRIa5hbpYNFCt6.jpg" alt="O Que Mais Pode Acontecer? 2001 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Que Mais Pode Acontecer? 2001 - 🍿Clau</h1>
+</body>
+</html>

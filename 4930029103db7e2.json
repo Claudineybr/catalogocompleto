@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Viúva Negra 2021 - 🍿Clau",
-  "description": "Assista Viúva Negra 2021",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/lrJ9QI2HMbO8N2S2r2v7fjtou5c.jpg"
-  ],
-  "uploadDate": "2021-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/w/g9HgbvcCaeUFpT1EbSzvK7",
-  "embedUrl": "https://tankie.tube/w/g9HgbvcCaeUFpT1EbSzvK7"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Viúva Negra 2021 - 🍿Clau", "description": "Assista Viúva Negra 2021", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/lrJ9QI2HMbO8N2S2r2v7fjtou5c.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/g9HgbvcCaeUFpT1EbSzvK7", "embedUrl": "https://tankie.tube/w/g9HgbvcCaeUFpT1EbSzvK7"}
+</script>
+<title>Viúva Negra 2021 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/lrJ9QI2HMbO8N2S2r2v7fjtou5c.jpg" alt="Viúva Negra 2021 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Viúva Negra 2021 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Constantine - E01 - 🍿Clau",
-  "description": "Assista Constantine - E01",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/dd4uzgUAbBIiRW7dcY0AcgSWohJ.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "http://cloud2.playhdlugo.online/series/Constantine/01/Constantine%20S01E01%20-%20720p%20-%20By-LuanHarper.mp4",
-  "embedUrl": "http://cloud2.playhdlugo.online/series/Constantine/01/Constantine%20S01E01%20-%20720p%20-%20By-LuanHarper.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Constantine - E01 - 🍿Clau", "description": "Assista Constantine - E01", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/dd4uzgUAbBIiRW7dcY0AcgSWohJ.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "http://cloud2.playhdlugo.online/series/Constantine/01/Constantine%20S01E01%20-%20720p%20-%20By-LuanHarper.mp4", "embedUrl": "http://cloud2.playhdlugo.online/series/Constantine/01/Constantine%20S01E01%20-%20720p%20-%20By-LuanHarper.mp4"}
+</script>
+<title>Constantine - E01 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/dd4uzgUAbBIiRW7dcY0AcgSWohJ.jpg" alt="Constantine - E01 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Constantine - E01 - 🍿Clau</h1>
+</body>
+</html>

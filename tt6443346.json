@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Adão Negro 2022 - 🍿Clau",
-  "description": "Assista Adão Negro 2022",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/ZTzxi5aKXua2eIlmaMbxxcoW7v.jpg"
-  ],
-  "uploadDate": "2022-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://server-1.cnvods.com/m/Ad%C3%A3o%20Negro_2022_tt6443346.mp4?cnvs_token=T1dRM05XUTFPV0UyWXpZek5UWTJOUlUyNHdud0dmMklxTytveWRRYW94YzdhSlJGcEJjTXo5VEplVFphckxGTFJZSUwzZ0ducHlPbUtRa2JBaDR4MVR2M1poVnFNT2ovQjhNNnFudEt2RzQ5WU9BQ0hlVFU4b1BpcHh5TFdhdDA",
-  "embedUrl": "https://server-1.cnvods.com/m/Ad%C3%A3o%20Negro_2022_tt6443346.mp4?cnvs_token=T1dRM05XUTFPV0UyWXpZek5UWTJOUlUyNHdud0dmMklxTytveWRRYW94YzdhSlJGcEJjTXo5VEplVFphckxGTFJZSUwzZ0ducHlPbUtRa2JBaDR4MVR2M1poVnFNT2ovQjhNNnFudEt2RzQ5WU9BQ0hlVFU4b1BpcHh5TFdhdDA"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Adão Negro 2022 - 🍿Clau", "description": "Assista Adão Negro 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ZTzxi5aKXua2eIlmaMbxxcoW7v.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Ad%C3%A3o%20Negro_2022_tt6443346.mp4?cnvs_token=T1dRM05XUTFPV0UyWXpZek5UWTJOUlUyNHdud0dmMklxTytveWRRYW94YzdhSlJGcEJjTXo5VEplVFphckxGTFJZSUwzZ0ducHlPbUtRa2JBaDR4MVR2M1poVnFNT2ovQjhNNnFudEt2RzQ5WU9BQ0hlVFU4b1BpcHh5TFdhdDA", "embedUrl": "https://server-1.cnvods.com/m/Ad%C3%A3o%20Negro_2022_tt6443346.mp4?cnvs_token=T1dRM05XUTFPV0UyWXpZek5UWTJOUlUyNHdud0dmMklxTytveWRRYW94YzdhSlJGcEJjTXo5VEplVFphckxGTFJZSUwzZ0ducHlPbUtRa2JBaDR4MVR2M1poVnFNT2ovQjhNNnFudEt2RzQ5WU9BQ0hlVFU4b1BpcHh5TFdhdDA"}
+</script>
+<title>Adão Negro 2022 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/ZTzxi5aKXua2eIlmaMbxxcoW7v.jpg" alt="Adão Negro 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Adão Negro 2022 - 🍿Clau</h1>
+</body>
+</html>

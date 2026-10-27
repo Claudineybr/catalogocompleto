@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Cloverfield: Monstro 2008 - Episódio - 🍿Clau",
-  "description": "Assista Cloverfield: Monstro 2008 - Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/38ct0tTuJKB3980AruVZljMbHtJ.jpg"
-  ],
-  "uploadDate": "2008-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0086.l1s0-cdn-3123123.com/camp-rock-2-the-final-jam-0cde255a/dubbed/1/d78dc25c-8ee9-44a0-9291-d0e4d77bcaaf/stream.mp4?storage=0086&expires=1781154938&signature=8251b68245f6659eda8e7009bc63f7b1e8a603fa695c07ac6473bcbdec5c192c&type=movie",
-  "embedUrl": "https://cdn-0086.l1s0-cdn-3123123.com/camp-rock-2-the-final-jam-0cde255a/dubbed/1/d78dc25c-8ee9-44a0-9291-d0e4d77bcaaf/stream.mp4?storage=0086&expires=1781154938&signature=8251b68245f6659eda8e7009bc63f7b1e8a603fa695c07ac6473bcbdec5c192c&type=movie"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Cloverfield: Monstro 2008 - Episódio - 🍿Clau", "description": "Assista Cloverfield: Monstro 2008 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/38ct0tTuJKB3980AruVZljMbHtJ.jpg"], "uploadDate": "2008-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0086.l1s0-cdn-3123123.com/camp-rock-2-the-final-jam-0cde255a/dubbed/1/d78dc25c-8ee9-44a0-9291-d0e4d77bcaaf/stream.mp4?storage=0086&expires=1781154938&signature=8251b68245f6659eda8e7009bc63f7b1e8a603fa695c07ac6473bcbdec5c192c&type=movie", "embedUrl": "https://cdn-0086.l1s0-cdn-3123123.com/camp-rock-2-the-final-jam-0cde255a/dubbed/1/d78dc25c-8ee9-44a0-9291-d0e4d77bcaaf/stream.mp4?storage=0086&expires=1781154938&signature=8251b68245f6659eda8e7009bc63f7b1e8a603fa695c07ac6473bcbdec5c192c&type=movie"}
+</script>
+<title>Cloverfield: Monstro 2008 - Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/38ct0tTuJKB3980AruVZljMbHtJ.jpg" alt="Cloverfield: Monstro 2008 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Cloverfield: Monstro 2008 - Episódio - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Todo Mundo em Pânico 4 2006 - 🍿Clau",
-  "description": "Assista Todo Mundo em Pânico 4 2006",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/eJj5z94NtIn2iVPWFWcrzdqgtaR.jpg"
-  ],
-  "uploadDate": "2006-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/ac5002af-1a8c-4991-b5cd-9c323f89d226",
-  "embedUrl": "https://tankie.tube/videos/embed/ac5002af-1a8c-4991-b5cd-9c323f89d226"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Todo Mundo em Pânico 4 2006 - 🍿Clau", "description": "Assista Todo Mundo em Pânico 4 2006", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/eJj5z94NtIn2iVPWFWcrzdqgtaR.jpg"], "uploadDate": "2006-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/ac5002af-1a8c-4991-b5cd-9c323f89d226", "embedUrl": "https://tankie.tube/videos/embed/ac5002af-1a8c-4991-b5cd-9c323f89d226"}
+</script>
+<title>Todo Mundo em Pânico 4 2006 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/eJj5z94NtIn2iVPWFWcrzdqgtaR.jpg" alt="Todo Mundo em Pânico 4 2006 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Todo Mundo em Pânico 4 2006 - 🍿Clau</h1>
+</body>
+</html>

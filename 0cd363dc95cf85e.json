@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Por Lugares Incríveis 2020 - 🍿Clau",
-  "description": "Assista Por Lugares Incríveis 2020",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/xhQ3s1kdq1rVzq3xQNcOzvhwzTG.jpg"
-  ],
-  "uploadDate": "2020-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/67d5ecde-62eb-4ba9-a280-0fefe96167de",
-  "embedUrl": "https://tankie.tube/videos/embed/67d5ecde-62eb-4ba9-a280-0fefe96167de"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Por Lugares Incríveis 2020 - 🍿Clau", "description": "Assista Por Lugares Incríveis 2020", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/xhQ3s1kdq1rVzq3xQNcOzvhwzTG.jpg"], "uploadDate": "2020-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/67d5ecde-62eb-4ba9-a280-0fefe96167de", "embedUrl": "https://tankie.tube/videos/embed/67d5ecde-62eb-4ba9-a280-0fefe96167de"}
+</script>
+<title>Por Lugares Incríveis 2020 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/xhQ3s1kdq1rVzq3xQNcOzvhwzTG.jpg" alt="Por Lugares Incríveis 2020 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Por Lugares Incríveis 2020 - 🍿Clau</h1>
+</body>
+</html>

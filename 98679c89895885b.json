@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Exterminador do Futuro - 1984 - 🍿Clau",
-  "description": "Assista O Exterminador do Futuro - 1984",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg"
-  ],
-  "uploadDate": "1984-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8",
-  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Exterminador do Futuro - 1984 - 🍿Clau", "description": "Assista O Exterminador do Futuro - 1984", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg"], "uploadDate": "1984-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8"}
+</script>
+<title>O Exterminador do Futuro - 1984 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg" alt="O Exterminador do Futuro - 1984 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Exterminador do Futuro - 1984 - 🍿Clau</h1>
+</body>
+</html>

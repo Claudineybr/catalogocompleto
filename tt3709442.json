@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "A Presa 2016 - 🍿Clau",
-  "description": "Assista A Presa 2016",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/nhXzNrluezdn1KSFcVOyOOL3oMZ.jpg"
-  ],
-  "uploadDate": "2016-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://play-1.cnvods.com/m/Quarries_2017_tt3709442.mp4?cnvs_token=T0dWak1tTmpOV1V5WkdNM01XSmpNQzdUTmpKekRIclpvSUZEbnU4U3FDTWwrWjl2aGRYYzRSZTZVMnBwU2dndmQyaThaSXVWZnd3ZDFqZWFFYk80R21UMFErNTc0MXo2c2VmTTUrSk9RYWM9",
-  "embedUrl": "https://play-1.cnvods.com/m/Quarries_2017_tt3709442.mp4?cnvs_token=T0dWak1tTmpOV1V5WkdNM01XSmpNQzdUTmpKekRIclpvSUZEbnU4U3FDTWwrWjl2aGRYYzRSZTZVMnBwU2dndmQyaThaSXVWZnd3ZDFqZWFFYk80R21UMFErNTc0MXo2c2VmTTUrSk9RYWM9"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Presa 2016 - 🍿Clau", "description": "Assista A Presa 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/nhXzNrluezdn1KSFcVOyOOL3oMZ.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/Quarries_2017_tt3709442.mp4?cnvs_token=T0dWak1tTmpOV1V5WkdNM01XSmpNQzdUTmpKekRIclpvSUZEbnU4U3FDTWwrWjl2aGRYYzRSZTZVMnBwU2dndmQyaThaSXVWZnd3ZDFqZWFFYk80R21UMFErNTc0MXo2c2VmTTUrSk9RYWM9", "embedUrl": "https://play-1.cnvods.com/m/Quarries_2017_tt3709442.mp4?cnvs_token=T0dWak1tTmpOV1V5WkdNM01XSmpNQzdUTmpKekRIclpvSUZEbnU4U3FDTWwrWjl2aGRYYzRSZTZVMnBwU2dndmQyaThaSXVWZnd3ZDFqZWFFYk80R21UMFErNTc0MXo2c2VmTTUrSk9RYWM9"}
+</script>
+<title>A Presa 2016 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/nhXzNrluezdn1KSFcVOyOOL3oMZ.jpg" alt="A Presa 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>A Presa 2016 - 🍿Clau</h1>
+</body>
+</html>

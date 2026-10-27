@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Exorcista 1973 - 🍿Clau",
-  "description": "Assista O Exorcista 1973",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg"
-  ],
-  "uploadDate": "1973-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://play-1.cnvods.com/m/O%20Exorcista_1973_tt0070047.mp4?cnvs_token=TWprek1ESmhPVGRsTVdZeU9EQmhaQmhBeWl5dytsK3lWRmEwdkdReGIrQm53KzVIQVJVYjRUS2FzT3I4MnIvMGxLTDNubEluRzBnV1pBd1VWYU0wWVBsaUl3c0lhbHNpUDNvM2NtYi9VMURNTkdxZ0FNVnJONHB1ZXdSMjJBYng",
-  "embedUrl": "https://play-1.cnvods.com/m/O%20Exorcista_1973_tt0070047.mp4?cnvs_token=TWprek1ESmhPVGRsTVdZeU9EQmhaQmhBeWl5dytsK3lWRmEwdkdReGIrQm53KzVIQVJVYjRUS2FzT3I4MnIvMGxLTDNubEluRzBnV1pBd1VWYU0wWVBsaUl3c0lhbHNpUDNvM2NtYi9VMURNTkdxZ0FNVnJONHB1ZXdSMjJBYng"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Exorcista 1973 - 🍿Clau", "description": "Assista O Exorcista 1973", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg"], "uploadDate": "1973-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/O%20Exorcista_1973_tt0070047.mp4?cnvs_token=TWprek1ESmhPVGRsTVdZeU9EQmhaQmhBeWl5dytsK3lWRmEwdkdReGIrQm53KzVIQVJVYjRUS2FzT3I4MnIvMGxLTDNubEluRzBnV1pBd1VWYU0wWVBsaUl3c0lhbHNpUDNvM2NtYi9VMURNTkdxZ0FNVnJONHB1ZXdSMjJBYng", "embedUrl": "https://play-1.cnvods.com/m/O%20Exorcista_1973_tt0070047.mp4?cnvs_token=TWprek1ESmhPVGRsTVdZeU9EQmhaQmhBeWl5dytsK3lWRmEwdkdReGIrQm53KzVIQVJVYjRUS2FzT3I4MnIvMGxLTDNubEluRzBnV1pBd1VWYU0wWVBsaUl3c0lhbHNpUDNvM2NtYi9VMURNTkdxZ0FNVnJONHB1ZXdSMjJBYng"}
+</script>
+<title>O Exorcista 1973 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/ArSVoiEq2ljNIplabxRgJtamhnB.jpg" alt="O Exorcista 1973 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Exorcista 1973 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Super Choque - Episódio - 🍿Clau",
-  "description": "Assista Super Choque - Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0040.speed-stream.online/a-caminho-da-guerra-be231e0a/dubbed/1/9d2320a6-2e14-430f-97e3-ebac14713916/stream.mp4",
-  "embedUrl": "https://cdn-0040.speed-stream.online/a-caminho-da-guerra-be231e0a/dubbed/1/9d2320a6-2e14-430f-97e3-ebac14713916/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Super Choque - Episódio - 🍿Clau", "description": "Assista Super Choque - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0040.speed-stream.online/a-caminho-da-guerra-be231e0a/dubbed/1/9d2320a6-2e14-430f-97e3-ebac14713916/stream.mp4", "embedUrl": "https://cdn-0040.speed-stream.online/a-caminho-da-guerra-be231e0a/dubbed/1/9d2320a6-2e14-430f-97e3-ebac14713916/stream.mp4"}
+</script>
+<title>Super Choque - Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg" alt="Super Choque - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Super Choque - Episódio - 🍿Clau</h1>
+</body>
+</html>

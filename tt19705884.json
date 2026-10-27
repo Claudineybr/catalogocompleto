@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Bom Garoto 2022 - 🍿Clau",
-  "description": "Assista Bom Garoto 2022",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/wtp8g9VuTHi3w7aNrarYGyphLcU.jpg"
-  ],
-  "uploadDate": "2022-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://server-1.cnvods.com/m/Bom%20Garoto_2022_tt19705884.mp4?cnvs_token=TldRMU1UVTJNak5pWldZMU9USTBZbnlrRDVjWTR2UG1Qb29keFJKSGd5VnRhZXhScEtSQ0V5ek9VVVRENmNwTlIzVm9IaktocUdzZzhBNmlnUUF2SFZjVGVNcnhWMkk5WTZIaURIeUIzTmx2WEpoSVJlcGUrbVU1a3oyZTFSQk8",
-  "embedUrl": "https://server-1.cnvods.com/m/Bom%20Garoto_2022_tt19705884.mp4?cnvs_token=TldRMU1UVTJNak5pWldZMU9USTBZbnlrRDVjWTR2UG1Qb29keFJKSGd5VnRhZXhScEtSQ0V5ek9VVVRENmNwTlIzVm9IaktocUdzZzhBNmlnUUF2SFZjVGVNcnhWMkk5WTZIaURIeUIzTmx2WEpoSVJlcGUrbVU1a3oyZTFSQk8"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Bom Garoto 2022 - 🍿Clau", "description": "Assista Bom Garoto 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/wtp8g9VuTHi3w7aNrarYGyphLcU.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://server-1.cnvods.com/m/Bom%20Garoto_2022_tt19705884.mp4?cnvs_token=TldRMU1UVTJNak5pWldZMU9USTBZbnlrRDVjWTR2UG1Qb29keFJKSGd5VnRhZXhScEtSQ0V5ek9VVVRENmNwTlIzVm9IaktocUdzZzhBNmlnUUF2SFZjVGVNcnhWMkk5WTZIaURIeUIzTmx2WEpoSVJlcGUrbVU1a3oyZTFSQk8", "embedUrl": "https://server-1.cnvods.com/m/Bom%20Garoto_2022_tt19705884.mp4?cnvs_token=TldRMU1UVTJNak5pWldZMU9USTBZbnlrRDVjWTR2UG1Qb29keFJKSGd5VnRhZXhScEtSQ0V5ek9VVVRENmNwTlIzVm9IaktocUdzZzhBNmlnUUF2SFZjVGVNcnhWMkk5WTZIaURIeUIzTmx2WEpoSVJlcGUrbVU1a3oyZTFSQk8"}
+</script>
+<title>Bom Garoto 2022 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/wtp8g9VuTHi3w7aNrarYGyphLcU.jpg" alt="Bom Garoto 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Bom Garoto 2022 - 🍿Clau</h1>
+</body>
+</html>

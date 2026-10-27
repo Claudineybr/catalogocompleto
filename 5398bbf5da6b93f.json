@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Circle 2015 - 🍿Clau",
-  "description": "Assista Circle 2015",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/bQRxhfXXsH4ccScOBHs51bgwNe4.jpg"
-  ],
-  "uploadDate": "2015-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0002.speed-stream.online/circle-2ddb4476/subtitled/1/21de8f81-8cc7-4a7d-a9a3-393f9128c6f6/stream.mp4",
-  "embedUrl": "https://cdn-0002.speed-stream.online/circle-2ddb4476/subtitled/1/21de8f81-8cc7-4a7d-a9a3-393f9128c6f6/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Circle 2015 - 🍿Clau", "description": "Assista Circle 2015", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/bQRxhfXXsH4ccScOBHs51bgwNe4.jpg"], "uploadDate": "2015-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0002.speed-stream.online/circle-2ddb4476/subtitled/1/21de8f81-8cc7-4a7d-a9a3-393f9128c6f6/stream.mp4", "embedUrl": "https://cdn-0002.speed-stream.online/circle-2ddb4476/subtitled/1/21de8f81-8cc7-4a7d-a9a3-393f9128c6f6/stream.mp4"}
+</script>
+<title>Circle 2015 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/bQRxhfXXsH4ccScOBHs51bgwNe4.jpg" alt="Circle 2015 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Circle 2015 - 🍿Clau</h1>
+</body>
+</html>

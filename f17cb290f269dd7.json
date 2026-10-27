@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Encurralados 2016 - 🍿Clau",
-  "description": "Assista Encurralados 2016",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/oFQc8cc1CDXfb6wY7XxSAN1Evav.jpg"
-  ],
-  "uploadDate": "2016-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0029.speed-stream.online/encurralados-5ffcfe7c/dubbed/1/695511f5-c916-485f-9d25-f3e913b14bba/stream.mp4",
-  "embedUrl": "https://cdn-0029.speed-stream.online/encurralados-5ffcfe7c/dubbed/1/695511f5-c916-485f-9d25-f3e913b14bba/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Encurralados 2016 - 🍿Clau", "description": "Assista Encurralados 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/oFQc8cc1CDXfb6wY7XxSAN1Evav.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0029.speed-stream.online/encurralados-5ffcfe7c/dubbed/1/695511f5-c916-485f-9d25-f3e913b14bba/stream.mp4", "embedUrl": "https://cdn-0029.speed-stream.online/encurralados-5ffcfe7c/dubbed/1/695511f5-c916-485f-9d25-f3e913b14bba/stream.mp4"}
+</script>
+<title>Encurralados 2016 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/oFQc8cc1CDXfb6wY7XxSAN1Evav.jpg" alt="Encurralados 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Encurralados 2016 - 🍿Clau</h1>
+</body>
+</html>

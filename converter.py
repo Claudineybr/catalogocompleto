@@ -1,0 +1,47 @@
+import json
+import os
+from pathlib import Path
+
+def converter_arquivo(caminho):
+    try:
+        with open(caminho, 'r', encoding='utf-8-sig') as f:
+            texto = f.read()
+        if texto.strip().lower().startswith('<!doctype'):
+            return False
+        dados = json.loads(texto)
+        nome = dados.get("name", "Sem Nome")
+        if "🍿Clau" not in nome:
+            nome = nome.replace(" - Clau", "").replace("Clau", "").strip()
+            nome = f"{nome} - 🍿Clau"
+        dados["name"] = nome
+        capa = dados.get("thumbnailUrl", [""])[0]
+        if not capa:
+            capa = "https://via.placeholder.com/500x750?text=Sem+Capa"
+        html = f"""<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{json.dumps(dados, ensure_ascii=False)}
+</script>
+<title>{nome}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="{capa}" alt="{nome}" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>{nome}</h1>
+</body>
+</html>"""
+        with open(caminho, 'w', encoding='utf-8') as f:
+            f.write(html)
+        return True
+    except Exception as e:
+        print(f"Erro em {caminho}: {e}")
+        return False
+
+print("Iniciando conversão...")
+convertidos = 0
+for arq in Path('.').glob('*.json'):
+    if converter_arquivo(arq):
+        convertidos += 1
+print(f"Arquivos convertidos para HTML: {convertidos}")

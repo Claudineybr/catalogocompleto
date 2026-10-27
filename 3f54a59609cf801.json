@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "True Detective 2014 - Episódio 3 - 🍿Clau",
-  "description": "Assista True Detective 2014 - Episódio 3",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
-  ],
-  "uploadDate": "2014-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/3/44d7dc41-f90b-4589-84f8-09c1f6e11c03/stream.mp4?type=serie&expires=1770765540&signature=e6560628e7181fb2d182053910a16e604f9367b829517549e3db3f4386e40a45",
-  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/3/44d7dc41-f90b-4589-84f8-09c1f6e11c03/stream.mp4?type=serie&expires=1770765540&signature=e6560628e7181fb2d182053910a16e604f9367b829517549e3db3f4386e40a45"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "True Detective 2014 - Episódio 3 - 🍿Clau", "description": "Assista True Detective 2014 - Episódio 3", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/3/44d7dc41-f90b-4589-84f8-09c1f6e11c03/stream.mp4?type=serie&expires=1770765540&signature=e6560628e7181fb2d182053910a16e604f9367b829517549e3db3f4386e40a45", "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s1/dubbed/3/44d7dc41-f90b-4589-84f8-09c1f6e11c03/stream.mp4?type=serie&expires=1770765540&signature=e6560628e7181fb2d182053910a16e604f9367b829517549e3db3f4386e40a45"}
+</script>
+<title>True Detective 2014 - Episódio 3 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg" alt="True Detective 2014 - Episódio 3 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>True Detective 2014 - Episódio 3 - 🍿Clau</h1>
+</body>
+</html>

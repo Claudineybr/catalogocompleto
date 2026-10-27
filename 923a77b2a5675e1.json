@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "X-Men: Apocalipse - 2016 - 🍿Clau",
-  "description": "Assista X-Men: Apocalipse - 2016",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"
-  ],
-  "uploadDate": "2016-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ddb06e59-7aa5-49b6-810a-94903609879c/f548c708-3c7b-440e-8e4d-395ec65cf1f8-master.m3u8",
-  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ddb06e59-7aa5-49b6-810a-94903609879c/f548c708-3c7b-440e-8e4d-395ec65cf1f8-master.m3u8"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "X-Men: Apocalipse - 2016 - 🍿Clau", "description": "Assista X-Men: Apocalipse - 2016", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"], "uploadDate": "2016-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ddb06e59-7aa5-49b6-810a-94903609879c/f548c708-3c7b-440e-8e4d-395ec65cf1f8-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ddb06e59-7aa5-49b6-810a-94903609879c/f548c708-3c7b-440e-8e4d-395ec65cf1f8-master.m3u8"}
+</script>
+<title>X-Men: Apocalipse - 2016 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg" alt="X-Men: Apocalipse - 2016 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>X-Men: Apocalipse - 2016 - 🍿Clau</h1>
+</body>
+</html>

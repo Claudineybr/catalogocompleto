@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "X-Men - O Filme - 2000 - 🍿Clau",
-  "description": "Assista X-Men - O Filme - 2000",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"
-  ],
-  "uploadDate": "2000-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/f0bb2622-e6d6-46c1-b8f2-f1dfba654f7a/e8dd63a9-d851-4056-b550-2d82bdfc3a4e-master.m3u8",
-  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/f0bb2622-e6d6-46c1-b8f2-f1dfba654f7a/e8dd63a9-d851-4056-b550-2d82bdfc3a4e-master.m3u8"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "X-Men - O Filme - 2000 - 🍿Clau", "description": "Assista X-Men - O Filme - 2000", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg"], "uploadDate": "2000-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/f0bb2622-e6d6-46c1-b8f2-f1dfba654f7a/e8dd63a9-d851-4056-b550-2d82bdfc3a4e-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/f0bb2622-e6d6-46c1-b8f2-f1dfba654f7a/e8dd63a9-d851-4056-b550-2d82bdfc3a4e-master.m3u8"}
+</script>
+<title>X-Men - O Filme - 2000 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/czKpsvSmpzMoOuuJXGjBHMoH1qq.jpg" alt="X-Men - O Filme - 2000 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>X-Men - O Filme - 2000 - 🍿Clau</h1>
+</body>
+</html>

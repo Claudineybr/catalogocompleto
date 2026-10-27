@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "The Trip 2021 - 🍿Clau",
-  "description": "Assista The Trip 2021",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/coGs91wC3XGIguuy1SUdoWkXOVf.jpg"
-  ],
-  "uploadDate": "2021-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0078.speed-stream.online/the-trip-6fcdf728/dubbed/1/2450f96a-be17-4275-9ec8-eb6897480871/stream.mp4",
-  "embedUrl": "https://cdn-0078.speed-stream.online/the-trip-6fcdf728/dubbed/1/2450f96a-be17-4275-9ec8-eb6897480871/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "The Trip 2021 - 🍿Clau", "description": "Assista The Trip 2021", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/coGs91wC3XGIguuy1SUdoWkXOVf.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0078.speed-stream.online/the-trip-6fcdf728/dubbed/1/2450f96a-be17-4275-9ec8-eb6897480871/stream.mp4", "embedUrl": "https://cdn-0078.speed-stream.online/the-trip-6fcdf728/dubbed/1/2450f96a-be17-4275-9ec8-eb6897480871/stream.mp4"}
+</script>
+<title>The Trip 2021 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/coGs91wC3XGIguuy1SUdoWkXOVf.jpg" alt="The Trip 2021 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>The Trip 2021 - 🍿Clau</h1>
+</body>
+</html>

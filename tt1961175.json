@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Assassino: O Primeiro Alvo 2017 - 🍿Clau",
-  "description": "Assista O Assassino: O Primeiro Alvo 2017",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/nvT6niwCAMf27E7YptujhAeE1vW.jpg"
-  ],
-  "uploadDate": "2017-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/O%20Assassino:%20O%20Primeiro%20Alvo_2017_tt1961175.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/O%20Assassino:%20O%20Primeiro%20Alvo_2017_tt1961175.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Assassino: O Primeiro Alvo 2017 - 🍿Clau", "description": "Assista O Assassino: O Primeiro Alvo 2017", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/nvT6niwCAMf27E7YptujhAeE1vW.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/O%20Assassino:%20O%20Primeiro%20Alvo_2017_tt1961175.mp4", "embedUrl": "https://vods1.watchingvs.com/m/O%20Assassino:%20O%20Primeiro%20Alvo_2017_tt1961175.mp4"}
+</script>
+<title>O Assassino: O Primeiro Alvo 2017 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/nvT6niwCAMf27E7YptujhAeE1vW.jpg" alt="O Assassino: O Primeiro Alvo 2017 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Assassino: O Primeiro Alvo 2017 - 🍿Clau</h1>
+</body>
+</html>

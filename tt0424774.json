@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Homem de Branco 2022 - Episódio - 🍿Clau",
-  "description": "Assista O Homem de Branco 2022 - Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/cyI0NUIDkLPbCO6IWjyJfbwb4W5.jpg"
-  ],
-  "uploadDate": "2022-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/As%20Aventuras%20de%20Sharkboy%20e%20Lavagirl_2005_tt0424774.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/As%20Aventuras%20de%20Sharkboy%20e%20Lavagirl_2005_tt0424774.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Homem de Branco 2022 - Episódio - 🍿Clau", "description": "Assista O Homem de Branco 2022 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/cyI0NUIDkLPbCO6IWjyJfbwb4W5.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/As%20Aventuras%20de%20Sharkboy%20e%20Lavagirl_2005_tt0424774.mp4", "embedUrl": "https://vods1.watchingvs.com/m/As%20Aventuras%20de%20Sharkboy%20e%20Lavagirl_2005_tt0424774.mp4"}
+</script>
+<title>O Homem de Branco 2022 - Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/cyI0NUIDkLPbCO6IWjyJfbwb4W5.jpg" alt="O Homem de Branco 2022 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Homem de Branco 2022 - Episódio - 🍿Clau</h1>
+</body>
+</html>

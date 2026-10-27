@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "The Last of Us - Episódio 2: Infectados - 🍿Clau",
-  "description": "Assista The Last of Us - Episódio 2: Infectados",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/qWo5TP7mBijoZrfxBJkUMctkBt0.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E02_100088.mp4",
-  "embedUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E02_100088.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "The Last of Us - Episódio 2: Infectados - 🍿Clau", "description": "Assista The Last of Us - Episódio 2: Infectados", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qWo5TP7mBijoZrfxBJkUMctkBt0.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E02_100088.mp4", "embedUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E02_100088.mp4"}
+</script>
+<title>The Last of Us - Episódio 2: Infectados - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/qWo5TP7mBijoZrfxBJkUMctkBt0.jpg" alt="The Last of Us - Episódio 2: Infectados - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>The Last of Us - Episódio 2: Infectados - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Na Selva 2017 - 🍿Clau",
-  "description": "Assista Na Selva 2017",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/ztVMXVNCIYK0CgXOjEmJlWupn95.jpg"
-  ],
-  "uploadDate": "2017-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/w/82Am42sS8inXwYnu4wj3js",
-  "embedUrl": "https://tankie.tube/w/82Am42sS8inXwYnu4wj3js"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Na Selva 2017 - 🍿Clau", "description": "Assista Na Selva 2017", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ztVMXVNCIYK0CgXOjEmJlWupn95.jpg"], "uploadDate": "2017-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/82Am42sS8inXwYnu4wj3js", "embedUrl": "https://tankie.tube/w/82Am42sS8inXwYnu4wj3js"}
+</script>
+<title>Na Selva 2017 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/ztVMXVNCIYK0CgXOjEmJlWupn95.jpg" alt="Na Selva 2017 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Na Selva 2017 - 🍿Clau</h1>
+</body>
+</html>

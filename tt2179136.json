@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Sniper Americano 2014 - 🍿Clau",
-  "description": "Assista Sniper Americano 2014",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg"
-  ],
-  "uploadDate": "2014-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/Sniper%20Americano_2015_tt2179136.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/Sniper%20Americano_2015_tt2179136.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Sniper Americano 2014 - 🍿Clau", "description": "Assista Sniper Americano 2014", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg"], "uploadDate": "2014-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Sniper%20Americano_2015_tt2179136.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Sniper%20Americano_2015_tt2179136.mp4"}
+</script>
+<title>Sniper Americano 2014 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/mAXzc2oDTTYcnn6IGHlSXvmXloG.jpg" alt="Sniper Americano 2014 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Sniper Americano 2014 - 🍿Clau</h1>
+</body>
+</html>

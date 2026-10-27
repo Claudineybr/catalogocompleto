@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Rango 2011 - Episódio - 🍿Clau",
-  "description": "Assista Rango 2011 - Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/e5kYzP2hljfdooEzl1lskWn7yoj.jpg"
-  ],
-  "uploadDate": "2011-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0053.l1s0-cdn-3123123.com/o-chamado-671b70a6/dubbed/1/ffc52b1e-de1a-4e92-8e13-d878f841bd5a/stream.mp4?type=movie&expires=1770943059&signature=3db075b65b7ca9fd6659459378b51636bd8bfd5c5a569b8de14d753c4225b2e3",
-  "embedUrl": "https://cdn-0053.l1s0-cdn-3123123.com/o-chamado-671b70a6/dubbed/1/ffc52b1e-de1a-4e92-8e13-d878f841bd5a/stream.mp4?type=movie&expires=1770943059&signature=3db075b65b7ca9fd6659459378b51636bd8bfd5c5a569b8de14d753c4225b2e3"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Rango 2011 - Episódio - 🍿Clau", "description": "Assista Rango 2011 - Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/e5kYzP2hljfdooEzl1lskWn7yoj.jpg"], "uploadDate": "2011-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0053.l1s0-cdn-3123123.com/o-chamado-671b70a6/dubbed/1/ffc52b1e-de1a-4e92-8e13-d878f841bd5a/stream.mp4?type=movie&expires=1770943059&signature=3db075b65b7ca9fd6659459378b51636bd8bfd5c5a569b8de14d753c4225b2e3", "embedUrl": "https://cdn-0053.l1s0-cdn-3123123.com/o-chamado-671b70a6/dubbed/1/ffc52b1e-de1a-4e92-8e13-d878f841bd5a/stream.mp4?type=movie&expires=1770943059&signature=3db075b65b7ca9fd6659459378b51636bd8bfd5c5a569b8de14d753c4225b2e3"}
+</script>
+<title>Rango 2011 - Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/e5kYzP2hljfdooEzl1lskWn7yoj.jpg" alt="Rango 2011 - Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Rango 2011 - Episódio - 🍿Clau</h1>
+</body>
+</html>

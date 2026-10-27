@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Episódio - 🍿Clau",
-  "description": "Assista Episódio",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8",
-  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Episódio - 🍿Clau", "description": "Assista Episódio", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8", "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8"}
+</script>
+<title>Episódio - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg" alt="Episódio - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Episódio - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Rick e Morty - Episódio 3 - Rick Picles - 🍿Clau",
-  "description": "Assista Rick e Morty - Episódio 3 - Rick Picles",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/3/b27d6b7a-dd12-4dc8-9c87-b209a798f1b7/stream.mp4",
-  "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/3/b27d6b7a-dd12-4dc8-9c87-b209a798f1b7/stream.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Rick e Morty - Episódio 3 - Rick Picles - 🍿Clau", "description": "Assista Rick e Morty - Episódio 3 - Rick Picles", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/3/b27d6b7a-dd12-4dc8-9c87-b209a798f1b7/stream.mp4", "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s3/dubbed/3/b27d6b7a-dd12-4dc8-9c87-b209a798f1b7/stream.mp4"}
+</script>
+<title>Rick e Morty - Episódio 3 - Rick Picles - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg" alt="Rick e Morty - Episódio 3 - Rick Picles - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Rick e Morty - Episódio 3 - Rick Picles - 🍿Clau</h1>
+</body>
+</html>

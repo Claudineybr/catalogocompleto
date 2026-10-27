@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Them 2021 - Episódio 7 – Dia 7: Noite - 🍿Clau",
-  "description": "Assista Them 2021 - Episódio 7 – Dia 7: Noite",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/qo8fpes33rSCjaqbpo85lmFSqQj.jpg"
-  ],
-  "uploadDate": "2021-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E07_120462.mp4",
-  "embedUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E07_120462.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Them 2021 - Episódio 7 – Dia 7: Noite - 🍿Clau", "description": "Assista Them 2021 - Episódio 7 – Dia 7: Noite", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/qo8fpes33rSCjaqbpo85lmFSqQj.jpg"], "uploadDate": "2021-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E07_120462.mp4", "embedUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E07_120462.mp4"}
+</script>
+<title>Them 2021 - Episódio 7 – Dia 7: Noite - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/qo8fpes33rSCjaqbpo85lmFSqQj.jpg" alt="Them 2021 - Episódio 7 – Dia 7: Noite - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Them 2021 - Episódio 7 – Dia 7: Noite - 🍿Clau</h1>
+</body>
+</html>

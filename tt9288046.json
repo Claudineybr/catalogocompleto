@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "A Fera Do Mar 2022 - 🍿Clau",
-  "description": "Assista A Fera Do Mar 2022",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/4MIUmy5Qp32xznFo6gSR0m2mD1W.jpg"
-  ],
-  "uploadDate": "2022-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://play-1.cnvods.com/m/A%20Fera%20do%20Mar_2022_tt9288046.mp4?cnvs_token=1773867807-h67zX1%2FygD%2FCTyuaDtUOmo62ubafIvcJ15k5N%2FOzkZ0%3D&vid=75946&pid=6014643&t=1773867807",
-  "embedUrl": "https://play-1.cnvods.com/m/A%20Fera%20do%20Mar_2022_tt9288046.mp4?cnvs_token=1773867807-h67zX1%2FygD%2FCTyuaDtUOmo62ubafIvcJ15k5N%2FOzkZ0%3D&vid=75946&pid=6014643&t=1773867807"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "A Fera Do Mar 2022 - 🍿Clau", "description": "Assista A Fera Do Mar 2022", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/4MIUmy5Qp32xznFo6gSR0m2mD1W.jpg"], "uploadDate": "2022-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://play-1.cnvods.com/m/A%20Fera%20do%20Mar_2022_tt9288046.mp4?cnvs_token=1773867807-h67zX1%2FygD%2FCTyuaDtUOmo62ubafIvcJ15k5N%2FOzkZ0%3D&vid=75946&pid=6014643&t=1773867807", "embedUrl": "https://play-1.cnvods.com/m/A%20Fera%20do%20Mar_2022_tt9288046.mp4?cnvs_token=1773867807-h67zX1%2FygD%2FCTyuaDtUOmo62ubafIvcJ15k5N%2FOzkZ0%3D&vid=75946&pid=6014643&t=1773867807"}
+</script>
+<title>A Fera Do Mar 2022 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/4MIUmy5Qp32xznFo6gSR0m2mD1W.jpg" alt="A Fera Do Mar 2022 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>A Fera Do Mar 2022 - 🍿Clau</h1>
+</body>
+</html>

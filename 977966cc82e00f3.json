@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Feios 2024 - 🍿Clau",
-  "description": "Assista Feios 2024",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/m4er6cm6t7k8ViGSVV4ZX9CXfnx.jpg"
-  ],
-  "uploadDate": "2024-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu",
-  "embedUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Feios 2024 - 🍿Clau", "description": "Assista Feios 2024", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/m4er6cm6t7k8ViGSVV4ZX9CXfnx.jpg"], "uploadDate": "2024-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu", "embedUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu"}
+</script>
+<title>Feios 2024 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/m4er6cm6t7k8ViGSVV4ZX9CXfnx.jpg" alt="Feios 2024 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Feios 2024 - 🍿Clau</h1>
+</body>
+</html>

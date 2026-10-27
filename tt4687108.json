@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Campo do Medo 2019 - 🍿Clau",
-  "description": "Assista Campo do Medo 2019",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/iANNk5aJZecfESjS7CJGgZ49YtI.jpg"
-  ],
-  "uploadDate": "2019-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4",
-  "embedUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Campo do Medo 2019 - 🍿Clau", "description": "Assista Campo do Medo 2019", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/iANNk5aJZecfESjS7CJGgZ49YtI.jpg"], "uploadDate": "2019-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4", "embedUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4"}
+</script>
+<title>Campo do Medo 2019 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/iANNk5aJZecfESjS7CJGgZ49YtI.jpg" alt="Campo do Medo 2019 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Campo do Medo 2019 - 🍿Clau</h1>
+</body>
+</html>

@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "O Rei Leão 1994 - 🍿Clau",
-  "description": "Assista O Rei Leão 1994",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg"
-  ],
-  "uploadDate": "1994-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7",
-  "embedUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7"
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "O Rei Leão 1994 - 🍿Clau", "description": "Assista O Rei Leão 1994", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg"], "uploadDate": "1994-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7", "embedUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7"}
+</script>
+<title>O Rei Leão 1994 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg" alt="O Rei Leão 1994 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>O Rei Leão 1994 - 🍿Clau</h1>
+</body>
+</html>

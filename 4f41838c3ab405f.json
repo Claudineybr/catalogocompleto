@@ -1,13 +1,15 @@
-{
-  "@context": "https://schema.org",
-  "@type": "VideoObject",
-  "name": "Encontro Explosivo 2010 - 🍿Clau",
-  "description": "Assista Encontro Explosivo 2010",
-  "thumbnailUrl": [
-    "https://image.tmdb.org/t/p/w500/ovgL7y93qKZpOWLlmYsZPf8HzYM.jpg"
-  ],
-  "uploadDate": "2010-01-01T00:00:00+00:00",
-  "inLanguage": "pt",
-  "contentUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg==",
-  "embedUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg=="
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "VideoObject", "name": "Encontro Explosivo 2010 - 🍿Clau", "description": "Assista Encontro Explosivo 2010", "thumbnailUrl": ["https://image.tmdb.org/t/p/w500/ovgL7y93qKZpOWLlmYsZPf8HzYM.jpg"], "uploadDate": "2010-01-01T00:00:00+00:00", "inLanguage": "pt", "contentUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg==", "embedUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg=="}
+</script>
+<title>Encontro Explosivo 2010 - 🍿Clau</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body>
+<img src="https://image.tmdb.org/t/p/w500/ovgL7y93qKZpOWLlmYsZPf8HzYM.jpg" alt="Encontro Explosivo 2010 - 🍿Clau" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
+<h1>Encontro Explosivo 2010 - 🍿Clau</h1>
+</body>
+</html>
