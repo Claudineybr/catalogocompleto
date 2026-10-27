@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Uýra - A Retomada da Floresta - 🍿Clau",
+  "description": "Assista Uýra - A Retomada da Floresta",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/auVsD3LaFdnQg2K3OZ9n5aQ0guL.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playcnvs.com/m/U%C3%BDra%20-%20A%20Retomada%20da%20Floresta.mp4",
+  "embedUrl": "https://cdn.playcnvs.com/m/U%C3%BDra%20-%20A%20Retomada%20da%20Floresta.mp4"
+}

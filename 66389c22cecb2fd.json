@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "T-34: O Monstro de Metal 2018 - 🍿Clau",
+  "description": "Assista T-34: O Monstro de Metal 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3nag9eCEMIo4yVZD7sKLodEPe8T.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/T-34%20O%20Monstro%20de%20Metal.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/T-34%20O%20Monstro%20de%20Metal.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Todo Mundo em Pânico 2000 - Episódio - 🍿Clau",
+  "description": "Assista Todo Mundo em Pânico 2000 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/y9yJd2qIIwhZcllHeKHsz5eRvNr.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0060.speed-stream.online/meu-malvado-favorito-apresenta-loucuras-dos-minion-fc3aa0d8/dubbed/1/499548fa-4a86-452e-a6be-7ff77377506b/stream.mp4",
+  "embedUrl": "https://cdn-0060.speed-stream.online/meu-malvado-favorito-apresenta-loucuras-dos-minion-fc3aa0d8/dubbed/1/499548fa-4a86-452e-a6be-7ff77377506b/stream.mp4"
+}

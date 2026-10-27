@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Super Choque - E06 - 🍿Clau",
+  "description": "Assista Super Choque - E06",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/CAzxjYTUQoq2jeUnn0z6BugdIP.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s2/dubbed/6/2b1f7153-a659-42e7-8340-7927b1d3798f/stream.mp4",
+  "embedUrl": "https://cdn-0026.speed-stream.online/super-choque-0c59fdce/s2/dubbed/6/2b1f7153-a659-42e7-8340-7927b1d3798f/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Holland 2025 - 🍿Clau",
+  "description": "Assista Holland 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4QmfzitM4bZhHqL6IlFwDkwDPVc.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/69f14a3e-dc5c-40ef-bdba-5f7350f304de/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/69f14a3e-dc5c-40ef-bdba-5f7350f304de/playlist.m3u8"
+}

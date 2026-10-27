@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Vingadores – The Avengers - 2012 - 🍿Clau",
+  "description": "Assista Os Vingadores – The Avengers - 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/PtSapjHdDjlVcsqdEo0u7rDE6i.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/9828d2b8-7167-40ab-9671-24bee63ecbb0/b95983cd-c7a0-41ee-87f4-b8178bce5faf-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/9828d2b8-7167-40ab-9671-24bee63ecbb0/b95983cd-c7a0-41ee-87f4-b8178bce5faf-master.m3u8"
+}

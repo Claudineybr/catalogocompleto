@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Lobo Viking 2022 - 🍿Clau",
+  "description": "Assista O Lobo Viking 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gWfa1uahpIXlNkv7AMEvQt4VMde.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Lobo%20Viking_2023_tt13051810.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Lobo%20Viking_2023_tt13051810.mp4"
+}

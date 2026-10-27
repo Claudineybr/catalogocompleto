@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - Episódio 4 - Os Últimos dos Starks - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - Episódio 4 - Os Últimos dos Starks",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/4/30eae4a5-e5bd-4ee2-bb70-6b1d2152dcf1/stream.mp4?type=serie&expires=1769463175&signature=5884b8fb69d1ab93b8fd94dc1415247b88cbe0105cd74a5b3317354a9084acc9",
+  "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/4/30eae4a5-e5bd-4ee2-bb70-6b1d2152dcf1/stream.mp4?type=serie&expires=1769463175&signature=5884b8fb69d1ab93b8fd94dc1415247b88cbe0105cd74a5b3317354a9084acc9"
+}

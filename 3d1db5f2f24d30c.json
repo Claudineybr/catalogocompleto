@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Fogo vs Fogo 2022 - 🍿Clau",
+  "description": "Assista Fogo vs Fogo 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nXqzmtYY4JrQKEvJ0rw04O1Cakq.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Fogo.vs.Fogo.2022.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Fogo.vs.Fogo.2022.1080p.WEB-DL.DUAL.5.1.mp4"
+}

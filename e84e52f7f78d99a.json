@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "365 Dias: Hoje 2022 - 🍿Clau",
+  "description": "Assista 365 Dias: Hoje 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3104lH1U1XfUXo0ZLawnIjXS0NC.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/86082357-61b0-4c8d-b8da-0259e50402fb",
+  "embedUrl": "https://tankie.tube/videos/embed/86082357-61b0-4c8d-b8da-0259e50402fb"
+}

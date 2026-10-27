@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nascer da Lua - Episódio 2 - 🍿Clau",
+  "description": "Assista Nascer da Lua - Episódio 2",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/c7d8f7b2-19f6-42f7-b358-69848e2f18c6/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/c7d8f7b2-19f6-42f7-b358-69848e2f18c6/playlist.m3u8"
+}

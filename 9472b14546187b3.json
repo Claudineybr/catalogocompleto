@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - Episódio 5 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - Episódio 5",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/5/961cf06f-2d24-4e96-af56-1354482417ae/stream.mp4?type=serie&expires=1769554175&signature=5a4f53f8f0ab32f63309d88a75b0b94938e29575e37d1e86dd449a5a2bb2627f",
+  "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/5/961cf06f-2d24-4e96-af56-1354482417ae/stream.mp4?type=serie&expires=1769554175&signature=5a4f53f8f0ab32f63309d88a75b0b94938e29575e37d1e86dd449a5a2bb2627f"
+}

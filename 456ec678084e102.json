@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "3 Turcos e um Bebê 2015 - 🍿Clau",
+  "description": "Assista 3 Turcos e um Bebê 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9w1OgDXR2GhHxJuFkAp4UD1Pzwk.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/3%20Turcos%20e%20um%20Beb%C3%AA_308174.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/3%20Turcos%20e%20um%20Beb%C3%AA_308174.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Round 6 2020 - Episódio 3 - 🍿Clau",
+  "description": "Assista Round 6 2020 - Episódio 3",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6gcHdboppvplmBWxvROc96NJnmm.jpg"
+  ],
+  "uploadDate": "2020-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn2.watchingvs.com/s/round_6/3/Round%206_S03E03_N%C3%A3o%20%C3%A9%20culpa%20sua.mp4",
+  "embedUrl": "https://cdn2.watchingvs.com/s/round_6/3/Round%206_S03E03_N%C3%A3o%20%C3%A9%20culpa%20sua.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Teen Wolf: O Filme 2023 - 🍿Clau",
+  "description": "Assista Teen Wolf: O Filme 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/e4M1YCKc07PeBoUs7ST2QgCiZFB.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/59c31d0a-07c1-41ab-b348-4d2880d0fb4a",
+  "embedUrl": "https://tankie.tube/videos/embed/59c31d0a-07c1-41ab-b348-4d2880d0fb4a"
+}

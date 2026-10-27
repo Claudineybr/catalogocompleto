@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Muita Calma Nessa Hora 2010 - 🍿Clau",
+  "description": "Assista Muita Calma Nessa Hora 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gpyl7xI1SEb8WgC5PeRUQcw19cx.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1",
+  "embedUrl": "http://38.247.70.18/movie/992e36277/5ag02a/45753.mp4?token=TXVsUzZMRzJPN0NSdjQ1"
+}

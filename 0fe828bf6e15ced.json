@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Matrix - 1999 - 🍿Clau",
+  "description": "Assista Matrix - 1999",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lDqMDI3xpbB9UQRyeXfei0MXhqb.jpg"
+  ],
+  "uploadDate": "1999-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ace4ea40-b02e-4a81-98d1-dbc488741431/18c5d8d8-1c29-4bab-bcb1-91d38c473dae-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ace4ea40-b02e-4a81-98d1-dbc488741431/18c5d8d8-1c29-4bab-bcb1-91d38c473dae-master.m3u8"
+}

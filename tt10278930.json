@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Divaldo: O Mensageiro da Paz 2019 - 🍿Clau",
+  "description": "Assista Divaldo: O Mensageiro da Paz 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/a0qUWUddEMySjvvOUpAAlXWNrZt.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Divaldo:%20O%20Mensageiro%20da%20Paz_2019_tt10278930.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Divaldo:%20O%20Mensageiro%20da%20Paz_2019_tt10278930.mp4"
+}

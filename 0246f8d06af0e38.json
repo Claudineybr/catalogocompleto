@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - Episódio 9 - Yummy Mummy - 🍿Clau",
+  "description": "Assista Você (You) - Episódio 9 - Yummy Mummy",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E09_78191.mp4",
+  "embedUrl": "https://cdn3.cnvsplay.com/Voc%C3%AA%20S02%20E09_78191.mp4"
+}

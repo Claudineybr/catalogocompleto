@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Carrie - A Estranha 2013 - 🍿Clau",
+  "description": "Assista Carrie - A Estranha 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fvJ08aPvfuPjQtpUDGWa3d3Dk9h.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/aef292ed-7412-4cc2-a85e-eecb319d1e7a",
+  "embedUrl": "https://tankie.tube/videos/embed/aef292ed-7412-4cc2-a85e-eecb319d1e7a"
+}

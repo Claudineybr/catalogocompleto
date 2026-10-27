@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: Ragnarok 2017 - Episódio - 🍿Clau",
+  "description": "Assista Thor: Ragnarok 2017 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Thor:%20O%20Mundo%20Sombrio_2013_tt1981115.mp4"
+}

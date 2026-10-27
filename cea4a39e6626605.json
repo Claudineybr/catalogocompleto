@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "De Volta ao Sítio - Uma Nova Aventura 2025 - 🍿Clau",
+  "description": "Assista De Volta ao Sítio - Uma Nova Aventura 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ym3rGiCx5MKhtNInhEZ11YWsTr9.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/De.Volta.ao%20S%C3%ADtio.Uma.Nova.Aventura.2024.1080p.WEB-DL.NACIONAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/De.Volta.ao%20S%C3%ADtio.Uma.Nova.Aventura.2024.1080p.WEB-DL.NACIONAL.2.0.mp4"
+}

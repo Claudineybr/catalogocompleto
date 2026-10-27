@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - Episódio 13 - Aquele dos Seios - 🍿Clau",
+  "description": "Assista Friends 1994 - Episódio 13 - Aquele dos Seios",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/13/b3d7a53b-e792-4342-bb96-513c76a45e9d/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s1/dubbed/13/b3d7a53b-e792-4342-bb96-513c76a45e9d/stream.mp4"
+}

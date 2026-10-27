@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Donzela 2024 - Episódio - 🍿Clau",
+  "description": "Assista Donzela 2024 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ji5sD9AS4UlbJYB0HJCRQMXrgZd.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/As%20Apimentadas:%20Tor%C3%A7a%20ou%20Morra_2022_tt20101986.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/As%20Apimentadas:%20Tor%C3%A7a%20ou%20Morra_2022_tt20101986.mp4"
+}

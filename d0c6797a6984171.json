@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Enclausurados 2023 - Episódio - 🍿Clau",
+  "description": "Assista Enclausurados 2023 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zBlHQxmEv6fgRXW96BkKW0dtrbk.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Mesa.Maldita.2022.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Mesa.Maldita.2022.1080p.WEB-DL.DUAL.2.0.mp4"
+}

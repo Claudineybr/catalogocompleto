@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Scooby-Doo! O Mistério Começa 2009 - 🍿Clau",
+  "description": "Assista Scooby-Doo! O Mistério Começa 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aeK9BYorgNRcjFXTsmQnaGGwrD1.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Scooby-Doo!%20O%20Mist%C3%A9rio%20Come%C3%A7a_2009_tt1258157.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Scooby-Doo!%20O%20Mist%C3%A9rio%20Come%C3%A7a_2009_tt1258157.mp4"
+}

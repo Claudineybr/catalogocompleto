@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Adrenalina 2006 - 🍿Clau",
+  "description": "Assista Adrenalina 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/q9pB0IoLjDGiSNt0A3Mf9riPeWw.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Adrenalina_2006_tt0479884.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Adrenalina_2006_tt0479884.mp4"
+}

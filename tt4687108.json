@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Campo do Medo 2019 - 🍿Clau",
+  "description": "Assista Campo do Medo 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iANNk5aJZecfESjS7CJGgZ49YtI.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Campo%20do%20Medo_2019_tt4687108.mp4"
+}

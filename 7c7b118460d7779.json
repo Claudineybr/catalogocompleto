@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 8. A Garota que Dança - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 8. A Garota que Dança",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/8/3a63f470-cf77-4bd2-947c-aa39bcde637a/stream.mp4",
+  "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/8/3a63f470-cf77-4bd2-947c-aa39bcde637a/stream.mp4"
+}

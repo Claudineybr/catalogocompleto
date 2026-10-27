@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Morte, Morte, Morte 2022 - 🍿Clau",
+  "description": "Assista Morte, Morte, Morte 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/u7t6vCyqAdD5hE4eEfTrZmVljDi.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm22/MorteMorteMorte2022.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm22/MorteMorteMorte2022.mp4"
+}

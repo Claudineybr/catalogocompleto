@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Por Água Abaixo 2006 - 🍿Clau",
+  "description": "Assista Por Água Abaixo 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/w6ODQ3TOsBtI1gDRYfQ4nucA1Qj.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Por%20%C3%81gua%20Abaixo_2006_tt0424095.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Por%20%C3%81gua%20Abaixo_2006_tt0424095.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hannah Montana: O Filme 2009 - Episódio - 🍿Clau",
+  "description": "Assista Hannah Montana: O Filme 2009 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/efjanadOQRhCUacHviLGL2ODhSK.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/e8d237cf-1b43-4ab5-b336-dd6cbb467fb3/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/e8d237cf-1b43-4ab5-b336-dd6cbb467fb3/playlist.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hannibal 2001 - 🍿Clau",
+  "description": "Assista Hannibal 2001",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/pbV2eLnKSIm1epSZt473UYfqaeZ.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/8L2wp7bFmYoiS5bE747mW2",
+  "embedUrl": "https://tankie.tube/w/8L2wp7bFmYoiS5bE747mW2"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - Episódio 2 - Um Cavaleiro dos Sete Reinos - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - Episódio 2 - Um Cavaleiro dos Sete Reinos",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/2/5c3ae4f3-d152-4e8a-a579-719a067b7dde/stream.mp4?type=serie&expires=1769463144&signature=cdb05c7ccf2bb8e75609a168eb775d278576df88fb6b52f56e80c0a76574973e",
+  "embedUrl": "https://cdn-0090.l1s0-cdn-3123123.com/game-of-thrones-d5b8802c/s8/dubbed/2/5c3ae4f3-d152-4e8a-a579-719a067b7dde/stream.mp4?type=serie&expires=1769463144&signature=cdb05c7ccf2bb8e75609a168eb775d278576df88fb6b52f56e80c0a76574973e"
+}

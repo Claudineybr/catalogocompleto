@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Reinado - Episódio - 🍿Clau",
+  "description": "Assista Reinado - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qyv9pTDMIaaY13Vc7hfm7wuPG1r.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Transformers:%20O%20Lado%20Oculto%20da%20Lua_2011_tt1399103.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Transformers:%20O%20Lado%20Oculto%20da%20Lua_2011_tt1399103.mp4"
+}

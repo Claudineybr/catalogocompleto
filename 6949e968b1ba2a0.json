@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - Episódio 1 - Aquele com a Fantasia da Princesa Leia - 🍿Clau",
+  "description": "Assista Friends 1994 - Episódio 1 - Aquele com a Fantasia da Princesa Leia",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s3/dubbed/1/8a0a4498-3cd8-42ff-957a-4271c6134fe2/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s3/dubbed/1/8a0a4498-3cd8-42ff-957a-4271c6134fe2/stream.mp4"
+}

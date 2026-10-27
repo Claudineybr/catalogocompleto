@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Halloween 2018 - 🍿Clau",
+  "description": "Assista Halloween 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mVQ8Lb7FhQXPqkQv0QCNbEwp9a6.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s1-cnvs.watchingvs.com/m/Halloween_2018_tt1502407.mp4?cnvs_token=WVRrek5XUm1OemRqT0RJd01tTmlNd2FtWWg2elR1eEhHVVEwQitUeTNUb0RiT201dU50aFVvRnp2cTJ4TzZYZw",
+  "embedUrl": "https://s1-cnvs.watchingvs.com/m/Halloween_2018_tt1502407.mp4?cnvs_token=WVRrek5XUm1OemRqT0RJd01tTmlNd2FtWWg2elR1eEhHVVEwQitUeTNUb0RiT201dU50aFVvRnp2cTJ4TzZYZw"
+}

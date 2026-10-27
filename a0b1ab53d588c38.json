@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Exterminador do Futuro - A Salvação - 2009 - 🍿Clau",
+  "description": "Assista O Exterminador do Futuro - A Salvação - 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/36f0a2b9-2d72-45c2-9e92-f57d9e0f9769/29be1eb4-a42d-4281-90b2-e8956e9427f8-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/36f0a2b9-2d72-45c2-9e92-f57d9e0f9769/29be1eb4-a42d-4281-90b2-e8956e9427f8-master.m3u8"
+}

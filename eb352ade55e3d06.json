@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "9º Pelotão 2005 - Episódio - 🍿Clau",
+  "description": "Assista 9º Pelotão 2005 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/j7Dyb6cs5td1DJWh1efMpi2HTa7.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/A%20100%20Passos%20De%20Um%20Sonho_228194.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/A%20100%20Passos%20De%20Um%20Sonho_228194.mp4"
+}

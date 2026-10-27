@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "iHostage 2025 - 🍿Clau",
+  "description": "Assista iHostage 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/beopZUj5ZQsaElcO59okQ2gY6TM.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/1fb3dfda-0d91-4451-97cd-1c432fc542cd/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/1fb3dfda-0d91-4451-97cd-1c432fc542cd/playlist.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 8 – Estação Ômega - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 8 – Estação Ômega",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/8/266444e8-e54b-4f37-8a70-b61fefc2c7e2/stream.mp4?type=serie&expires=1770765910&signature=40d4d0a9176388ea52efc743f2ccd54d86f46b7405e2f5c39d7678e4b83fbf05",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/8/266444e8-e54b-4f37-8a70-b61fefc2c7e2/stream.mp4?type=serie&expires=1770765910&signature=40d4d0a9176388ea52efc743f2ccd54d86f46b7405e2f5c39d7678e4b83fbf05"
+}

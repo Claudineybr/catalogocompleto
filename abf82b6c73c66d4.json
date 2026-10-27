@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 9 - Despertar - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 9 - Despertar",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/9/fd709a29-6a92-4493-89a4-caa7622377ba/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/9/fd709a29-6a92-4493-89a4-caa7622377ba/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Independence Day: O Ressurgimento 2016 - 🍿Clau",
+  "description": "Assista Independence Day: O Ressurgimento 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dvFIe1y0GtkDxxVlw2BtMKyXvo0.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Independence%20Day:%20O%20Ressurgimento_2016_tt1628841.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Independence%20Day:%20O%20Ressurgimento_2016_tt1628841.mp4"
+}

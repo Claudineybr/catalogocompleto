@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mar Branco 2025 (HDCAM) - 🍿Clau",
+  "description": "Assista Mar Branco 2025 (HDCAM)",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Great.White.Waters.2025.720p.WEBRip.Dublado.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Great.White.Waters.2025.720p.WEBRip.Dublado.mp4"
+}

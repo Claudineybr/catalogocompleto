@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Lago da Morte 2019 - Episódio - 🍿Clau",
+  "description": "Assista O Lago da Morte 2019 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dttOEOJ76BHhUR4858e2RBcYdNy.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/44a9998e-0792-4336-8b3e-9e03aba7f5dc/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/44a9998e-0792-4336-8b3e-9e03aba7f5dc/playlist.m3u8"
+}

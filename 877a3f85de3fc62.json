@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ginny e Georgia 2021 - Episódio 1 - Isso nem Daria um Podcast - 🍿Clau",
+  "description": "Assista Ginny e Georgia 2021 - Episódio 1 - Isso nem Daria um Podcast",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uKval7QmEozy7R05FEvE3H9Qice.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.iageni.com/m/Ginny%20e%20Georgia_S03E01_Isso%20nem%20daria%20um%20podcast.mp4",
+  "embedUrl": "https://cdn.iageni.com/m/Ginny%20e%20Georgia_S03E01_Isso%20nem%20daria%20um%20podcast.mp4"
+}

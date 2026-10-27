@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 22 - Voz - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 22 - Voz",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/22/440e7cb8-8e76-4fc6-a84c-468b29c66cae/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/22/440e7cb8-8e76-4fc6-a84c-468b29c66cae/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Transformers 2007 - 🍿Clau",
+  "description": "Assista Transformers 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9yPuNAZQd5m5iKpQV2MDAfcwW9N.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Transformers_2007_tt0418279.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Transformers_2007_tt0418279.mp4"
+}

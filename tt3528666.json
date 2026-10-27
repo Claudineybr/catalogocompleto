@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Busca Explosiva 4 - 2015 - 🍿Clau",
+  "description": "Assista Busca Explosiva 4 - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sNj8QeDYeJTg9wjCHxWEQVbpd5l.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Busca%20Explosiva%204_2015_tt3528666.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Busca%20Explosiva%204_2015_tt3528666.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Marvel - Punho de Ferro 2017 - 7 - Derrubando com Raízes da Árvore - 🍿Clau",
+  "description": "Assista Marvel - Punho de Ferro 2017 - 7 - Derrubando com Raízes da Árvore",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/n3BisLdTMceUWcdP1ooP5VwN9JF.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.cnvsplus.com/Marvel%20-%20Punho%20de%20Ferro%20S01%20E07_62127.mp4",
+  "embedUrl": "https://cdn3.cnvsplus.com/Marvel%20-%20Punho%20de%20Ferro%20S01%20E07_62127.mp4"
+}

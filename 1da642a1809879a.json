@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 2 - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 2",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-part-2-3970eecc/dubbed/2/f83db7f9-6064-4780-96d3-f4c182ae43af/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-part-2-3970eecc/dubbed/2/f83db7f9-6064-4780-96d3-f4c182ae43af/stream.mp4"
+}

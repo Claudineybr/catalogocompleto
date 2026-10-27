@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Queen & Slim 2019 - 🍿Clau",
+  "description": "Assista Queen & Slim 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qfIJOmsiBcum6EGosiy5gTF6ihk.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Queen%20%26%20Slim%20%28Dublado%29%20-%202019%20-%201080p.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Queen%20%26%20Slim%20%28Dublado%29%20-%202019%20-%201080p.mp4"
+}

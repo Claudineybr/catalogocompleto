@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Fome de Poder 2016 - 🍿Clau",
+  "description": "Assista Fome de Poder 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1YpHj6aV1yKWP20hKj1KUiLaIbi.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0031.speed-stream.online/fome-de-poder-e97c5ede/dubbed/1/09c222ac-d003-4b3e-a52c-834091cfbdd4/stream.mp4",
+  "embedUrl": "https://cdn-0031.speed-stream.online/fome-de-poder-e97c5ede/dubbed/1/09c222ac-d003-4b3e-a52c-834091cfbdd4/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Barbie 2023 - 🍿Clau",
+  "description": "Assista Barbie 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/pP12F7Gutn6CpHYaIPBlDRHlMlk.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/fe68f2ab-8c11-4870-ac52-26198394b63f",
+  "embedUrl": "https://tankie.tube/videos/embed/fe68f2ab-8c11-4870-ac52-26198394b63f"
+}

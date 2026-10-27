@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pisque Duas Vezes - 🍿Clau",
+  "description": "Assista Pisque Duas Vezes",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1BCZ1rOI41cGkae6RZgLVVmYczE.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/PisqueDuasVezes2024.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/PisqueDuasVezes2024.mp4"
+}

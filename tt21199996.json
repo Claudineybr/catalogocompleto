@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "13 Exorcismos 2022 - 🍿Clau",
+  "description": "Assista 13 Exorcismos 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8LpnMIqpRiwxpbGR33ALCmVl7gj.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/13%20Exorcismos_2022_tt21199996.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/13%20Exorcismos_2022_tt21199996.mp4"
+}

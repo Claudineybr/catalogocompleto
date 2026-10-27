@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - Episódio 07 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - Episódio 07",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.playmycnvs.com/Doctor%20Who%20S02%20E07_57243.mp4",
+  "embedUrl": "https://cdn3.playmycnvs.com/Doctor%20Who%20S02%20E07_57243.mp4"
+}

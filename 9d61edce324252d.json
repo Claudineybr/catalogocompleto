@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você é o Próximo 2013 - 🍿Clau",
+  "description": "Assista Você é o Próximo 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cAfG87R0hOTXxXN3vMpqzvr43gW.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/ba8a4eaf-f62a-4b15-938a-cfe2b36ce551",
+  "embedUrl": "https://tankie.tube/videos/embed/ba8a4eaf-f62a-4b15-938a-cfe2b36ce551"
+}

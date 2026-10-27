@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Exterminador do Futuro - 1984 - 🍿Clau",
+  "description": "Assista O Exterminador do Futuro - 1984",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fo4SSoNT1ASI4JP7dOLrosWNWKa.jpg"
+  ],
+  "uploadDate": "1984-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/d65f6f44-767f-49dc-a82a-d3ec993bc455/d10e0082-96bd-4fb4-9a93-cf07dcf30b41-master.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Todo Poderoso 2003 - 🍿Clau",
+  "description": "Assista Todo Poderoso 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bJ8SLxHGvaUsDPqcjcPf2yVwS5t.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Todo%20Poderoso_2003_tt0315327.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Todo%20Poderoso_2003_tt0315327.mp4"
+}

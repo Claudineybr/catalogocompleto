@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Noite dos Desaparecidos 2023 - 🍿Clau",
+  "description": "Assista Noite dos Desaparecidos 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xbzvbWvazE8j6s88nt7kozGwPHA.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Noite.dos.Desaparecidos.2023.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Noite.dos.Desaparecidos.2023.1080p.WEB-DL.DUAL.5.1.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Sonho Possível 2009 - 🍿Clau",
+  "description": "Assista Um Sonho Possível 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kLpuhtyZj8MRATXngNvfpvfSZFv.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Um%20Sonho%20Poss%C3%ADvel_2009_tt0878804.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Um%20Sonho%20Poss%C3%ADvel_2009_tt0878804.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo - 🍿Clau",
+  "description": "Assista Friends 1994 - Episódio 7 - Aquele em que Ross Fica Sabendo",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/6/281370f5-6709-468f-9584-01d4b33bcb8a/stream.mp4"
+}

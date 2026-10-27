@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Já Era Hora 2023 - 🍿Clau",
+  "description": "Assista Já Era Hora 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/a8Sg7wHxquACYe4IIKyH0rORMp9.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s3.us-east-1.wasabisys.com/cloudpc/token%3As21expires11365uslink1578l2/flm23/JaEraHora2023.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&response-cache-control=public%2C%20max-age%3D604800&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=IU3PEYNXRJ5YLPUKFCA6%2F20260128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260128T180030Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=87768082c37018c8860a042c698941e27a372a79ff1c87e1e9420c9726128855",
+  "embedUrl": "https://s3.us-east-1.wasabisys.com/cloudpc/token%3As21expires11365uslink1578l2/flm23/JaEraHora2023.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&response-cache-control=public%2C%20max-age%3D604800&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=IU3PEYNXRJ5YLPUKFCA6%2F20260128%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260128T180030Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=87768082c37018c8860a042c698941e27a372a79ff1c87e1e9420c9726128855"
+}

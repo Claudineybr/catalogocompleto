@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "100 Dias para o Natal 2021 - 🍿Clau",
+  "description": "Assista 100 Dias para o Natal 2021",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/imU6zKtkhcH49Ph4Etx7Np2w7nv.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/100%20Dias%20para%20o%20Natal_878111.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/100%20Dias%20para%20o%20Natal_878111.mp4"
+}

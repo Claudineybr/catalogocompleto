@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mad Max 2 - A Caçada Continua - 1981 - 🍿Clau",
+  "description": "Assista Mad Max 2 - A Caçada Continua - 1981",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jmI9M04jZnfgAaA1kSiG2HKHUxt.jpg"
+  ],
+  "uploadDate": "1981-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/e4fed66b-db4c-44c4-a681-125ab073f820/9bcc1c20-e3b9-495d-81c6-b59f826f96d9-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/e4fed66b-db4c-44c4-a681-125ab073f820/9bcc1c20-e3b9-495d-81c6-b59f826f96d9-master.m3u8"
+}

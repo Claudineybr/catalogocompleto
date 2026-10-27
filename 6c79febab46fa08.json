@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Procura de Martina 2025 - 🍿Clau",
+  "description": "Assista A Procura de Martina 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5Knp16HlsPxGIJYv2xoWLB42Frd.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/A%20Procura%20de%20Martina.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/A%20Procura%20de%20Martina.mp4"
+}

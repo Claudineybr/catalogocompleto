@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Suspeito da Rua Arlington 1999 - 🍿Clau",
+  "description": "Assista O Suspeito da Rua Arlington 1999",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4FR2qBUfP5sTomxDw2ZTzdfqydA.jpg"
+  ],
+  "uploadDate": "1999-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0040.speed-stream.online/o-suspeito-da-rua-arlington-a90f1f57/dubbed/1/81219f79-a8e1-4d36-a9de-3a22657ed38c/stream.mp4",
+  "embedUrl": "https://cdn-0040.speed-stream.online/o-suspeito-da-rua-arlington-a90f1f57/dubbed/1/81219f79-a8e1-4d36-a9de-3a22657ed38c/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doce Vida 2024 - 🍿Clau",
+  "description": "Assista Doce Vida 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/l0IgwhbAuYIbBgm8YsHRit1Fa4L.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Doce.Vida.720p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Doce.Vida.720p.WEB-DL.DUAL.2.0.mp4"
+}

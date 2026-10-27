@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vingadores: Guerra Infinita - 2018 - 🍿Clau",
+  "description": "Assista Vingadores: Guerra Infinita - 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/A4kvp7vY1BDLrrQIagRCffLKj1t.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/7587ec11-15f8-47c5-880d-66e488dfce26/dc83f6e8-98de-4908-a37e-45ae9b2229dd-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/7587ec11-15f8-47c5-880d-66e488dfce26/dc83f6e8-98de-4908-a37e-45ae9b2229dd-master.m3u8"
+}

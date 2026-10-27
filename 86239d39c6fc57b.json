@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - Episódio 23 - Aquele da Catapora - 🍿Clau",
+  "description": "Assista Friends 1994 - Episódio 23 - Aquele da Catapora",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/22/00f2069b-0dd6-4ad1-900f-6883447fb347/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s2/dubbed/22/00f2069b-0dd6-4ad1-900f-6883447fb347/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pacificador 2022 - Episódio 7 - Como Um Keith na Noite - 🍿Clau",
+  "description": "Assista Pacificador 2022 - Episódio 7 - Como Um Keith na Noite",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fbW4ym5rgMRkNjNAzpZQX5vkxMf.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Pacificador.S02E07.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Pacificador.S02E07.1080p.WEB-DL.DUAL.5.1.mp4"
+}

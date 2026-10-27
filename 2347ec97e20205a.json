@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Senhor do Vento 2023 - 🍿Clau",
+  "description": "Assista Senhor do Vento 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hny8NvwpEV3VS0IseSflWjJhxn4.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Senhor.do.Vento.2023.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Senhor.do.Vento.2023.1080p.WEB-DL.DUAL.2.0.mp4"
+}

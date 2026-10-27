@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Caçador de Demônios 2009 - Filme - 🍿Clau",
+  "description": "Assista O Caçador de Demônios 2009 - Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fpf0wtnIZuPKxtM1V68efGuTNN5.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/9dfdbacf-ff6d-4692-ae59-4f171c95d589/afae8ffc-688c-41d2-a9c1-2fadfdaa3c0e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/9dfdbacf-ff6d-4692-ae59-4f171c95d589/afae8ffc-688c-41d2-a9c1-2fadfdaa3c0e-master.m3u8"
+}

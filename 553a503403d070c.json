@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "DJ à Paisana 2025 - 🍿Clau",
+  "description": "Assista DJ à Paisana 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gspluUUTwGMT33rR6YietqRIjok.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/36a4ae20-78e8-49b4-9093-5c5d669bba6d/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/36a4ae20-78e8-49b4-9093-5c5d669bba6d/playlist.m3u8"
+}

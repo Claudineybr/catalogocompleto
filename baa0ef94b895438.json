@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rust 2025 (LEGENDADO) - 🍿Clau",
+  "description": "Assista Rust 2025 (LEGENDADO)",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Rust%20-%20leg.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Rust%20-%20leg.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Gigolô Europeu por Acidente 2005 - Episódio - 🍿Clau",
+  "description": "Assista Um Gigolô Europeu por Acidente 2005 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uJMMXK7Jqfrce8hPxr30XOvXjXQ.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Gigol%C3%B4%20por%20Acidente_2000_tt0205000.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Gigol%C3%B4%20por%20Acidente_2000_tt0205000.mp4"
+}

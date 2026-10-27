@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Logan 2017 - 🍿Clau",
+  "description": "Assista Logan 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/f0CtZbae9cXj8bkWdCHzUHx5lsR.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a5e64682-0bf3-4f70-8659-9d50db26df19",
+  "embedUrl": "https://tankie.tube/videos/embed/a5e64682-0bf3-4f70-8659-9d50db26df19"
+}

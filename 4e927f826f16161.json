@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Apenas Um Show - Episódio 5 - O Chamado - 🍿Clau",
+  "description": "Assista Apenas Um Show - Episódio 5 - O Chamado",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/yzMCb7quOMGtR51CIsCqWzqx8rz.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/5/bd045982-0a24-4e96-a552-908c9819045d/stream.mp4",
+  "embedUrl": "https://cdn-0099.speed-stream.online/apenas-um-show-3141debe/s2/dubbed/5/bd045982-0a24-4e96-a552-908c9819045d/stream.mp4"
+}

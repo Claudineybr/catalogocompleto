@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Todo Mundo em Pânico 3 - 2003 - 🍿Clau",
+  "description": "Assista Todo Mundo em Pânico 3 - 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/y14q7jWS0vH8ZuWPS1v8t8qCmBO.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/63ff2fe5-f959-4d35-b8f8-267768623aef",
+  "embedUrl": "https://tankie.tube/videos/embed/63ff2fe5-f959-4d35-b8f8-267768623aef"
+}

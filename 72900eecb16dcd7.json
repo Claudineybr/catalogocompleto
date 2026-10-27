@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Motoqueiro Fantasma 2007 - 🍿Clau",
+  "description": "Assista Motoqueiro Fantasma 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vVGVlwRrvVgLPE98rwo8jo3QC2b.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/eef94271-248f-4abe-a898-0af68599f62b",
+  "embedUrl": "https://tankie.tube/videos/embed/eef94271-248f-4abe-a898-0af68599f62b"
+}

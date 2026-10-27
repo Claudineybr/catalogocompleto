@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Operação Tempestade 2023 - 🍿Clau",
+  "description": "Assista Operação Tempestade 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/p6JUa50d3IidLJOz1E0QxXgXp59.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/Opera%C3%A7%C3%A3o%20Tempestade%202023%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/Opera%C3%A7%C3%A3o%20Tempestade%202023%20WEB-DL%201080p%20x264%20DUAL%202.0.mp4"
+}

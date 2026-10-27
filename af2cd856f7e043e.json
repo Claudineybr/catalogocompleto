@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Pitt - Episódio - 🍿Clau",
+  "description": "Assista The Pitt - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/be7caf5e-8456-4adc-b2db-c90dc7acfd68/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/be7caf5e-8456-4adc-b2db-c90dc7acfd68/playlist.m3u8"
+}

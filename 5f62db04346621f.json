@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Uma Comédia Romântica 2022 - 🍿Clau",
+  "description": "Assista Uma Comédia Romântica 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jrvJo2OquBYOguftz3ZFmhaA9jG.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Uma.Comedia.Romantica.2022.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Uma.Comedia.Romantica.2022.1080p.WEB-DL.DUAL.2.0.mp4"
+}

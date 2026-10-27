@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "- 2014 - 🍿Clau",
+  "description": "Assista - 2014",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/d97c5d22-5d10-4f6e-8044-552ddeb34279/e92638d6-00f2-43b5-9503-13c60d97725e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/d97c5d22-5d10-4f6e-8044-552ddeb34279/e92638d6-00f2-43b5-9503-13c60d97725e-master.m3u8"
+}

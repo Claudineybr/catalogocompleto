@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Segredo da Colmeia 2023 - 🍿Clau",
+  "description": "Assista O Segredo da Colmeia 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/faRmcHM3k4cQcgxsT0qhDqMuhKS.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/O.Segredo.da.Colmeia.2023.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/O.Segredo.da.Colmeia.2023.1080p.WEB-DL.DUAL.2.0.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Pitt - E13 - 🍿Clau",
+  "description": "Assista The Pitt - E13",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0066.speed-stream.online/the-pitt-1c05ac0a/s1/dubbed/13/79c9e081-1154-4583-aaee-6dd53a22949c/stream.mp4",
+  "embedUrl": "https://cdn-0066.speed-stream.online/the-pitt-1c05ac0a/s1/dubbed/13/79c9e081-1154-4583-aaee-6dd53a22949c/stream.mp4"
+}

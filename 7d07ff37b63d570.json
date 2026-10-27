@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Túnel 2019 - Episódio - 🍿Clau",
+  "description": "Assista O Túnel 2019 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6gNjFMFdx0AcujftDGHXSSBVkBM.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0060.speed-stream.online/faces-da-verdade-84849723/dubbed/1/0778fdc8-a028-4a1f-8735-6a7ad288f4d3/stream.mp4",
+  "embedUrl": "https://cdn-0060.speed-stream.online/faces-da-verdade-84849723/dubbed/1/0778fdc8-a028-4a1f-8735-6a7ad288f4d3/stream.mp4"
+}

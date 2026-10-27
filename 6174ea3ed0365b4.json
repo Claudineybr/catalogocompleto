@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Desafios 2025 - 🍿Clau",
+  "description": "Assista Desafios 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ulmYERrzm4j62HvE84MYchidDMp.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/e8b03c75-b849-4266-9661-53c315ebca89/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/e8b03c75-b849-4266-9661-53c315ebca89/playlist.m3u8"
+}

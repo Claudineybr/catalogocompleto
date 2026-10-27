@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mr. K 2025 - Episódio - 🍿Clau",
+  "description": "Assista Mr. K 2025 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lRpGcAYC7cm1QnInz8P3xHvm7cV.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Vitalina%20Varela%20%28Nacional%29%20-%202019%20-%201080p.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Vitalina%20Varela%20%28Nacional%29%20-%202019%20-%201080p.mp4"
+}

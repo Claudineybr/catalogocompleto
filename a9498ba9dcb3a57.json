@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Truque de Mestre 2013 - 🍿Clau",
+  "description": "Assista Truque de Mestre 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zZyC1mXEs13adcmU2NibCP0W5F6.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/ad9d81c5-8492-4a5a-bd7d-7272cc3b491a",
+  "embedUrl": "https://tankie.tube/videos/embed/ad9d81c5-8492-4a5a-bd7d-7272cc3b491a"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Retrato 2023 - 🍿Clau",
+  "description": "Assista O Retrato 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3J47g4bEwpQDJiCrexGbgCbG7xD.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/5HPgjpwVpfdp6DragKJcjS",
+  "embedUrl": "https://tankie.tube/w/5HPgjpwVpfdp6DragKJcjS"
+}

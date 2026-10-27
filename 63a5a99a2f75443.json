@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 14 - Master of Flame - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 14 - Master of Flame",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/14/5a71ec4b-1b4b-4353-a417-617195abc4eb/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/14/5a71ec4b-1b4b-4353-a417-617195abc4eb/stream.mp4"
+}

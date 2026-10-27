@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Monster High: Bem vindos a Monster High - 🍿Clau",
+  "description": "Assista Monster High: Bem vindos a Monster High",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8HWvsB4pjym9Cu8B08YnLPeTDfo.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/7a8a8614-a6b3-4b18-8cb4-af1c9889dc69/871307cf-fcce-4e58-ab0a-f8990a0da570-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/7a8a8614-a6b3-4b18-8cb4-af1c9889dc69/871307cf-fcce-4e58-ab0a-f8990a0da570-master.m3u8"
+}

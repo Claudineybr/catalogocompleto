@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Johnny English 2003 - 🍿Clau",
+  "description": "Assista Johnny English 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mmzW88tnkB2MnOV3Un2F9IUxSnZ.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Johnny%20English%202003.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Johnny%20English%202003.mp4"
+}

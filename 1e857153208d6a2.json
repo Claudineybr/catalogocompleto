@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Akame ga Kill! 2014 - Episódio 10. Acabe com a tentação - 🍿Clau",
+  "description": "Assista Akame ga Kill! 2014 - Episódio 10. Acabe com a tentação",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hDzm2VXxdeK5kztUN3RWTkBsBZg.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-03/akame-ga-kill-52477b94/dubbed/10/6aeb7fb4-4485-4cd8-803a-3cc40f64f73b/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-03/akame-ga-kill-52477b94/dubbed/10/6aeb7fb4-4485-4cd8-803a-3cc40f64f73b/stream.mp4"
+}

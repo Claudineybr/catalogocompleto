@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Diários de um Vampiro 2009 - Episódio - 🍿Clau",
+  "description": "Assista Diários de um Vampiro 2009 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lcGQaSrWkkxGuh0JJqyN2TkuNqb.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/The%20Jester_2023_tt26533869.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/The%20Jester_2023_tt26533869.mp4"
+}

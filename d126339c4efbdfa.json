@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sonho de uma Noite de Verão 1999 - 🍿Clau",
+  "description": "Assista Sonho de uma Noite de Verão 1999",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uT5Qn0fle9iANAWQ5DSSEK2yfBD.jpg"
+  ],
+  "uploadDate": "1999-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Sonho%20de%20uma%20Noite%20de%20Ver%C3%A3o.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Sonho%20de%20uma%20Noite%20de%20Ver%C3%A3o.mp4"
+}

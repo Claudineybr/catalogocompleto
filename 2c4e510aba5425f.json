@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pequena Sibéria 2025 - 🍿Clau",
+  "description": "Assista Pequena Sibéria 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uIgwLgltdbJtJHwkemdl32w27Ye.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/5df83128-34cb-4e4c-a4c4-9d1faefc10d8/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/5df83128-34cb-4e4c-a4c4-9d1faefc10d8/playlist.m3u8"
+}

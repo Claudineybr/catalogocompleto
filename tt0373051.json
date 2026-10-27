@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Viagem ao Centro da Terra 2008 - 🍿Clau",
+  "description": "Assista Viagem ao Centro da Terra 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dUysXBkcumgImgkW8suNUy0hUxq.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Viagem%20ao%20Centro%20da%20Terra:%20O%20Filme_2008_tt0373051.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Viagem%20ao%20Centro%20da%20Terra:%20O%20Filme_2008_tt0373051.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Casa do Dragão - Episódio 2 - O Príncipe Canalha - 🍿Clau",
+  "description": "Assista A Casa do Dragão - Episódio 2 - O Príncipe Canalha",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-casa-do-dragao-44ece680/s1/dubbed/2/c30fdeb5-0566-4e30-8355-cc24490939b4/stream.mp4?type=serie&expires=1774378616&signature=5b93f526299f6df1b550154a8665cb6c78978ee9dd540cf2725d664e9019d8cd",
+  "embedUrl": "https://cdn-0071.l1s0-cdn-3123123.com/a-casa-do-dragao-44ece680/s1/dubbed/2/c30fdeb5-0566-4e30-8355-cc24490939b4/stream.mp4?type=serie&expires=1774378616&signature=5b93f526299f6df1b550154a8665cb6c78978ee9dd540cf2725d664e9019d8cd"
+}

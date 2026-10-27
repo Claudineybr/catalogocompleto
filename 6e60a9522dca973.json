@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Poço 2019 - 🍿Clau",
+  "description": "Assista O Poço 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kY0ET33EoiJhjaPCzzvywCDqP6b.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/c38c62b6-e02d-4054-a93b-0fb8cc809e98",
+  "embedUrl": "https://tankie.tube/videos/embed/c38c62b6-e02d-4054-a93b-0fb8cc809e98"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "X-Men: Dias de um Futuro Esquecido - 2014 - 🍿Clau",
+  "description": "Assista X-Men: Dias de um Futuro Esquecido - 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cAGrjXVQoNyqHgxPoXr68JGqmp0.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/515920ec-d691-47ac-99e9-9a2349b1233a/87b56a73-5395-4725-a1ab-ec2d6805a127-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/515920ec-d691-47ac-99e9-9a2349b1233a/87b56a73-5395-4725-a1ab-ec2d6805a127-master.m3u8"
+}

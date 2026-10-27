@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Miss Simpatia 2: Armada e Poderosa 2005 - 🍿Clau",
+  "description": "Assista Miss Simpatia 2: Armada e Poderosa 2005",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lT0IQTGioZ026n2fmhbvmvCCZQ0.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Miss%20Simpatia%202:%20Armada%20e%20Poderosa_2005_tt0385307.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Miss%20Simpatia%202:%20Armada%20e%20Poderosa_2005_tt0385307.mp4"
+}

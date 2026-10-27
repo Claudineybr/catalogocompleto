@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Sinal: Frequência do Medo 2014 - 🍿Clau",
+  "description": "Assista O Sinal: Frequência do Medo 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/y4FW6clNlyphGYsD5FGMozkTMbX.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/dcd385e7-0370-42dd-91c2-6bb8f09a0e5f/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/dcd385e7-0370-42dd-91c2-6bb8f09a0e5f/playlist.m3u8"
+}

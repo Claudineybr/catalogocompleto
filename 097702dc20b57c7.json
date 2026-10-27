@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Wolverine - Imortal - 2013 - 🍿Clau",
+  "description": "Assista Wolverine - Imortal - 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cJFqqiDYprqExaXatu4AaoMzDG2.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/3f992f6d-c09a-4ed9-b017-c8150e40a930/1817080d-fad1-4594-8734-fb937d8abc66-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/3f992f6d-c09a-4ed9-b017-c8150e40a930/1817080d-fad1-4594-8734-fb937d8abc66-master.m3u8"
+}

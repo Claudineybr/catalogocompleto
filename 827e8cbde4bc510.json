@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rei Lobo - E01 - 🍿Clau",
+  "description": "Assista Rei Lobo - E01",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/91zwIlegbqaWKBJbXv473q4yJ7h.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0063.speed-stream.online/rei-lobo-b10721c9/s1/dubbed/1/5676c382-e75d-44bc-b6a4-6b049771124f/stream.mp4",
+  "embedUrl": "https://cdn-0063.speed-stream.online/rei-lobo-b10721c9/s1/dubbed/1/5676c382-e75d-44bc-b6a4-6b049771124f/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "48 Horas, Parte 2 - 1990 - 🍿Clau",
+  "description": "Assista 48 Horas, Parte 2 - 1990",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3HORahsyRhkxUx3HF6N3sR1j4c6.jpg"
+  ],
+  "uploadDate": "1990-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/48%20Horas_150.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/48%20Horas_150.mp4"
+}

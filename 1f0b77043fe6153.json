@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Matrix Revolutions - 2003 - 🍿Clau",
+  "description": "Assista Matrix Revolutions - 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/92oJ810bYqijBQ8tqYL74mSpPtV.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/7c2a88b6-ea4e-4cea-96ed-2458620a8177/e660790b-2aea-4143-b9e6-eeb6aa99503c-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/7c2a88b6-ea4e-4cea-96ed-2458620a8177/e660790b-2aea-4143-b9e6-eeb6aa99503c-master.m3u8"
+}

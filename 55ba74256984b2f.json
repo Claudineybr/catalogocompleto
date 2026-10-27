@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 83 - O Nascimento do Rei Sereno - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 83 - O Nascimento do Rei Sereno",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/23/2b18b561-3372-481f-9e48-4df66a63d3f9/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/23/2b18b561-3372-481f-9e48-4df66a63d3f9/stream.mp4"
+}

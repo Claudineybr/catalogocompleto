@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 5. A Garota que Virou Gente - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 5. A Garota que Virou Gente",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/5/3de8c9fd-f943-4872-bcba-e5c9069f67d3/stream.mp4",
+  "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/5/3de8c9fd-f943-4872-bcba-e5c9069f67d3/stream.mp4"
+}

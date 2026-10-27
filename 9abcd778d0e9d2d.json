@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Avatar 2009 - 🍿Clau",
+  "description": "Assista Avatar 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lRRMQhlOLM9xgvjKKFndOmptqKR.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/55babd34-aa4a-48b8-9d2c-4f95562631f6",
+  "embedUrl": "https://tankie.tube/videos/embed/55babd34-aa4a-48b8-9d2c-4f95562631f6"
+}

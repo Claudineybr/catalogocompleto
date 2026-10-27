@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Inimigo Mortal 2019 - 🍿Clau",
+  "description": "Assista Inimigo Mortal 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tzz1t8UvSvISZxDxBmEd531nIPg.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/INIMIGOMORTALDUB-BAIXO.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/INIMIGOMORTALDUB-BAIXO.mp4"
+}

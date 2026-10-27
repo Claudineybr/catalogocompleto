@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - Episódio 1 - O Norte Se Lembra - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - Episódio 1 - O Norte Se Lembra",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s2/dubbed/1/3b654d30-b804-4bba-8c82-6611c3341325/stream.mp4",
+  "embedUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s2/dubbed/1/3b654d30-b804-4bba-8c82-6611c3341325/stream.mp4"
+}

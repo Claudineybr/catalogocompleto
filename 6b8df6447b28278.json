@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 1 - Mapa do novo mundo - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 1 - Mapa do novo mundo",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/1/69e20239-c4fd-4f5f-b6d0-5eba5fe0a17e/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/1/69e20239-c4fd-4f5f-b6d0-5eba5fe0a17e/stream.mp4"
+}

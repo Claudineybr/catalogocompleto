@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Oldboy: Dias de Vingança 2013 - 🍿Clau",
+  "description": "Assista Oldboy: Dias de Vingança 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vLbmmqa3Ys03biY6kkzMEHdIGBD.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Oldboy%20Dias%20de%20Vingan%C3%A7a.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Oldboy%20Dias%20de%20Vingan%C3%A7a.mp4"
+}

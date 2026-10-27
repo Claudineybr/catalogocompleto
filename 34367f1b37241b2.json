@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Destinos Opostos 2023 - 🍿Clau",
+  "description": "Assista Destinos Opostos 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nwEnFfGog2PjaJNJci0EMPWdFOX.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Destinos.Opostos.2022.1080p.WEB-DL.NACIONAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Destinos.Opostos.2022.1080p.WEB-DL.NACIONAL.5.1.mp4"
+}

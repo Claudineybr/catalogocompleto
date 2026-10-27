@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Celebração Macabra 2024 - 🍿Clau",
+  "description": "Assista Celebração Macabra 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dGBzE0g3IFbSiy4TbBPpCo3P99J.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/efb5190a-411c-40cd-be76-13e439ae91bd/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/efb5190a-411c-40cd-be76-13e439ae91bd/playlist.m3u8"
+}

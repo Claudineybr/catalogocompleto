@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 4 - Dispare o Sinal de Fumaça - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 4 - Dispare o Sinal de Fumaça",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/4/ba21047d-cf49-4ed7-b487-cefcf2f8789a/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/4/ba21047d-cf49-4ed7-b487-cefcf2f8789a/stream.mp4"
+}

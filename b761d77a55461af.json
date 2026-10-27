@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 6 - A crise iminente - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 6 - A crise iminente",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/6/9544670a-4481-4080-a2b5-edb5c0dec26b/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/6/9544670a-4481-4080-a2b5-edb5c0dec26b/stream.mp4"
+}

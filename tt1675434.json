@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Intocáveis 2011 - 🍿Clau",
+  "description": "Assista Intocáveis 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/80IDXgaHmcxj6CKRImkpHjnIMcd.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Intoc%C3%A1veis_2011_tt1675434.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Intoc%C3%A1veis_2011_tt1675434.mp4"
+}

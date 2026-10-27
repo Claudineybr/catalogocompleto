@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 52 - A ameaça canhota - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 52 - A ameaça canhota",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/2/38031689-b624-4a7a-90d6-f18088e82cfe/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-22462221/dubbed/2/38031689-b624-4a7a-90d6-f18088e82cfe/stream.mp4"
+}

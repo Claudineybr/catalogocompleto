@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Irmãos de Guerra 2022 - 🍿Clau",
+  "description": "Assista Irmãos de Guerra 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ozHweLTPGEWRQyr1z4npGjm6ko0.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Irmaos.de.Guerra.2022.1080p.WEB-DL.x264.DUAL.mkv",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Irmaos.de.Guerra.2022.1080p.WEB-DL.x264.DUAL.mkv"
+}

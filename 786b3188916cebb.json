@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "TRON: Ares 2025 - 🍿Clau",
+  "description": "Assista TRON: Ares 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4NO0mmJ7WEU3PcllcogmiQIUecq.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Tron.Ares.2025.1080p.BluRay.DUAL.5.1.mp4"
+}

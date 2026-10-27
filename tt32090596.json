@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vítimas do Dia 2025 - 🍿Clau",
+  "description": "Assista Vítimas do Dia 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qoohRRRIH67NN7vORNeVDARr2SK.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/V%C3%ADtimas%20do%20Dia_2025_tt32090596.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/V%C3%ADtimas%20do%20Dia_2025_tt32090596.mp4"
+}

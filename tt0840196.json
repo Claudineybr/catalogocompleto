@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Skins: Juventude A Flor Da Pele - Episódio 10 - 🍿Clau",
+  "description": "Assista Skins: Juventude A Flor Da Pele - Episódio 10",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bf4L6bB9YOGyrPeLdlpz3FlMZQg.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn01.vod-cinevs.com/s/tt0840196/Skins%20-%20Juventude%20%C3%A0%20Flor%20da%20Pele%20S02E10.mp4",
+  "embedUrl": "https://cdn01.vod-cinevs.com/s/tt0840196/Skins%20-%20Juventude%20%C3%A0%20Flor%20da%20Pele%20S02E10.mp4"
+}

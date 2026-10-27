@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "2013 - 🍿Clau",
+  "description": "Assista 2013",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/3581d11c-3a41-4816-afcf-f6949626a6b7",
+  "embedUrl": "https://tankie.tube/videos/embed/3581d11c-3a41-4816-afcf-f6949626a6b7"
+}

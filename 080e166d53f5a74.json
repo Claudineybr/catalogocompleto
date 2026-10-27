@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "2067 - Episódio - 🍿Clau",
+  "description": "Assista 2067 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
+  ],
+  "uploadDate": "2067-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/24%20Horas%20de%20F%C3%BAria_10844.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/24%20Horas%20de%20F%C3%BAria_10844.mp4"
+}

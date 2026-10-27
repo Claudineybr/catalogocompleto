@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Busca Explosiva 2006 - 🍿Clau",
+  "description": "Assista Busca Explosiva 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ngRBNPSSeQ3aga7I51B2gN6jUaJ.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Busca%20Explosiva_2006_tt0419946.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Busca%20Explosiva_2006_tt0419946.mp4"
+}

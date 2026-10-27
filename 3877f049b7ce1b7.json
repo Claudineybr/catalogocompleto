@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "The Last of Us - Episódio 6: Família - 🍿Clau",
+  "description": "Assista The Last of Us - Episódio 6: Família",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qWo5TP7mBijoZrfxBJkUMctkBt0.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E06_100088.mp4",
+  "embedUrl": "https://cdn3.cnvsplus.com/The%20Last%20of%20Us%20S01%20E06_100088.mp4"
+}

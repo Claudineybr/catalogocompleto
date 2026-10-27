@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "42: A História de uma Lenda 2013 - 🍿Clau",
+  "description": "Assista 42: A História de uma Lenda 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ddacxwaxUF1Wf8CtBll35AQwLBA.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/42%3A%20A%20Hist%C3%B3ria%20de%20uma%20Lenda_109410.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/42%3A%20A%20Hist%C3%B3ria%20de%20uma%20Lenda_109410.mp4"
+}

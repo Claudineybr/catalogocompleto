@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 12 - Flores - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 12 - Flores",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/12/82ad8922-5155-4a16-b65c-36db55339d71/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/12/82ad8922-5155-4a16-b65c-36db55339d71/stream.mp4"
+}

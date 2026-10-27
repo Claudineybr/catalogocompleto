@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Autópsia 2016 - 🍿Clau",
+  "description": "Assista A Autópsia 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9hY2AVLqdklon41dr9PSQ4KdW8K.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/909ace6b-432d-49ea-ae3a-b64df6015803",
+  "embedUrl": "https://tankie.tube/videos/embed/909ace6b-432d-49ea-ae3a-b64df6015803"
+}

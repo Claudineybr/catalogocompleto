@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ghost: Do Outro Lado da Vida 1990 - Episódio - 🍿Clau",
+  "description": "Assista Ghost: Do Outro Lado da Vida 1990 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vILzoJbll2v5Rc0ZNapzRRYikcz.jpg"
+  ],
+  "uploadDate": "1990-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Spirit:%20O%20Corcel%20Indom%C3%A1vel_2002_tt0166813.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Spirit:%20O%20Corcel%20Indom%C3%A1vel_2002_tt0166813.mp4"
+}

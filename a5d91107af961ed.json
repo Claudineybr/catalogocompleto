@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sou Espião 2002 - 🍿Clau",
+  "description": "Assista Sou Espião 2002",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/amRZr5dkCEW8NWCXjyh537Cy9SV.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0020.l1s0-cdn-3123123.com/sou-espiao-a11bdeed/dubbed/1/e113dc27-f097-4c3f-a7d2-8a9943e4995b/stream.mp4?type=movie&expires=1770589061&signature=cccd883ddbbac4bc9e3fe74ad45122f65f15b96dccc47bf91e66af5f3dcf2572",
+  "embedUrl": "https://cdn-0020.l1s0-cdn-3123123.com/sou-espiao-a11bdeed/dubbed/1/e113dc27-f097-4c3f-a7d2-8a9943e4995b/stream.mp4?type=movie&expires=1770589061&signature=cccd883ddbbac4bc9e3fe74ad45122f65f15b96dccc47bf91e66af5f3dcf2572"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Wifelike 2022 - 🍿Clau",
+  "description": "Assista Wifelike 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/951oQ2gBIK3jjp02Dqq3fxm4qYs.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Mulher%3F_2022_tt15978956.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Mulher%3F_2022_tt15978956.mp4"
+}

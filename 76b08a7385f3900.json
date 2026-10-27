@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 71 - Uma Chance para Conectar - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 71 - Uma Chance para Conectar",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/11/0c135477-a204-41fb-83ee-7a28197749ea/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/11/0c135477-a204-41fb-83ee-7a28197749ea/stream.mp4"
+}

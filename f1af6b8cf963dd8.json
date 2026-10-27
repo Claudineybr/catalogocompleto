@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "12 Presentes de Natal 2015 - 🍿Clau",
+  "description": "Assista 12 Presentes de Natal 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/i8IFun1rfdrQ3QXvJolU19TRTCG.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/12%20Presentes%20de%20Natal%20%28Dublado%29%20-%202015%20-%201080p.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/12%20Presentes%20de%20Natal%20%28Dublado%29%20-%202015%20-%201080p.mp4"
+}

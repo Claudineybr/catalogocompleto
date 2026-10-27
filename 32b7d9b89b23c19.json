@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 6 - Os que auxiliam, os auxiliados - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 6 - Os que auxiliam, os auxiliados",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-dbe8f446/dubbed/6/646388b4-5b33-4b80-8ebc-f9e88bad41e6/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-dbe8f446/dubbed/6/646388b4-5b33-4b80-8ebc-f9e88bad41e6/stream.mp4"
+}

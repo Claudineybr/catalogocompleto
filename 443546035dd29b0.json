@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 9. A Garota Sempre Presente - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 9. A Garota Sempre Presente",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/kakegurui-xx-ef9d77f0/dubbed/9/ed7bf470-df04-4e4e-a976-09397a4ab582/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/kakegurui-xx-ef9d77f0/dubbed/9/ed7bf470-df04-4e4e-a976-09397a4ab582/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 78 - Armadilha - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 78 - Armadilha",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/18/7bf05a20-882d-442d-aefa-59fd0759e68f/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/18/7bf05a20-882d-442d-aefa-59fd0759e68f/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nascer da Lua - Episódio 7 - 🍿Clau",
+  "description": "Assista Nascer da Lua - Episódio 7",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/fa79f448-0086-4347-b0d5-d64ec38b1038/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/fa79f448-0086-4347-b0d5-d64ec38b1038/playlist.m3u8"
+}

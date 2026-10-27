@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Ultimato Bourne 2007 - Episódio - 🍿Clau",
+  "description": "Assista O Ultimato Bourne 2007 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cCmkrXF2CL9rx9BnQHDGDhQv4pD.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Gangue%20est%C3%A1%20em%20Campo_2006_tt0421206.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Gangue%20est%C3%A1%20em%20Campo_2006_tt0421206.mp4"
+}

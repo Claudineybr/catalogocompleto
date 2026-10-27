@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 8 – Agora Sou Encontrado - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 8 – Agora Sou Encontrado",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/8/40b84148-95a6-473a-8ef6-b3aae438a44c/stream.mp4?type=serie&expires=1770766930&signature=f45d46a136e8eda15fd269847a46426f6d235f5d4cdfdaebe0a673c267b402ca",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s3/dubbed/8/40b84148-95a6-473a-8ef6-b3aae438a44c/stream.mp4?type=serie&expires=1770766930&signature=f45d46a136e8eda15fd269847a46426f6d235f5d4cdfdaebe0a673c267b402ca"
+}

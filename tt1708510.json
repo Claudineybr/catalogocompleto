@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tainá 3: A Origem 2011 - 🍿Clau",
+  "description": "Assista Tainá 3: A Origem 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rl4PLInhMLGxRS8sjYQhmnteU71.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Tain%C3%A1:%20A%20Origem_2011_tt1708510.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Tain%C3%A1:%20A%20Origem_2011_tt1708510.mp4"
+}

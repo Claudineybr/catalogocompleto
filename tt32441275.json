@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Irmãos por Acidente 2024 - 🍿Clau",
+  "description": "Assista Irmãos por Acidente 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/b8BS8gF7O90vmb71vSo3nk1uzwJ.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD4/tt32441275.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T140709Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=d149f173acb4773d9f0f4803900de54aa0d791a192d67c16c1e19a0f7d788d6d",
+  "embedUrl": "http://wadlow.s3.us-central-1.wasabisys.com/outhfil/FHD4/tt32441275.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=TWMIYW9G0Z683SDOUS3N%2F20260825%2Fus-central-1%2Fs3%2Faws4_request&X-Amz-Date=20260825T140709Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=d149f173acb4773d9f0f4803900de54aa0d791a192d67c16c1e19a0f7d788d6d"
+}

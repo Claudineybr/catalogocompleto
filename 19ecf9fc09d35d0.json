@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 13 - Não está sozinho - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 13 - Não está sozinho",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/13/0608c7c1-f2d5-41ef-9798-4cb260db295c/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/13/0608c7c1-f2d5-41ef-9798-4cb260db295c/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Maligno 2021 - 🍿Clau",
+  "description": "Assista Maligno 2021",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oGzaG5vqSJkIiJmxcJ8EKzfFad3.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/79d0140f-d22e-4161-b1b2-3649dd96e6ab",
+  "embedUrl": "https://tankie.tube/videos/embed/79d0140f-d22e-4161-b1b2-3649dd96e6ab"
+}

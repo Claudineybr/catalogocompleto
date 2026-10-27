@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Halloween 2 2009 - 🍿Clau",
+  "description": "Assista Halloween 2 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iP5MbYaPiD5zIUmLGVEhIA83A9A.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://hugh.cdn.rumble.cloud/video/fwe2/95/s8/2/g/3/w/r/g3wry.aaa.mp4",
+  "embedUrl": "https://hugh.cdn.rumble.cloud/video/fwe2/95/s8/2/g/3/w/r/g3wry.aaa.mp4"
+}

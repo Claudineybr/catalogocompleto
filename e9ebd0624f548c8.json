@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vale Tudo - E01 - 🍿Clau",
+  "description": "Assista Vale Tudo - E01",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8O0sIT1hDROp7C82mscGKajSUP3.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/882e6870-f934-46a9-b753-347c751ed7f4/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/882e6870-f934-46a9-b753-347c751ed7f4/playlist.m3u8"
+}

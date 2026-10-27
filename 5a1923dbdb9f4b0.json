@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dolittle 4 - 2008 - 🍿Clau",
+  "description": "Assista Dolittle 4 - 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cN2WUr3VbJPT5isKDJfIQsCmkQx.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae4ba2c2-d97a-46f2-8e6c-991b3cdf28cf/bd1186e1-c4bf-4b62-a9b4-e3955760926e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/ae4ba2c2-d97a-46f2-8e6c-991b3cdf28cf/bd1186e1-c4bf-4b62-a9b4-e3955760926e-master.m3u8"
+}

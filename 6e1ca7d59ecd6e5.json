@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Demônio 2010 - 🍿Clau",
+  "description": "Assista Demônio 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tTyzuIwHyOX7oeLNGwD1SnN4G5y.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://s3.us-east-2.wasabisys.com/cloudpc2/token%3As21expires11365uslink1578l2/filmes/Demonio.2010.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&response-cache-control=public%2C%20max-age%3D604800&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=IU3PEYNXRJ5YLPUKFCA6%2F20260207%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260207T003543Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Signature=cb1adc71f1158a63292be7fe559e93f399ea91965428d48ed0a18651f66e98f2",
+  "embedUrl": "https://s3.us-east-2.wasabisys.com/cloudpc2/token%3As21expires11365uslink1578l2/filmes/Demonio.2010.mp4?response-content-type=video%2Fmp4&response-content-disposition=inline&response-cache-control=public%2C%20max-age%3D604800&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=IU3PEYNXRJ5YLPUKFCA6%2F20260207%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260207T003543Z&X-Amz-SignedHeaders=host&X-Amz-Expires=43200&X-Amz-Signature=cb1adc71f1158a63292be7fe559e93f399ea91965428d48ed0a18651f66e98f2"
+}

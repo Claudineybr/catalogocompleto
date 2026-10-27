@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ben 10 - Episódio 6 - Jogando Sujo - 🍿Clau",
+  "description": "Assista Ben 10 - Episódio 6 - Jogando Sujo",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eogRp6oAPK0SEvQmCrQ78LTlSdp.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/6/8ba97549-2b4b-4101-bdb5-f87260cf4755/stream.mp4",
+  "embedUrl": "https://cdn-0038.speed-stream.online/ben-10-66efe363/s3/dubbed/6/8ba97549-2b4b-4101-bdb5-f87260cf4755/stream.mp4"
+}

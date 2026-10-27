@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tá Dando Onda 2007 - 🍿Clau",
+  "description": "Assista Tá Dando Onda 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/edR3BjwAwUGHtOQMXJTWRfMYBvt.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Tá%20Dando%20Onda_2007_tt0423294.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Tá%20Dando%20Onda_2007_tt0423294.mp4"
+}

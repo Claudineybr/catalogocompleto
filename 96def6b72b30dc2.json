@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Agente 2025 - Episódio 3 - Sangue e Bailes - 🍿Clau",
+  "description": "Assista A Agente 2025 - Episódio 3 - Sangue e Bailes",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/yk44xZCWWzcgmwlyCWCQyFyxVIw.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E03_Sangue%20e%20bal%C3%B5es.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/A%20Agente_S01E03_Sangue%20e%20bal%C3%B5es.mp4"
+}

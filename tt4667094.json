@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Hora Do Vampiro 2024 - Episódio - 🍿Clau",
+  "description": "Assista A Hora Do Vampiro 2024 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ybGTVT8kDF4vUi2iew9e2RPvJWm.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Cinquenta%20Tons%20de%20Preto_2016_tt4667094.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Cinquenta%20Tons%20de%20Preto_2016_tt4667094.mp4"
+}

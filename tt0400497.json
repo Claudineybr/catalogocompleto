@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Herbie: Meu Fusca Turbinado 2005 - 🍿Clau",
+  "description": "Assista Herbie: Meu Fusca Turbinado 2005",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/z3dDSU387L19TNEJkYhYAMjU4Sr.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Herbie,%20Meu%20Fusca%20Turbinado_2005_tt0400497.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Herbie,%20Meu%20Fusca%20Turbinado_2005_tt0400497.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Terror no Deserto 2022 - 🍿Clau",
+  "description": "Assista Terror no Deserto 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd",
+  "embedUrl": "https://tankie.tube/videos/embed/943644d3-0fb4-4869-9ac8-74ac01cd7fdd"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - Episódio 9 - As Chuvas de Castamere - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - Episódio 9 - As Chuvas de Castamere",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s3/dubbed/9/39832f9a-b679-4a1b-b796-45f422103fc8/stream.mp4",
+  "embedUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s3/dubbed/9/39832f9a-b679-4a1b-b796-45f422103fc8/stream.mp4"
+}

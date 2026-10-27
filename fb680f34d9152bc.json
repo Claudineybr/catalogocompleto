@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Descobrindo Novos Ventos 2022 - Episódio - 🍿Clau",
+  "description": "Assista Descobrindo Novos Ventos 2022 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vjq231E2zVe4wnzIdakembLdxW4.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/The%20Last%20Days%20of%20American%20Crime%20%28Dublado%29%20-%202020%20-%201080p.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/The%20Last%20Days%20of%20American%20Crime%20%28Dublado%29%20-%202020%20-%201080p.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral - 🍿Clau",
+  "description": "Assista Dan Da Dan 2024 - Episódio 7 - Tá batendo um baixo astral",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4",
+  "embedUrl": "https://cdn3.iageni.com/Dani%20Se%20S02%20E07_240411.mp4"
+}

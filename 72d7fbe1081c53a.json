@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "2 Dias em Nova York 2012 - 🍿Clau",
+  "description": "Assista 2 Dias em Nova York 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tK6G639JfQV36WRr9wTu1D9iZRg.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/2%20Dias%20em%20Nova%20York_84165.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/2%20Dias%20em%20Nova%20York_84165.mp4"
+}

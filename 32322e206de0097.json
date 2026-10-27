@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pacificador 2022 - Episódio 3 - Outro Rick Na Manga - 🍿Clau",
+  "description": "Assista Pacificador 2022 - Episódio 3 - Outro Rick Na Manga",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/fbW4ym5rgMRkNjNAzpZQX5vkxMf.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Pacificador.S02E03.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Pacificador.S02E03.1080p.WEB-DL.DUAL.5.1.mp4"
+}

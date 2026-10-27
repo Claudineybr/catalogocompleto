@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Smiley Face: Louca de Dar Nó 2007 - 🍿Clau",
+  "description": "Assista Smiley Face: Louca de Dar Nó 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lc888Fk2A5wyhsDRoqEGriA3HP.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Smiley%20Face%20Louca%20de%20Dar%20N%C3%B3.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Smiley%20Face%20Louca%20de%20Dar%20N%C3%B3.mp4"
+}

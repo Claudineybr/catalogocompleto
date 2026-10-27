@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Naruto Shippuden 2007 - Episódio 8 - Mestre e Aluno - 🍿Clau",
+  "description": "Assista Naruto Shippuden 2007 - Episódio 8 - Mestre e Aluno",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nRJmByfK9XdtOY73VArcN8KpKVs.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods.conexao-vs.live/series/107543.mp4?token=9ba8def79b4c196694ceba092f119c88766f75b20bf8c4af53358d414c151b5c&expires=1757035981",
+  "embedUrl": "https://vods.conexao-vs.live/series/107543.mp4?token=9ba8def79b4c196694ceba092f119c88766f75b20bf8c4af53358d414c151b5c&expires=1757035981"
+}

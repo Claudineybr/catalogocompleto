@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Canção do Oceano 2014 - 🍿Clau",
+  "description": "Assista A Canção do Oceano 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/39aOJwueG1BX1OZqNdm9tnMUVjE.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/A%20Can%C3%A7%C3%A3o%20do%20Oceano%20%28Dublado%29%20-%202014%20-%201080p.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/A%20Can%C3%A7%C3%A3o%20do%20Oceano%20%28Dublado%29%20-%202014%20-%201080p.mp4"
+}

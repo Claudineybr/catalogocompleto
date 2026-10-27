@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Escola da Vida 2005 - 🍿Clau",
+  "description": "Assista Escola da Vida 2005",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mZifEY09JNU4lTpukg4vzIUyUAK.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Escola%20da%20Vida.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Escola%20da%20Vida.mp4"
+}

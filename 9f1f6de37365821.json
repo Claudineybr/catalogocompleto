@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Cura 2018 - 🍿Clau",
+  "description": "Assista A Cura 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rF32uo83bzezkEUQ8VGarbCJi32.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0060.l1s0-cdn-3123123.com/a-cura-637b685a/dubbed/1/aced7434-ee4f-4285-95ca-96fada0a3017/stream.mp4?type=movie&expires=1769546963&signature=e43ca164ef9a04a1f07cce8dcb06bc558b3c65ca5d38888347378d0ef578eb5a",
+  "embedUrl": "https://cdn-0060.l1s0-cdn-3123123.com/a-cura-637b685a/dubbed/1/aced7434-ee4f-4285-95ca-96fada0a3017/stream.mp4?type=movie&expires=1769546963&signature=e43ca164ef9a04a1f07cce8dcb06bc558b3c65ca5d38888347378d0ef578eb5a"
+}

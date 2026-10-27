@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 9 - Neve de noite - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 9 - Neve de noite",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/9/db6b469e-cf5e-4230-a2a7-6ddbfc29af8a/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/9/db6b469e-cf5e-4230-a2a7-6ddbfc29af8a/stream.mp4"
+}

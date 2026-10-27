@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Duna: Parte Dois 2024 - 🍿Clau",
+  "description": "Assista Duna: Parte Dois 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/VMy4UGsI2u3f4fALGeCqCdsQBb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0018.l1s0-cdn-3123123.com/duna-parte-2-dd9917ff/dubbed/1/d35c6210-e203-4131-85b5-e188dd523bdb/stream.mp4?storage=0018&expires=1775612233&signature=bec8a8525cd8893005283c960febb54213e42ac0269e5974104629f970500c36&type=movie",
+  "embedUrl": "https://cdn-0018.l1s0-cdn-3123123.com/duna-parte-2-dd9917ff/dubbed/1/d35c6210-e203-4131-85b5-e188dd523bdb/stream.mp4?storage=0018&expires=1775612233&signature=bec8a8525cd8893005283c960febb54213e42ac0269e5974104629f970500c36&type=movie"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Entrevista com o Vampiro 1994 - 🍿Clau",
+  "description": "Assista Entrevista com o Vampiro 1994",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/IXwje9xtS8fvXhS4DkKN6RuxTa.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0110148.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0110148.mp4"
+}

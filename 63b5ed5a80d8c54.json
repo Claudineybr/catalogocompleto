@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vale da Morte 2021 - 🍿Clau",
+  "description": "Assista Vale da Morte 2021",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/752mjo9fUzKMXMU8QT0iBOQ5Scz.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Vale.da.Morte.2021.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Vale.da.Morte.2021.1080p.WEB-DL.DUAL.2.0.mp4"
+}

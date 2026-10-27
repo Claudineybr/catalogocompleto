@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Quero Ser Grande 1988 - 🍿Clau",
+  "description": "Assista Quero Ser Grande 1988",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6RP9H4BobYPU1J2BfgcvYkWJcAY.jpg"
+  ],
+  "uploadDate": "1988-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Quero%20Ser%20Grande.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Quero%20Ser%20Grande.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hellraiser - O Retorno dos Mortos 2005 - 🍿Clau",
+  "description": "Assista Hellraiser - O Retorno dos Mortos 2005",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/77Jj3lwYCnI16yNPheHx6LwbKqZ.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Hellraiser%207%3A%20O%20Retorno%20dos%20Mortos_2005_tt0337636.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Hellraiser%207%3A%20O%20Retorno%20dos%20Mortos_2005_tt0337636.mp4"
+}

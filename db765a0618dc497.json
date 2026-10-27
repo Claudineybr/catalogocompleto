@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Noite Das Bruxas 2023 - 🍿Clau",
+  "description": "Assista Noite Das Bruxas 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9UAc4DF4oEObQk4sz4sNeHI4waY.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://pcx.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/ANoiteDasBruxas2023.mp4",
+  "embedUrl": "http://pcx.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/ANoiteDasBruxas2023.mp4"
+}

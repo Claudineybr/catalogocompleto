@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Dia Daqueles 2025 - 🍿Clau",
+  "description": "Assista Um Dia Daqueles 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/igMbtYEEJ1gyQ85TRMgao75DFT8.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/One%20of%20Them%20Days_2025_tt32221196.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/One%20of%20Them%20Days_2025_tt32221196.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre - 🍿Clau",
+  "description": "Assista Demon Slayer: Kimetsu no Yaiba 2019 - EP.10 - Juntos para sempre",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/41XdjOXGQoH0HTDNqEfwKGvGgwm.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-09/kimetsu-no-yaiba-f87573ef/dubbed/10/eb6a4f93-a0a6-4f92-9ea3-1cf3fd807229/stream.mp4"
+}

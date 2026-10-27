@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Meu Nome é Taylor, Drillbit Taylor 2008 - 🍿Clau",
+  "description": "Assista Meu Nome é Taylor, Drillbit Taylor 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/at5krk23eGHYVeBqaUVf55bRnsi.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Meu%20Nome%20%C3%A9%20Taylor%2C%20Drillbit%20Taylor.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Meu%20Nome%20%C3%A9%20Taylor%2C%20Drillbit%20Taylor.mp4"
+}

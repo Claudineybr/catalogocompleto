@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cada Um Na sua Casa 2015 - 🍿Clau",
+  "description": "Assista Cada Um Na sua Casa 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oPSogYd8PM9XaW8SkiIjPev85Mp.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt2224026.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt2224026.mp4"
+}

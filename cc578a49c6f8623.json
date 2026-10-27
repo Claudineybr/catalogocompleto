@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Hora do Rush 1998 - 🍿Clau",
+  "description": "Assista A Hora do Rush 1998",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sdzr7YU2fPoTwjfsO4gN7ri0S5e.jpg"
+  ],
+  "uploadDate": "1998-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0053.l1s0-cdn-3123123.com/a-hora-do-rush-98d80f81/dubbed/1/39765769-70da-470b-bbc2-94e39668a15e/stream.mp4?storage=0053&expires=1774648008&signature=1650b268a7b867e06cdc97b2430c9e6fc99c28a314f0f07a7dde32df82c08b66&type=movie",
+  "embedUrl": "https://cdn-0053.l1s0-cdn-3123123.com/a-hora-do-rush-98d80f81/dubbed/1/39765769-70da-470b-bbc2-94e39668a15e/stream.mp4?storage=0053&expires=1774648008&signature=1650b268a7b867e06cdc97b2430c9e6fc99c28a314f0f07a7dde32df82c08b66&type=movie"
+}

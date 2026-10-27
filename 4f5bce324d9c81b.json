@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Friends 1994 - Episódio 9 - Aquele do Futebol Americano - 🍿Clau",
+  "description": "Assista Friends 1994 - Episódio 9 - Aquele do Futebol Americano",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s3/dubbed/9/470a14af-d2d9-4c80-9d34-71fe96aa9694/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/friends-2a695478/s3/dubbed/9/470a14af-d2d9-4c80-9d34-71fe96aa9694/stream.mp4"
+}

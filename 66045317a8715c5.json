@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "7500 - 🍿Clau",
+  "description": "Assista 7500",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/saywKbI5wqlFCC33xrAb5U1tORc.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/7500_509585.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/7500_509585.mp4"
+}

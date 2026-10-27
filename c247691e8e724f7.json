@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tempestade: Planeta em Fúria 2017 - Episódio - 🍿Clau",
+  "description": "Assista Tempestade: Planeta em Fúria 2017 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7646jFVhBDqpd8WqwWLSVO5vAIR.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0099.l1s0-cdn-3123123.com/o-senhor-dos-aneis-a-guerra-dos-rohirrim-8f1043c3/dubbed/1/8f4f7a60-c1c1-4232-a702-0536114a5c9a/stream.mp4?storage=0099&expires=1777049263&signature=4ab1b363e3263ae43b8335c0ca879aaa78d20b78037bed9a889658c4e6f99f8b&type=movie",
+  "embedUrl": "https://cdn-0099.l1s0-cdn-3123123.com/o-senhor-dos-aneis-a-guerra-dos-rohirrim-8f1043c3/dubbed/1/8f4f7a60-c1c1-4232-a702-0536114a5c9a/stream.mp4?storage=0099&expires=1777049263&signature=4ab1b363e3263ae43b8335c0ca879aaa78d20b78037bed9a889658c4e6f99f8b&type=movie"
+}

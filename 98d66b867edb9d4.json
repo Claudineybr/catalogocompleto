@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Episódio - 🍿Clau",
+  "description": "Assista Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-utx.playmycnvs.com/m/Esta.Sou.Eu.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=WWpFd1lXTTNZakE1WlRFek5tUTNPS204eEF4ODlZYzRRZWp4ZlR1VjFNVXZVazRFODZ3N1U4eC9nY3RVanlRN0w1SThPRjVOcGovcEFBS1YzcGRoclE1QVB4RnRFaXhoV2hUalQ0YjdPLzhKbVFtT1dXYkluaHNhbnlQUmtPc0FSWTJqT01qM3pWZS9ROFVCdURMOG53PT0",
+  "embedUrl": "https://server-utx.playmycnvs.com/m/Esta.Sou.Eu.2026.1080p.WEB-DL.x264.DUAL.5.1.mp4?cnvs_token=WWpFd1lXTTNZakE1WlRFek5tUTNPS204eEF4ODlZYzRRZWp4ZlR1VjFNVXZVazRFODZ3N1U4eC9nY3RVanlRN0w1SThPRjVOcGovcEFBS1YzcGRoclE1QVB4RnRFaXhoV2hUalQ0YjdPLzhKbVFtT1dXYkluaHNhbnlQUmtPc0FSWTJqT01qM3pWZS9ROFVCdURMOG53PT0"
+}

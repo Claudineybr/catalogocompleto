@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Meu Malvado Favorito 3 2017 - 🍿Clau",
+  "description": "Assista Meu Malvado Favorito 3 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6z0KlRIrXfkgNz3IJOCAQxdVXAg.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/98035b29-01b5-4322-94b3-7220f4db8c15",
+  "embedUrl": "https://tankie.tube/videos/embed/98035b29-01b5-4322-94b3-7220f4db8c15"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Django 2012 - 🍿Clau",
+  "description": "Assista Django 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ar63Sx8jeqk0OOu2uchS477S2zE.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/vmNx5PPwd438noKML6VFaP",
+  "embedUrl": "https://tankie.tube/w/vmNx5PPwd438noKML6VFaP"
+}

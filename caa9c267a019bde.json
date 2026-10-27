@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Imaculada 2024 - 🍿Clau",
+  "description": "Assista Imaculada 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6EYfWxIGPc23m1GFs9Gt3kzTl5O.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/9768d347-c143-4d1f-8dd5-a6708485ce8b",
+  "embedUrl": "https://tankie.tube/videos/embed/9768d347-c143-4d1f-8dd5-a6708485ce8b"
+}

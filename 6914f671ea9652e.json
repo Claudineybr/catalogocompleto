@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 7 - Sae Itoshi - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 7 - Sae Itoshi",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/7/00707cbe-9195-4740-ab5f-61b5369f37fd/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/blue-lock-2-9c42cf2b/dubbed/7/00707cbe-9195-4740-ab5f-61b5369f37fd/stream.mp4"
+}

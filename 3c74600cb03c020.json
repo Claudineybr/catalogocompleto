@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Quarteto Fantástico 2005 - 🍿Clau",
+  "description": "Assista Quarteto Fantástico 2005",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8F2vIxWycANHW763lnx2hJVtjDC.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/e2f4f99f-16b2-4bc8-8914-23348c30ea63",
+  "embedUrl": "https://tankie.tube/videos/embed/e2f4f99f-16b2-4bc8-8914-23348c30ea63"
+}

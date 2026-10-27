@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Drone 2017 - 🍿Clau",
+  "description": "Assista Drone 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9G3Y9Agy4OXg2LdjzxmgH5a5kfI.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0028.speed-stream.online/drone-193e0386/dubbed/1/b1d51e65-189b-42b9-b559-3e3f80392114/stream.mp4",
+  "embedUrl": "https://cdn-0028.speed-stream.online/drone-193e0386/dubbed/1/b1d51e65-189b-42b9-b559-3e3f80392114/stream.mp4"
+}

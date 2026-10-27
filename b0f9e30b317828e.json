@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kung Fu Panda 4 - 🍿Clau",
+  "description": "Assista Kung Fu Panda 4",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aNK6MA5EApIo0UJE7ZWSYcZBJKy.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/KungFuPanda42024.mp4",
+  "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/KungFuPanda42024.mp4"
+}

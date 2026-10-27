@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 6 – Terra Noturna: Parte 6 - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 6 – Terra Noturna: Parte 6",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/6/0bc00f16-b516-4bc0-83fa-d4b927c6e70d/stream.mp4?type=serie&expires=1770767346&signature=e3cd27a6e44e40532353f403520a5754e8c29df660080465577d1b9a92b52ea8",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/6/0bc00f16-b516-4bc0-83fa-d4b927c6e70d/stream.mp4?type=serie&expires=1770767346&signature=e3cd27a6e44e40532353f403520a5754e8c29df660080465577d1b9a92b52ea8"
+}

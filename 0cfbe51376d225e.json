@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Palco de Ilusões 1988 - 🍿Clau",
+  "description": "Assista Palco de Ilusões 1988",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dgbLnnEJIGldXOMt6OWy3X1l0AC.jpg"
+  ],
+  "uploadDate": "1988-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Palco%20de%20Ilus%C3%B5es.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Palco%20de%20Ilus%C3%B5es.mp4"
+}

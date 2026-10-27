@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dezesseis Luas 2013 - 🍿Clau",
+  "description": "Assista Dezesseis Luas 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8BcxlJFLBk9DpDpcKYFExc4iubS.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://soulls.s3.us-east-2.wasabisys.com/likesforzone/onhistis/FHD1/tt1559547.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DN83IWQWP3DE56SLNIQU%2F20250428%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250428T020206Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=f6c53e4867a15ff705f10f871d7abc54628b995233fb296d4038b65a2b73182f",
+  "embedUrl": "http://soulls.s3.us-east-2.wasabisys.com/likesforzone/onhistis/FHD1/tt1559547.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DN83IWQWP3DE56SLNIQU%2F20250428%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250428T020206Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=f6c53e4867a15ff705f10f871d7abc54628b995233fb296d4038b65a2b73182f"
+}

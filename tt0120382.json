@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Show de Truman: O Show da Vida 1998 - 🍿Clau",
+  "description": "Assista O Show de Truman: O Show da Vida 1998",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3mEoGWyJCZTSoYyjFD3gFd6hzU4.jpg"
+  ],
+  "uploadDate": "1998-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Show%20de%20Truman:%20O%20Show%20da%20Vida_1998_tt0120382.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Show%20de%20Truman:%20O%20Show%20da%20Vida_1998_tt0120382.mp4"
+}

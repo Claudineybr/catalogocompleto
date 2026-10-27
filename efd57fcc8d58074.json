@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Matrix Reloaded - 2003 - 🍿Clau",
+  "description": "Assista Matrix Reloaded - 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ayZkaN2f3ASjWW8ooCfuJT3T8Va.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/efb074e9-67a4-4675-b782-adcf84baf0ed/16ad4471-76fd-4c40-a168-dbfd70e7f698-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/efb074e9-67a4-4675-b782-adcf84baf0ed/16ad4471-76fd-4c40-a168-dbfd70e7f698-master.m3u8"
+}

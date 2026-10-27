@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Bridgerton - E01 - 🍿Clau",
+  "description": "Assista Bridgerton - E01",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/k54GKSjE0vXACHN2qkCGXvaafn5.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0072.speed-stream.online/bridgerton-d1fa6c10/s3/dubbed/1/5be28709-c759-4e00-9d7c-19d93225824e/stream.mp4",
+  "embedUrl": "https://cdn-0072.speed-stream.online/bridgerton-d1fa6c10/s3/dubbed/1/5be28709-c759-4e00-9d7c-19d93225824e/stream.mp4"
+}

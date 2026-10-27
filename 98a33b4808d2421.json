@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Them 2021 - Episódio 4 – Dia 6 - 🍿Clau",
+  "description": "Assista Them 2021 - Episódio 4 – Dia 6",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qo8fpes33rSCjaqbpo85lmFSqQj.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E04_120462.mp4",
+  "embedUrl": "https://cdn3.cnvsplus.com/Eles%20S01%20E04_120462.mp4"
+}

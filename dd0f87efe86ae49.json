@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Jogo do Diabo 2023 - Episódio - 🍿Clau",
+  "description": "Assista O Jogo do Diabo 2023 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/49YUKZ5N0GTeVaEoRpdyfWUlskV.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/M%C3%A1%20Influ%C3%AAncia.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/M%C3%A1%20Influ%C3%AAncia.mp4"
+}

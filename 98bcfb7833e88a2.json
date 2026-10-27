@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "IT: Bem-Vindos à Derry 2025 - Episódio 1 - O Piloto - 🍿Clau",
+  "description": "Assista IT: Bem-Vindos à Derry 2025 - Episódio 1 - O Piloto",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/1/8b11abbf-b34c-4097-b9c6-596f423322bc/stream.mp4?type=serie&expires=1770840129&signature=ce825ffebb40e17ef37bb034d3a09847892abb33734c1292c73c6f4b3afe9f0d",
+  "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/1/8b11abbf-b34c-4097-b9c6-596f423322bc/stream.mp4?type=serie&expires=1770840129&signature=ce825ffebb40e17ef37bb034d3a09847892abb33734c1292c73c6f4b3afe9f0d"
+}

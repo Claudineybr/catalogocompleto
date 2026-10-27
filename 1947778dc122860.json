@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 2 - Despedida - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 2 - Despedida",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-dbe8f446/dubbed/2/05830069-49af-47bc-921e-1431de19525d/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-dbe8f446/dubbed/2/05830069-49af-47bc-921e-1431de19525d/stream.mp4"
+}

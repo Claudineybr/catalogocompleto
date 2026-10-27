@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 4 – Terra Noturna: Parte 4 - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 4 – Terra Noturna: Parte 4",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/4/30c1cea0-56ed-42d5-b60d-7653b6c7ac1c/stream.mp4?type=serie&expires=1770767314&signature=0fb7629bb83e5c76b9049506c04dd7769b59ed97b2abae63ae62e19a1531b6e8",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/4/30c1cea0-56ed-42d5-b60d-7653b6c7ac1c/stream.mp4?type=serie&expires=1770767314&signature=0fb7629bb83e5c76b9049506c04dd7769b59ed97b2abae63ae62e19a1531b6e8"
+}

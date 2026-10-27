@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Outros 2001 - 🍿Clau",
+  "description": "Assista Os Outros 2001",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qXeqUSGQi7Ld91t1xpJGy12laY7.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0051.speed-stream.online/os-outros-2ea980d6/dubbed/1/3593877e-0cba-4d1b-abd9-f9b6073c60df/stream.mp4",
+  "embedUrl": "https://cdn-0051.speed-stream.online/os-outros-2ea980d6/dubbed/1/3593877e-0cba-4d1b-abd9-f9b6073c60df/stream.mp4"
+}

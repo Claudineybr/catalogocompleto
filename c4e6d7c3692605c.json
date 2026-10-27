@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - Episódio 9 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - Episódio 9",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/9/9953c1a2-61a5-4a28-8006-df3f58104f71/stream.mp4?type=serie&expires=1769555916&signature=3a893a055fdcc196d5b8aad71c201a7099de95a54c8f7f8a756c2def210d1e4f",
+  "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/9/9953c1a2-61a5-4a28-8006-df3f58104f71/stream.mp4?type=serie&expires=1769555916&signature=3a893a055fdcc196d5b8aad71c201a7099de95a54c8f7f8a756c2def210d1e4f"
+}

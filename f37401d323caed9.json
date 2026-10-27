@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Caramelo 2025 - 🍿Clau",
+  "description": "Assista Caramelo 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/c4ZEAah5a01cu27w7vT2IAoFogk.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Caramelo.2025.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Caramelo.2025.720p.WEBRip.x264.AAC-%5BYTS.MX%5D.mp4"
+}

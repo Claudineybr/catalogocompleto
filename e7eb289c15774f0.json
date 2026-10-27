@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sobrenatural 2010 - 🍿Clau",
+  "description": "Assista Sobrenatural 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ovFzkkKknAo2SbM2DfOabxRvzmy.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/5a7a0994-77f1-40be-ae75-b5aee768c2eb",
+  "embedUrl": "https://tankie.tube/videos/embed/5a7a0994-77f1-40be-ae75-b5aee768c2eb"
+}

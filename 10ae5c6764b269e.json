@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Scooby-Doo e o Fantasma da Opera 2013 - Episódio - 🍿Clau",
+  "description": "Assista Scooby-Doo e o Fantasma da Opera 2013 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/A4brgTdVRfuULvZyZGm03qNdUlJ.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0033.speed-stream.online/uma-sombra-na-nuvem-eaba4eb3/dubbed/1/b960734f-1384-407b-99c4-4fd54f64e38b/stream.mp4",
+  "embedUrl": "https://cdn-0033.speed-stream.online/uma-sombra-na-nuvem-eaba4eb3/dubbed/1/b960734f-1384-407b-99c4-4fd54f64e38b/stream.mp4"
+}

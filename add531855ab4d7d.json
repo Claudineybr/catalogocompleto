@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doutor Estranho 2016 - 🍿Clau",
+  "description": "Assista Doutor Estranho 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/pb4clPWRJ5AKlSFu1HrrHdt5uAw.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/f59ab373-75a6-493e-bac5-8e1240f79dad",
+  "embedUrl": "https://tankie.tube/videos/embed/f59ab373-75a6-493e-bac5-8e1240f79dad"
+}

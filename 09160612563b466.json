@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "6 Balões 2018 - 🍿Clau",
+  "description": "Assista 6 Balões 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqSQCTtehs7bF8VhpnAtrP5yUo.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/6%20Bal%C3%B5es_500634.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/6%20Bal%C3%B5es_500634.mp4"
+}

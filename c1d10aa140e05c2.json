@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Na Corda Bamba 2018 - 🍿Clau",
+  "description": "Assista Na Corda Bamba 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/srP57zD9P0Uj1ZgZRBs8Iy2PvEM.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0033.speed-stream.online/na-corda-bamba-b2a1bd9a/dubbed/1/74216c2e-a6c4-4e44-a475-6e16e4b8ce19/stream.mp4",
+  "embedUrl": "https://cdn-0033.speed-stream.online/na-corda-bamba-b2a1bd9a/dubbed/1/74216c2e-a6c4-4e44-a475-6e16e4b8ce19/stream.mp4"
+}

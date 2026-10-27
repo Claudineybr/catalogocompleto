@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Twisted Metal 2023 - Episódio 5 - CRZSRDS - 🍿Clau",
+  "description": "Assista Twisted Metal 2023 - Episódio 5 - CRZSRDS",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/5/08eda1ca-a8de-4d16-9a3e-706486b2fc1d/stream.mp4?type=serie&expires=1771024314&signature=1aa85d6441884ffff5731add8e5b3a5b202a068acfd18d0a1ed643d934d3bd1b",
+  "embedUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/5/08eda1ca-a8de-4d16-9a3e-706486b2fc1d/stream.mp4?type=serie&expires=1771024314&signature=1aa85d6441884ffff5731add8e5b3a5b202a068acfd18d0a1ed643d934d3bd1b"
+}

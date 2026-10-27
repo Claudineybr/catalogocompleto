@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Creed II 2018 - 🍿Clau",
+  "description": "Assista Creed II 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/v3QyboWRoA4O9RbcsqH8tJMe8EB.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/137575b3-052a-455a-8cee-69b01aec1821",
+  "embedUrl": "https://tankie.tube/videos/embed/137575b3-052a-455a-8cee-69b01aec1821"
+}

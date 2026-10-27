@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Emboscada 2022 - 🍿Clau",
+  "description": "Assista Emboscada 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9ljycPK8LFfiviJ1b0yBOQeebrg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0019.speed-stream.online/emboscada-2022-6552d2e4/dubbed/1/b82b2d42-6f08-44c4-9f69-70aa279c0a4b/stream.mp4",
+  "embedUrl": "https://cdn-0019.speed-stream.online/emboscada-2022-6552d2e4/dubbed/1/b82b2d42-6f08-44c4-9f69-70aa279c0a4b/stream.mp4"
+}

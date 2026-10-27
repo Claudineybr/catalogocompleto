@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Assassino 2023 - 🍿Clau",
+  "description": "Assista Assassino 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/W2BUuw3cFR5lfxOkMjW2o7gJHE.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/37497211-0d78-4b6a-a70b-ff653a9cf511/playlist.m3u8"
+}

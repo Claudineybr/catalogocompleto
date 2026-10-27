@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Confronto 2001 - 🍿Clau",
+  "description": "Assista O Confronto 2001",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6GCxZ7RXjMZbSAd0CGHAfhmpKnL.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Confronto_2001_tt0267804.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Confronto_2001_tt0267804.mp4"
+}

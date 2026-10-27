@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sem Escape 2018 - 🍿Clau",
+  "description": "Assista Sem Escape 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/yP0mfM0MafLVMD36kgbvZpr9gbz.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/7v35wrbzEJVScugZes8vPy",
+  "embedUrl": "https://tankie.tube/w/7v35wrbzEJVScugZes8vPy"
+}

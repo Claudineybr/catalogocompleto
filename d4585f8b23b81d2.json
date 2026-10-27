@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Vingança dos Mortos 2022 - Filme - 🍿Clau",
+  "description": "Assista A Vingança dos Mortos 2022 - Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rEQwADsvIOe43xpMywWSFSKSBWg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/612ea056-bf5a-4d66-aac0-439ebbf85073/d5af957e-21e9-42f6-931f-e57e99ad695a-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/612ea056-bf5a-4d66-aac0-439ebbf85073/d5af957e-21e9-42f6-931f-e57e99ad695a-master.m3u8"
+}

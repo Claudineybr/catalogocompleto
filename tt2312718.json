@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Linha de Frente 2013 - 🍿Clau",
+  "description": "Assista Linha de Frente 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eDkJozkyJ2izomuyeo0H4tSGpVd.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Linha%20de%20Frente_2013_tt2312718.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Linha%20de%20Frente_2013_tt2312718.mp4"
+}

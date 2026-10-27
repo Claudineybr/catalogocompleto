@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Aldeia dos Sussurros 2022 - 🍿Clau",
+  "description": "Assista Aldeia dos Sussurros 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/we5AtCdmPLL9j8l6s4D7Z2LifDa.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playcnvs.com/m/Aldeia.dos.Sussurros.2022.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playcnvs.com/m/Aldeia.dos.Sussurros.2022.1080p.WEB-DL.DUAL.2.0.mp4"
+}

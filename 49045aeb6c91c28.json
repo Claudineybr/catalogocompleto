@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Planeta dos Abutres 2023 - Episódio 11 – A Aventura - 🍿Clau",
+  "description": "Assista Planeta dos Abutres 2023 - Episódio 11 – A Aventura",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sGEJyxvW5F9MTjPbXvInVFI5KYS.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0059.l1s0-cdn-3123123.com/planeta-dos-abutres-d08ba680/s1/dubbed/11/4215f086-b929-4958-a1ac-b79d385bec5a/stream.mp4?storage=0059&expires=1775261793&signature=daa8c423e09e3bf7e60a59dd433a826da591cbeb0f801895abec91b092b4d974&type=serie",
+  "embedUrl": "https://cdn-0059.l1s0-cdn-3123123.com/planeta-dos-abutres-d08ba680/s1/dubbed/11/4215f086-b929-4958-a1ac-b79d385bec5a/stream.mp4?storage=0059&expires=1775261793&signature=daa8c423e09e3bf7e60a59dd433a826da591cbeb0f801895abec91b092b4d974&type=serie"
+}

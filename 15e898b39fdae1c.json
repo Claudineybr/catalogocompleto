@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Electra 2024 - 🍿Clau",
+  "description": "Assista Electra 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eKaKadCNs4Eb94vmJWHJnRHgFOt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Electra.2024.720p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Electra.2024.720p.WEB-DL.DUAL.2.0.mp4"
+}

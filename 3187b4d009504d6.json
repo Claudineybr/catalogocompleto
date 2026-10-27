@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pssica 2025 - Episódio 4 - A Farsa - 🍿Clau",
+  "description": "Assista Pssica 2025 - Episódio 4 - A Farsa",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AspGWTFcEFgnDTTRA70at5zyKYj.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E04_Medo%2C%20n%C3%A3o%2C%20ela%20tem%20raiva.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E04_Medo%2C%20n%C3%A3o%2C%20ela%20tem%20raiva.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "14 Dias, 12 Noites 2019 - 🍿Clau",
+  "description": "Assista 14 Dias, 12 Noites 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uEZvNgiOPOO1S2vsnJ1mABr2SQj.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/14%20Dias%2012%20Noites_603488.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/14%20Dias%2012%20Noites_603488.mp4"
+}

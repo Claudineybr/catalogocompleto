@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dragon Ball Super 2015 - Episódio - 🍿Clau",
+  "description": "Assista Dragon Ball Super 2015 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/w5ai45092PIlV1Vbt7kswry2C03.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Os%20Seus%2C%20Os%20Meus%2C%20Os%20Nossos.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Os%20Seus%2C%20Os%20Meus%2C%20Os%20Nossos.mp4"
+}

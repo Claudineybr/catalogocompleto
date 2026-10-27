@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 10 - Tênue Aliança - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 10 - Tênue Aliança",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-831f72e7/dubbed/10/7c2ba0c5-b9b6-4d11-b00b-53d156ed0007/stream.mp4"
+}

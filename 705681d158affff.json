@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pantera Negra 2018 - 🍿Clau",
+  "description": "Assista Pantera Negra 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ubXNpxL2ASSzY0f8Hxv08pOsV2L.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/4e7ce497-f5f1-4aa4-a8c8-e9671a57d244",
+  "embedUrl": "https://tankie.tube/videos/embed/4e7ce497-f5f1-4aa4-a8c8-e9671a57d244"
+}

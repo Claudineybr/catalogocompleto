@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mogli: Entre Dois Mundos 2018 - Episódio - 🍿Clau",
+  "description": "Assista Mogli: Entre Dois Mundos 2018 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9j7VmIA7SB6aDmEpy055jq8ClJe.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Mogli%20-%20O%20Menino%20Lobo_2016_tt3040964.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Mogli%20-%20O%20Menino%20Lobo_2016_tt3040964.mp4"
+}

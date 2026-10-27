@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tulsa King 2019 - Episódio 1 - Sangue e Bourbon - 🍿Clau",
+  "description": "Assista Tulsa King 2019 - Episódio 1 - Sangue e Bourbon",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rOYLWCdAifpUtPlTf1WHxyaxeMt.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Tulsa.King.S03E01.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Tulsa.King.S03E01.1080p.WEB-DL.DUAL.5.1.mp4"
+}

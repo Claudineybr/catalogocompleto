@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Projecto Almanaque 2015 - 🍿Clau",
+  "description": "Assista Projecto Almanaque 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2krLUKMsKbnZk6j647IlkqlMZ2u.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1",
+  "embedUrl": "https://tankie.tube/videos/embed/994d7636-b84b-4280-b898-8c6e76725ad1"
+}

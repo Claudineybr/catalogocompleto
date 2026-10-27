@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nascer da Lua - Episódio 18 - 🍿Clau",
+  "description": "Assista Nascer da Lua - Episódio 18",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/n5F5kEvIQvSqOO3H3oxThP9DgN2.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vz-c20a010c-a98.b-cdn.net/bcdn_token=ScE6hA9wICAbtFsHDnXk6oewOrIYKkCsN_KULsOp8Ws&expires=1744433255&token_path=%2F/b30a441d-0aaf-4bc2-9527-61ee27b59f63/480p/video.m3u8",
+  "embedUrl": "https://vz-c20a010c-a98.b-cdn.net/bcdn_token=ScE6hA9wICAbtFsHDnXk6oewOrIYKkCsN_KULsOp8Ws&expires=1744433255&token_path=%2F/b30a441d-0aaf-4bc2-9527-61ee27b59f63/480p/video.m3u8"
+}

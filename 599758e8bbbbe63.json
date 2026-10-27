@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Naruto Shippuden 2007 - Episódio 2 – Título a determinar - 🍿Clau",
+  "description": "Assista Naruto Shippuden 2007 - Episódio 2 – Título a determinar",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nRJmByfK9XdtOY73VArcN8KpKVs.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods.conexao-vs.live/series/107766.mp4?token=7f99c22b10c2276b83aeeed963ef4696b3549214ffbdf69cec56358390bc2ee2&expires=1757394281",
+  "embedUrl": "https://vods.conexao-vs.live/series/107766.mp4?token=7f99c22b10c2276b83aeeed963ef4696b3549214ffbdf69cec56358390bc2ee2&expires=1757394281"
+}

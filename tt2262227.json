@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Festa no Céu 2014 - 🍿Clau",
+  "description": "Assista Festa no Céu 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xeYYskD0dABW0drkgvWNIb4OqAy.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Festa%20no%20C%C3%A9u_2014_tt2262227.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Festa%20no%20C%C3%A9u_2014_tt2262227.mp4"
+}

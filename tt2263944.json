@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dragon Ball Z: A Batalha dos Deuses 2013 - 🍿Clau",
+  "description": "Assista Dragon Ball Z: A Batalha dos Deuses 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sF8ZL7ALPQWqvlg0FPE2fgdXOkR.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Z:%20A%20Batalha%20dos%20Deuses_2013_tt2263944.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Dragon%20Ball%20Z:%20A%20Batalha%20dos%20Deuses_2013_tt2263944.mp4"
+}

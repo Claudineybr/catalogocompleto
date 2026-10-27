@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Passado Bate à Porta 2024 - 🍿Clau",
+  "description": "Assista O Passado Bate à Porta 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vPapa7S4AXuQROW8k0haGdCgCJK.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/O.Passado.Bate.a.Porta.2024.720p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/O.Passado.Bate.a.Porta.2024.720p.WEB-DL.DUAL.2.0.mp4"
+}

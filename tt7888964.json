@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Anônimo 2021 - 🍿Clau",
+  "description": "Assista Anônimo 2021",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6ObRyIQHJAY2X575hLVgKsnNlar.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/An%C3%B4nimo_2021_tt7888964.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/An%C3%B4nimo_2021_tt7888964.mp4"
+}

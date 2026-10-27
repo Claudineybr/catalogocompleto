@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "As Ladras 2023 - 🍿Clau",
+  "description": "Assista As Ladras 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wnLJ7nVObgbAD7cgF87XW1t9JT2.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://pcx.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/AsLadras2023.mp4",
+  "embedUrl": "http://pcx.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/AsLadras2023.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: O Mundo Sombrio - 2013 - 🍿Clau",
+  "description": "Assista Thor: O Mundo Sombrio - 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9qdqXIx2neypuT1kWKCTI2vsO4q.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/6d1dd419-5c2c-4793-9271-efdf613eee10/1387ce56-00c0-4c13-8a26-d2f78b4de791-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/6d1dd419-5c2c-4793-9271-efdf613eee10/1387ce56-00c0-4c13-8a26-d2f78b4de791-master.m3u8"
+}

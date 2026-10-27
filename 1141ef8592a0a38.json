@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cinquenta Tons Mais Escuros 2017 - 🍿Clau",
+  "description": "Assista Cinquenta Tons Mais Escuros 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4M9gjAPiH1QC6Szh7GgC01T4fxG.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/3e8289d4-d696-4c4f-9950-672f16b8a402",
+  "embedUrl": "https://tankie.tube/videos/embed/3e8289d4-d696-4c4f-9950-672f16b8a402"
+}

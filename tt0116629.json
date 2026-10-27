@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Depois da Terra 2013 - Episódio - 🍿Clau",
+  "description": "Assista Depois da Terra 2013 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1Kcjf0DXimg44Z1bEuzXUjJHNqi.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Independence%20Day_1996_tt0116629.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Independence%20Day_1996_tt0116629.mp4"
+}

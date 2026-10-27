@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Shazam! 2019 - 🍿Clau",
+  "description": "Assista Shazam! 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rwkriXzzP9FoiIF5nTdxBsUcds4.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/Shazam!_2019_tt0448115.mp4?cnvs_token=WXpBeU1tTTNZVFZoWldJM1pEbGhNNFBxM0Uxa3UwM0JjWmt2NHB1RDhEdlBCMG1Mb3pGR2J0Y2NwZXJTR0pOcGpkRWVQMnJ6c3NpS2xveEtoRGJwdTdkTGlRb0s2NGFSckl0RWlOS200TUU9",
+  "embedUrl": "https://server-1.cnvods.com/m/Shazam!_2019_tt0448115.mp4?cnvs_token=WXpBeU1tTTNZVFZoWldJM1pEbGhNNFBxM0Uxa3UwM0JjWmt2NHB1RDhEdlBCMG1Mb3pGR2J0Y2NwZXJTR0pOcGpkRWVQMnJ6c3NpS2xveEtoRGJwdTdkTGlRb0s2NGFSckl0RWlOS200TUU9"
+}

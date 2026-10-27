@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Acompanhante de Luxo 2023 - 🍿Clau",
+  "description": "Assista Acompanhante de Luxo 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hEscajEsbJnomruYQJvIwE7TAmX.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/e9587376-7d11-48fe-8d3f-6160c26260c1/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/e9587376-7d11-48fe-8d3f-6160c26260c1/playlist.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Escolha Perfeita 3 2017 - 🍿Clau",
+  "description": "Assista A Escolha Perfeita 3 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3PqsJb2h2Uu4ymo0yj130IxbF6S.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%203_2017_tt4765284.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Escolha%20Perfeita%203_2017_tt4765284.mp4"
+}

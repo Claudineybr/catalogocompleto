@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 2 – A Noite Encontra a Manhã - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 2 – A Noite Encontra a Manhã",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/2/ead347d1-8ee2-4442-a687-c4373f7cb19a/stream.mp4?type=serie&expires=1770765827&signature=a93f430e50789b3de8ffcdf75cf46fcf8f187edf5ae5ca4ed8d36ea475328c5a",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s2/dubbed/2/ead347d1-8ee2-4442-a687-c4373f7cb19a/stream.mp4?type=serie&expires=1770765827&signature=a93f430e50789b3de8ffcdf75cf46fcf8f187edf5ae5ca4ed8d36ea475328c5a"
+}

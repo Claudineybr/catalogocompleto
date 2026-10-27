@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 5 - Nascer de novo é... - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 5 - Nascer de novo é...",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/5/71c8a1f6-9ce0-466f-b437-4d8a1af2832a/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/5/71c8a1f6-9ce0-466f-b437-4d8a1af2832a/stream.mp4"
+}

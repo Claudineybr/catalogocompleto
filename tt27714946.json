@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - Episódio - 🍿Clau",
+  "description": "Assista Você (You) - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Macaco_2025_tt27714946.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Macaco_2025_tt27714946.mp4"
+}

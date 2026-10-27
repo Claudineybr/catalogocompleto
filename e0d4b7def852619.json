@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - Episódio 8 - Fim de Semana - 🍿Clau",
+  "description": "Assista Você (You) - Episódio 8 - Fim de Semana",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/8/eabaa371-a288-4c41-81d1-e1a651f43765/stream.mp4?storage=0043&expires=1775414711&signature=edd4c1a79011b57d194deda06db037d8c1924e657e5eb42ea873b1248c7789e7&type=serie",
+  "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/8/eabaa371-a288-4c41-81d1-e1a651f43765/stream.mp4?storage=0043&expires=1775414711&signature=edd4c1a79011b57d194deda06db037d8c1924e657e5eb42ea873b1248c7789e7&type=serie"
+}

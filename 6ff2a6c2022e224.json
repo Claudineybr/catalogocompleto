@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Abelha Maya: O Filme 2014 - 🍿Clau",
+  "description": "Assista A Abelha Maya: O Filme 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/smg2Uf596BuwztwQmb8lt2wAzDk.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/A%20Abelha%20Maya%3A%20O%20Filme_261103.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/A%20Abelha%20Maya%3A%20O%20Filme_261103.mp4"
+}

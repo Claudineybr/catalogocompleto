@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Terremoto: A Falha de San Andreas 2015 - 🍿Clau",
+  "description": "Assista Terremoto: A Falha de San Andreas 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wVp2zu88NMWpGluqW9eGQbwLWi.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Terremoto:%20A%20Falha%20de%20San%20Andreas_2015_tt2126355.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Terremoto:%20A%20Falha%20de%20San%20Andreas_2015_tt2126355.mp4"
+}

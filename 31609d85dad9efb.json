@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hellboy 2019 - 🍿Clau",
+  "description": "Assista Hellboy 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lmh8wXm6f3z7wcRqQ8NSXrB8tMQ.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/82076b1f-d9fa-4333-a250-03b4ef225ce4",
+  "embedUrl": "https://tankie.tube/videos/embed/82076b1f-d9fa-4333-a250-03b4ef225ce4"
+}

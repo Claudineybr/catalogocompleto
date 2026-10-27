@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "100 Garotas 2000 - 🍿Clau",
+  "description": "Assista 100 Garotas 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nUUbGnf0C0fPromULczpKXiAvPq.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/100%20Garotas_10035.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/100%20Garotas_10035.mp4"
+}

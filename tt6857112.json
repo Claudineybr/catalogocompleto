@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Questão de Tempo 2013 - Episódio - 🍿Clau",
+  "description": "Assista Questão de Tempo 2013 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uqEzxvGDYNzoQE7rayv7gRXBomt.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/N%C3%B3s_2019_tt6857112.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/N%C3%B3s_2019_tt6857112.mp4"
+}

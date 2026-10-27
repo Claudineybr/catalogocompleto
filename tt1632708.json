@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio - 🍿Clau",
+  "description": "Assista K-9: D.P.: Um Policial Bom pra Cachorro 2002 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AvfWX5HMqrbol6i0Td57rv0XXis.jpg"
+  ],
+  "uploadDate": "2002-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Amizade%20Colorida_2011_tt1632708.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Emboscada 2013 - 🍿Clau",
+  "description": "Assista Emboscada 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9ljycPK8LFfiviJ1b0yBOQeebrg.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0018.speed-stream.online/emboscada-a24c791b/dubbed/1/1e5bcbd1-340b-49d9-b9b8-dd526da4e4c7/stream.mp4",
+  "embedUrl": "https://cdn-0018.speed-stream.online/emboscada-a24c791b/dubbed/1/1e5bcbd1-340b-49d9-b9b8-dd526da4e4c7/stream.mp4"
+}

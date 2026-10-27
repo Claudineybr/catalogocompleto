@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Primeiro Mentiroso 2009 - 🍿Clau",
+  "description": "Assista O Primeiro Mentiroso 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sOBaj9lVwKcU57LVkPWezgb7xRh.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Primeiro%20Mentiroso_2009_tt1058017.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Primeiro%20Mentiroso_2009_tt1058017.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tenet 2020 - 🍿Clau",
+  "description": "Assista Tenet 2020",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/Ae0pbv4E6YfqfN3UjKWIfQSzP9v.jpg"
+  ],
+  "uploadDate": "2020-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/filmes/Tenet.2020.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/filmes/Tenet.2020.mp4"
+}

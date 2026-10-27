@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Tá Chovendo Hambúrguer 2009 - 🍿Clau",
+  "description": "Assista Tá Chovendo Hambúrguer 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/czEUatnzoLXjCDZjTKHyjcKBTFy.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/45869034-53e7-4981-949e-5ade11c15c6c",
+  "embedUrl": "https://tankie.tube/videos/embed/45869034-53e7-4981-949e-5ade11c15c6c"
+}

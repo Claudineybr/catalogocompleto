@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Episódio - 🍿Clau",
+  "description": "Assista Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gNk8UNAumXlfCdtaxDqsQe7ZGlt.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/a2f6b3ed-4de4-4f90-91e8-a09dbc94bceb/5a2b4e4e-2502-41bd-9d61-5b172ef929dc-master.m3u8"
+}

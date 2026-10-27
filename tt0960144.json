@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Preço do Amanhã 2011 - Episódio - 🍿Clau",
+  "description": "Assista O Preço do Amanhã 2011 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xuFZVPVebRrRwiH14uST8m4ulXj.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Zohan:%20O%20Agente%20Bom%20de%20Corte_2008_tt0960144.mp4"
+}

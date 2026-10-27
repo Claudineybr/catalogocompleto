@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "As Tartarugas Ninja: Fora das Sombras 2016 - 🍿Clau",
+  "description": "Assista As Tartarugas Ninja: Fora das Sombras 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1jqHFGTprvVvBpl2SdIsBH8QsWF.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/As%20Tartarugas%20Ninja:%20Fora%20das%20Sombras_2016_tt3949660.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/As%20Tartarugas%20Ninja:%20Fora%20das%20Sombras_2016_tt3949660.mp4"
+}

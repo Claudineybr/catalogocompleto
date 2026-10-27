@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Festa da Salsicha: Comilândia - Episódio - 🍿Clau",
+  "description": "Assista Festa da Salsicha: Comilândia - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/l8XFkTzWxObRLFqYlgZ1UBgvw5r.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/The%20School%20for%20Good%20and%20Evil_2022_tt2935622.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/The%20School%20for%20Good%20and%20Evil_2022_tt2935622.mp4"
+}

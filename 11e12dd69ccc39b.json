@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Corrida Contra o Tempo 2007 - Filme - 🍿Clau",
+  "description": "Assista A Corrida Contra o Tempo 2007 - Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zPlBUyu9rWhVrdiRfSClwMkmQiT.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/72d686f7-56f9-4865-8235-0572cf05d18c/4ea65ceb-8ac2-496e-a49b-06d1be7a4336-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/72d686f7-56f9-4865-8235-0572cf05d18c/4ea65ceb-8ac2-496e-a49b-06d1be7a4336-master.m3u8"
+}

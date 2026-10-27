@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Carros 2006 - 🍿Clau",
+  "description": "Assista Carros 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/A7nssMRIPauZhEVf2dzwsf4EALO.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/84c9b3ff-e178-462e-ad14-5a484bde378e",
+  "embedUrl": "https://tankie.tube/videos/embed/84c9b3ff-e178-462e-ad14-5a484bde378e"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Robin Hood: A Origem 2018 - 🍿Clau",
+  "description": "Assista Robin Hood: A Origem 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aGkgDTOfgiXUIWC52tjFUZnzrWZ.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Robin%20Hood:%20A%20Origem_2018_tt4532826.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Robin%20Hood:%20A%20Origem_2018_tt4532826.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Efeito Borboleta 2004 - 🍿Clau",
+  "description": "Assista Efeito Borboleta 2004",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/seGq2XbyB5e0WfYAPbHLmqNKynE.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Efeito%20Borboleta_2004_tt0289879.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Efeito%20Borboleta_2004_tt0289879.mp4"
+}

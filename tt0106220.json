@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Família Addams 2 - 🍿Clau",
+  "description": "Assista A Família Addams 2",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4OcwSxm47cmxT04MyGgI8aBfTlZ.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0106220.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0106220.mp4"
+}

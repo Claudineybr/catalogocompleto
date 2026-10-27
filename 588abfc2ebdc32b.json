@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cruella 2021 - 🍿Clau",
+  "description": "Assista Cruella 2021",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xHcLjIIqq2povs1rEv80tno46Bg.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/22a51f96-fa6c-4ff9-b73b-225e572d3bac",
+  "embedUrl": "https://tankie.tube/videos/embed/22a51f96-fa6c-4ff9-b73b-225e572d3bac"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: Amor e Trovão - 2022 - 🍿Clau",
+  "description": "Assista Thor: Amor e Trovão - 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wSE3IdCWSrsAXkNC9XwnxgJJqIq.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/8847bb81-3238-4d66-bac6-3b7c3e389716/f2661d76-160d-49cf-a615-51a6f375e40e-master.m3u8"
+}

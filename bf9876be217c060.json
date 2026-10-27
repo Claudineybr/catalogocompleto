@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Protetor 2014 - 🍿Clau",
+  "description": "Assista O Protetor 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xTSOdJ0Ljs439lnKB7NsWlTibZN.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/fc6db4e7-a623-437e-91b8-887e233a444f",
+  "embedUrl": "https://tankie.tube/videos/embed/fc6db4e7-a623-437e-91b8-887e233a444f"
+}

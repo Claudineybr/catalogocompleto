@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mad Max - 1979 - 🍿Clau",
+  "description": "Assista Mad Max - 1979",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jHJ5xxRjXUfZ6lQHcwibAzepPf2.jpg"
+  ],
+  "uploadDate": "1979-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/211f8c6c-e12a-4c59-b119-c70bac5fc31e/db0a9bb8-3d1c-46de-9c0b-5415eee958b4-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/211f8c6c-e12a-4c59-b119-c70bac5fc31e/db0a9bb8-3d1c-46de-9c0b-5415eee958b4-master.m3u8"
+}

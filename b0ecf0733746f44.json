@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Rei Leão 1994 - 🍿Clau",
+  "description": "Assista O Rei Leão 1994",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8aIvm8OaJISOpVTt7rMIh7X35G5.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7",
+  "embedUrl": "https://tankie.tube/videos/embed/e55ee5b1-1f07-4a4a-acdc-e42c9ccaa0f7"
+}

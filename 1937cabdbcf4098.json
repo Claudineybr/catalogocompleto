@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 9 - Guerra de Palavras - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 9 - Guerra de Palavras",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/9/68a80118-d14e-44d7-9865-5e571aa665eb/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-05/overlord-af229f17/dubbed/9/68a80118-d14e-44d7-9865-5e571aa665eb/stream.mp4"
+}

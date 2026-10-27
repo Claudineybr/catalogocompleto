@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Alvin e os Esquilos: Na Estrada - 2015 - 🍿Clau",
+  "description": "Assista Alvin e os Esquilos: Na Estrada - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1XuMjOFkfSpMz0ID6SSG2ISawVP.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/755421ec-143b-4183-a2af-26b4acf0dc1e",
+  "embedUrl": "https://tankie.tube/videos/embed/755421ec-143b-4183-a2af-26b4acf0dc1e"
+}

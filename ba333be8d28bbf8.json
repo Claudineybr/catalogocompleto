@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Arqueiro Verde (Arrow) 2012 - Episódio - 🍿Clau",
+  "description": "Assista Arqueiro Verde (Arrow) 2012 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oaLXsduGoDOOftWziIOvyZzrR4T.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Zack%20e%20Cody%20O%20Filme.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Zack%20e%20Cody%20O%20Filme.mp4"
+}

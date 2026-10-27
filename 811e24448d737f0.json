@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Universidade Monstros 2013 - 🍿Clau",
+  "description": "Assista Universidade Monstros 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uHiklaxCoZcQqzsj5l1IgyieWgp.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/f9b06131-49d0-4190-a0d0-bdef380789ff",
+  "embedUrl": "https://tankie.tube/videos/embed/f9b06131-49d0-4190-a0d0-bdef380789ff"
+}

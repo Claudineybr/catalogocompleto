@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 7 - Contra o Grande Rei - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 7 - Contra o Grande Rei",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/7/b9b4df07-1f2b-4fb2-a9e0-74f46d882034/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/7/b9b4df07-1f2b-4fb2-a9e0-74f46d882034/stream.mp4"
+}

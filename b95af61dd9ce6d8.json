@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Creed: Nascido para Lutar 2015 - 🍿Clau",
+  "description": "Assista Creed: Nascido para Lutar 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jBXLirZNzEoIwrQb6hBaiJ3Jcrv.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/695e0a6e-0075-4c8f-9ef7-ad220adfc7f6",
+  "embedUrl": "https://tankie.tube/videos/embed/695e0a6e-0075-4c8f-9ef7-ad220adfc7f6"
+}

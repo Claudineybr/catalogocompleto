@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Escape Room 2019 - Episódio - 🍿Clau",
+  "description": "Assista Escape Room 2019 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tOK0PsGlFymuXQ9BHmigZXJcSQj.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/4f972dd5-4155-47a0-a33c-120fad624c8d/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/4f972dd5-4155-47a0-a33c-120fad624c8d/playlist.m3u8"
+}

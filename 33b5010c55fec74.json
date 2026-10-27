@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vingadores: Era de Ultron - 2015 - 🍿Clau",
+  "description": "Assista Vingadores: Era de Ultron - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvzqTsRmUzk9mJVzX8cMSWMyM5l.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/12ec44ee-b3b5-4d83-856d-f39fb55877f8/8f957470-4557-4897-9524-7504fe96369f-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/12ec44ee-b3b5-4d83-856d-f39fb55877f8/8f957470-4557-4897-9524-7504fe96369f-master.m3u8"
+}

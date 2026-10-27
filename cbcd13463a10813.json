@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Natal em Biltmore 2023 - Episódio - 🍿Clau",
+  "description": "Assista Um Natal em Biltmore 2023 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lZ51dIN3BzvmqbZjh1qhosl40Zk.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Um.Amor.de.Natal.2024.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Um.Amor.de.Natal.2024.1080p.WEB-DL.DUAL.2.0.mp4"
+}

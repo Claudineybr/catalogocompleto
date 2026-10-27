@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Vida é um Banquete 2024 - 🍿Clau",
+  "description": "Assista A Vida é um Banquete 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/FFnv9yEIKCVm6139aYPvEIy7eA.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/37a0348d-af07-40d6-8672-a89650bd9006/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/37a0348d-af07-40d6-8672-a89650bd9006/playlist.m3u8"
+}

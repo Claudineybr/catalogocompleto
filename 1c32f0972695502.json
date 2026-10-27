@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Constantine - E07 - 🍿Clau",
+  "description": "Assista Constantine - E07",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dd4uzgUAbBIiRW7dcY0AcgSWohJ.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://video.wixstatic.com/video/a53466_e5fcb2270d1c43e6a44c996274430a62/480p/mp4/file.mp4",
+  "embedUrl": "https://video.wixstatic.com/video/a53466_e5fcb2270d1c43e6a44c996274430a62/480p/mp4/file.mp4"
+}

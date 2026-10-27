@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Encontro Explosivo 2010 - 🍿Clau",
+  "description": "Assista Encontro Explosivo 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ovgL7y93qKZpOWLlmYsZPf8HzYM.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg==",
+  "embedUrl": "https://c.xn--80aefdjiaxpc0bzb1hvb.com/cdnf001/acao/61587.mp4?token=OTI0NGIyYg=="
+}

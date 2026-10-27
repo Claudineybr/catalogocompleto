@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "RRR: Revolta, Rebelião, Revolução 2022 - 🍿Clau",
+  "description": "Assista RRR: Revolta, Rebelião, Revolução 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eK4lWmaEMdBj9nkghRNmfvtRWbq.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/RRR%20(Rise%20Roar%20Revolt)_2022_tt8178634.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/RRR%20(Rise%20Roar%20Revolt)_2022_tt8178634.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Refazendo Laços 2023 - Episódio - 🍿Clau",
+  "description": "Assista Refazendo Laços 2023 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gjOiep4GPj4OrDMKtgUxRL8vF28.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/O.Amanhecer.da.Guerra.2020.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/O.Amanhecer.da.Guerra.2020.1080p.WEB-DL.DUAL.2.0.mp4"
+}

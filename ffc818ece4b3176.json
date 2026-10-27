@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Uma Mente Excepcional 2024 - Episódio 13 - 🍿Clau",
+  "description": "Assista Uma Mente Excepcional 2024 - Episódio 13",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ziLlEnGLackecy13Al5Gn8LHJUI.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://vods.conexao-vs.live/series/713145.mp4?token=02f4eda19c4af6f86b0da56997c5358ba04346c59ea746b80bbff6df9240ef88&expires=1744490709",
+  "embedUrl": "http://vods.conexao-vs.live/series/713145.mp4?token=02f4eda19c4af6f86b0da56997c5358ba04346c59ea746b80bbff6df9240ef88&expires=1744490709"
+}

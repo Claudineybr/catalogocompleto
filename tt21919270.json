@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Scooby-Doo! Gostosuras ou Travessuras 2022 - 🍿Clau",
+  "description": "Assista Scooby-Doo! Gostosuras ou Travessuras 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iauo38WI2GhdGAvplbzV6Q8ErWY.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Doces%20ou%20travessuras%20Scooby-Doo!_2022_tt21919270.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Doces%20ou%20travessuras%20Scooby-Doo!_2022_tt21919270.mp4"
+}

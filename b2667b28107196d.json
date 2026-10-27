@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Twisted Metal 2023 - Episódio 8 - H1TNRVN - 🍿Clau",
+  "description": "Assista Twisted Metal 2023 - Episódio 8 - H1TNRVN",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E08.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.iageni.com/m/Twisted.Metal.S02E08.1080p.WEB-DL.DUAL.2.0.mp4"
+}

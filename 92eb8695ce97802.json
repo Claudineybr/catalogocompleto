@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Batman vs. Robin 2015 - 🍿Clau",
+  "description": "Assista Batman vs. Robin 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wqUSibhHyXqlvP8uqYbB2mPjDZd.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/BATMANVSROBINDUB-BAIXO.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/BATMANVSROBINDUB-BAIXO.mp4"
+}

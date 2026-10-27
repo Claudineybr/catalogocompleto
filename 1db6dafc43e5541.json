@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 5 - Steam Gorilla - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 5 - Steam Gorilla",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-581073dc/dubbed/5/f69a4f57-ba76-4cc1-b125-fed1c8fb5f3f/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-581073dc/dubbed/5/f69a4f57-ba76-4cc1-b125-fed1c8fb5f3f/stream.mp4"
+}

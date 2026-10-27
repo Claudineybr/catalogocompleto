@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Olhos Famintos 2001 - 🍿Clau",
+  "description": "Assista Olhos Famintos 2001",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/jPiaAL3hOAexYnw5JMCwJT0xjgm.jpg"
+  ],
+  "uploadDate": "2001-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/bb737f89-efef-477a-96e3-442ec086578d",
+  "embedUrl": "https://tankie.tube/videos/embed/bb737f89-efef-477a-96e3-442ec086578d"
+}

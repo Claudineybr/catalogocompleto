@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Venom 2018 - 🍿Clau",
+  "description": "Assista Venom 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/e4SJKPH8muigUI8VcZtkqWJvEz1.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Venom_2018_tt1270797.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Venom_2018_tt1270797.mp4"
+}

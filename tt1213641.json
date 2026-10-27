@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Primeiro Homem 2018 - 🍿Clau",
+  "description": "Assista O Primeiro Homem 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bRQ0CKECt5B3aE8YqW9r6DvaxRY.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Primeiro%20Homem_2018_tt1213641.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Primeiro%20Homem_2018_tt1213641.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Proposta 2007 - 🍿Clau",
+  "description": "Assista A Proposta 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uIhags0jXoe78JJjCDZbByciesQ.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Proposta_2009_tt1041829.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Proposta_2009_tt1041829.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Bridgerton - E08 - 🍿Clau",
+  "description": "Assista Bridgerton - E08",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/k54GKSjE0vXACHN2qkCGXvaafn5.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0072.speed-stream.online/bridgerton-d1fa6c10/s1/dubbed/8/131b509f-524a-4ddd-b1c5-7d9769c28296/stream.mp4",
+  "embedUrl": "https://cdn-0072.speed-stream.online/bridgerton-d1fa6c10/s1/dubbed/8/131b509f-524a-4ddd-b1c5-7d9769c28296/stream.mp4"
+}

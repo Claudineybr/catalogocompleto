@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 12 - O reencontro Neko-Karasu - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 12 - O reencontro Neko-Karasu",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/12/d52de530-f85b-438f-968c-b7e8fb42ce48/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/12/d52de530-f85b-438f-968c-b7e8fb42ce48/stream.mp4"
+}

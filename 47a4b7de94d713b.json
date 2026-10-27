@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Caçador de Demônios - Episódio 2 - 🍿Clau",
+  "description": "Assista Caçador de Demônios - Episódio 2",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/ec389486-77ee-44b9-a4ed-3ab80c10253c/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/ec389486-77ee-44b9-a4ed-3ab80c10253c/playlist.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Percy Jackson e os Olimpianos 2023 - Episódio 1 - 🍿Clau",
+  "description": "Assista Percy Jackson e os Olimpianos 2023 - Episódio 1",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E01_103540.mp4",
+  "embedUrl": "https://cdn3.playmycnvs.com/Percy%20Jackson%20e%20os%20Olimpianos%20S01%20E01_103540.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Aladdin 1992 - 🍿Clau",
+  "description": "Assista Aladdin 1992",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nlaiczW81kY46GBdfIcTrBIqr8I.jpg"
+  ],
+  "uploadDate": "1992-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Aladdin_1992_tt0103639.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Aladdin_1992_tt0103639.mp4"
+}

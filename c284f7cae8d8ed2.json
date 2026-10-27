@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ash 2025 - 🍿Clau",
+  "description": "Assista Ash 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/3almrQT8GnrDjnQeWotdExjJhZm.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/4eff1c96-66a7-4e96-8f13-39bd003be097/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/4eff1c96-66a7-4e96-8f13-39bd003be097/playlist.m3u8"
+}

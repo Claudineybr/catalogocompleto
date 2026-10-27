@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rio 2011 - 🍿Clau",
+  "description": "Assista Rio 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/r9xXATAuqybQtidyTYSNwVfLt5Q.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/fbc29b30-3531-4251-a20b-cde80d3cdf55",
+  "embedUrl": "https://tankie.tube/videos/embed/fbc29b30-3531-4251-a20b-cde80d3cdf55"
+}

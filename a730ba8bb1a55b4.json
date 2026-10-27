@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mad Max: Estrada da Fúria - 2015 - 🍿Clau",
+  "description": "Assista Mad Max: Estrada da Fúria - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tH64gzAHDFg7EFcgfkkZyHdGM5P.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/cc939b3f-6a38-485c-8a1d-17eab437d962/34d64026-7795-4983-9d42-f3a9ad7ddfd9-master.m3u8"
+}

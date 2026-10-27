@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "12 Horas Para o Fim do Mundo - 🍿Clau",
+  "description": "Assista 12 Horas Para o Fim do Mundo",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gurQloozD4oBjjCBhqm3KPjxWxL.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/12HorasParaOFimDoMundo2023.mp4",
+  "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm23/12HorasParaOFimDoMundo2023.mp4"
+}

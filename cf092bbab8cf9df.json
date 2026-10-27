@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cara, Cadê Meu Carro? 2000 - 🍿Clau",
+  "description": "Assista Cara, Cadê Meu Carro? 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gEMqCjWru37wjTqo4eF3FZdJCiI.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/d00a1cb2-6988-416f-9b6f-06f9bbc70c06",
+  "embedUrl": "https://tankie.tube/videos/embed/d00a1cb2-6988-416f-9b6f-06f9bbc70c06"
+}

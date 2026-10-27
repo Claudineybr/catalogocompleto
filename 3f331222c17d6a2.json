@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 61 - Introduções - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 61 - Introduções",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/1/0751815e-cdc8-49db-9b35-f71a98142a3a/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3260c287/dubbed/1/0751815e-cdc8-49db-9b35-f71a98142a3a/stream.mp4"
+}

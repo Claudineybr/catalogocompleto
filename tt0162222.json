@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Náufrago 2000 - 🍿Clau",
+  "description": "Assista O Náufrago 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvEjqk1lXDUstu6v9g8c0JfaAxQ.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0162222.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0162222.mp4"
+}

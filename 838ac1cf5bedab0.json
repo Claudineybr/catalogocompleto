@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Up: Altas Aventuras 2009 - 🍿Clau",
+  "description": "Assista Up: Altas Aventuras 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oo5gvGDIiPwbXc3R0snZIuOc517.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/c1de4741-d9f2-4958-8754-1637a7b11fe4",
+  "embedUrl": "https://tankie.tube/videos/embed/c1de4741-d9f2-4958-8754-1637a7b11fe4"
+}

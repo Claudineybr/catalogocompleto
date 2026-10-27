@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rio 2 2014 - 🍿Clau",
+  "description": "Assista Rio 2 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/e0CKmNlKfWwc8LSgfyf4gYsTjjP.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/c8aecca4-c956-4648-b870-593ff811c779",
+  "embedUrl": "https://tankie.tube/videos/embed/c8aecca4-c956-4648-b870-593ff811c779"
+}

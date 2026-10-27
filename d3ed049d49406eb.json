@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rick e Morty - Episódio 9 - Algo Ricked Esta Vindo - 🍿Clau",
+  "description": "Assista Rick e Morty - Episódio 9 - Algo Ricked Esta Vindo",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s1/dubbed/9/2d17185f-fdd9-4705-ba4a-6358d3438b31/stream.mp4",
+  "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s1/dubbed/9/2d17185f-fdd9-4705-ba4a-6358d3438b31/stream.mp4"
+}

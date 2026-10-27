@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Demônio dos Mares 2023 - 🍿Clau",
+  "description": "Assista O Demônio dos Mares 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/873A55IZrwEP98hn82EGdS0xv0N.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/O%20Dem%C3%B4nio%20dos%20Mares_2023_tt10279472.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/O%20Dem%C3%B4nio%20dos%20Mares_2023_tt10279472.mp4"
+}

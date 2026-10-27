@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Marvel - Os Defensores 2017 - Episódio - 🍿Clau",
+  "description": "Assista Marvel - Os Defensores 2017 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/n3BisLdTMceUWcdP1ooP5VwN9JF.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cd.com/m/Lefter.O.Professor.2025.WEB-DL.1080p.DUAL.5.1.mp4",
+  "embedUrl": "https://cd.com/m/Lefter.O.Professor.2025.WEB-DL.1080p.DUAL.5.1.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 11 - Os que sabem as regras e os que fazem as regras - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 11 - Os que sabem as regras e os que fazem as regras",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-14/dr-stone-science-future-b5c28185/dubbed/11/2f0d6e07-8680-46c4-98da-d39cb1b27a80/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-14/dr-stone-science-future-b5c28185/dubbed/11/2f0d6e07-8680-46c4-98da-d39cb1b27a80/stream.mp4"
+}

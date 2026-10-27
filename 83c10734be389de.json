@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Exterminador do Futuro: Gênesis 2015 - Episódio - 🍿Clau",
+  "description": "Assista O Exterminador do Futuro: Gênesis 2015 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xmFGm5Earx8OOYEbgE3iuiNmQpu.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/10%20Horas%20Para%20o%20Natal_714511.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/10%20Horas%20Para%20o%20Natal_714511.mp4"
+}

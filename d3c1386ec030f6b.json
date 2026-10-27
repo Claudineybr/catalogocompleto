@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Príncipe 2014 - 🍿Clau",
+  "description": "Assista O Príncipe 2014",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qRkCzURRx61cpawCYXYlfr2p4Om.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0091.speed-stream.online/o-principe-7a639ccc/dubbed/1/29a1f479-6534-4519-b326-faa7ad508017/stream.mp4",
+  "embedUrl": "https://cdn-0091.speed-stream.online/o-principe-7a639ccc/dubbed/1/29a1f479-6534-4519-b326-faa7ad508017/stream.mp4"
+}

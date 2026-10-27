@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "7 Dias para Vegas 2019 - 🍿Clau",
+  "description": "Assista 7 Dias para Vegas 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mklFTp3zDlQvZVrURvSrlANIAhs.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/7%20Dias%20para%20Vegas_619798.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/7%20Dias%20para%20Vegas_619798.mp4"
+}

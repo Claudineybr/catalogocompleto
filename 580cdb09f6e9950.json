@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Invencível - E02 - 🍿Clau",
+  "description": "Assista Invencível - E02",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qhb7RWU9ad9a5m3HbeRRXzjaMXf.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0055.speed-stream.online/invencivel-d37a31a1/s3/dubbed/2/d53e068a-a191-4bd6-bbd3-2c9743830c79/stream.mp4",
+  "embedUrl": "https://cdn-0055.speed-stream.online/invencivel-d37a31a1/s3/dubbed/2/d53e068a-a191-4bd6-bbd3-2c9743830c79/stream.mp4"
+}

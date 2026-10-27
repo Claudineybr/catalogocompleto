@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Entidade 2012 - 🍿Clau",
+  "description": "Assista A Entidade 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9FPx4MdIPsmbkXM0W1f23u1aoIC.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20Entidade_2012_tt1922777.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20Entidade_2012_tt1922777.mp4"
+}

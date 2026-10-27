@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor: Ragnarok - 2017 - 🍿Clau",
+  "description": "Assista Thor: Ragnarok - 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2K45Fp6koAVoeeYS6aMb9BeNt4F.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/bdd5dbed-e17a-44f1-af7f-d41e3846d17e/7291d4bc-1aea-4273-8078-3b552002a841-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/bdd5dbed-e17a-44f1-af7f-d41e3846d17e/7291d4bc-1aea-4273-8078-3b552002a841-master.m3u8"
+}

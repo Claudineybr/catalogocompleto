@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Escape Room 2019 - 🍿Clau",
+  "description": "Assista Escape Room 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tOK0PsGlFymuXQ9BHmigZXJcSQj.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/8da4438f-43da-48e2-a44d-be8d1f0535e9",
+  "embedUrl": "https://tankie.tube/videos/embed/8da4438f-43da-48e2-a44d-be8d1f0535e9"
+}

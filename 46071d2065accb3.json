@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Spartacus - E08 - 🍿Clau",
+  "description": "Assista Spartacus - E08",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/c2GKN4VHCj1dnjFMANRpGkCVBae.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0015.speed-stream.online/spartacus-23eb9e28/s4/dubbed/8/109b9515-5381-4c13-bb6e-369f1d7d875d/stream.mp4",
+  "embedUrl": "https://cdn-0015.speed-stream.online/spartacus-23eb9e28/s4/dubbed/8/109b9515-5381-4c13-bb6e-369f1d7d875d/stream.mp4"
+}

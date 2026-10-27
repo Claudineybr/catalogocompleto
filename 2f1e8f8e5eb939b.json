@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Carga Mortal 2018 - 🍿Clau",
+  "description": "Assista Carga Mortal 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cjxMMKnuULfVyQ5EE0PbBYiMtuB.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0026.speed-stream.online/carga-mortal-fa729a12/dubbed/1/bf79b288-a402-47d5-aadd-6434586b0487/stream.mp4",
+  "embedUrl": "https://cdn-0026.speed-stream.online/carga-mortal-fa729a12/dubbed/1/bf79b288-a402-47d5-aadd-6434586b0487/stream.mp4"
+}

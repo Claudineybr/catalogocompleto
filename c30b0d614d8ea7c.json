@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Monster High - Assombrada - 2015 - 🍿Clau",
+  "description": "Assista Monster High - Assombrada - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iXWYQKgjFZjGVi6Blj9yDoUJDvw.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/08550959-09c8-4862-b3f2-02a7f73e290c/85442851-a254-498f-b486-0695365cc6e2-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/08550959-09c8-4862-b3f2-02a7f73e290c/85442851-a254-498f-b486-0695365cc6e2-master.m3u8"
+}

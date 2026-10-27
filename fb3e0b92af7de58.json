@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Filme - 🍿Clau",
+  "description": "Assista Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/77854b9a-9c88-42fe-b050-8254e38d813d/78bb3ecc-3fe8-4c2c-9fe9-a7e6924ad491-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/77854b9a-9c88-42fe-b050-8254e38d813d/78bb3ecc-3fe8-4c2c-9fe9-a7e6924ad491-master.m3u8"
+}

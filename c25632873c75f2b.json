@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 5 - O Navio Científico Perseu - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 5 - O Navio Científico Perseu",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/5/7c2f6b39-b998-4f9e-ba66-9cbb3f7d66c6/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/5/7c2f6b39-b998-4f9e-ba66-9cbb3f7d66c6/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Carros 3 2017 - 🍿Clau",
+  "description": "Assista Carros 3 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oEmdfjqQnAWe1t23WiiW0icFhGv.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/92b11d72-f1f8-4446-99f4-0f34b83393b1",
+  "embedUrl": "https://tankie.tube/videos/embed/92b11d72-f1f8-4446-99f4-0f34b83393b1"
+}

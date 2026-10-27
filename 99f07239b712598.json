@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Percy Jackson e os Olimpianos 2023 - Capítulo Três - 🍿Clau",
+  "description": "Assista Percy Jackson e os Olimpianos 2023 - Capítulo Três",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/4sLiVmCiRiX9abW4niJyNZx15bK.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Percy.Jackson.e.os.Olimpianos.S02E03.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Percy.Jackson.e.os.Olimpianos.S02E03.1080p.WEB-DL.DUAL.5.1.mp4"
+}

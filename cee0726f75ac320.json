@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Freira 2 - 2023 - 🍿Clau",
+  "description": "Assista A Freira 2 - 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/omV2IW2OlFTSw6Hih13hz6lFdvP.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/ff6cf896-3d4b-48f9-b8bd-4d8240fe8e9c",
+  "embedUrl": "https://tankie.tube/videos/embed/ff6cf896-3d4b-48f9-b8bd-4d8240fe8e9c"
+}

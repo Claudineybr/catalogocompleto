@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "High School Musical 2 - 2007 - 🍿Clau",
+  "description": "Assista High School Musical 2 - 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kqImEYXsDIlzPpu0KxyTXIx7smW.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/High%20School%20Musical%202_2007_tt0810900.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/High%20School%20Musical%202_2007_tt0810900.mp4"
+}

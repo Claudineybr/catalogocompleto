@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Jumanji: Bem-vindo à Selva 2017 - 🍿Clau",
+  "description": "Assista Jumanji: Bem-vindo à Selva 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/62RFp8bvulylVm3YBagALNuXYNY.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a2699cda-bce4-4a01-9871-9f195c482ae8",
+  "embedUrl": "https://tankie.tube/videos/embed/a2699cda-bce4-4a01-9871-9f195c482ae8"
+}

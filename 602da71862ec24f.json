@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Casa do Dragão - Episódio - 🍿Clau",
+  "description": "Assista A Casa do Dragão - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oKJDm4QCKbp6mR4FnxXrFlPJP8Y.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/b1d27ab4-4c37-4ab1-9150-3217d45fb538/playlist.m3u8"
+}

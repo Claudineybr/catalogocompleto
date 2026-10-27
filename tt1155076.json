@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Karatê Kid: A Hora da Verdade 1984 - 🍿Clau",
+  "description": "Assista Karatê Kid: A Hora da Verdade 1984",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/b2VqAf0GSkPJ6AwzVC64VoXLxzs.jpg"
+  ],
+  "uploadDate": "1984-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Karat%C3%AA%20Kid_2010_tt1155076.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Karat%C3%AA%20Kid_2010_tt1155076.mp4"
+}

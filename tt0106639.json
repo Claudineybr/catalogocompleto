@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cyborg 2 - 1993 - 🍿Clau",
+  "description": "Assista Cyborg 2 - 1993",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hYNJ4KNMVaVgR5JAqC5qlgbJEmJ.jpg"
+  ],
+  "uploadDate": "1993-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://soulls.s3.us-east-2.wasabisys.com/likesforzone/onhistis/FHD4/tt0106639.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DN83IWQWP3DE56SLNIQU%2F20250428%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250428T022102Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=1f86d42627120a82300eeb98c6528ccf068404385d8812759400306c35198922",
+  "embedUrl": "http://soulls.s3.us-east-2.wasabisys.com/likesforzone/onhistis/FHD4/tt0106639.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DN83IWQWP3DE56SLNIQU%2F20250428%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20250428T022102Z&X-Amz-SignedHeaders=host&X-Amz-Expires=18000&X-Amz-Signature=1f86d42627120a82300eeb98c6528ccf068404385d8812759400306c35198922"
+}

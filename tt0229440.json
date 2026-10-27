@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Hellraiser - Inferno 2000 - 🍿Clau",
+  "description": "Assista Hellraiser - Inferno 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/77Jj3lwYCnI16yNPheHx6LwbKqZ.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Hellraiser%20V%3A%20Inferno_2000_tt0229440.mp4"
+}

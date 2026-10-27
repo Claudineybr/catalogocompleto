@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Cliente 1994 - Episódio - 🍿Clau",
+  "description": "Assista O Cliente 1994 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qs2Bacljc1ihbB2gpjsWK3EKshd.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0064.speed-stream.online/cidade-do-silencio-78a61d0c/dubbed/1/69306461-e065-42c9-bb1b-aa9d1f19efd3/stream.mp4",
+  "embedUrl": "https://cdn-0064.speed-stream.online/cidade-do-silencio-78a61d0c/dubbed/1/69306461-e065-42c9-bb1b-aa9d1f19efd3/stream.mp4"
+}

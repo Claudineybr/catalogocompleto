@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Feriado Sangrento 2023 - 🍿Clau",
+  "description": "Assista Feriado Sangrento 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cN5ggPfc3YIUI2gc9ijRW6jIU2s.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/82d5ff34-4e52-4325-b7fe-c0aecf33e98f",
+  "embedUrl": "https://tankie.tube/videos/embed/82d5ff34-4e52-4325-b7fe-c0aecf33e98f"
+}

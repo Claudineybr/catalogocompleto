@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "2067 - 🍿Clau",
+  "description": "Assista 2067",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2067-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/2067_733489.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/2067_733489.mp4"
+}

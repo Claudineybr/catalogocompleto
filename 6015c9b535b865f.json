@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Cobra Kai 2018 - Episódio - 🍿Clau",
+  "description": "Assista Cobra Kai 2018 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6GDW4EsgsXlYrL1ASb5eCHQK4er.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/998b5080-a1e4-4add-9fb6-36803cf96564/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/998b5080-a1e4-4add-9fb6-36803cf96564/playlist.m3u8"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Na Selva 2017 - 🍿Clau",
+  "description": "Assista Na Selva 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ztVMXVNCIYK0CgXOjEmJlWupn95.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/38e8e175-4dd5-4084-af21-0f03670dc186",
+  "embedUrl": "https://tankie.tube/videos/embed/38e8e175-4dd5-4084-af21-0f03670dc186"
+}

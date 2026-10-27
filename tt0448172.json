@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "8mm: Oito Milímetros 1999 - 🍿Clau",
+  "description": "Assista 8mm: Oito Milímetros 1999",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qJZlYqCDlZ7WI2xFjKfO8AB13S4.jpg"
+  ],
+  "uploadDate": "1999-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/8mm%202:%20Oito%20Mil%C3%ADmetros%202_2005_tt0448172.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/8mm%202:%20Oito%20Mil%C3%ADmetros%202_2005_tt0448172.mp4"
+}

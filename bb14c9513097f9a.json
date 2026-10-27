@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Mátria 2023 - 🍿Clau",
+  "description": "Assista Mátria 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/oZyib5v9fnT8ahucfVkrf1EKcna.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/M%C3%A1tria%20%5BL%5D.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/M%C3%A1tria%20%5BL%5D.mp4"
+}

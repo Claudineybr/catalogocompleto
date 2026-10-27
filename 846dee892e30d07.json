@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Reinado - E22 - 🍿Clau",
+  "description": "Assista Reinado - E22",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qyv9pTDMIaaY13Vc7hfm7wuPG1r.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://nimbusbackup.sbs/easyvibra.sbs/SHD0/48865/1x22.mp4",
+  "embedUrl": "https://nimbusbackup.sbs/easyvibra.sbs/SHD0/48865/1x22.mp4"
+}

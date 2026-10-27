@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dan Da Dan 2024 - Episódio 7 - Rumo a um mundo mais gentil - 🍿Clau",
+  "description": "Assista Dan Da Dan 2024 - Episódio 7 - Rumo a um mundo mais gentil",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/dandadan-faaeb067/dubbed/7/a68a7377-8c5d-4f66-8789-c1f1d9a1214e/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/dandadan-faaeb067/dubbed/7/a68a7377-8c5d-4f66-8789-c1f1d9a1214e/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "IT: Bem-Vindos à Derry 2025 - Episódio 7 - - 🍿Clau",
+  "description": "Assista IT: Bem-Vindos à Derry 2025 - Episódio 7 -",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/gMTfrLvrDaD0zrhpLZ7zXIIpKfJ.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/7/d70e6bfd-4f47-49ac-82e3-4e413bcb8877/stream.mp4?type=serie&expires=1770840326&signature=8413ca8e85aeb3de7940e734e4a94564d76d701b941fa275908abdc8b861748a",
+  "embedUrl": "https://cdn-0028.l1s0-cdn-3123123.com/it-bem-vindos-a-derry-af14b81a/s1/dubbed/7/d70e6bfd-4f47-49ac-82e3-4e413bcb8877/stream.mp4?type=serie&expires=1770840326&signature=8413ca8e85aeb3de7940e734e4a94564d76d701b941fa275908abdc8b861748a"
+}

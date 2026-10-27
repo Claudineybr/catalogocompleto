@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Drake e Josh - E09 - 🍿Clau",
+  "description": "Assista Drake e Josh - E09",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/udCvGctktHvvf8w51XyTPfcmzDa.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0093.speed-stream.online/drake-e-josh-67f0b02b/s3/dubbed/9/c6d0efb1-be44-45ca-9967-0cca831ad743/stream.mp4",
+  "embedUrl": "https://cdn-0093.speed-stream.online/drake-e-josh-67f0b02b/s3/dubbed/9/c6d0efb1-be44-45ca-9967-0cca831ad743/stream.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "60 Minutos para Morrer 2017 - 🍿Clau",
+  "description": "Assista 60 Minutos para Morrer 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/i5pJ8IoOanVAPBzKi3GiVnGlOld.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/60%20Minutos%20para%20Morrer_449664.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/60%20Minutos%20para%20Morrer_449664.mp4"
+}

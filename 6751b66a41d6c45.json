@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Supercão 2008 - Filme - 🍿Clau",
+  "description": "Assista O Supercão 2008 - Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9ZWfO5YVEpDC8F4cZp1T6Dh62qL.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/60bdd9f4-75e8-4e5f-8de2-70d9a330b5bd/f3624f46-b2af-40c2-8319-3741cd7fcb96-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/60bdd9f4-75e8-4e5f-8de2-70d9a330b5bd/f3624f46-b2af-40c2-8319-3741cd7fcb96-master.m3u8"
+}

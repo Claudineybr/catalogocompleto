@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Feios - 🍿Clau",
+  "description": "Assista Feios",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/m4er6cm6t7k8ViGSVV4ZX9CXfnx.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/Feios2024.mp4",
+  "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/Feios2024.mp4"
+}

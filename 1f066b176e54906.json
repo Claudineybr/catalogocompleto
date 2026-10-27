@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Herança 2024 - 🍿Clau",
+  "description": "Assista A Herança 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fsHFRdqYQdxMtPxCuTIhKlOQga.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/ecfb6942-07dd-4dac-88bd-940795241765/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/ecfb6942-07dd-4dac-88bd-940795241765/playlist.m3u8"
+}

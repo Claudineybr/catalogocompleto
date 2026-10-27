@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "As Férias de Mr. Bean 2007 - 🍿Clau",
+  "description": "Assista As Férias de Mr. Bean 2007",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xzv9PbBGTQChXinU6bIPfz1cqPb.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/As%20F%C3%A9rias%20de%20Mr.%20Bean_2007_tt0453451.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/As%20F%C3%A9rias%20de%20Mr.%20Bean_2007_tt0453451.mp4"
+}

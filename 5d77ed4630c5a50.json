@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vertigem 2009 - 🍿Clau",
+  "description": "Assista Vertigem 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qO8nc3cSjzGduaC0deh8gBRKK9Z.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-utx.vsutx.com/m/Vertigem.mp4?cnvs_token=1773350113-RA0jDx%2BIHlvbZqw8N%2B0itLdmz9UWvoN5t7IhyKWRby0%3D&vid=&pid=&t=1773350113",
+  "embedUrl": "https://play-utx.vsutx.com/m/Vertigem.mp4?cnvs_token=1773350113-RA0jDx%2BIHlvbZqw8N%2B0itLdmz9UWvoN5t7IhyKWRby0%3D&vid=&pid=&t=1773350113"
+}

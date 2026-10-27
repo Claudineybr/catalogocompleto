@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "True Detective 2014 - Episódio 1 – Terra Noturna: Parte 1 - 🍿Clau",
+  "description": "Assista True Detective 2014 - Episódio 1 – Terra Noturna: Parte 1",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fxr55V72a2gtqyn2b8pf6FslOf.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/1/b2f589ac-6d99-4994-84bc-04f655f76d59/stream.mp4?type=serie&expires=1770767245&signature=aea4a15cf7288328731980dffc6fcd8f4b7e57509c2921f5649ca3ceff670dfe",
+  "embedUrl": "https://cdn-0056.l1s0-cdn-3123123.com/true-detective-c22c5703/s4/dubbed/1/b2f589ac-6d99-4994-84bc-04f655f76d59/stream.mp4?type=serie&expires=1770767245&signature=aea4a15cf7288328731980dffc6fcd8f4b7e57509c2921f5649ca3ceff670dfe"
+}

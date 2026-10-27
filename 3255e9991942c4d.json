@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Rainha Guerreira 2023 - Episódio - 🍿Clau",
+  "description": "Assista A Rainha Guerreira 2023 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zXiqgwerUrAtIzVL9OyRcG90oTh.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0001.speed-stream.online/a-vida-por-um-fio-2bad18a2/dubbed/1/15a3052a-8bcd-49db-add3-144a50993d74/stream.mp4",
+  "embedUrl": "https://cdn-0001.speed-stream.online/a-vida-por-um-fio-2bad18a2/dubbed/1/15a3052a-8bcd-49db-add3-144a50993d74/stream.mp4"
+}

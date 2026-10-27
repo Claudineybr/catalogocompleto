@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "X-Men: O Filme 2000 - 🍿Clau",
+  "description": "Assista X-Men: O Filme 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/eTAK1gU8vTaHt0W9I6PFYQsdhKP.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/f3942380-44e0-4c2f-93ed-bea958c7b29b",
+  "embedUrl": "https://tankie.tube/videos/embed/f3942380-44e0-4c2f-93ed-bea958c7b29b"
+}

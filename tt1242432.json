@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doce Vingança 2 - 2014 - Episódio - 🍿Clau",
+  "description": "Assista Doce Vingança 2 - 2014 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qnU2jXAL4YWP0d7hnrp8xTyz1P4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Doce%20Vingan%C3%A7a_2011_tt1242432.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Doce%20Vingan%C3%A7a_2011_tt1242432.mp4"
+}

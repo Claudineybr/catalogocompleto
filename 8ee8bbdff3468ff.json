@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kung Fu Panda 2008 - Abrir Player - 🍿Clau",
+  "description": "Assista Kung Fu Panda 2008 - Abrir Player",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1YMs3zCt5kICK28RvVgDL1UUtkA.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0070.l1s0-cdn-3123123.com/kung-fu-panda-90f32a6e/dubbed/1/d3c0f705-b7d2-4e45-a6c8-8bec63f26637/stream.mp4?type=movie&amp;expires=1770668834&amp;signature=4c529a1abeb41b8126cc95f2c423a7f0811cb181e70f588c8c6c376fb79f0abf",
+  "embedUrl": "https://cdn-0070.l1s0-cdn-3123123.com/kung-fu-panda-90f32a6e/dubbed/1/d3c0f705-b7d2-4e45-a6c8-8bec63f26637/stream.mp4?type=movie&amp;expires=1770668834&amp;signature=4c529a1abeb41b8126cc95f2c423a7f0811cb181e70f588c8c6c376fb79f0abf"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 1. Uma Garota Chamada Yumeko Jabami - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 1. Uma Garota Chamada Yumeko Jabami",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/1/da9230ee-54e8-4d2c-bf86-08fd79214e21/stream.mp4",
+  "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/1/da9230ee-54e8-4d2c-bf86-08fd79214e21/stream.mp4"
+}

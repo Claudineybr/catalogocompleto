@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dolittle 3 - 2006 - 🍿Clau",
+  "description": "Assista Dolittle 3 - 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/mODEH6RuoL8s9ptF1Mbrq1Z6aYz.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/4c262cbb-1dd4-4ef9-8926-b04ea330dc5c/b409a548-fc6e-4fbc-bde2-df9b31088429-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/4c262cbb-1dd4-4ef9-8926-b04ea330dc5c/b409a548-fc6e-4fbc-bde2-df9b31088429-master.m3u8"
+}

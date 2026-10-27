@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Múmia: O Túmulo do Imperador Dragão 2008 - 🍿Clau",
+  "description": "Assista A Múmia: O Túmulo do Imperador Dragão 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6UALrWIfzRKulEZOOF3RO5oMAwQ.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/A%20M%C3%BAmia:%20Tumba%20do%20Imperador%20Drag%C3%A3o_2008_tt0859163.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/A%20M%C3%BAmia:%20Tumba%20do%20Imperador%20Drag%C3%A3o_2008_tt0859163.mp4"
+}

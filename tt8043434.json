@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dead Like Me 2003 - Episódio - 🍿Clau",
+  "description": "Assista Dead Like Me 2003 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/ibJVx44nrBjW7ZQ21G5tCfhITG0.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Undergods%20-%20Contos%20do%20Submundo_2021_tt8043434.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Undergods%20-%20Contos%20do%20Submundo_2021_tt8043434.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Músicos 2021 - Episódio - 🍿Clau",
+  "description": "Assista Os Músicos 2021 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5wUYwAD75BxtJ0Mp4da6XzHIFex.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Prazer.Sem.Limites.2023.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Prazer.Sem.Limites.2023.1080p.WEB-DL.DUAL.2.0.mp4"
+}

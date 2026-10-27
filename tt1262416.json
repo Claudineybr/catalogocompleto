@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pânico 4 - 2011 - 🍿Clau",
+  "description": "Assista Pânico 4 - 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/nN1cs0SxMjJqwuRAdyuXrevLOGh.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/P%C3%A2nico%204_2011_tt1262416.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/P%C3%A2nico%204_2011_tt1262416.mp4"
+}

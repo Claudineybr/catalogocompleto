@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "4x100: Correndo por um Sonho 2021 - Episódio - 🍿Clau",
+  "description": "Assista 4x100: Correndo por um Sonho 2021 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8AuOD9oW78EMvDtp4UvhAuAiAEa.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/50%25_40807.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/50%25_40807.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Spartacus - E04 - 🍿Clau",
+  "description": "Assista Spartacus - E04",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/c2GKN4VHCj1dnjFMANRpGkCVBae.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0015.speed-stream.online/spartacus-23eb9e28/s3/dubbed/4/a61c30b3-4a07-482f-9d70-df39e729a79c/stream.mp4",
+  "embedUrl": "https://cdn-0015.speed-stream.online/spartacus-23eb9e28/s3/dubbed/4/a61c30b3-4a07-482f-9d70-df39e729a79c/stream.mp4"
+}

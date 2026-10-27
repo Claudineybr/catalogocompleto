@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "X-Men 2 2003 - 🍿Clau",
+  "description": "Assista X-Men 2 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/pwQo1ehiPBqAbiVqD6rfNM8GCFE.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/d853ba6f-8700-4195-9865-f361a994ec76",
+  "embedUrl": "https://tankie.tube/videos/embed/d853ba6f-8700-4195-9865-f361a994ec76"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Ilha do Inverno 2024 - 🍿Clau",
+  "description": "Assista A Ilha do Inverno 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/k0pLmn2Wp0GBToAhA9Gdk1qclYb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/A%20Ilha%20do%20Inverno.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/A%20Ilha%20do%20Inverno.mp4"
+}

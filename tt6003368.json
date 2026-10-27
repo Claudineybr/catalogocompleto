@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Diário de um Banana: Caindo na Estrada 2017 - 🍿Clau",
+  "description": "Assista Diário de um Banana: Caindo na Estrada 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dsVyfkAdTDZWNMiaY39nYwrheZQ.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Di%C3%A1rio%20de%20um%20Banana:%20Caindo%20na%20Estrada_2017_tt6003368.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Di%C3%A1rio%20de%20um%20Banana:%20Caindo%20na%20Estrada_2017_tt6003368.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Nova Onda do Imperador 2000 - 🍿Clau",
+  "description": "Assista A Nova Onda do Imperador 2000",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iN4nsXWzASSjYUIHUkwSJQ6b2UW.jpg"
+  ],
+  "uploadDate": "2000-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0082.speed-stream.online/a-nova-onda-do-imperador-f4088825/dubbed/1/1d3284ff-0c66-45c4-a101-2c76633a8b86/stream.mp4",
+  "embedUrl": "https://cdn-0082.speed-stream.online/a-nova-onda-do-imperador-f4088825/dubbed/1/1d3284ff-0c66-45c4-a101-2c76633a8b86/stream.mp4"
+}

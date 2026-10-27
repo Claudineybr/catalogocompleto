@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Invasão 2021 - Episódio 2 - A mensagem - 🍿Clau",
+  "description": "Assista Invasão 2021 - Episódio 2 - A mensagem",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wDR8diLNJdlH5d4KzNnZXur9A6.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Invasion.S03E02.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Invasion.S03E02.1080p.WEB-DL.DUAL.5.1.mp4"
+}

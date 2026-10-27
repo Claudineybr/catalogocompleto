@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 11. A Garota que Arriscaria a Vida - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 11. A Garota que Arriscaria a Vida",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/11/e3ff4d03-4d36-4242-842c-a51f6f36c00c/stream.mp4",
+  "embedUrl": "https://www.stream.anmbrapp.com/b-05/kakegurui-31ec3184/dubbed/11/e3ff4d03-4d36-4242-842c-a51f6f36c00c/stream.mp4"
+}

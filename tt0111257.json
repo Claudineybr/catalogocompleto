@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Velocidade Máxima 1994 - 🍿Clau",
+  "description": "Assista Velocidade Máxima 1994",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/d30AWcDezR0qM6OgXovulfA4z8N.jpg"
+  ],
+  "uploadDate": "1994-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Velocidade%20M%C3%A1xima_1994_tt0111257.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Velocidade%20M%C3%A1xima_1994_tt0111257.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Contador 2016 - 🍿Clau",
+  "description": "Assista O Contador 2016",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vgJt4ADIjm5U2y3oPLu6kXEXOCY.jpg"
+  ],
+  "uploadDate": "2016-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://server-1.cnvods.com/m/O%20Contador_2016_tt2140479.mp4?cnvs_token=T1ROa1pXTXdORGczTVRJeFpEazVZVXN5RFRhZ3VNSlUvWk9BbENZU1hkQXdFQXNkSXgyNXpFTUVDbXJFNXN4Vis2STFJMmFKVGcwMEFkZmx1RTQvSFRNdE90TXFIRnRBYWFHMWZxNUhvcmE4azFyVjY0c3FzaUZ4N0V5cm5ja08",
+  "embedUrl": "https://server-1.cnvods.com/m/O%20Contador_2016_tt2140479.mp4?cnvs_token=T1ROa1pXTXdORGczTVRJeFpEazVZVXN5RFRhZ3VNSlUvWk9BbENZU1hkQXdFQXNkSXgyNXpFTUVDbXJFNXN4Vis2STFJMmFKVGcwMEFkZmx1RTQvSFRNdE90TXFIRnRBYWFHMWZxNUhvcmE4azFyVjY0c3FzaUZ4N0V5cm5ja08"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Grey's Anatomy 2005 - Episódio 5 – Agite a Sua Batida - 🍿Clau",
+  "description": "Assista Grey's Anatomy 2005 - Episódio 5 – Agite a Sua Batida",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vrChGRs0DsoCoaeHif8PlZY637Q.jpg"
+  ],
+  "uploadDate": "2005-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn3.cnvsplus.com/Grey%27s%20Anatomy%20S01%20E05_1416.mp4",
+  "embedUrl": "https://cdn3.cnvsplus.com/Grey%27s%20Anatomy%20S01%20E05_1416.mp4"
+}

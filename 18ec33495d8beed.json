@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "3 Working Days 2024 - 🍿Clau",
+  "description": "Assista 3 Working Days 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qyPIHjPQTKE4nF2nSU1ZzMvJw2e.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/3%20Working%20Days%20%5BL%5D_1365787.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/3%20Working%20Days%20%5BL%5D_1365787.mp4"
+}

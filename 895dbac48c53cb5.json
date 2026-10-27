@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Thor 2011 - 🍿Clau",
+  "description": "Assista Thor 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aEV9QmgBqjRTdjsvdCgdK89tavQ.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvslink.com/m/Thor%20%28Dublado%29%20-%202011%20-%201080p.mp4",
+  "embedUrl": "https://cdn.cnvslink.com/m/Thor%20%28Dublado%29%20-%202011%20-%201080p.mp4"
+}

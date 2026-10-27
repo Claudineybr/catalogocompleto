@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Rick e Morty - Episódio 5 - Get Schwifty - 🍿Clau",
+  "description": "Assista Rick e Morty - Episódio 5 - Get Schwifty",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/5qfd0e2uMbVInX3YdeFbDsfxi1t.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s2/dubbed/5/55760114-fc49-4d3b-8fc8-b6ddf509748e/stream.mp4",
+  "embedUrl": "https://cdn-0004.speed-stream.online/rick-e-morty-b3decbc5/s2/dubbed/5/55760114-fc49-4d3b-8fc8-b6ddf509748e/stream.mp4"
+}

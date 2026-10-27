@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Caçadores da Fronteira 2025 - 🍿Clau",
+  "description": "Assista Caçadores da Fronteira 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qaKdcFfWp8SlN4V2P4zEM6PSnvs.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Ca%C3%A7adores.da.Fronteira.2025.1080p.WEB-DL.DUAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Ca%C3%A7adores.da.Fronteira.2025.1080p.WEB-DL.DUAL.5.1.mp4"
+}

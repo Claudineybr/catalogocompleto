@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Meu Monstro de Estimação 2007 - Episódio - 🍿Clau",
+  "description": "Assista Meu Monstro de Estimação 2007 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bwnaWwmYSaTaW5NSUzeaXjC2aNw.jpg"
+  ],
+  "uploadDate": "2007-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Quem.e.Morto.Sempre.Aparece.2025.1080p.WEB-DL.NACIONAL.5.1.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Quem.e.Morto.Sempre.Aparece.2025.1080p.WEB-DL.NACIONAL.5.1.mp4"
+}

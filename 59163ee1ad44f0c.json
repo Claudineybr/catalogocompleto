@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pssica 2025 - Episódio 3 - Os Contornos do Silêncio - 🍿Clau",
+  "description": "Assista Pssica 2025 - Episódio 3 - Os Contornos do Silêncio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AspGWTFcEFgnDTTRA70at5zyKYj.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E03_B%C3%BAfalos.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E03_B%C3%BAfalos.mp4"
+}

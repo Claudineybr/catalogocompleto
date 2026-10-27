@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Lost 2004 - Episódio 8 - LaFleur - 🍿Clau",
+  "description": "Assista Lost 2004 - Episódio 8 - LaFleur",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h0AIjSt9u2yjSzgTBhuQZVCXwCv.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s5/dubbed/8/cba55673-3cb9-4e45-9e56-52903941074a/stream.mp4",
+  "embedUrl": "https://cdn-0050.speed-stream.online/lost-1560d555/s5/dubbed/8/cba55673-3cb9-4e45-9e56-52903941074a/stream.mp4"
+}

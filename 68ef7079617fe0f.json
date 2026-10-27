@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Mercenários 2 - 2012 - 🍿Clau",
+  "description": "Assista Os Mercenários 2 - 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7aaQYcUInTneXo7B8jJNwTxnQe6.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0008.l1s0-cdn-3123123.com/os-mercenarios-2-784662af/dubbed/1/78dd69b5-2fe8-4f49-8ae6-275f7eaa5bc0/stream.mp4?type=movie&expires=1771020788&signature=a060f60a176d1ff7bcf162136e634d0c7167cf96d13582d2fec48977366c65f7",
+  "embedUrl": "https://cdn-0008.l1s0-cdn-3123123.com/os-mercenarios-2-784662af/dubbed/1/78dd69b5-2fe8-4f49-8ae6-275f7eaa5bc0/stream.mp4?type=movie&expires=1771020788&signature=a060f60a176d1ff7bcf162136e634d0c7167cf96d13582d2fec48977366c65f7"
+}

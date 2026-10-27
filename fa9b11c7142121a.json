@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Luz, Câmera, Ação 2023 - 🍿Clau",
+  "description": "Assista Luz, Câmera, Ação 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iBFDnNVH0fLKU3SS93J88xN9J0c.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/Luz%2C%20C%C3%A2mera%2C%20A%C3%A7%C3%A3o%202023%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/Luz%2C%20C%C3%A2mera%2C%20A%C3%A7%C3%A3o%202023%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4"
+}

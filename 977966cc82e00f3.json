@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Feios 2024 - 🍿Clau",
+  "description": "Assista Feios 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/m4er6cm6t7k8ViGSVV4ZX9CXfnx.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu",
+  "embedUrl": "https://tankie.tube/w/u3cd6qjjftTbwAZzQFFzcu"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Último Alvo 2024 - 🍿Clau",
+  "description": "Assista Último Alvo 2024",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tUyBqt4A9mIqQNjbzMsQSFhDb3r.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/aaef7f7f-32b2-418d-b1be-dd0da1f38681/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/aaef7f7f-32b2-418d-b1be-dd0da1f38681/playlist.m3u8"
+}

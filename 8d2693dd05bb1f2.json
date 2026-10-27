@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ecos na Escuridão 2018 - 🍿Clau",
+  "description": "Assista Ecos na Escuridão 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/z3lChuI7J0viOgHzdjVuqWx4Lg8.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/ECOSNAESCURIDAODUB-BAIXO.mp4",
+  "embedUrl": "http://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/ncfilmes/ECOSNAESCURIDAODUB-BAIXO.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Minions 2015 - 🍿Clau",
+  "description": "Assista Minions 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hTowtXrkCY7FJyoj4p91JckrJSE.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/b9e5ae15-420c-4c39-85d5-32c411cd485e",
+  "embedUrl": "https://tankie.tube/videos/embed/b9e5ae15-420c-4c39-85d5-32c411cd485e"
+}

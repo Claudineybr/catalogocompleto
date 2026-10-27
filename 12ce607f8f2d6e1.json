@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Fique Acordado 2024 - Abrir Player - 🍿Clau",
+  "description": "Assista Fique Acordado 2024 - Abrir Player",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/izPVZlS3FcfVjiQ4kjQKppIwja0.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/2d5897c4-b162-4ac1-8604-1313fa241b35/71536109-3586-4443-acf3-9fc7eca326f2-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/2d5897c4-b162-4ac1-8604-1313fa241b35/71536109-3586-4443-acf3-9fc7eca326f2-master.m3u8"
+}

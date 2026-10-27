@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Homem Das Sombras 2012 - 🍿Clau",
+  "description": "Assista O Homem Das Sombras 2012",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/dMX0JwFggsMKbl3StoNF3uqExuB.jpg"
+  ],
+  "uploadDate": "2012-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt1658837.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt1658837.mp4"
+}

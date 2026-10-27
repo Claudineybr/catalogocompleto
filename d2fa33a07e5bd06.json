@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dan Da Dan 2024 - Episódio 4 - Cadê as suas bolas, mano? - 🍿Clau",
+  "description": "Assista Dan Da Dan 2024 - Episódio 4 - Cadê as suas bolas, mano?",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vtQug1eOyeU2VXIpNoDF1lTlcH4.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-16/dandadan-faaeb067/dubbed/4/40f01334-476c-4d19-a03f-fd86c22df7ca/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-16/dandadan-faaeb067/dubbed/4/40f01334-476c-4d19-a03f-fd86c22df7ca/stream.mp4"
+}

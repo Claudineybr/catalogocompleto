@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ted 2 - 2015 - 🍿Clau",
+  "description": "Assista Ted 2 - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/kblxjPVIXaIQ7iHo5b2LaBOEllD.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/ca5d183d-9493-4232-8177-afaa89581d52",
+  "embedUrl": "https://tankie.tube/videos/embed/ca5d183d-9493-4232-8177-afaa89581d52"
+}

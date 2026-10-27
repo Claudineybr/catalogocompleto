@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Um Louco Apaixonado 2008 - 🍿Clau",
+  "description": "Assista Um Louco Apaixonado 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/sOa22Euf5QBjaSK7K0ihVzFkRZL.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-utx.vsutx.com/m/Um%20Louco%20Apaixonado.mp4?cnvs_token=1774029690-M1i7vpj6fOGJ6dIR55PsCbn0I5ZbFoSl9naAUhEPq5w%3D&vid=84902&pid=6044382&t=1774029690",
+  "embedUrl": "https://play-utx.vsutx.com/m/Um%20Louco%20Apaixonado.mp4?cnvs_token=1774029690-M1i7vpj6fOGJ6dIR55PsCbn0I5ZbFoSl9naAUhEPq5w%3D&vid=84902&pid=6044382&t=1774029690"
+}

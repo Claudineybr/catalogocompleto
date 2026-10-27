@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 10 - O último rei - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 10 - O último rei",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/10/d0c92d2d-9b0d-415a-9f89-2951d0de7cda/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/overlord-iv-cf069210/dubbed/10/d0c92d2d-9b0d-415a-9f89-2951d0de7cda/stream.mp4"
+}

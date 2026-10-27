@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pssica 2025 - Episódio 1 - A Chegada - 🍿Clau",
+  "description": "Assista Pssica 2025 - Episódio 1 - A Chegada",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/AspGWTFcEFgnDTTRA70at5zyKYj.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E01_V%C3%ADdeo.mp4",
+  "embedUrl": "https://cdn.cnvsplus.com/m/Pssica_S01E01_V%C3%ADdeo.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "100 Dias de Resistência 2019 - 🍿Clau",
+  "description": "Assista 100 Dias de Resistência 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/naG6PCVZupvYaOf9kGgKd2MVZRZ.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/100%20Dias%20de%20Resist%C3%AAncia_662876.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/100%20Dias%20de%20Resist%C3%AAncia_662876.mp4"
+}

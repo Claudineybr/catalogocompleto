@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "𝑴arcø𝒔ˣ⁷👾 -O Lobo e o Leao - 🍿Clau",
+  "description": "Assista 𝑴arcø𝒔ˣ⁷👾 -O Lobo e o Leao",
+  "thumbnailUrl": [
+    "https://via.placeholder.com/500x750?text=Sem+Capa"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Le%20loup%20et%20le%20lion_2022_tt10945288.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Le%20loup%20et%20le%20lion_2022_tt10945288.mp4"
+}

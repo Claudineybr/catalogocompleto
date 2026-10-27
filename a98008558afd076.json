@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Nada de Novo no Front 2022 - 🍿Clau",
+  "description": "Assista Nada de Novo no Front 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qmcKs0Aoft7MBdBoj1haZyPRgM2.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/5c683b49-f240-4ec1-b6ac-ba3f14623bc6",
+  "embedUrl": "https://tankie.tube/videos/embed/5c683b49-f240-4ec1-b6ac-ba3f14623bc6"
+}

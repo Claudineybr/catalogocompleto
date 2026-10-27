@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Quarto Passageiro 2022 - 🍿Clau",
+  "description": "Assista O Quarto Passageiro 2022",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/x6esLDD0bcUXYCumhpyBi4eriYx.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/O.Quarto.Passageiro.2022.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/O.Quarto.Passageiro.2022.1080p.WEB-DL.DUAL.2.0.mp4"
+}

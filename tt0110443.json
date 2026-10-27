@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Pelotão em Apuros 1995 - 🍿Clau",
+  "description": "Assista Pelotão em Apuros 1995",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uycZHrly1ICGjR2ESI3BSghMlAy.jpg"
+  ],
+  "uploadDate": "1995-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Pelot%C3%A3o%20Em%20Apuros_1995_tt0110443.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Pelot%C3%A3o%20Em%20Apuros_1995_tt0110443.mp4"
+}

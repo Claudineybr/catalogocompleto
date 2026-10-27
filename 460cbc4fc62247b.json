@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - Episódio 12 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - Episódio 12",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/12/403d4db3-d5de-4841-b782-2187d4a3a089/stream.mp4?type=serie&expires=1769556099&signature=fc1778148269acba8b43fef1e166dd948a5b35d369dc7cee18c6c4d4c246d55d",
+  "embedUrl": "https://cdn-0024.l1s0-cdn-3123123.com/doctor-who-777a102b/s3/dubbed/12/403d4db3-d5de-4841-b782-2187d4a3a089/stream.mp4?type=serie&expires=1769556099&signature=fc1778148269acba8b43fef1e166dd948a5b35d369dc7cee18c6c4d4c246d55d"
+}

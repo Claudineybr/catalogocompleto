@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Escolha de Natal 2023 - 🍿Clau",
+  "description": "Assista A Escolha de Natal 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/r5JITKriiBoNm9Y9zYiqATWwSDE.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cd.com/m/A.Escolha.de.Natal.2023.1080p.WEB-DL.DUAL.2.0.mp4",
+  "embedUrl": "https://cd.com/m/A.Escolha.de.Natal.2023.1080p.WEB-DL.DUAL.2.0.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Sem-Floresta 2006 - 🍿Clau",
+  "description": "Assista Os Sem-Floresta 2006",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cNPhs8Gkm1SJ4vuZDnytZnj1EsY.jpg"
+  ],
+  "uploadDate": "2006-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0100.l1s0-cdn-3123123.com/os-sem-floresta-bdf8e135/dubbed/1/a2e8612c-34ee-42a6-bc8f-eb39f419cbb9/stream.mp4?type=movie&expires=1771460347&signature=96f3e6f287b0f1b72a707d3517da55b7887e90e9ecfc0cf9cb9f5ae7c627f317",
+  "embedUrl": "https://cdn-0100.l1s0-cdn-3123123.com/os-sem-floresta-bdf8e135/dubbed/1/a2e8612c-34ee-42a6-bc8f-eb39f419cbb9/stream.mp4?type=movie&expires=1771460347&signature=96f3e6f287b0f1b72a707d3517da55b7887e90e9ecfc0cf9cb9f5ae7c627f317"
+}

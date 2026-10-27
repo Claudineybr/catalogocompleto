@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Kakegurui 2017 - Episódio 6. A Garota de Hollywood - 🍿Clau",
+  "description": "Assista Kakegurui 2017 - Episódio 6. A Garota de Hollywood",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/h1MUwcwNjK3nkXFzeFowUqfy0Qw.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-07/kakegurui-xx-ef9d77f0/dubbed/6/cca98e45-5c0e-48f2-8587-39ca56f28d2b/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-07/kakegurui-xx-ef9d77f0/dubbed/6/cca98e45-5c0e-48f2-8587-39ca56f28d2b/stream.mp4"
+}

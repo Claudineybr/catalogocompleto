@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sherlock Holmes: Jogo de Sombras 2011 - 🍿Clau",
+  "description": "Assista Sherlock Holmes: Jogo de Sombras 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/g06QmnWXcysphBwTyJLWFoFsxOe.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Sherlock%20Holmes%20-%20O%20Jogo%20de%20Sombras.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Sherlock%20Holmes%20-%20O%20Jogo%20de%20Sombras.mp4"
+}

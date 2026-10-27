@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Van Helsing: O Caçador de Monstros 2004 - 🍿Clau",
+  "description": "Assista Van Helsing: O Caçador de Monstros 2004",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/s8fhGCLWbFDbBAOitRzVlMPk5pd.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0065.l1s0-cdn-3123123.com/van-helsing-o-cacador-de-monstros-5dd5d519/dubbed/1/2237562d-fdd0-4fca-a764-f25a16df21fa/stream.mp4?type=movie&expires=1769806833&signature=9613c50c1b8cf63f6d799d51d8a1871f59bcaef6ce74a04b89e0e23bb0a31465",
+  "embedUrl": "https://cdn-0065.l1s0-cdn-3123123.com/van-helsing-o-cacador-de-monstros-5dd5d519/dubbed/1/2237562d-fdd0-4fca-a764-f25a16df21fa/stream.mp4?type=movie&expires=1769806833&signature=9613c50c1b8cf63f6d799d51d8a1871f59bcaef6ce74a04b89e0e23bb0a31465"
+}

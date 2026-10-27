@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "4 Latas 2019 - 🍿Clau",
+  "description": "Assista 4 Latas 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bqSdcFF4w8ZwgWZB3jNNTJNubBK.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/4%20Latas_584427.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/4%20Latas_584427.mp4"
+}

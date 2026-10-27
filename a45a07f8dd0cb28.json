@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Motorrad 2017 - 🍿Clau",
+  "description": "Assista Motorrad 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vynBfERmWQg7cheSdw5enGrOEYp.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Motorrad.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Motorrad.mp4"
+}

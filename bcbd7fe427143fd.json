@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Vida Selvagem 2018 - 🍿Clau",
+  "description": "Assista Vida Selvagem 2018",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/tfWIIO4EvR0AoqwiW3BxmvVzT1O.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Vida%20Selvagem.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Vida%20Selvagem.mp4"
+}

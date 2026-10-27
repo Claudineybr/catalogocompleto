@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Encurralado 1971 - 🍿Clau",
+  "description": "Assista Encurralado 1971",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rJVQ0tKmL029v6SGM4XIXPeJ2EO.jpg"
+  ],
+  "uploadDate": "1971-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://play-utx.vsutx.com/m/Encurralado.mp4?cnvs_token=1776122892-RlnDrEpd45Z3XegvnjEXYMKo5unwMqJB0fGmwTOObYQ%3D&vid=84762&pid=2216724&t=1776122892",
+  "embedUrl": "https://play-utx.vsutx.com/m/Encurralado.mp4?cnvs_token=1776122892-RlnDrEpd45Z3XegvnjEXYMKo5unwMqJB0fGmwTOObYQ%3D&vid=84762&pid=2216724&t=1776122892"
+}

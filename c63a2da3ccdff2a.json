@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Carga Explosiva 3 - 2008 - 🍿Clau",
+  "description": "Assista Carga Explosiva 3 - 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/t6ayrfuhmKl6VUOByP7RJL047X1.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/a131e6c1-a78d-43e1-b3d4-f8e8717e4df8/29ec4164-8600-4a3a-8875-d875632459fa-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/a131e6c1-a78d-43e1-b3d4-f8e8717e4df8/29ec4164-8600-4a3a-8875-d875632459fa-master.m3u8"
+}

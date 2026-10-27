@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Percy Jackson e o Mar de Monstros 2013 - 🍿Clau",
+  "description": "Assista Percy Jackson e o Mar de Monstros 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/izLw6mf5coAJZV6n9wDfbYWXXHW.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Percy%20Jackson%20e%20o%20Mar%20de%20Monstros_2013_tt1854564.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Game of Thrones (GOT) - Episódio 6 - As Leis dos Deuses e dos Homens - 🍿Clau",
+  "description": "Assista Game of Thrones (GOT) - Episódio 6 - As Leis dos Deuses e dos Homens",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/aqomTRKjNZkmNEeOZnEmWrFTmKU.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s4/dubbed/6/2a31b268-cd08-47a4-9488-8973f70b2377/stream.mp4",
+  "embedUrl": "https://cdn-0090.speed-stream.online/game-of-thrones-d5b8802c/s4/dubbed/6/2a31b268-cd08-47a4-9488-8973f70b2377/stream.mp4"
+}

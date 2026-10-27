@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Você (You) - Episódio 1 - Conhecendo-te - 🍿Clau",
+  "description": "Assista Você (You) - Episódio 1 - Conhecendo-te",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9Xn0DXrSyMJGALyGbZkZZCMj30U.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/1/2eb07112-bba1-4bf6-96a5-981ab76c0654/stream.mp4?storage=0043&expires=1775414598&signature=a9c2db35e4b3029458690294c1b980f166f3727969dd838e3cd17324a3936db8&type=serie",
+  "embedUrl": "https://cdn-0043.l1s0-cdn-3123123.com/voce-6b74d1e1/s1/dubbed/1/2eb07112-bba1-4bf6-96a5-981ab76c0654/stream.mp4?storage=0043&expires=1775414598&signature=a9c2db35e4b3029458690294c1b980f166f3727969dd838e3cd17324a3936db8&type=serie"
+}

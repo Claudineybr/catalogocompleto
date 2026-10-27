@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "X-Men: Fênix Negra - 2019 - 🍿Clau",
+  "description": "Assista X-Men: Fênix Negra - 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/w4mvEKtjawXdYaq1bORuodLX6ti.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/6591ac21-4f6a-4512-a21b-84213d0089c5/74070e02-2f6f-484d-9b23-117b6d648447-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/6591ac21-4f6a-4512-a21b-84213d0089c5/74070e02-2f6f-484d-9b23-117b6d648447-master.m3u8"
+}

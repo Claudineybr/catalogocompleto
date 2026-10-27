@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Trolls: Vamos Festejar 2017 - 🍿Clau",
+  "description": "Assista Trolls: Vamos Festejar 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1neShJqX32doDq3nwQB6xCG0mh0.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Trolls%20Holiday_2017_tt6645614.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Trolls%20Holiday_2017_tt6645614.mp4"
+}

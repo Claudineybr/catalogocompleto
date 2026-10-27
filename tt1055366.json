@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Camp Rock 2008 - 🍿Clau",
+  "description": "Assista Camp Rock 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zV4pB8PeN4LqoIb5XanpZwUCrlJ.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Camp%20Rock_2008_tt1055366.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Camp%20Rock_2008_tt1055366.mp4"
+}

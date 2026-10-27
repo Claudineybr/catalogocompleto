@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doctor Who 2024 - Episódio 13 - 🍿Clau",
+  "description": "Assista Doctor Who 2024 - Episódio 13",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/uvxLuymTnNeFyiphc8YpCU91agb.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn01.vod-cinevs.com/s/tt0436992/Doctor%20Who%20S03E13.mp4",
+  "embedUrl": "https://cdn01.vod-cinevs.com/s/tt0436992/Doctor%20Who%20S03E13.mp4"
+}

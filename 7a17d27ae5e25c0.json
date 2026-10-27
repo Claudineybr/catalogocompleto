@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Herança 2025 - 🍿Clau",
+  "description": "Assista A Herança 2025",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1fsHFRdqYQdxMtPxCuTIhKlOQga.jpg"
+  ],
+  "uploadDate": "2025-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/6d3aee94-39f6-4ca3-b8de-f62acb09642e/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/6d3aee94-39f6-4ca3-b8de-f62acb09642e/playlist.m3u8"
+}

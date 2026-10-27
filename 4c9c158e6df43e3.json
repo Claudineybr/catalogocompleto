@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Homem de Ferro 3 - 2013 - Episódio - 🍿Clau",
+  "description": "Assista Homem de Ferro 3 - 2013 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/C7MZwRTjvEy7gkWcLJeBGZFE1w.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/m/Drop%20-%20Amea%C3%A7a%20An%C3%B4nima%202025%20WEB-DL%201080p%20x264%20DUAL%205.1.mp4"
+}

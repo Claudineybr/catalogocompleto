@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ponyo - Uma Amizade que Veio do Mar 2008 - 🍿Clau",
+  "description": "Assista Ponyo - Uma Amizade que Veio do Mar 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cvpsmNWc8nyePJMbyMc9X5lLN6L.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Ponyo:%20Uma%20Amizade%20que%20Veio%20do%20Mar_2009_tt0876563.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Ponyo:%20Uma%20Amizade%20que%20Veio%20do%20Mar_2009_tt0876563.mp4"
+}

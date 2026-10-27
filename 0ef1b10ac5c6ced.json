@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 1 - The End &amp; The Beginning - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 1 - The End &amp; The Beginning",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/1/ba820eff-e823-43aa-b2d6-34262439b73b/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3f1ac6f3/dubbed/1/ba820eff-e823-43aa-b2d6-34262439b73b/stream.mp4"
+}

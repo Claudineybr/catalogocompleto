@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Caçador de Demônios 2017 - Episódio - 🍿Clau",
+  "description": "Assista Caçador de Demônios 2017 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/woaDbwKqj1938QJrqxF8tn9QCKy.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Livro%20de%20Sangue.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Livro%20de%20Sangue.mp4"
+}

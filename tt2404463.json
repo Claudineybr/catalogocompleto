@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "As Bem-Armadas 2013 - 🍿Clau",
+  "description": "Assista As Bem-Armadas 2013",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/2SMBBtsVYCTIDpJPSw4oFzXkQy6.jpg"
+  ],
+  "uploadDate": "2013-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/As%20Bem-Armadas_2013_tt2404463.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/As%20Bem-Armadas_2013_tt2404463.mp4"
+}

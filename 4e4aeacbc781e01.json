@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Alvin e os Esquilos 2008 - 🍿Clau",
+  "description": "Assista Alvin e os Esquilos 2008",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/rmx8Khnutah9dnbpkYjJZSMzSID.jpg"
+  ],
+  "uploadDate": "2008-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/f396f484-ea9d-4c2e-b46c-9c8f83cccc26",
+  "embedUrl": "https://tankie.tube/videos/embed/f396f484-ea9d-4c2e-b46c-9c8f83cccc26"
+}

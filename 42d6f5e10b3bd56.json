@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "438 Dias 2019 - 🍿Clau",
+  "description": "Assista 438 Dias 2019",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/88C3eml0THgk3gOV23XDotOppJv.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/438%20Dias_582943.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/438%20Dias_582943.mp4"
+}

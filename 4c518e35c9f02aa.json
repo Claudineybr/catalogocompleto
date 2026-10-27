@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Massacre da Serra Elétrica 3 - 1990 - Abrir Player - 🍿Clau",
+  "description": "Assista O Massacre da Serra Elétrica 3 - 1990 - Abrir Player",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vM53yvJTJj6HWBWlbduxeMgQYcQ.jpg"
+  ],
+  "uploadDate": "1990-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/65825e56-27ec-4ecc-8d53-a1f906eb27a6/6113a00c-b83a-4b81-b530-ef620853c5ad-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/65825e56-27ec-4ecc-8d53-a1f906eb27a6/6113a00c-b83a-4b81-b530-ef620853c5ad-master.m3u8"
+}

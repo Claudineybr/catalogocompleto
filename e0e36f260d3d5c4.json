@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Doze é Demais 2003 - 🍿Clau",
+  "description": "Assista Doze é Demais 2003",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8TytUmOaJbI3O7pedgGErvdcVOV.jpg"
+  ],
+  "uploadDate": "2003-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d",
+  "embedUrl": "https://tankie.tube/videos/embed/a4a43a1d-c6b0-411a-a04b-f4cd6c47ee0d"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ilha Do Medo 2010 - 🍿Clau",
+  "description": "Assista Ilha Do Medo 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/erl801HYIodoIBGZeFk0GTwCUBh.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0092.l1s0-cdn-3123123.com/ilha-do-medo-ad097510/dubbed/1/e5388fa3-9b9e-41b9-b9c4-d44544beada3/stream.mp4?type=movie&expires=1770264300&signature=2f97e92fbbb71d2ba700357913b976156a324fdd90a5d4a96fde16c2d51a9083",
+  "embedUrl": "https://cdn-0092.l1s0-cdn-3123123.com/ilha-do-medo-ad097510/dubbed/1/e5388fa3-9b9e-41b9-b9c4-d44544beada3/stream.mp4?type=movie&expires=1770264300&signature=2f97e92fbbb71d2ba700357913b976156a324fdd90a5d4a96fde16c2d51a9083"
+}

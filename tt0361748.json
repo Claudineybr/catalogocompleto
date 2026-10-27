@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Bastardos Inglórios 2009 - 🍿Clau",
+  "description": "Assista Bastardos Inglórios 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6UjYycIR6VLYgggfNpmSPJHmFS0.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Bastardos%20Ingl%C3%B3rios_2009_tt0361748.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Bastardos%20Ingl%C3%B3rios_2009_tt0361748.mp4"
+}

@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Homem de Ferro 2 - 2010 - 🍿Clau",
+  "description": "Assista Homem de Ferro 2 - 2010",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/vzROjQbgKWMVf2EldXipCcjpuBL.jpg"
+  ],
+  "uploadDate": "2010-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://tankie.tube/videos/embed/71e56c78-62f4-4b64-b246-d2e64b1ab965",
+  "embedUrl": "https://tankie.tube/videos/embed/71e56c78-62f4-4b64-b246-d2e64b1ab965"
+}

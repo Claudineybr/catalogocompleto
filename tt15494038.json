@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Sol da Meia-Noite 2018 - Episódio - 🍿Clau",
+  "description": "Assista Sol da Meia-Noite 2018 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1x8tN7XMxWgnJQnjZRxwMeiEWtF.jpg"
+  ],
+  "uploadDate": "2018-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Drifting%20Home_2022_tt15494038.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Drifting%20Home_2022_tt15494038.mp4"
+}

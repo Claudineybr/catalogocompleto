@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Monster High - Boo York, Boo York - 2015 - 🍿Clau",
+  "description": "Assista Monster High - Boo York, Boo York - 2015",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/iXWYQKgjFZjGVi6Blj9yDoUJDvw.jpg"
+  ],
+  "uploadDate": "2015-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/af0ea9ce-f80d-4ee7-8a89-cc1fb381f2ab/7af6b36e-7522-43d3-8841-c538f3228ce9-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/af0ea9ce-f80d-4ee7-8a89-cc1fb381f2ab/7af6b36e-7522-43d3-8841-c538f3228ce9-master.m3u8"
+}

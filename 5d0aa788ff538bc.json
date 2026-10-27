@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "O Filme 2009 - Filme - 🍿Clau",
+  "description": "Assista O Filme 2009 - Filme",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/hgPJA0NTmXYpPA3cgh4ZrI1PubL.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/27b92d1a-7599-487f-bf50-e9df1b291b88/20579e4c-570e-47c7-ad3c-52c3a87f31bf-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/27b92d1a-7599-487f-bf50-e9df1b291b88/20579e4c-570e-47c7-ad3c-52c3a87f31bf-master.m3u8"
+}

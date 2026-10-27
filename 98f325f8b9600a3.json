@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Arena 2011 - 🍿Clau",
+  "description": "Assista Arena 2011",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/6dh235EYfy95s5Vin208Flcrng6.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0036.l1s0-cdn-3123123.com/arena-1619ba90/dubbed/1/6090ab5d-ef48-4f77-9e36-a695b9114c7a/stream.mp4?type=movie&expires=1770582885&signature=c804dd83fefc5423d78931d2899c3fa5fe66b1951ed97b2ee523222a1112081e",
+  "embedUrl": "https://cdn-0036.l1s0-cdn-3123123.com/arena-1619ba90/dubbed/1/6090ab5d-ef48-4f77-9e36-a695b9114c7a/stream.mp4?type=movie&expires=1770582885&signature=c804dd83fefc5423d78931d2899c3fa5fe66b1951ed97b2ee523222a1112081e"
+}

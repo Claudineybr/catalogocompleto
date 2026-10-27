@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "iCarly, A Reunião 2021 - Episódio 12 – Meu Jantar Perfeito - 🍿Clau",
+  "description": "Assista iCarly, A Reunião 2021 - Episódio 12 – Meu Jantar Perfeito",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/wBYshPx1yFMUiPoz4T3Ij9QsBW2.jpg"
+  ],
+  "uploadDate": "2021-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/119243/1x12.mp4",
+  "embedUrl": "http://shd2.oneplayer.site/5yu456y45tge4rtfg4w3ertf34t43retg54y65uj65npw/SHD2/119243/1x12.mp4"
+}

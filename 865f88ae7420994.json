@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "BLUE LOCK 2022 - Episódio 21 - Não Estou Aqui - 🍿Clau",
+  "description": "Assista BLUE LOCK 2022 - Episódio 21 - Não Estou Aqui",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/9aICTTHECyRwB2pBHm3rAj1SgGg.jpg"
+  ],
+  "uploadDate": "2022-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/21/a480e1a3-8a98-4f76-837c-47c589b1a89d/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-10/blue-lock-cf59d248/dubbed/21/a480e1a3-8a98-4f76-837c-47c589b1a89d/stream.mp4"
+}

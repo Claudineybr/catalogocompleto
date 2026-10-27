@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Divertidamente 2 - 🍿Clau",
+  "description": "Assista Divertidamente 2",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/lHKNS35r4RTa9GO72vdadMLxoiV.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://medias.tankie.tube/streaming-playlists/hls/81f0c879-01e8-4c53-9d94-7953235eaa24/0ef08477-15e4-4956-9864-8807b98bfcf5-master.m3u8",
+  "embedUrl": "https://medias.tankie.tube/streaming-playlists/hls/81f0c879-01e8-4c53-9d94-7953235eaa24/0ef08477-15e4-4956-9864-8807b98bfcf5-master.m3u8"
+}

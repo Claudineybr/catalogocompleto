@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Twisted Metal 2023 - Episódio 4 - WHZDARE - 🍿Clau",
+  "description": "Assista Twisted Metal 2023 - Episódio 4 - WHZDARE",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/zMwMClR9y7RBeVWMEmNn8LwUJHz.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/4/f4381514-9639-4196-8976-5f0412f4a0eb/stream.mp4?type=serie&expires=1771024298&signature=cce5e0298dc7d9bbe79f890d41f720a34fa0b3c5cb5b7e7ddead92e4a50d3f3b",
+  "embedUrl": "https://cdn-0060.l1s0-cdn-3123123.com/twisted-metal-e402ef31/s1/dubbed/4/f4381514-9639-4196-8976-5f0412f4a0eb/stream.mp4?type=serie&expires=1771024298&signature=cce5e0298dc7d9bbe79f890d41f720a34fa0b3c5cb5b7e7ddead92e4a50d3f3b"
+}

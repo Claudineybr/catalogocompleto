@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Congonhas - Episódio 1 - 🍿Clau",
+  "description": "Assista Congonhas - Episódio 1",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/q5te3G0Z5fTbvzBtPYzLHZAmTwP.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://sinalprivado.info/cache/0057eca3-452d-4d86-8bb9-f7907fa3069d/playlist.m3u8",
+  "embedUrl": "https://sinalprivado.info/cache/0057eca3-452d-4d86-8bb9-f7907fa3069d/playlist.m3u8"
+}

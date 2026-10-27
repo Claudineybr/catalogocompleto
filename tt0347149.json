@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Castelo Animado 2004 - 🍿Clau",
+  "description": "Assista Castelo Animado 2004",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/1hTfaEWktMJPxCk5nZNtK7F86C9.jpg"
+  ],
+  "uploadDate": "2004-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "http://hd5.oneplayer.site/token/FHD5/tt0347149.mp4",
+  "embedUrl": "http://hd5.oneplayer.site/token/FHD5/tt0347149.mp4"
+}

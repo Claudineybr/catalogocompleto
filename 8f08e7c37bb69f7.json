@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Haikyu!! 2014 - Episódio 46 - O destruidor - 🍿Clau",
+  "description": "Assista Haikyu!! 2014 - Episódio 46 - O destruidor",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qNKaeunuUdL0smnowVVgShCkWZ4.jpg"
+  ],
+  "uploadDate": "2014-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3b6edceb/dubbed/21/6e718a08-25dc-45e0-a426-2818afd6342e/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/haikyuu-3b6edceb/dubbed/21/6e718a08-25dc-45e0-a426-2818afd6342e/stream.mp4"
+}

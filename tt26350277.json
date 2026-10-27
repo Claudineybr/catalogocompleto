@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "A Bailarina 2023 - 🍿Clau",
+  "description": "Assista A Bailarina 2023",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xKPMlQ3v6KJD3u6ik3urzGesh5g.jpg"
+  ],
+  "uploadDate": "2023-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Ballerina_2023_tt26350277.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Ballerina_2023_tt26350277.mp4"
+}

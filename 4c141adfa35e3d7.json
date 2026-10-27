@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Planeta 51 - 2009 - 🍿Clau",
+  "description": "Assista Planeta 51 - 2009",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/cQqvFrUBOitSvw0kXehYq3vOY1G.jpg"
+  ],
+  "uploadDate": "2009-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.playmycnvs.com/m/Planeta%2051.mp4",
+  "embedUrl": "https://cdn.playmycnvs.com/m/Planeta%2051.mp4"
+}

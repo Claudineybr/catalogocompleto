@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Dr. Stone 2019 - Episódio 4 - Olhos da Ciência - 🍿Clau",
+  "description": "Assista Dr. Stone 2019 - Episódio 4 - Olhos da Ciência",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/xEbnuDJXA0MYVV1zjizGWgOhSPE.jpg"
+  ],
+  "uploadDate": "2019-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/4/682f7e26-b071-4427-b674-4d31913998ba/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-06/dr-stone-new-world-840a12a1/dubbed/4/682f7e26-b071-4427-b674-4d31913998ba/stream.mp4"
+}

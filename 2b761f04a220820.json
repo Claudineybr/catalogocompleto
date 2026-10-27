@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "50% - 2011 - Episódio - 🍿Clau",
+  "description": "Assista 50% - 2011 - Episódio",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/8kTpREFwHiBZx9dIzBKVAveZa5h.jpg"
+  ],
+  "uploadDate": "2011-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cdn.vod-cinevs.com/f/55%20Passos_445456.mp4",
+  "embedUrl": "https://cdn.vod-cinevs.com/f/55%20Passos_445456.mp4"
+}

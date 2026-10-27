@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Me Chame Pelo Seu Nome 2017 - 🍿Clau",
+  "description": "Assista Me Chame Pelo Seu Nome 2017",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/qnf5Onsk236CdE5Lff93IX69gHf.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://vods1.watchingvs.com/m/Me%20Chame%20pelo%20Seu%20Nome_2018_tt5726616.mp4",
+  "embedUrl": "https://vods1.watchingvs.com/m/Me%20Chame%20pelo%20Seu%20Nome_2018_tt5726616.mp4"
+}

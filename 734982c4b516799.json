@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Overlord 2017 - Episódio 11. Confusão e Compreensão - 🍿Clau",
+  "description": "Assista Overlord 2017 - Episódio 11. Confusão e Compreensão",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/7kOBPcfhmmfJxIXwJXSeuKM9BID.jpg"
+  ],
+  "uploadDate": "2017-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-bb405446/dubbed/11/3d9f10cb-730c-4470-b56f-f77ea6bed5ac/stream.mp4",
+  "embedUrl": "https://stream.4nm-cdn-0483964.com/b-02/overlord-bb405446/dubbed/11/3d9f10cb-730c-4470-b56f-f77ea6bed5ac/stream.mp4"
+}

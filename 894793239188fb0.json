@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Os Observadores - 🍿Clau",
+  "description": "Assista Os Observadores",
+  "thumbnailUrl": [
+    "https://image.tmdb.org/t/p/w500/bJ3zy7UN8VoA23LSDkt7JlQg1a9.jpg"
+  ],
+  "uploadDate": "2024-01-01T00:00:00+00:00",
+  "inLanguage": "pt",
+  "contentUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OsObservadores2024.mp4",
+  "embedUrl": "https://cloudfm.playhdlugo.online/token:s21expires11365uslink1578l2/flm24/OsObservadores2024.mp4"
+}
