@@ -1,0 +1,151 @@
+import asyncio
+import re
+import json
+import requests
+from bs4 import BeautifulSoup
+from pathlib import Path
+from playwright.async_api import async_playwright
+
+BASE_URL = "https://www.vini7xgrave.site"
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+ARQ_FILA = Path("series_fila.txt")
+ARQ_FEITAS = Path("series_feitas.txt")
+
+# 1. Prepara a fila de séries (se não existir, busca do site)
+if not ARQ_FILA.exists():
+    print("Buscando lista de séries no site...")
+    r = requests.get(BASE_URL + "/feeds/posts/default?alt=json&max-results=1000", headers=HEADERS)
+    data = r.json()
+    urls = []
+    for entry in data.get("feed", {}).get("entry", []):
+        link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
+        if link:
+            urls.append(link.split("?")[0])
+    ARQ_FILA.write_text("\n".join(urls), encoding="utf-8")
+    print(f"Fila criada com {len(urls)} posts.")
+
+# 2. Lê quem já foi feito
+feitas = set()
+if ARQ_FEITAS.exists():
+    feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
+
+# 3. Pega as próximas 10 séries
+fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
+lote = fila[:10]
+
+if not lote:
+    print("Todas as séries da fila já foram processadas!")
+    exit(0)
+
+print(f"Iniciando lote de 10 séries. Faltam {len(fila)} no total.")
+
+async def extrair_video_playwright(context, url_ep):
+    page = await context.new_page()
+    capturados = []
+    def on_response(res):
+        u = res.url
+        if re.search(r"[.](mp4|m3u8)([?]|$)", u, re.I) or 'tankie' in u or 'oneplayer' in u:
+            capturados.append(u)
+    page.on("response", on_response)
+    try:
+        await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
+        try:
+            await page.wait_for_selector("iframe", timeout=8000)
+        except:
+            pass 
+        await asyncio.sleep(2.0)
+        html = await page.content()
+        if not capturados:
+            soup = BeautifulSoup(html, 'html.parser')
+            for iframe in soup.find_all('iframe'):
+                src = iframe.get('src', '')
+                if 'google' not in src.lower() and 'ads' not in src.lower():
+                    capturados.append(src)
+        if not capturados:
+            match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
+            if match:
+                capturados.append(match.group(1))
+    except Exception:
+        pass
+    finally:
+        await page.close()
+    if capturados:
+        return list(dict.fromkeys(capturados))[0]
+    return None
+
+def gerar_slug(titulo):
+    # Cria um nome de arquivo seguro (ex: "Arqueiro Verde" -> "arqueiro_verde")
+    s = re.sub(r'[^a-z0-9\s]', '', titulo.lower())
+    return re.sub(r'\s+', '_', s.strip())[:30]
+
+async def processar_serie(context, url_serie):
+    print(f"\n--> Processando série: {url_serie}")
+    try:
+        r = requests.get(url_serie, headers=HEADERS, timeout=15)
+        soup = BeautifulSoup(r.text, 'html.parser')
+        
+        titulo_serie = soup.title.text.split("-")[0].strip() if soup.title else "Série"
+        titulo_serie = re.sub(r'[^\w\s]', '', titulo_serie).replace("Vini7x", "").strip()
+        slug = gerar_slug(titulo_serie)
+        
+        temporada_atual = 1
+        episodios = []
+        
+        for tag in soup.find_all(['b', 'h2', 'h3', 'p', 'a', 'div']):
+            texto = tag.get_text(strip=True)
+            match_temp = re.search(r'(\d+)\s*[ªº]\s*Temporada', texto, re.I)
+            if match_temp:
+                temporada_atual = int(match_temp.group(1))
+                continue
+            if tag.name == 'a' and 'episódio' in texto.lower():
+                href = tag.get('href')
+                if href:
+                    if href.startswith('/'):
+                        href = BASE_URL + href
+                    match_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
+                    num_ep = match_ep.group(1) if match_ep else "0"
+                    titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
+                    episodios.append({'temp': temporada_atual, 'ep': num_ep, 'titulo': titulo_limpo, 'url': href})
+                    
+        print(f"    Encontrados {len(episodios)} episódios.")
+        
+        for item in episodios:
+            nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
+            if Path(nome_arquivo).exists():
+                continue # Pula se já foi baixado
+                
+            link_video = await extrair_video_playwright(context, item['url'])
+            if not link_video:
+                continue
+                
+            nome_json = f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau"
+            dados = {
+                "@context": "https://schema.org", "@type": "VideoObject",
+                "name": nome_json, "description": f"Assista {nome_json}",
+                "thumbnailUrl": ["https://via.placeholder.com/500x750?text=Sem+Capa"],
+                "uploadDate": "2020-01-01T00:00:00+00:00", "inLanguage": "pt",
+                "contentUrl": link_video, "embedUrl": link_video
+            }
+            json_str = json.dumps(dados, ensure_ascii=False, indent=2)
+            html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
+            Path(nome_arquivo).write_text(html, encoding='utf-8')
+            print(f"      [+] Salvo: {nome_arquivo}")
+            
+    except Exception as e:
+        print(f"    Erro na série {url_serie}: {e}")
+
+    # Marca a série como feita, mesmo se falhou alguns episódios
+    with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
+        f.write(url_serie + "\n")
+
+async def main():
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=True)
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"])
+        for url in lote:
+            await processar_serie(context, url)
+        await browser.close()
+
+if __name__ == "__main__":
+    asyncio.run(main())
