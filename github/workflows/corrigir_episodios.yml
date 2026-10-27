@@ -1,4 +1,4 @@
-name: Corrigir Temporadas e Episódios
+name: Corrigir Temporadas e Converter HTML
 
 on:
   workflow_dispatch:
@@ -12,117 +12,68 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Corrigir JSONs e Converter para HTML
+      - name: Corrigir e Converter
         run: |
-          cat > corrigir.py <<'PYEOF'
+          cat > script.py << 'PYEOF'
           import json
           import re
           from pathlib import Path
 
-          def processar_arquivo(caminho):
+          def processar(caminho):
               try:
-                  with open(caminho, 'r', encoding='utf-8-sig') as f:
-                      texto = f.read()
-                  
-                  # Se já for HTML, extrai o JSON de dentro
+                  texto = caminho.read_text(encoding='utf-8-sig')
                   if texto.strip().lower().startswith('<!doctype'):
                       match = re.search(r'<script type="application/ld\+json">(.*?)</script>', texto, re.S)
                       if not match: return False
                       texto = match.group(1)
                       
                   dados = json.loads(texto)
-                  nome = dados.get("name", "Sem Nome")
+                  nome = dados.get('name', '').replace(' - 🍿Clau', '').replace(' - Clau', '').strip()
                   
-                  # Limpa a marca d'água antiga para não duplicar
-                  nome = nome.replace(" - 🍿Clau", "").replace(" - Clau", "").strip()
+                  s, e, titulo, serie = 1, None, "", nome
+                  m1 = re.match(r'^(.*?)\s*-\s*T(\d+)E(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
+                  m2 = re.match(r'^(.*?)\s*-\s*(?:Episódio|Episodio)\s*(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
                   
-                  # Regex para capturar: "Série - Episódio X - Título" ou "Série - T1E1 - Título"
-                  # Vamos tentar achar a temporada e o episódio
-                  temporada = 1
-                  episodio = None
-                  titulo_ep = ""
-                  serie = nome
-                  
-                  # Padrão 1: "Série - Episódio 3 - Título"
-                  match_ep = re.match(r'^(.*?)\s*-\s*(?:Episódio|Episodio)\s*(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
-                  # Padrão 2: "Série - T2E5 - Título"
-                  match_t = re.match(r'^(.*?)\s*-\s*T(\d+)E(\d+)\s*(?:-\s*(.*))?$', nome, re.I)
-                  
-                  if match_t:
-                      serie = match_t.group(1).strip()
-                      temporada = int(match_t.group(2))
-                      episodio = int(match_t.group(3))
-                      titulo_ep = match_t.group(4).strip() if match_t.group(4) else ""
-                  elif match_ep:
-                      serie = match_ep.group(1).strip()
-                      episodio = int(match_ep.group(2))
-                      titulo_ep = match_ep.group(3).strip() if match_ep.group(3) else ""
-                  
-                  # Se for episódio, monta o nome no formato que o app gosta
-                  if episodio is not None:
-                      tag_ep = f"T{temporada}E{episodio}"
-                      if titulo_ep:
-                          novo_nome = f"{serie} - {tag_ep} - {titulo_ep} - 🍿Clau"
-                      else:
-                          novo_nome = f"{serie} - {tag_ep} - 🍿Clau"
+                  if m1:
+                      serie, s, e, titulo = m1.group(1).strip(), int(m1.group(2)), int(m1.group(3)), (m1.group(4) or "").strip()
+                  elif m2:
+                      serie, e, titulo = m2.group(1).strip(), int(m2.group(2)), (m2.group(3) or "").strip()
                       
-                      dados["name"] = novo_nome
-                      dados["@type"] = "TVEpisode"
-                      dados["episodeNumber"] = episodio
-                      dados["partOfSeason"] = {
-                          "@type": "TVSeason",
-                          "seasonNumber": temporada
-                      }
-                      dados["partOfSeries"] = {
-                          "@type": "TVSeries",
-                          "name": serie
-                      }
+                  if e is not None:
+                      dados['name'] = f"{serie} - T{s}E{e}" + (f" - {titulo}" if titulo else "") + " - 🍿Clau"
+                      dados['@type'] = "TVEpisode"
+                      dados['episodeNumber'] = e
+                      dados['partOfSeason'] = {"@type": "TVSeason", "seasonNumber": s}
+                      dados['partOfSeries'] = {"@type": "TVSeries", "name": serie}
                   else:
-                      # Se for filme, só põe a marca
-                      dados["name"] = f"{nome} - 🍿Clau"
-                  
-                  # Pega a capa
-                  capa = dados.get("thumbnailUrl", [""])[0]
+                      dados['name'] = f"{nome} - 🍿Clau"
+                      
+                  capa = dados.get('thumbnailUrl', [''])[0]
                   if not capa:
-                      capa = "https://via.placeholder.com/500x750?text=Sem+Capa"
+                      capa = 'https://via.placeholder.com/500x750?text=Sem+Capa'
+                      
+                  json_final = json.dumps(dados, ensure_ascii=False)
                   
-                  # Gera o HTML final
-                  html = f"""<!DOCTYPE html>
-          <html lang="pt-BR">
-          <head>
-          <script type="application/ld+json">
-          {json.dumps(dados, ensure_ascii=False)}
-          </script>
-          <title>{dados['name']}</title>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width,initial-scale=1">
-          </head>
-          <body>
-          <img src="{capa}" alt="{dados['name']}" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-          <h1>{dados['name']}</h1>
-          </body>
-          </html>"""
+                  html = '<!DOCTYPE html>\n<html lang="pt-BR">\n<head>\n<script type="application/ld+json">\n' + json_final + '\n</script>\n<title>' + dados['name'] + '</title>\n<meta charset="UTF-8">\n</head>\n<body>\n<img src="' + capa + '" style="width:100%;max-height:220px;object-fit:cover;">\n<h1>' + dados['name'] + '</h1>\n</body>\n</html>'
                   
-                  with open(caminho, 'w', encoding='utf-8') as f:
-                      f.write(html)
+                  caminho.write_text(html, encoding='utf-8')
                   return True
-              except Exception as e:
-                  print(f"Erro em {caminho.name}: {e}")
+              except Exception as ex:
+                  print(f"Erro em {caminho.name}: {ex}")
                   return False
 
-          print("Iniciando correção de temporadas e episódios...")
-          processados = 0
+          cont = 0
           for arq in Path('.').glob('*.json'):
-              if processar_arquivo(arq):
-                  processados += 1
+              if processar(arq):
+                  cont += 1
                   
-          print(f"Arquivos corrigidos: {processados}")
+          print(f"Arquivos processados: {cont}")
           PYEOF
 
-          python3 corrigir.py
+          python3 script.py
 
           git config user.name "Claudineybr"
           git config user.email "Claudineybr@users.noreply.github.com"
           git add .
-          git commit -m "fix: adicionar temporadas, episodios e formato T1E1" || echo "Nada para commitar"
+          git commit -m "fix: HTML + Temporadas + Episodios" || echo "Nada para commitar"
           git push origin HEAD:main
