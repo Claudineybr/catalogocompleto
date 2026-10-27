@@ -1,67 +1,74 @@
-name: Converter JSON para HTML
+name: Gerar CSV do Catalogo
+
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: '0 */12 * * *' # Roda a cada 12 horas (00:00 e 12:00 UTC)
+  workflow_dispatch:      # Permite rodar manualmente
+
 permissions:
   contents: write
+
 jobs:
-  converter:
+  gerar-csv:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - name: Converter Arquivos
+      - name: Baixar o repositório
+        uses: actions/checkout@v5
+
+      - name: Extrair dados e criar CSV
         run: |
-          cat > converter.py <<'PYEOF'
+          cat > gerar_csv.py << 'PYEOF'
           import json
-          import os
+          import re
+          import csv
           from pathlib import Path
 
-          def converter_arquivo(caminho):
-              try:
-                  with open(caminho, 'r', encoding='utf-8-sig') as f:
-                      texto = f.read()
-                  if texto.strip().lower().startswith('<!doctype'):
-                      return False
-                  dados = json.loads(texto)
-                  nome = dados.get("name", "Sem Nome")
-                  if "🍿Clau" not in nome:
-                      nome = nome.replace(" - Clau", "").replace("Clau", "").strip()
-                      nome = f"{nome} - 🍿Clau"
-                  dados["name"] = nome
-                  capa = dados.get("thumbnailUrl", [""])[0]
-                  if not capa:
-                      capa = "https://via.placeholder.com/500x750?text=Sem+Capa"
-                  html = f"""<!DOCTYPE html>
-          <html lang="pt-BR">
-          <head>
-          <script type="application/ld+json">
-          {json.dumps(dados, ensure_ascii=False)}
-          </script>
-          <title>{nome}</title>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width,initial-scale=1">
-          </head>
-          <body>
-          <img src="{capa}" alt="{nome}" style="width:100%;max-height:220px;object-fit:cover;border-radius:8px">
-          <h1>{nome}</h1>
-          </body>
-          </html>"""
-                  with open(caminho, 'w', encoding='utf-8') as f:
-                      f.write(html)
-                  return True
-              except Exception as e:
-                  print(f"Erro em {caminho}: {e}")
-                  return False
-
-          print("Iniciando conversão...")
-          convertidos = 0
-          for arq in Path('.').glob('*.json'):
-              if converter_arquivo(arq):
-                  convertidos += 1
-          print(f"Arquivos convertidos para HTML: {convertidos}")
+          arquivo_csv = Path('catalogo.csv')
+          total = 0
+          
+          print("Iniciando extração dos dados...")
+          
+          with open(arquivo_csv, 'w', newline='', encoding='utf-8-sig') as f:
+              writer = csv.writer(f, delimiter=';')
+              # Cria o cabeçalho
+              writer.writerow(['Nome', 'Link'])
+              
+              for arq in Path('.').glob('*.json'):
+                  try:
+                      texto = arq.read_text(encoding='utf-8-sig')
+                      
+                      # Extrai o bloco JSON-LD de dentro do HTML
+                      match = re.search(r'<script type="application/ld\+json">(.*?)</script>', texto, re.S)
+                      if not match:
+                          continue
+                          
+                      dados = json.loads(match.group(1))
+                      nome = dados.get('name', '').strip()
+                      link = dados.get('contentUrl', '').strip()
+                      
+                      if nome and link:
+                          writer.writerow([nome, link])
+                          total += 1
+                  except Exception:
+                      pass
+                      
+          print(f"Concluído! {total} itens foram salvos no catalogo.csv")
           PYEOF
-          python3 converter.py
-          git config user.name "Claudineybr"
-          git config user.email "Claudineybr@users.noreply.github.com"
-          git add .
-          git commit -m "fix: converter JSON puro para HTML compativel" || echo "Nada para commitar"
+
+          python3 gerar_csv.py
+
+      - name: Salvar CSV no repositório
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add catalogo.csv
+          
+          # Só faz o commit se o arquivo realmente mudou
+          if git diff --cached --quiet; then
+            echo "O CSV não sofreu alterações."
+            exit 0
+          fi
+          
+          git commit -m "automacao: atualizar catalogo.csv"
           git push origin HEAD:main
