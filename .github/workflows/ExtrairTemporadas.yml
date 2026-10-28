@@ -1,4 +1,4 @@
-name: Mega Extrair Series (Lotes de 50)
+name: Mega Extrair Series (Lotes de 150)
 
 on:
   workflow_dispatch: 
@@ -10,7 +10,10 @@ jobs:
   extrair:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Instalar Python e Playwright
         run: |
@@ -18,7 +21,7 @@ jobs:
           playwright install chromium
           playwright install-deps
 
-      - name: Extrair 50 Itens
+      - name: Extrair 150 Itens
         run: |
           cat > mega_extrair.py << 'PYEOF'
           import asyncio
@@ -60,13 +63,14 @@ jobs:
               feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
           fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-          lote = fila[:50]
+          # AQUI ESTÁ A MUDANÇA PARA 150
+          lote = fila[:150]
 
           if not lote:
               print("Todas as séries da fila já foram processadas!", flush=True)
               exit(0)
 
-          print(f"Iniciando lote de 50 URLs. Faltam {len(fila)} no total.", flush=True)
+          print(f"Iniciando lote de 150 URLs. Faltam {len(fila)} no total.", flush=True)
 
           async def extrair_video_playwright(context, url_ep):
               page = await context.new_page()
@@ -97,13 +101,9 @@ jobs:
               return None
 
           def extrair_titulo_da_url(url):
-              # Pega a última parte da URL (ex: inix-arqueiro-verde-arrow-2012.html)
               parte = url.split("/")[-1].replace(".html", "")
-              # Divide por hífen
               palavras = parte.split("-")
-              # Remove "inix", "arc" e anos no final
               palavras_limpas = [p for p in palavras if p.lower() not in ['inix', 'arc'] and not re.match(r'^\d{4}$', p)]
-              # Junta e coloca as iniciais maiúsculas
               titulo = " ".join(palavras_limpas).title()
               return titulo if titulo else "Serie Desconhecida"
 
@@ -184,6 +184,22 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
           git add .
-          git commit -m "feat: mega extracao (lote de 50) e correcao de nomes" || echo "Nada novo"
-          git push origin HEAD:main
+          
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar."
+            exit 0
+          fi
+          
+          git commit -m "feat: mega extracao (lote de 150) e correcao de nomes"
+          
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Push concluido com sucesso!"
+              break
+            else
+              echo "Push rejeitado (tentativa $i). Atualizando e tentando de novo..."
+              git pull --rebase origin main
+            fi
+          done
