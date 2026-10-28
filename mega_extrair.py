@@ -37,13 +37,14 @@ if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-lote = fila[:50]
+# AQUI ESTÁ A MUDANÇA PARA 150
+lote = fila[:150]
 
 if not lote:
     print("Todas as séries da fila já foram processadas!", flush=True)
     exit(0)
 
-print(f"Iniciando lote de 50 URLs. Faltam {len(fila)} no total.", flush=True)
+print(f"Iniciando lote de 150 URLs. Faltam {len(fila)} no total.", flush=True)
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -74,13 +75,9 @@ async def extrair_video_playwright(context, url_ep):
     return None
 
 def extrair_titulo_da_url(url):
-    # Pega a última parte da URL (ex: inix-arqueiro-verde-arrow-2012.html)
     parte = url.split("/")[-1].replace(".html", "")
-    # Divide por hífen
     palavras = parte.split("-")
-    # Remove "inix", "arc" e anos no final
     palavras_limpas = [p for p in palavras if p.lower() not in ['inix', 'arc'] and not re.match(r'^\d{4}$', p)]
-    # Junta e coloca as iniciais maiúsculas
     titulo = " ".join(palavras_limpas).title()
     return titulo if titulo else "Serie Desconhecida"
 
