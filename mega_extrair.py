@@ -55,9 +55,9 @@ async def extrair_video_playwright(context, url_ep):
     page.on("response", on_response)
     try:
         await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
-        try: await page.wait_for_selector("iframe", timeout=10000) # Aumentei para 10s
+        try: await page.wait_for_selector("iframe", timeout=10000) 
         except: pass 
-        await asyncio.sleep(3.0) # Aumentei para 3s
+        await asyncio.sleep(3.0) 
         html = await page.content()
         if not capturados:
             soup = BeautifulSoup(html, 'html.parser')
@@ -137,13 +137,12 @@ async def processar_serie(context, url_serie):
             Path(nome_arquivo).write_text(html, encoding='utf-8')
             print(f"      [+] Salvo: {nome_arquivo}", flush=True)
         
-        # A MÁGICA: Só marca a série como feita se baixar TODOS os episódios
         if falhas == 0:
             with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
                 f.write(url_serie + "\n")
             print(f"    Série '{titulo_serie}' completa e marcada como feita.", flush=True)
         else:
-            print(f"    Série '{titulo_serie}' teve {falhas} falhas. Não será marcada como feita para tentar de novo.", flush=True)
+            print(f"    Série '{titulo_serie}' teve {falhas} falhas. Não será marcada como feita.", flush=True)
             
     except Exception as e:
         print(f"    Erro na URL {url_serie}: {e}", flush=True)
