@@ -1,9 +1,9 @@
-name: Mega Extrair Series (Lotes de 150)
+name: Mega Extrair Series (Lotes de 300)
 
 on:
   schedule:
-    - cron: '0 * * * *' # Roda a cada 1 hora (no minuto 0)
-  workflow_dispatch:    # Continua permitindo rodar na mão
+    - cron: '0 * * * *' # Roda a cada 1 hora
+  workflow_dispatch:    # Permite rodar na mão
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
           playwright install chromium
           playwright install-deps
 
-      - name: Extrair 150 Itens
+      - name: Extrair 300 Itens
         run: |
           cat > mega_extrair.py << 'PYEOF'
           import asyncio
@@ -69,13 +69,15 @@ jobs:
               feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
           fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-          lote = fila[:150]
+          
+          # AQUI ESTÁ A MUDANÇA PARA 300
+          lote = fila[:300]
 
           if not lote:
               print("Todas as séries da fila já foram processadas!", flush=True)
               exit(0)
 
-          print(f"Iniciando lote de 150 URLs. Faltam {len(fila)} no total.", flush=True)
+          print(f"Iniciando lote de 300 URLs. Faltam {len(fila)} no total.", flush=True)
 
           async def extrair_video_playwright(context, url_ep):
               page = await context.new_page()
@@ -205,7 +207,7 @@ jobs:
             exit 0
           fi
           
-          git commit -m "feat: mega extracao automatica (cron 1h)"
+          git commit -m "feat: mega extracao automatica (cron 1h, lote 300)"
           
           for i in 1 2 3; do
             if git push origin HEAD:main; then
