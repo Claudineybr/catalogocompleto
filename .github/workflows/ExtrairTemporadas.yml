@@ -35,25 +35,44 @@ jobs:
           ARQ_FILA = Path("series_fila.txt")
           ARQ_FEITAS = Path("series_feitas.txt")
 
-          # 1. Prepara a fila de séries (se não existir, busca do site)
+          # 1. Prepara a fila de séries buscando TODOS os posts
           if not ARQ_FILA.exists():
-              print("Buscando lista de séries no site...")
-              r = requests.get(BASE_URL + "/feeds/posts/default?alt=json&max-results=1000", headers=HEADERS)
-              data = r.json()
+              print("Buscando lista COMPLETA de posts no site (pode demorar 1 min)...")
               urls = []
-              for entry in data.get("feed", {}).get("entry", []):
-                  link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
-                  if link:
-                      urls.append(link.split("?")[0])
+              start_index = 1
+              while True:
+                  url_feed = f"{BASE_URL}/feeds/posts/default?alt=json&max-results=150&start-index={start_index}"
+                  try:
+                      r = requests.get(url_feed, headers=HEADERS, timeout=15)
+                      if r.status_code != 200:
+                          break
+                      data = r.json()
+                      entries = data.get("feed", {}).get("entry", [])
+                      if not entries:
+                          break
+                          
+                      for entry in entries:
+                          link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
+                          if link:
+                              urls.append(link.split("?")[0])
+                              
+                      print(f"  -> Baixados {len(urls)} posts...")
+                      start_index += 150
+                      if len(entries) < 150:
+                          break
+                  except Exception as e:
+                      print(f"  -> Erro ao buscar feed: {e}")
+                      break
+                      
               ARQ_FILA.write_text("\n".join(urls), encoding="utf-8")
-              print(f"Fila criada com {len(urls)} posts.")
+              print(f"Fila criada com {len(urls)} posts no total.")
 
           # 2. Lê quem já foi feito
           feitas = set()
           if ARQ_FEITAS.exists():
               feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
-          # 3. Pega as próximas 10 séries
+          # 3. Pega as próximas 10 URLs
           fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
           lote = fila[:10]
 
@@ -61,7 +80,7 @@ jobs:
               print("Todas as séries da fila já foram processadas!")
               exit(0)
 
-          print(f"Iniciando lote de 10 séries. Faltam {len(fila)} no total.")
+          print(f"Iniciando lote de 10 URLs. Faltam {len(fila)} no total.")
 
           async def extrair_video_playwright(context, url_ep):
               page = await context.new_page()
@@ -98,12 +117,11 @@ jobs:
               return None
 
           def gerar_slug(titulo):
-              # Cria um nome de arquivo seguro (ex: "Arqueiro Verde" -> "arqueiro_verde")
               s = re.sub(r'[^a-z0-9\s]', '', titulo.lower())
               return re.sub(r'\s+', '_', s.strip())[:30]
 
           async def processar_serie(context, url_serie):
-              print(f"\n--> Processando série: {url_serie}")
+              print(f"\n--> Verificando: {url_serie}")
               try:
                   r = requests.get(url_serie, headers=HEADERS, timeout=15)
                   soup = BeautifulSoup(r.text, 'html.parser')
@@ -131,12 +149,16 @@ jobs:
                               titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
                               episodios.append({'temp': temporada_atual, 'ep': num_ep, 'titulo': titulo_limpo, 'url': href})
                               
+                  if not episodios:
+                      print(f"    (É um filme ou não tem episódios. Pulando...)")
+                      return
+
                   print(f"    Encontrados {len(episodios)} episódios.")
                   
                   for item in episodios:
                       nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
                       if Path(nome_arquivo).exists():
-                          continue # Pula se já foi baixado
+                          continue
                           
                       link_video = await extrair_video_playwright(context, item['url'])
                       if not link_video:
@@ -156,11 +178,11 @@ jobs:
                       print(f"      [+] Salvo: {nome_arquivo}")
                       
               except Exception as e:
-                  print(f"    Erro na série {url_serie}: {e}")
+                  print(f"    Erro na URL {url_serie}: {e}")
 
-              # Marca a série como feita, mesmo se falhou alguns episódios
-              with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                  f.write(url_serie + "\n")
+              finally:
+                  with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
+                      f.write(url_serie + "\n")
 
           async def main():
               async with async_playwright() as pw:
@@ -181,5 +203,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add .
-          git commit -m "feat: mega extracao de 10 series e atualizacao de progresso" || echo "Nada novo"
+          git commit -m "feat: mega extracao (lote de 10) e atualizacao de progresso" || echo "Nada novo"
           git push origin HEAD:main
