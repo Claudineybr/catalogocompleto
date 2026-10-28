@@ -13,12 +13,16 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 ARQ_FILA = Path("series_fila.txt")
 ARQ_FEITAS = Path("series_feitas.txt")
 ARQ_PENDENTES = Path("episodios_pendentes.json")
+ARQ_DESCARTADOS = Path("episodios_descartados.txt") # O NOSSO CEMITÉRIO
+
+# LISTA NEGRA: Séries que o robô vai ignorar completamente
+SERIES_MORTAS = ['true_detective', 'o_cuco_de_cristal', 'o11ze']
+MAX_TENTATIVAS = 5
 
 def log(*args):
     print(*args, flush=True)
     sys.stdout.flush()
 
-# 1. Cria a fila de séries se não existir
 if not ARQ_FILA.exists():
     log("Criando fila de séries...")
     urls = []
@@ -39,7 +43,6 @@ if not ARQ_FILA.exists():
         except: break
     ARQ_FILA.write_text("\n".join(urls), encoding="utf-8")
 
-# 2. Carrega as listas
 feitas = set()
 if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
@@ -52,7 +55,7 @@ if ARQ_PENDENTES.exists():
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
 lote = fila[:300]
 
-log(f"Faltam {len(fila)} séries na fila principal. Episódios pendentes para retentar: {len(pendentes)}")
+log(f"Faltam {len(fila)} séries na fila. Episódios pendentes: {len(pendentes)}.")
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -102,6 +105,12 @@ def salvar_json(nome_arquivo, nome_json, link_video):
     Path(nome_arquivo).write_text(html, encoding='utf-8')
 
 async def processar_serie(context, url_serie):
+    if any(morta in url_serie.lower() for morta in SERIES_MORTAS):
+        log(f"\n--> [BYPASS] Ignorando série morta: {url_serie}")
+        with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
+            f.write(url_serie + "\n")
+        return
+
     log(f"\n--> Verificando série: {url_serie}")
     try:
         r = await asyncio.to_thread(requests.get, url_serie, headers=HEADERS, timeout=20)
@@ -129,7 +138,6 @@ async def processar_serie(context, url_serie):
                     titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
                     episodios.append({'temp': temporada_atual, 'ep': num_ep, 'titulo': titulo_limpo, 'url': href})
                     
-        # Anota a série como feita LOGO DE CARA para destravar a fila principal
         with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
             f.write(url_serie + "\n")
 
@@ -137,7 +145,7 @@ async def processar_serie(context, url_serie):
             log(f"    (É um filme. Pulando...)")
             return
 
-        log(f"    Encontrados {len(episodios)} episódios de '{titulo_serie}'.")
+        log(f"    Encontrados {len(episodios)} episódios.")
         
         for item in episodios:
             nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
@@ -145,11 +153,12 @@ async def processar_serie(context, url_serie):
                 
             link_video = await extrair_video_playwright(context, item['url'])
             if not link_video: 
-                log(f"      [-] Falhou. Adicionando à fila de pendentes: {nome_arquivo}")
+                log(f"      [-] Falhou. Adicionando à fila de pendentes.")
                 pendentes.append({
                     "arquivo": nome_arquivo,
                     "nome_json": f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau",
-                    "url": item['url']
+                    "url": item['url'],
+                    "tentativas": 1
                 })
                 continue
                 
@@ -164,23 +173,31 @@ async def main():
         browser = await pw.chromium.launch(headless=True)
         context = await browser.new_context(user_agent=HEADERS["User-Agent"])
         
-        # 1. Processa o lote principal de 300 séries
         for url in lote:
             await processar_serie(context, url)
 
-        # 2. A MÁGICA: Tenta baixar os pendentes que falharam nas rodadas anteriores
         if pendentes:
             log(f"\n=== TENTANDO NOVAMENTE {len(pendentes)} EPISÓDIOS PENDENTES ===")
             ainda_pendentes = []
             for item in pendentes:
                 if Path(item['arquivo']).exists(): continue
-                log(f"--> Tentando novamente: {item['arquivo']}")
+                
+                # Se já tentou 5 vezes, joga no cemitério
+                if item.get("tentativas", 0) >= MAX_TENTATIVAS:
+                    log(f"--> [DESISTINDO E SALVANDO NO TXT] {item['arquivo']}")
+                    # SALVA NO ARQUIVO TXT
+                    with open(ARQ_DESCARTADOS, "a", encoding="utf-8") as f_desc:
+                        f_desc.write(f"{item['arquivo']}\t{item['url']}\t{item.get('tentativas')} falhas\n")
+                    continue
+
+                log(f"--> Tentando ({item.get('tentativas', 1)}/{MAX_TENTATIVAS}): {item['arquivo']}")
                 link_video = await extrair_video_playwright(context, item['url'])
                 if link_video:
                     salvar_json(item['arquivo'], item['nome_json'], link_video)
                     log(f"    [+] SUCESSO AO RETENTAR: {item['arquivo']}")
                 else:
                     log(f"    [-] Ainda falhando: {item['arquivo']}")
+                    item["tentativas"] = item.get("tentativas", 1) + 1
                     ainda_pendentes.append(item)
             pendentes.clear()
             pendentes.extend(ainda_pendentes)
@@ -189,6 +206,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-    # Salva a lista de pendentes atualizada no arquivo
     ARQ_PENDENTES.write_text(json.dumps(pendentes, ensure_ascii=False, indent=2), encoding="utf-8")
-    log(f"\nProgresso salvo. {len(pendentes)} episódios continuam pendentes para a próxima rodada.")
+    log(f"\nProgresso salvo. {len(pendentes)} episódios pendentes.")
