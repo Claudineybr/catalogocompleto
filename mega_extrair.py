@@ -12,52 +12,41 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 ARQ_FILA = Path("series_fila.txt")
 ARQ_FEITAS = Path("series_feitas.txt")
 
-# 1. Prepara a fila de séries buscando TODOS os posts
+# 1. Prepara a fila (se não existir)
 if not ARQ_FILA.exists():
-    print("Buscando lista COMPLETA de posts no site (pode demorar 1 min)...")
+    print("Criando fila...")
     urls = []
     start_index = 1
     while True:
         url_feed = f"{BASE_URL}/feeds/posts/default?alt=json&max-results=150&start-index={start_index}"
         try:
             r = requests.get(url_feed, headers=HEADERS, timeout=15)
-            if r.status_code != 200:
-                break
+            if r.status_code != 200: break
             data = r.json()
             entries = data.get("feed", {}).get("entry", [])
-            if not entries:
-                break
-                
+            if not entries: break
             for entry in entries:
                 link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
-                if link:
-                    urls.append(link.split("?")[0])
-                    
-            print(f"  -> Baixados {len(urls)} posts...")
+                if link: urls.append(link.split("?")[0])
             start_index += 150
-            if len(entries) < 150:
-                break
-        except Exception as e:
-            print(f"  -> Erro ao buscar feed: {e}")
-            break
-            
+            if len(entries) < 150: break
+        except: break
     ARQ_FILA.write_text("\n".join(urls), encoding="utf-8")
-    print(f"Fila criada com {len(urls)} posts no total.")
 
 # 2. Lê quem já foi feito
 feitas = set()
 if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
-# 3. Pega as próximas 10 URLs
+# 3. Pega as próximas 50 URLs (AQUI ESTÁ A MUDANÇA)
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-lote = fila[:10]
+lote = fila[:50]
 
 if not lote:
     print("Todas as séries da fila já foram processadas!")
     exit(0)
 
-print(f"Iniciando lote de 10 URLs. Faltam {len(fila)} no total.")
+print(f"Iniciando lote de 50 URLs. Faltam {len(fila)} no total.")
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -69,10 +58,8 @@ async def extrair_video_playwright(context, url_ep):
     page.on("response", on_response)
     try:
         await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
-        try:
-            await page.wait_for_selector("iframe", timeout=8000)
-        except:
-            pass 
+        try: await page.wait_for_selector("iframe", timeout=8000)
+        except: pass 
         await asyncio.sleep(2.0)
         html = await page.content()
         if not capturados:
@@ -83,14 +70,10 @@ async def extrair_video_playwright(context, url_ep):
                     capturados.append(src)
         if not capturados:
             match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
-            if match:
-                capturados.append(match.group(1))
-    except Exception:
-        pass
-    finally:
-        await page.close()
-    if capturados:
-        return list(dict.fromkeys(capturados))[0]
+            if match: capturados.append(match.group(1))
+    except Exception: pass
+    finally: await page.close()
+    if capturados: return list(dict.fromkeys(capturados))[0]
     return None
 
 def gerar_slug(titulo):
@@ -119,27 +102,24 @@ async def processar_serie(context, url_serie):
             if tag.name == 'a' and 'episódio' in texto.lower():
                 href = tag.get('href')
                 if href:
-                    if href.startswith('/'):
-                        href = BASE_URL + href
+                    if href.startswith('/'): href = BASE_URL + href
                     match_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
                     num_ep = match_ep.group(1) if match_ep else "0"
                     titulo_limpo = re.sub(r'Episódio\s*\d+\s*-?\s*', '', texto, flags=re.I).strip()
                     episodios.append({'temp': temporada_atual, 'ep': num_ep, 'titulo': titulo_limpo, 'url': href})
                     
         if not episodios:
-            print(f"    (É um filme ou não tem episódios. Pulando...)")
+            print(f"    (É um filme. Pulando...)")
             return
 
         print(f"    Encontrados {len(episodios)} episódios.")
         
         for item in episodios:
             nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
-            if Path(nome_arquivo).exists():
-                continue
+            if Path(nome_arquivo).exists(): continue
                 
             link_video = await extrair_video_playwright(context, item['url'])
-            if not link_video:
-                continue
+            if not link_video: continue
                 
             nome_json = f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau"
             dados = {
@@ -156,7 +136,6 @@ async def processar_serie(context, url_serie):
             
     except Exception as e:
         print(f"    Erro na URL {url_serie}: {e}")
-
     finally:
         with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
             f.write(url_serie + "\n")
