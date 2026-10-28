@@ -63,7 +63,6 @@ jobs:
               feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
           fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-          # AQUI ESTÁ A MUDANÇA PARA 150
           lote = fila[:150]
 
           if not lote:
@@ -82,9 +81,9 @@ jobs:
               page.on("response", on_response)
               try:
                   await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
-                  try: await page.wait_for_selector("iframe", timeout=8000)
+                  try: await page.wait_for_selector("iframe", timeout=10000) # Aumentei para 10s
                   except: pass 
-                  await asyncio.sleep(2.0)
+                  await asyncio.sleep(3.0) # Aumentei para 3s
                   html = await page.content()
                   if not capturados:
                       soup = BeautifulSoup(html, 'html.parser')
@@ -140,12 +139,16 @@ jobs:
 
                   print(f"    Encontrados {len(episodios)} episódios de '{titulo_serie}'.", flush=True)
                   
+                  falhas = 0
                   for item in episodios:
                       nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
                       if Path(nome_arquivo).exists(): continue
                           
                       link_video = await extrair_video_playwright(context, item['url'])
-                      if not link_video: continue
+                      if not link_video: 
+                          print(f"      [-] Falhou: {nome_arquivo}", flush=True)
+                          falhas += 1
+                          continue
                           
                       nome_json = f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau"
                       dados = {
@@ -159,12 +162,17 @@ jobs:
                       html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
                       Path(nome_arquivo).write_text(html, encoding='utf-8')
                       print(f"      [+] Salvo: {nome_arquivo}", flush=True)
+                  
+                  # A MÁGICA: Só marca a série como feita se baixar TODOS os episódios
+                  if falhas == 0:
+                      with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
+                          f.write(url_serie + "\n")
+                      print(f"    Série '{titulo_serie}' completa e marcada como feita.", flush=True)
+                  else:
+                      print(f"    Série '{titulo_serie}' teve {falhas} falhas. Não será marcada como feita para tentar de novo.", flush=True)
                       
               except Exception as e:
                   print(f"    Erro na URL {url_serie}: {e}", flush=True)
-              finally:
-                  with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                      f.write(url_serie + "\n")
 
           async def main():
               async with async_playwright() as pw:
