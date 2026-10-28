@@ -37,13 +37,15 @@ if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-lote = fila[:150]
+
+# AQUI ESTÁ A MUDANÇA PARA 300
+lote = fila[:300]
 
 if not lote:
     print("Todas as séries da fila já foram processadas!", flush=True)
     exit(0)
 
-print(f"Iniciando lote de 150 URLs. Faltam {len(fila)} no total.", flush=True)
+print(f"Iniciando lote de 300 URLs. Faltam {len(fila)} no total.", flush=True)
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
