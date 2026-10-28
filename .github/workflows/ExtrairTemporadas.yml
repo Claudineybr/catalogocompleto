@@ -1,10 +1,16 @@
 name: Mega Extrair Series (Lotes de 150)
 
 on:
-  workflow_dispatch: 
+  schedule:
+    - cron: '0 * * * *' # Roda a cada 1 hora (no minuto 0)
+  workflow_dispatch:    # Continua permitindo rodar na mão
 
 permissions:
   contents: write
+
+concurrency:
+  group: mega-extrator
+  cancel-in-progress: false
 
 jobs:
   extrair:
@@ -81,9 +87,9 @@ jobs:
               page.on("response", on_response)
               try:
                   await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
-                  try: await page.wait_for_selector("iframe", timeout=10000) # Aumentei para 10s
+                  try: await page.wait_for_selector("iframe", timeout=10000) 
                   except: pass 
-                  await asyncio.sleep(3.0) # Aumentei para 3s
+                  await asyncio.sleep(3.0) 
                   html = await page.content()
                   if not capturados:
                       soup = BeautifulSoup(html, 'html.parser')
@@ -163,13 +169,12 @@ jobs:
                       Path(nome_arquivo).write_text(html, encoding='utf-8')
                       print(f"      [+] Salvo: {nome_arquivo}", flush=True)
                   
-                  # A MÁGICA: Só marca a série como feita se baixar TODOS os episódios
                   if falhas == 0:
                       with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
                           f.write(url_serie + "\n")
                       print(f"    Série '{titulo_serie}' completa e marcada como feita.", flush=True)
                   else:
-                      print(f"    Série '{titulo_serie}' teve {falhas} falhas. Não será marcada como feita para tentar de novo.", flush=True)
+                      print(f"    Série '{titulo_serie}' teve {falhas} falhas. Não será marcada como feita.", flush=True)
                       
               except Exception as e:
                   print(f"    Erro na URL {url_serie}: {e}", flush=True)
@@ -200,14 +205,14 @@ jobs:
             exit 0
           fi
           
-          git commit -m "feat: mega extracao (lote de 150) e correcao de nomes"
+          git commit -m "feat: mega extracao automatica (cron 1h)"
           
           for i in 1 2 3; do
             if git push origin HEAD:main; then
               echo "Push concluido com sucesso!"
               break
             else
-              echo "Push rejeitado (tentativa $i). Atualizando e tentando de novo..."
+              echo "Push rejeitado. Atualizando e tentando de novo..."
               git pull --rebase origin main
             fi
           done
