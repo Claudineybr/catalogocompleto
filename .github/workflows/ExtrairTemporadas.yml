@@ -2,8 +2,8 @@ name: Mega Extrair Series (Lotes de 300)
 
 on:
   schedule:
-    - cron: '0 * * * *' # Roda a cada 1 hora
-  workflow_dispatch:    # Permite rodar na mão
+    - cron: '*/30 * * * *' # Roda a cada 30 minutos
+  workflow_dispatch:       # Permite rodar na mão
 
 permissions:
   contents: write
@@ -70,7 +70,6 @@ jobs:
 
           fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
           
-          # AQUI ESTÁ A MUDANÇA PARA 300
           lote = fila[:300]
 
           if not lote:
@@ -107,11 +106,13 @@ jobs:
               if capturados: return list(dict.fromkeys(capturados))[0]
               return None
 
-          def extrair_titulo_da_url(url):
-              parte = url.split("/")[-1].replace(".html", "")
-              palavras = parte.split("-")
-              palavras_limpas = [p for p in palavras if p.lower() not in ['inix', 'arc'] and not re.match(r'^\d{4}$', p)]
-              titulo = " ".join(palavras_limpas).title()
+          def limpar_titulo_pagina(soup_title):
+              if not soup_title:
+                  return "Serie Desconhecida"
+              titulo = re.sub(r'^.*?-\s*', '', soup_title)
+              titulo = re.sub(r'-\s*viniseries.*$', '', titulo, flags=re.I)
+              titulo = titulo.split('-')[0].strip()
+              titulo = re.sub(r'\s*\d{4}$', '', titulo).strip()
               return titulo if titulo else "Serie Desconhecida"
 
           async def processar_serie(context, url_serie):
@@ -120,8 +121,9 @@ jobs:
                   r = requests.get(url_serie, headers=HEADERS, timeout=15)
                   soup = BeautifulSoup(r.text, 'html.parser')
                   
-                  titulo_serie = extrair_titulo_da_url(url_serie)
-                  slug = re.sub(r'\s+', '_', titulo_serie.lower())
+                  titulo_serie = limpar_titulo_pagina(soup.title.text if soup.title else "")
+                  slug = re.sub(r'[^a-z0-9]', '_', titulo_serie.lower())
+                  slug = re.sub(r'_+', '_', slug).strip('_')
                   
                   temporada_atual = 1
                   episodios = []
@@ -207,7 +209,7 @@ jobs:
             exit 0
           fi
           
-          git commit -m "feat: mega extracao automatica (cron 1h, lote 300)"
+          git commit -m "feat: mega extracao automatica (cron 30min, lote 300)"
           
           for i in 1 2 3; do
             if git push origin HEAD:main; then
