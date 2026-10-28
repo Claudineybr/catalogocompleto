@@ -12,9 +12,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 ARQ_FILA = Path("series_fila.txt")
 ARQ_FEITAS = Path("series_feitas.txt")
 
-# 1. Prepara a fila (se não existir)
 if not ARQ_FILA.exists():
-    print("Criando fila...")
+    print("Criando fila...", flush=True)
     urls = []
     start_index = 1
     while True:
@@ -33,20 +32,18 @@ if not ARQ_FILA.exists():
         except: break
     ARQ_FILA.write_text("\n".join(urls), encoding="utf-8")
 
-# 2. Lê quem já foi feito
 feitas = set()
 if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
-# 3. Pega as próximas 50 URLs (AQUI ESTÁ A MUDANÇA)
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
 lote = fila[:50]
 
 if not lote:
-    print("Todas as séries da fila já foram processadas!")
+    print("Todas as séries da fila já foram processadas!", flush=True)
     exit(0)
 
-print(f"Iniciando lote de 50 URLs. Faltam {len(fila)} no total.")
+print(f"Iniciando lote de 50 URLs. Faltam {len(fila)} no total.", flush=True)
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -76,19 +73,25 @@ async def extrair_video_playwright(context, url_ep):
     if capturados: return list(dict.fromkeys(capturados))[0]
     return None
 
-def gerar_slug(titulo):
-    s = re.sub(r'[^a-z0-9\s]', '', titulo.lower())
-    return re.sub(r'\s+', '_', s.strip())[:30]
+def extrair_titulo_da_url(url):
+    # Pega a última parte da URL (ex: inix-arqueiro-verde-arrow-2012.html)
+    parte = url.split("/")[-1].replace(".html", "")
+    # Divide por hífen
+    palavras = parte.split("-")
+    # Remove "inix", "arc" e anos no final
+    palavras_limpas = [p for p in palavras if p.lower() not in ['inix', 'arc'] and not re.match(r'^\d{4}$', p)]
+    # Junta e coloca as iniciais maiúsculas
+    titulo = " ".join(palavras_limpas).title()
+    return titulo if titulo else "Serie Desconhecida"
 
 async def processar_serie(context, url_serie):
-    print(f"\n--> Verificando: {url_serie}")
+    print(f"\n--> Verificando: {url_serie}", flush=True)
     try:
         r = requests.get(url_serie, headers=HEADERS, timeout=15)
         soup = BeautifulSoup(r.text, 'html.parser')
         
-        titulo_serie = soup.title.text.split("-")[0].strip() if soup.title else "Série"
-        titulo_serie = re.sub(r'[^\w\s]', '', titulo_serie).replace("Vini7x", "").strip()
-        slug = gerar_slug(titulo_serie)
+        titulo_serie = extrair_titulo_da_url(url_serie)
+        slug = re.sub(r'\s+', '_', titulo_serie.lower())
         
         temporada_atual = 1
         episodios = []
@@ -109,10 +112,10 @@ async def processar_serie(context, url_serie):
                     episodios.append({'temp': temporada_atual, 'ep': num_ep, 'titulo': titulo_limpo, 'url': href})
                     
         if not episodios:
-            print(f"    (É um filme. Pulando...)")
+            print(f"    (É um filme. Pulando...)", flush=True)
             return
 
-        print(f"    Encontrados {len(episodios)} episódios.")
+        print(f"    Encontrados {len(episodios)} episódios de '{titulo_serie}'.", flush=True)
         
         for item in episodios:
             nome_arquivo = f"{slug}_t{item['temp']}e{item['ep']}.json"
@@ -132,10 +135,10 @@ async def processar_serie(context, url_serie):
             json_str = json.dumps(dados, ensure_ascii=False, indent=2)
             html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json_str}\n</script>\n<title>{nome_json}</title>\n</head>\n<body>\n<h1>{nome_json}</h1>\n</body>\n</html>"
             Path(nome_arquivo).write_text(html, encoding='utf-8')
-            print(f"      [+] Salvo: {nome_arquivo}")
+            print(f"      [+] Salvo: {nome_arquivo}", flush=True)
             
     except Exception as e:
-        print(f"    Erro na URL {url_serie}: {e}")
+        print(f"    Erro na URL {url_serie}: {e}", flush=True)
     finally:
         with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
             f.write(url_serie + "\n")
