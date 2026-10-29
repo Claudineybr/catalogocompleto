@@ -2,7 +2,7 @@ name: Mega Extrair Filmes (Lotes de 500)
 
 on:
   schedule:
-    - cron: '15,45 * * * *' # Roda a cada 30 minutos (nos minutos 15 e 45)
+    - cron: '15,45 * * * *' # Roda a cada 30 minutos
   workflow_dispatch:       # Permite rodar na mão
 
 permissions:
@@ -141,18 +141,16 @@ jobs:
                   if not raw: continue
                   titulo = str(raw).strip()
                   
-                  # Split apenas em hífen COM espaços (ex: " - "), para não quebrar nomes como "Spider-Man"
+                  # Split apenas em hífen COM espaços
                   partes = [p.strip() for p in re.split(r'\s+[-–—]\s+', titulo) if p.strip()]
                   if not partes: continue
 
                   if len(partes) > 1:
-                      # Remove pedaços que parecem nome do site
                       limpas = [p for p in partes if not re.search(r'(vini|grave|site|online|filme|séries|series|assistir)', p, re.I)]
                       titulo = max(limpas or partes, key=len)
                   else:
                       titulo = partes[0]
 
-                  # Remove ano entre parênteses no final
                   titulo = re.sub(r'\s*\(\d{4}\)\s*$', '', titulo).strip()
                   titulo = titulo.strip('"\''"'"'""''').strip()
                   titulo = re.sub(r'[\s.:;,]+$', '', titulo).strip()
@@ -195,7 +193,7 @@ jobs:
 
                   titulo_filme = limpar_titulo_pagina(soup)
                   
-                  # Pega o ano do SLUG (não do path /2026/04/), usando o ÚLTIMO ano encontrado
+                  # Pega o ano do SLUG, usando o ÚLTIMO ano encontrado
                   slug_match = re.search(r'/([^/]+)\.html?$', url_pagina)
                   if slug_match:
                       slug_part = slug_match.group(1)
@@ -294,13 +292,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # FORÇA a adição dos arquivos de controle, ignorando qualquer .gitignore oculto
+          # FORÇA a adição dos arquivos de controle
           git add -f filmes_feitos.txt 2>/dev/null || true
           git add -f filmes_fila.txt 2>/dev/null || true
           git add -f filmes_pendentes.json 2>/dev/null || true
           git add -f filmes_descartados.txt 2>/dev/null || true
           
-          # Adiciona os novos arquivos JSON de filmes
           git add .
 
           if git diff --cached --quiet; then
@@ -311,7 +308,7 @@ jobs:
           ARQUIVOS=$(git diff --cached --name-only | wc -l)
           git commit -m "chore: atualizar catálogo de filmes ($ARQUIVOS arquivos)"
 
-          # Tentar dar push até 5 vezes (com reset e sleep para evitar conflitos com o robô de séries)
+          # Loop de 5 tentativas para o Push
           for i in $(seq 1 5); do
             echo "== Push tentativa $i/5 =="
             if git push origin HEAD:main; then
@@ -322,7 +319,6 @@ jobs:
             git fetch origin main
             git reset --mixed origin/main
             
-            # Força o add de novo após o reset
             git add -f filmes_feitos.txt 2>/dev/null || true
             git add -f filmes_fila.txt 2>/dev/null || true
             git add -f filmes_pendentes.json 2>/dev/null || true
