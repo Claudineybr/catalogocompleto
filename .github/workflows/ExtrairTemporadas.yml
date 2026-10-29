@@ -48,7 +48,7 @@ jobs:
           ARQ_DESCARTADOS = Path("episodios_descartados.txt")
 
           SERIES_MORTAS = ['true_detective', 'o_cuco_de_cristal', 'o11ze', 'big_bang_a_teoria']
-          MAX_TENTATIVAS = 5
+          MAX_TENTATIVAS = 3
 
           def log(*args):
               print(*args, flush=True)
