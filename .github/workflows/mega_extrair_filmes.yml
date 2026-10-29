@@ -2,8 +2,8 @@ name: Mega Extrair Filmes (Lotes de 500)
 
 on:
   schedule:
-    - cron: '15,45 * * * *' # Roda a cada 30 minutos
-  workflow_dispatch:       # Permite rodar na mao
+    - cron: '15,45 * * * *' 
+  workflow_dispatch:       
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
   extrair:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar repositorio
+      - name: Baixar repositório
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -48,7 +48,7 @@ jobs:
           ARQ_DESCARTADOS = Path("filmes_descartados.txt")
 
           FILMES_MORTOS = [] 
-          MAX_TENTATIVAS = 3 # Limite reduzido
+          MAX_TENTATIVAS = 3 # Alterado para 3
 
           def log(*args):
               print(*args, flush=True)
@@ -68,7 +68,7 @@ jobs:
                       if not entries: break
                       for entry in entries:
                           link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
-                          if link: urls.append(link.split("?")[0])
+                          if link: urls.append(link.split("?")[0].strip())
                       start_index += 150
                       if len(entries) < 150: break
                   except: break
@@ -76,7 +76,7 @@ jobs:
 
           feitas = set()
           if ARQ_FEITAS.exists():
-              feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
+              feitas = set(line.strip() for line in ARQ_FEITAS.read_text(encoding="utf-8").splitlines() if line.strip())
 
           pendentes_dict = {}
           if ARQ_PENDENTES.exists():
@@ -95,10 +95,14 @@ jobs:
           
           pendentes = list(pendentes_dict.values())
 
-          fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
+          todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
+          fila = [u for u in todas_urls if u not in feitas]
           lote = fila[:500]
 
-          log(f"Faltam {len(fila)} itens na fila. Pendentes (limpos): {len(pendentes)}.")
+          # Logs de diagnóstico
+          log(f"Total na fila original: {len(todas_urls)}")
+          log(f"Total de itens JA FEITOS (lidos do txt): {len(feitas)}")
+          log(f"Faltam {len(fila)} itens. Pendentes (limpos): {len(pendentes)}.")
 
           async def extrair_video_playwright(context, url_ep):
               page = await context.new_page()
@@ -128,40 +132,30 @@ jobs:
               if capturados: return list(dict.fromkeys(capturados))[0]
               return None
 
-          def limpar_titulo_pagina(soup):
-              if not soup: return "Filme Desconhecido"
-              candidatos = []
-              og = soup.find('meta', property='og:title')
-              if og and og.get('content'): candidatos.append(og['content'])
-              h1 = soup.find('h1')
-              if h1: candidatos.append(h1.get_text())
-              if soup.title and soup.title.string: candidatos.append(soup.title.string)
-
-              for raw in candidatos:
-                  if not raw: continue
-                  titulo = str(raw).strip()
-                  
-                  # Remove a marca d'agua
-                  titulo = titulo.replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
-                  
-                  # Separa por hifens com espaco
-                  partes = [p.strip() for p in re.split(r'\s+[-–—]\s+', titulo) if p.strip()]
-                  if not partes: continue
-
-                  if len(partes) > 1:
-                      limpas = [p for p in partes if not re.search(r'(vini|grave|site|online|filme|series|assistir)', p, re.I)]
-                      titulo = max(limpas or partes, key=len)
-                  else:
-                      titulo = partes[0]
-
-                  # Remove o ano no final (com ou sem parenteses)
-                  titulo = re.sub(r'\s*\(?\d{4}\)?\s*$', '', titulo).strip()
-                  titulo = titulo.strip('"\'').strip()
-                  titulo = re.sub(r'[\s.:;,]+$', '', titulo).strip()
-
-                  if titulo and len(titulo) > 2:
-                      return titulo
+          def extrair_titulo(soup):
+              og_title = soup.find('meta', property='og:title')
+              if og_title and og_title.get('content'):
+                  titulo_raw = og_title['content']
+              else:
+                  h1 = soup.find('h1')
+                  if h1: titulo_raw = h1.text
+                  else: titulo_raw = soup.title.text if soup.title else "Filme Desconhecido"
+              
+              titulo_raw = titulo_raw.replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
+              
+              partes = [p.strip() for p in titulo_raw.split(' - ') if p.strip()]
+              partes_validas = [p for p in partes if not any(x in p.lower() for x in ['vini', 'grave', 'online', 'blogspot', 'assistir'])]
+              
+              if partes_validas: return max(partes_validas, key=len)
               return "Filme Desconhecido"
+
+          def extrair_ano_da_url(url_pagina):
+              match = re.search(r'/([^/]+)\.html', url_pagina)
+              if match:
+                  slug = match.group(1)
+                  anos = re.findall(r'\b(19|20)\d{2}\b', slug)
+                  if anos: return anos[-1]
+              return ""
 
           def salvar_json(nome_arquivo, nome_json, link_video):
               dados = {
@@ -179,7 +173,7 @@ jobs:
               if any(morta in url_pagina.lower() for morta in FILMES_MORTOS):
                   log(f"\n--> [BYPASS] Ignorando filme morto: {url_pagina}")
                   with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                      f.write(url_pagina + "\n")
+                      f.write(url_pagina.strip() + "\n")
                   return
 
               log(f"\n--> Verificando: {url_pagina}")
@@ -187,41 +181,28 @@ jobs:
                   r = await asyncio.to_thread(requests.get, url_pagina, headers=HEADERS, timeout=20)
                   soup = BeautifulSoup(r.text, 'html.parser')
                   
-                  # Verifica se e serie (sem acento para seguranca)
                   tem_episodio = any('epis' in tag.get_text().lower() for tag in soup.find_all('a'))
                   if tem_episodio:
                       log(f"    (E uma serie. Pulando...)")
                       with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                          f.write(url_pagina + "\n")
+                          f.write(url_pagina.strip() + "\n")
                       return
 
-                  titulo_filme = limpar_titulo_pagina(soup)
-                  
-                  # Pega o ultimo ano encontrado no slug
-                  slug_match = re.search(r'/([^/]+)\.html?$', url_pagina)
-                  if slug_match:
-                      slug_part = slug_match.group(1)
-                      anos_no_slug = re.findall(r'\b(19\d{2}|20\d{2})\b', slug_part)
-                      ano = anos_no_slug[-1] if anos_no_slug else ""
-                  else:
-                      ano = ""
-                      
-                  if not ano:
-                      match = re.search(r'\b(19\d{2}|20\d{2})\b', titulo_filme)
-                      ano = match.group(0) if match else ""
+                  titulo_filme = extrair_titulo(soup)
+                  ano = extrair_ano_da_url(url_pagina)
                   
                   slug = re.sub(r'[^a-z0-9]', '_', titulo_filme.lower())
                   slug = re.sub(r'_+', '_', slug).strip('_')
                   
                   if ano:
                       nome_arquivo = f"{slug}_{ano}.json"
-                      nome_json_final = f"{titulo_filme} ({ano}) - \U0001F37FClau"
+                      nome_json_final = f"{titulo_filme} ({ano}) - 🍿Clau"
                   else:
                       nome_arquivo = f"{slug}.json"
-                      nome_json_final = f"{titulo_filme} - \U0001F37FClau"
+                      nome_json_final = f"{titulo_filme} - 🍿Clau"
 
                   with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                      f.write(url_pagina + "\n")
+                      f.write(url_pagina.strip() + "\n")
 
                   if Path(nome_arquivo).exists(): 
                       log(f"    (Ja existe: {nome_arquivo})")
@@ -295,26 +276,22 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Forca a adicao dos arquivos de controle de filmes
-          git add -f filmes_feitos.txt 2>/dev/null || true
-          git add -f filmes_fila.txt 2>/dev/null || true
-          git add -f filmes_pendentes.json 2>/dev/null || true
-          git add -f filmes_descartados.txt 2>/dev/null || true
           
-          # Adiciona apenas JSONs e TXTs (impede o erro no .github)
+          # Adiciona forçado os arquivos de texto (para burlar gitignore)
+          git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
+          
+          # Adiciona apenas os JSONs e TXTs (para não bugar no .github)
           git add *.json
           git add *.txt
-
+          
           if git diff --cached --quiet; then
             echo "Nada novo para commitar."
             exit 0
           fi
-
-          ARQUIVOS=$(git diff --cached --name-only | wc -l)
-          git commit -m "chore: atualizar catalogo de filmes ($ARQUIVOS arquivos)"
-
-          # Loop de 5 tentativas com PULL E MERGE (a prova de concorrencia)
+          
+          git commit -m "feat: mega extracao de filmes (titulos, anos e progresso corrigidos)"
+          
+          # Loop de 5 tentativas com PULL E MERGE (à prova de concorrência)
           for i in $(seq 1 5); do
             echo "== Push tentativa $i/5 =="
             if git push origin HEAD:main; then
@@ -323,14 +300,9 @@ jobs:
             fi
             
             echo "[FALHA] Push falhou. Baixando atualizacoes remotas e mesclando..."
-            
-            # Puxa e junta com a nossa versao
             git pull origin main --no-rebase -X ours --no-edit
             
-            # Adiciona novamente caso o pull tenha mexido em algo
-            git add -f filmes_feitos.txt 2>/dev/null || true
-            git add -f filmes_fila.txt 2>/dev/null || true
-            git add -f filmes_pendentes.json 2>/dev/null || true
+            git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
             git add *.json
             git add *.txt
             
@@ -339,9 +311,9 @@ jobs:
               exit 0
             fi
             
-            git commit -m "chore: atualizar catalogo de filmes (merge $i)" || true
+            git commit -m "feat: mega extracao de filmes (merge $i)" || true
             sleep $((RANDOM % 10 + 5))
           done
-
+          
           echo "[FALHA] Falha apos 5 tentativas"
           exit 1
