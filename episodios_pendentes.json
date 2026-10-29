@@ -1,794 +1,386 @@
 [
   {
-    "arquivo": "the_walking_dead_daryl_dixon_t3e6.json",
-    "nome_json": "The Walking Dead: Daryl Dixon - T3E6 - : Caminhos Escuros - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "the_walking_dead_daryl_dixon_t3e7.json",
-    "nome_json": "The Walking Dead: Daryl Dixon - T3E7 - : O Último Horizonte - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep07_26.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "bom_dia_ver_nica_t1e7.json",
-    "nome_json": "Bom Dia Verônica. - T1E7 -  - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/inix-bom-dia-veronica-tp01ep07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "bom_dia_ver_nica_t1e8.json",
-    "nome_json": "Bom Dia Verônica. - T1E8 -  - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/inix-bom-dia-veronica-tp01ep08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "bom_dia_ver_nica_t2e1.json",
-    "nome_json": "Bom Dia Verônica. - T2E1 - – Justiça - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/inix-bom-dia-veronica-tp02ep01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e1.json",
-    "nome_json": "Pacificador - T1E1 - Um Novo Turbilhão - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e2.json",
-    "nome_json": "Pacificador - T1E2 - Piores Amigos Para Sempre - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e3.json",
-    "nome_json": "Pacificador - T1E3 - Melhor Morto - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e4.json",
-    "nome_json": "Pacificador - T1E4 - A Estrada Mais Paucorrida - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e5.json",
-    "nome_json": "Pacificador - T1E5 - Suave Na Nave - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e6.json",
-    "nome_json": "Pacificador - T1E6 - Queimurn Depois de Ler - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e7.json",
-    "nome_json": "Pacificador - T1E7 - O Que os Olhos Não Veem o Dragão Não Sente - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t1e8.json",
-    "nome_json": "Pacificador - T1E8 - Chutando o Pau da Bavaca - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp1e08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e1.json",
-    "nome_json": "Pacificador - T2E1 - Os Laços Que Desgastam - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e2.json",
-    "nome_json": "Pacificador - T2E2 - O Pássaro Do Homem Determina Seu Valor - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e3.json",
-    "nome_json": "Pacificador - T2E3 - Outro Rick Na Manga - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e4.json",
-    "nome_json": "Pacificador - T2E4 - Que Mais Porta Dizer? - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e5.json",
-    "nome_json": "Pacificador - T2E5 - De Volta À Sutura - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e6.json",
-    "nome_json": "Pacificador - T2E6 - A Ignorância é Chris - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e7.json",
-    "nome_json": "Pacificador - T2E7 - Como Um Keith na Noite - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "pacificador_t2e8.json",
-    "nome_json": "Pacificador - T2E8 - Chave Nelson - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-pacificador-tp2e08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "9_t1e9.json",
-    "nome_json": "9 - T1E9 - Sem Saída - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/10/inix-911-tp1e09.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "as_aventuras_de_tintim_t2e13.json",
-    "nome_json": "As Aventuras de Tintim - T2E13 - – Os Tubarões do Mar Vermelho: Parte 1 - 🍿Clau",
-    "url": "#",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e1.json",
-    "nome_json": "Twisted Metal - T1E1 - WLUDRV - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e2.json",
-    "nome_json": "Twisted Metal - T1E2 - 3RNCRCS - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e3.json",
-    "nome_json": "Twisted Metal - T1E3 - NTHLAW1 - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e4.json",
-    "nome_json": "Twisted Metal - T1E4 - WHZDARE - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e5.json",
-    "nome_json": "Twisted Metal - T1E5 - CRZSRDS - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e6.json",
-    "nome_json": "Twisted Metal - T1E6 - DRVTHRU - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e7.json",
-    "nome_json": "Twisted Metal - T1E7 - NUTH0UZ - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e8.json",
-    "nome_json": "Twisted Metal - T1E8 - EV3L1N - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e9.json",
-    "nome_json": "Twisted Metal - T1E9 - R04DK11 - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e09.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t1e10.json",
-    "nome_json": "Twisted Metal - T1E10 - SHNGRLA - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/08/inix-twisted-metal-tp1e10.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e1.json",
-    "nome_json": "Twisted Metal - T2E1 - PRSRPNT - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-tp2e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e2.json",
-    "nome_json": "Twisted Metal - T2E2 - DOLF4C3 - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-tp2e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e3.json",
-    "nome_json": "Twisted Metal - T2E3 - T3STDRV - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-tp2e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e4.json",
-    "nome_json": "Twisted Metal - T2E4 - LZGTBZY - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-tp2e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e5.json",
-    "nome_json": "Twisted Metal - T2E5 - ONURMRK - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-tp2e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e6.json",
-    "nome_json": "Twisted Metal - T2E6 - MKAW1SH - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-twisted-metal-tp2e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e7.json",
-    "nome_json": "Twisted Metal - T2E7 - H1TNRVN - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-twisted-metal-tp2e07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e8.json",
-    "nome_json": "Twisted Metal - T2E8 - H1TNRVN - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/09/inix-twisted-metal-tp2e08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "twisted_metal_t2e9.json",
-    "nome_json": "Twisted Metal - T2E9 - VAVAVUM - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/10/inix-twisted-metal-tp2e09.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e1.json",
-    "nome_json": "Tulsa King - T1E1 - Vai para Oeste, Velho - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e01_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e2.json",
-    "nome_json": "Tulsa King - T1E2 - O Centro do Universo - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e02_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e3.json",
-    "nome_json": "Tulsa King - T1E3 - Capricho - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e03_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e4.json",
-    "nome_json": "Tulsa King - T1E4 - Lugar de Visitação - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e04_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e5.json",
-    "nome_json": "Tulsa King - T1E5 - Lembrança do Joe - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e05_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e6.json",
-    "nome_json": "Tulsa King - T1E6 - Estábulo - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e06_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e7.json",
-    "nome_json": "Tulsa King - T1E7 - Warr Acres - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e07_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e8.json",
-    "nome_json": "Tulsa King - T1E8 - Paredes de Adobe - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e08_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t1e9.json",
-    "nome_json": "Tulsa King - T1E9 - Adeus e Boa Sorte - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e09_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e1.json",
-    "nome_json": "Tulsa King - T2E1 - De Volta à Sela - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e10.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e2.json",
-    "nome_json": "Tulsa King - T2E2 - O Blues de Kansas City - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e02_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e3.json",
-    "nome_json": "Tulsa King - T2E3 - Oklahoma x Manfredi - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp1e03_65.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e4.json",
-    "nome_json": "Tulsa King - T2E4 - Heróis e Vilões - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e04_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e5.json",
-    "nome_json": "Tulsa King - T2E5 - Lutando contra Moinhos de Vento - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e05_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e6.json",
-    "nome_json": "Tulsa King - T2E6 - Navegador - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e06_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e7.json",
-    "nome_json": "Tulsa King - T2E7 - Suporte Vital - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e07_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e8.json",
-    "nome_json": "Tulsa King - T2E8 - Sob Nova Direção - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e08_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e9.json",
-    "nome_json": "Tulsa King - T2E9 - Triade - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e09_28.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t2e10.json",
-    "nome_json": "Tulsa King - T2E10 - Reconstrução - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2025/04/inix-tp2e10.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tulsa_king_t3e1.json",
-    "nome_json": "Tulsa King - T3E1 - Sangue e Bourbon - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-tursa-king-tp3e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "naruto_shippuden_t1e1.json",
-    "nome_json": "Naruto Shippuden - T1E1 - De Volta para Casa - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp1e01.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t2e7.json",
-    "nome_json": "Naruto Shippuden - T2E7 - Sem Título - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp2e07.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t3e9.json",
-    "nome_json": "Naruto Shippuden - T3E9 - Companheiro - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp3e09.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t4e11.json",
-    "nome_json": "Naruto Shippuden - T4E11 - Time 10 - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp4e11.html",
-    "tentativas": 2
-  },
-  {
     "arquivo": "naruto_shippuden_t5e21.json",
     "nome_json": "Naruto Shippuden - T5E21 - Contra-Ataque da Marca da Maldição - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp5e21.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t5e22.json",
     "nome_json": "Naruto Shippuden - T5E22 - Memórias de Culpa - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp5e22.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t5e23.json",
     "nome_json": "Naruto Shippuden - T5E23 - Promessa Quebrada - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp5e23.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t5e24.json",
     "nome_json": "Naruto Shippuden - T5E24 - Um Lugar para Voltar - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp5e24.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t7e8.json",
     "nome_json": "Naruto Shippuden - T7E8 - Mestre e Aluno - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp7e08.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t8e4.json",
     "nome_json": "Naruto Shippuden - T8E4 - O Primeiro Desafio - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp8e04.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t9e14.json",
-    "nome_json": "Naruto Shippuden - T9E14 - Crônicas da Folha: A Enciclopédia de Patas de Sasuke - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp9e14.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t10e1.json",
-    "nome_json": "Naruto Shippuden - T10E1 - O Sexto Hokage, Danzou - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp10e01.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t10e5.json",
-    "nome_json": "Naruto Shippuden - T10E5 - Decisão Dolorosa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp10e05.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t11e15.json",
-    "nome_json": "Naruto Shippuden - T11E15 - Amigos Em Quem Confiar - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp11e5_5.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t12e1.json",
-    "nome_json": "Naruto Shippuden - T12E1 - Terra à Vista! Será essa a Ilha Paradisíaca? - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp12e1.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t12e3.json",
-    "nome_json": "Naruto Shippuden - T12E3 - Próximo Desafio! Naruto versus Nove Caudas!! - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp12e3.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t12e11.json",
-    "nome_json": "Naruto Shippuden - T12E11 - A Ponte Para a Paz - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp12e11.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t12e21.json",
-    "nome_json": "Naruto Shippuden - T12E21 - Sai e Shin - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp12e21_5.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t13e5.json",
-    "nome_json": "Naruto Shippuden - T13E5 - A Estética do Artista - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp13e05.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t13e17.json",
-    "nome_json": "Naruto Shippuden - T13E17 - Ninjas Médicos em Perigo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp13e17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t13e19.json",
-    "nome_json": "Naruto Shippuden - T13E19 - A Estética do Artista - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp13e19.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t14e3.json",
-    "nome_json": "Naruto Shippuden - T14E3 - Células de Hashirama - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp14e03.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t14e4.json",
     "nome_json": "Naruto Shippuden - T14E4 - O Ninja Renegado, Orochimaru - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp14e04.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t14e16.json",
     "nome_json": "Naruto Shippuden - T14E16 - Os Laços que Formam Vínculos - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp14e16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t14e19.json",
     "nome_json": "Naruto Shippuden - T14E19 - Hashirama e Madara - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-naruto-shippuden-tp14e19.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "naruto_shippuden_t15e28.json",
-    "nome_json": "Naruto Shippuden - T15E28 -  - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-naruto-shippuden-tp15e28.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t16e5.json",
     "nome_json": "Naruto Shippuden - T16E5 - – O Passado de um Uchiha - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp16e.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t17e1.json",
     "nome_json": "Naruto Shippuden - T17E1 - – O Lugar de Eu - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp17e01.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t17e2.json",
     "nome_json": "Naruto Shippuden - T17E2 - – O Clã Yamanaka: Ninjutsu Secreto - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp172.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t18e2.json",
     "nome_json": "Naruto Shippuden - T18E2 - – Título a determinar - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp18e2.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t18e13.json",
     "nome_json": "Naruto Shippuden - T18E13 - – Título a determinar - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp18e13.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t18e14.json",
     "nome_json": "Naruto Shippuden - T18E14 - – Título a determinar - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp18e14.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "naruto_shippuden_t18e15.json",
     "nome_json": "Naruto Shippuden - T18E15 - – Título a determinar - 🍿Clau",
     "url": "https://marcosx7.blogspot.com/2025/09/inix-naruto-shippuden-tp18e15.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "o_ref_gio_at_mico_t1e5.json",
-    "nome_json": "O Refúgio Atômico - T1E5 - Portão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-o-refugio-atomico-tp1e05.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "alice_in_borderland_t1e5.json",
-    "nome_json": "Alice in Borderland - T1E5 -  - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp1e05_2.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "alice_in_borderland_t1e6.json",
-    "nome_json": "Alice in Borderland - T1E6 -  - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp1e06_2.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "alice_in_borderland_t2e1.json",
-    "nome_json": "Alice in Borderland - T2E1 -  - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp2e01.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e1.json",
     "nome_json": "Dan Da Dan - T1E1 - É assim que o amor começa, tá ligado? - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e01_45.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e2.json",
     "nome_json": "Dan Da Dan - T1E2 - Isso aí é um alienígena, não é?! - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e02_69.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e3.json",
     "nome_json": "Dan Da Dan - T1E3 - Tem duas vovós saindo na mão! - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e03_2.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e4.json",
     "nome_json": "Dan Da Dan - T1E4 - Cadê as suas bolas, mano? - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e04_26.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e5.json",
     "nome_json": "Dan Da Dan - T1E5 - Cadê as suas bolas, mano? - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e05_58.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e6.json",
     "nome_json": "Dan Da Dan - T1E6 - Chegou uma mulher que é treta - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e06_84.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e7.json",
     "nome_json": "Dan Da Dan - T1E7 - Rumo a um mundo mais gentil - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e07_65.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e8.json",
     "nome_json": "Dan Da Dan - T1E8 - Tô com uma sensação meio esquisita - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e08_67.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e9.json",
     "nome_json": "Dan Da Dan - T1E9 - Fusão! Serpo Dover Demon Nessie! - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e09_34.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e10.json",
     "nome_json": "Dan Da Dan - T1E10 - Você já viu uma mutilação de gado? - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e10_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e11.json",
     "nome_json": "Dan Da Dan - T1E11 - O primeiro amor - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e11_84.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t1e12.json",
     "nome_json": "Dan Da Dan - T1E12 - Partiu casa amaldiçoada - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/06/inix-tp1e12_10.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e2.json",
     "nome_json": "Dan Da Dan - T2E2 - O Olho Maligno - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e02.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e3.json",
     "nome_json": "Dan Da Dan - T2E3 - Não vai ficar barato - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e03.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e4.json",
     "nome_json": "Dan Da Dan - T2E4 - A coisa tá, tipo, muito feia - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e04.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e5.json",
     "nome_json": "Dan Da Dan - T2E5 - Todo mundo dormindo junto - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e05.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e6.json",
     "nome_json": "Dan Da Dan - T2E6 - Viramos uma família - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e06.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "dan_da_dan_t2e7.json",
     "nome_json": "Dan Da Dan - T2E7 - Tá batendo um baixo astral - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e07.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "dan_da_dan_t2e9.json",
-    "nome_json": "Dan Da Dan - T2E9 - Eu quero reconstruir a casa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-dan-da-dan-tp2e09.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "marvel_zumbis_t1e1.json",
     "nome_json": "Marvel Zumbis - T1E1 -  - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-marvel-zumbis-tp1e01.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "o_ver_o_que_mudou_minha_vida_t3e9.json",
     "nome_json": "O Verão Que Mudou Minha Vida - T3E9 - A Última Chamada - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-o-verao-que-mudou-minha-vida-tp3e09.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "o_ver_o_que_mudou_minha_vida_t3e10.json",
     "nome_json": "O Verão Que Mudou Minha Vida - T3E10 - O Último Ano - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-o-verao-que-mudou-minha-vida-tp3e10.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "o_ver_o_que_mudou_minha_vida_t3e11.json",
     "nome_json": "O Verão Que Mudou Minha Vida - T3E11 - E por Último - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-o-verao-que-mudou-minha-vida-tp3e11.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "shadowhunters_instrumentos_mortais_t1e7.json",
-    "nome_json": "Shadowhunters: Instrumentos Mortais - T1E7 - Arcanos Maiores - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e07_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "shadowhunters_instrumentos_mortais_t2e16.json",
     "nome_json": "Shadowhunters: Instrumentos Mortais - T2E16 - Dia do Perdão - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e16_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "shadowhunters_instrumentos_mortais_t3e1.json",
-    "nome_json": "Shadowhunters: Instrumentos Mortais - T3E1 - Em Terras Infernais - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp3e01_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "shadowhunters_instrumentos_mortais_t3e6.json",
-    "nome_json": "Shadowhunters: Instrumentos Mortais - T3E6 - Uma Janela para um Quarto Vazio - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp3e06_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "shadowhunters_instrumentos_mortais_t3e10.json",
-    "nome_json": "Shadowhunters: Instrumentos Mortais - T3E10 - Erchomai - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp3e10_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "shadowhunters_instrumentos_mortais_t3e15.json",
-    "nome_json": "Shadowhunters: Instrumentos Mortais - T3E15 - Para as Crianças da Noite - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp4e05_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "alien_earth_t1e5.json",
-    "nome_json": "Alien Earth - T1E5 - No Espaço, Ninguém... - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-alien-earth-tp1e05.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "madame_aema_t1e3.json",
-    "nome_json": "Madame Aema - T1E3 -  - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-madame-aema-tp1e03.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "sem_piedade_t1e5.json",
-    "nome_json": "Sem Piedade - T1E5 -  - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-sem-piedade-tp1e05.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "gatilho_t1e3.json",
     "nome_json": "Gatilho - T1E3 -  - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/09/inix-gatilho-tp1e03.html",
+    "tentativas": 3
+  },
+  {
+    "arquivo": "manifest_o_mist_rio_do_voo_828_t1e6.json",
+    "nome_json": "Manifest: O Mistério do Voo 828 - T1E6 - Fora do Radar - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/09/inix-manifest-tp1e06.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e12.json",
+    "nome_json": "Black Clover - T1E12 - O Rei Mago Viu - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e13.json",
+    "nome_json": "Black Clover - T1E13 - Continuação de O Rei Mago Viu - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e19.json",
+    "nome_json": "Black Clover - T1E19 - Destruição e Salvação - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e19.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e20.json",
+    "nome_json": "Black Clover - T1E20 - Reunião na Capital Real - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e21.json",
+    "nome_json": "Black Clover - T1E21 - Motim na Capital - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20_13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t1e47.json",
+    "nome_json": "Black Clover - T1E47 - A Única Arma - 🍿Clau",
+    "url": "https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e47.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "black_clover_t2e6.json",
+    "nome_json": "Black Clover - T2E6 - Infiltração - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-black-clover-tp2e06.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "legends_of_tomorrow_t2e4.json",
+    "nome_json": "(Legends of Tomorrow) - T2E4 - Abominações - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/09/inix-lendas-do-amanha-tp2e04.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "legends_of_tomorrow_t5e4.json",
+    "nome_json": "(Legends of Tomorrow) - T5E4 - Mate Qualquer Coisa - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/09/inix-lendas-do-amanha-tp5e04.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "minha_vida_com_a_fam_lia_walter_t2e1.json",
+    "nome_json": "Minha Vida com a Família Walter - T2E1 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-minha-vida-com-familia-walter-tp2e01.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e1.json",
+    "nome_json": "Contagem Regressiva - T1E1 - Dentes no Osso - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e01.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e2.json",
+    "nome_json": "Contagem Regressiva - T1E2 - Morto Várias Vezes - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e02.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e3.json",
+    "nome_json": "Contagem Regressiva - T1E3 - Feliz Aniversário, Final - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e03.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e4.json",
+    "nome_json": "Contagem Regressiva - T1E4 - Morda-os - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e04.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e5.json",
+    "nome_json": "Contagem Regressiva - T1E5 - Contornos Borrados - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e05.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e6.json",
+    "nome_json": "Contagem Regressiva - T1E6 - Uma Agulha ou uma Bala - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e06.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e7.json",
+    "nome_json": "Contagem Regressiva - T1E7 - Nada Mais Ajuda - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e07.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e8.json",
+    "nome_json": "Contagem Regressiva - T1E8 - O Prego na Cadeira - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e08.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e9.json",
+    "nome_json": "Contagem Regressiva - T1E9 - Agente em Perigo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e10.json",
+    "nome_json": "Contagem Regressiva - T1E10 - A Pilha do Tampo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e11.json",
+    "nome_json": "Contagem Regressiva - T1E11 - Corra - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "contagem_regressiva_t1e12.json",
+    "nome_json": "Contagem Regressiva - T1E12 - Essa é a Assinatura Dele - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/08/inix-contagem-regressiva-tp1e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dark_t3e1.json",
+    "nome_json": "Dark - T3E1 - Deja-vu - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e01_18.html",
     "tentativas": 2
   }
 ]
