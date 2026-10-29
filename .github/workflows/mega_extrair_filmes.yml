@@ -3,7 +3,7 @@ name: Mega Extrair Filmes (Lotes de 500)
 on:
   schedule:
     - cron: '15,45 * * * *' # Roda a cada 30 minutos
-  workflow_dispatch:       # Permite rodar na mão
+  workflow_dispatch:       # Permite rodar na mao
 
 permissions:
   contents: write
@@ -16,7 +16,7 @@ jobs:
   extrair:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar repositório
+      - name: Baixar repositorio
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -48,7 +48,7 @@ jobs:
           ARQ_DESCARTADOS = Path("filmes_descartados.txt")
 
           FILMES_MORTOS = [] 
-          MAX_TENTATIVAS = 3
+          MAX_TENTATIVAS = 3 # Limite reduzido
 
           def log(*args):
               print(*args, flush=True)
@@ -141,18 +141,22 @@ jobs:
                   if not raw: continue
                   titulo = str(raw).strip()
                   
-                  # Split apenas em hífen COM espaços
+                  # Remove a marca d'agua
+                  titulo = titulo.replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
+                  
+                  # Separa por hifens com espaco
                   partes = [p.strip() for p in re.split(r'\s+[-–—]\s+', titulo) if p.strip()]
                   if not partes: continue
 
                   if len(partes) > 1:
-                      limpas = [p for p in partes if not re.search(r'(vini|grave|site|online|filme|séries|series|assistir)', p, re.I)]
+                      limpas = [p for p in partes if not re.search(r'(vini|grave|site|online|filme|series|assistir)', p, re.I)]
                       titulo = max(limpas or partes, key=len)
                   else:
                       titulo = partes[0]
 
-                  titulo = re.sub(r'\s*\(\d{4}\)\s*$', '', titulo).strip()
-                  titulo = titulo.strip('"\''"'"'""''').strip()
+                  # Remove o ano no final (com ou sem parenteses)
+                  titulo = re.sub(r'\s*\(?\d{4}\)?\s*$', '', titulo).strip()
+                  titulo = titulo.strip('"\'').strip()
                   titulo = re.sub(r'[\s.:;,]+$', '', titulo).strip()
 
                   if titulo and len(titulo) > 2:
@@ -183,17 +187,17 @@ jobs:
                   r = await asyncio.to_thread(requests.get, url_pagina, headers=HEADERS, timeout=20)
                   soup = BeautifulSoup(r.text, 'html.parser')
                   
-                  # Verifica se é série
-                  tem_episodio = any('episódio' in tag.get_text().lower() for tag in soup.find_all('a'))
+                  # Verifica se e serie (sem acento para seguranca)
+                  tem_episodio = any('epis' in tag.get_text().lower() for tag in soup.find_all('a'))
                   if tem_episodio:
-                      log(f"    (É uma série. Pulando...)")
+                      log(f"    (E uma serie. Pulando...)")
                       with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
                           f.write(url_pagina + "\n")
                       return
 
                   titulo_filme = limpar_titulo_pagina(soup)
                   
-                  # Pega o ano do SLUG, usando o ÚLTIMO ano encontrado
+                  # Pega o ultimo ano encontrado no slug
                   slug_match = re.search(r'/([^/]+)\.html?$', url_pagina)
                   if slug_match:
                       slug_part = slug_match.group(1)
@@ -211,23 +215,23 @@ jobs:
                   
                   if ano:
                       nome_arquivo = f"{slug}_{ano}.json"
-                      nome_json_final = f"{titulo_filme} ({ano}) - 🍿Clau"
+                      nome_json_final = f"{titulo_filme} ({ano}) - \U0001F37FClau"
                   else:
                       nome_arquivo = f"{slug}.json"
-                      nome_json_final = f"{titulo_filme} - 🍿Clau"
+                      nome_json_final = f"{titulo_filme} - \U0001F37FClau"
 
                   with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
                       f.write(url_pagina + "\n")
 
                   if Path(nome_arquivo).exists(): 
-                      log(f"    (Já existe: {nome_arquivo})")
+                      log(f"    (Ja existe: {nome_arquivo})")
                       return
 
-                  log(f"    É um filme: '{nome_json_final}'.")
+                  log(f"    E um filme: '{nome_json_final}'.")
                   link_video = await extrair_video_playwright(context, url_pagina)
                   
                   if not link_video: 
-                      log(f"      [-] Falhou. Adicionando à fila de pendentes.")
+                      log(f"      [-] Falhou. Adicionando a fila de pendentes.")
                       ja_existe = any(p['arquivo'] == nome_arquivo for p in pendentes)
                       if not ja_existe:
                           pendentes.append({
@@ -292,13 +296,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # FORÇA a adição dos arquivos de controle
+          # Forca a adicao dos arquivos de controle de filmes
           git add -f filmes_feitos.txt 2>/dev/null || true
           git add -f filmes_fila.txt 2>/dev/null || true
           git add -f filmes_pendentes.json 2>/dev/null || true
           git add -f filmes_descartados.txt 2>/dev/null || true
           
-          git add .
+          # Adiciona apenas JSONs e TXTs (impede o erro no .github)
+          git add *.json
+          git add *.txt
 
           if git diff --cached --quiet; then
             echo "Nada novo para commitar."
@@ -306,31 +312,36 @@ jobs:
           fi
 
           ARQUIVOS=$(git diff --cached --name-only | wc -l)
-          git commit -m "chore: atualizar catálogo de filmes ($ARQUIVOS arquivos)"
+          git commit -m "chore: atualizar catalogo de filmes ($ARQUIVOS arquivos)"
 
-          # Loop de 5 tentativas para o Push
+          # Loop de 5 tentativas com PULL E MERGE (a prova de concorrencia)
           for i in $(seq 1 5); do
             echo "== Push tentativa $i/5 =="
             if git push origin HEAD:main; then
-              echo "✅ Push OK na tentativa $i"
+              echo "[SUCESSO] Push OK na tentativa $i"
               exit 0
             fi
-            echo "❌ Push falhou. Sincronizando com origin/main..."
-            git fetch origin main
-            git reset --mixed origin/main
             
+            echo "[FALHA] Push falhou. Baixando atualizacoes remotas e mesclando..."
+            
+            # Puxa e junta com a nossa versao
+            git pull origin main --no-rebase -X ours --no-edit
+            
+            # Adiciona novamente caso o pull tenha mexido em algo
             git add -f filmes_feitos.txt 2>/dev/null || true
             git add -f filmes_fila.txt 2>/dev/null || true
             git add -f filmes_pendentes.json 2>/dev/null || true
-            git add .
+            git add *.json
+            git add *.txt
             
             if git diff --cached --quiet; then
-              echo "Nada para commitar após reset."
+              echo "Nada para commitar apos sync."
               exit 0
             fi
-            git commit -m "chore: atualizar catálogo de filmes (retry $i)"
+            
+            git commit -m "chore: atualizar catalogo de filmes (merge $i)" || true
             sleep $((RANDOM % 10 + 5))
           done
 
-          echo "❌ Falha após 5 tentativas"
+          echo "[FALHA] Falha apos 5 tentativas"
           exit 1
