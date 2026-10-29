@@ -48,7 +48,7 @@ jobs:
           ARQ_DESCARTADOS = Path("filmes_descartados.txt")
 
           FILMES_MORTOS = [] 
-          MAX_TENTATIVAS = 5
+          MAX_TENTATIVAS = 3
 
           def log(*args):
               print(*args, flush=True)
