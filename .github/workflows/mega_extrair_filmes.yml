@@ -48,7 +48,7 @@ jobs:
           ARQ_DESCARTADOS = Path("filmes_descartados.txt")
 
           FILMES_MORTOS = [] 
-          MAX_TENTATIVAS = 3 # Alterado para 3
+          MAX_TENTATIVAS = 3
 
           def log(*args):
               print(*args, flush=True)
@@ -99,7 +99,6 @@ jobs:
           fila = [u for u in todas_urls if u not in feitas]
           lote = fila[:500]
 
-          # Logs de diagnóstico
           log(f"Total na fila original: {len(todas_urls)}")
           log(f"Total de itens JA FEITOS (lidos do txt): {len(feitas)}")
           log(f"Faltam {len(fila)} itens. Pendentes (limpos): {len(pendentes)}.")
@@ -277,21 +276,18 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          # Adiciona forçado os arquivos de texto (para burlar gitignore)
           git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
-          
-          # Adiciona apenas os JSONs e TXTs (para não bugar no .github)
           git add *.json
           git add *.txt
           
           if git diff --cached --quiet; then
-            echo "Nada novo para commitar."
+            echo "Nada novo para commitar localmente."
             exit 0
           fi
           
           git commit -m "feat: mega extracao de filmes (titulos, anos e progresso corrigidos)"
           
-          # Loop de 5 tentativas com PULL E MERGE (à prova de concorrência)
+          # Loop de 5 tentativas CORRIGIDO
           for i in $(seq 1 5); do
             echo "== Push tentativa $i/5 =="
             if git push origin HEAD:main; then
@@ -306,11 +302,7 @@ jobs:
             git add *.json
             git add *.txt
             
-            if git diff --cached --quiet; then
-              echo "Nada para commitar apos sync."
-              exit 0
-            fi
-            
+            # Aqui estava o erro! Agora ele commita (se precisar) e CONTINUA o loop
             git commit -m "feat: mega extracao de filmes (merge $i)" || true
             sleep $((RANDOM % 10 + 5))
           done
