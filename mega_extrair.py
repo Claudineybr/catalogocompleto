@@ -13,10 +13,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
 ARQ_FILA = Path("series_fila.txt")
 ARQ_FEITAS = Path("series_feitas.txt")
 ARQ_PENDENTES = Path("episodios_pendentes.json")
-ARQ_DESCARTADOS = Path("episodios_descartados.txt") # O NOSSO CEMITÉRIO
+ARQ_DESCARTADOS = Path("episodios_descartados.txt")
 
-# LISTA NEGRA: Séries que o robô vai ignorar completamente
-SERIES_MORTAS = ['true_detective', 'o_cuco_de_cristal', 'o11ze']
+SERIES_MORTAS = ['true_detective', 'o_cuco_de_cristal', 'o11ze', 'big_bang_a_teoria']
 MAX_TENTATIVAS = 5
 
 def log(*args):
@@ -24,7 +23,7 @@ def log(*args):
     sys.stdout.flush()
 
 if not ARQ_FILA.exists():
-    log("Criando fila de séries...")
+    log("Criando fila...")
     urls = []
     start_index = 1
     while True:
@@ -47,15 +46,32 @@ feitas = set()
 if ARQ_FEITAS.exists():
     feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
 
-pendentes = []
+# --- CORREÇÃO 1: Lê pendentes e remove duplicatas e séries mortas ---
+pendentes_dict = {}
 if ARQ_PENDENTES.exists():
-    try: pendentes = json.loads(ARQ_PENDENTES.read_text(encoding="utf-8"))
-    except: pendentes = []
+    try:
+        raw_pendentes = json.loads(ARQ_PENDENTES.read_text(encoding="utf-8"))
+        for p in raw_pendentes:
+            # Se for série morta, ignora e não adiciona na lista
+            if any(morta in p.get('url', '').lower() for morta in SERIES_MORTAS):
+                continue
+                
+            # Se já existe, mantém o que tem mais tentativas
+            if p['arquivo'] not in pendentes_dict:
+                pendentes_dict[p['arquivo']] = p
+            else:
+                pendentes_dict[p['arquivo']]['tentativas'] = max(
+                    pendentes_dict[p['arquivo']].get('tentativas', 1),
+                    p.get('tentativas', 1)
+                )
+    except: pass
+
+pendentes = list(pendentes_dict.values())
 
 fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
 lote = fila[:300]
 
-log(f"Faltam {len(fila)} séries na fila. Episódios pendentes: {len(pendentes)}.")
+log(f"Faltam {len(fila)} séries. Episódios pendentes (limpos): {len(pendentes)}.")
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -153,13 +169,18 @@ async def processar_serie(context, url_serie):
                 
             link_video = await extrair_video_playwright(context, item['url'])
             if not link_video: 
-                log(f"      [-] Falhou. Adicionando à fila de pendentes.")
-                pendentes.append({
-                    "arquivo": nome_arquivo,
-                    "nome_json": f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau",
-                    "url": item['url'],
-                    "tentativas": 1
-                })
+                # --- CORREÇÃO 2: Só adiciona se já não estiver na lista ---
+                ja_existe = any(p['arquivo'] == nome_arquivo for p in pendentes)
+                if not ja_existe:
+                    log(f"      [-] Falhou. Adicionando à fila de pendentes.")
+                    pendentes.append({
+                        "arquivo": nome_arquivo,
+                        "nome_json": f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau",
+                        "url": item['url'],
+                        "tentativas": 1
+                    })
+                else:
+                    log(f"      [-] Falhou. Já está na fila de pendentes.")
                 continue
                 
             salvar_json(nome_arquivo, f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau", link_video)
@@ -182,10 +203,12 @@ async def main():
             for item in pendentes:
                 if Path(item['arquivo']).exists(): continue
                 
-                # Se já tentou 5 vezes, joga no cemitério
+                # --- CORREÇÃO 3: Checa blacklist na fila de retentativa ---
+                if any(morta in item.get('url', '').lower() for morta in SERIES_MORTAS):
+                    continue
+                
                 if item.get("tentativas", 0) >= MAX_TENTATIVAS:
                     log(f"--> [DESISTINDO E SALVANDO NO TXT] {item['arquivo']}")
-                    # SALVA NO ARQUIVO TXT
                     with open(ARQ_DESCARTADOS, "a", encoding="utf-8") as f_desc:
                         f_desc.write(f"{item['arquivo']}\t{item['url']}\t{item.get('tentativas')} falhas\n")
                     continue
