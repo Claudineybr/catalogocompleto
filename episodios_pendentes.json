@@ -1,74 +1,38 @@
 [
   {
-    "arquivo": "a_agente_t1e1.json",
-    "nome_json": "A Agente - T1E1 - Construindo História - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "a_agente_t1e2.json",
-    "nome_json": "A Agente - T1E2 - Voltando de Dubai - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "a_agente_t1e3.json",
-    "nome_json": "A Agente - T1E3 - Sangue e Bailes - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "a_agente_t1e4.json",
-    "nome_json": "A Agente - T1E4 - Sem Saída - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "a_agente_t1e5.json",
-    "nome_json": "A Agente - T1E5 - Nas Profundezas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "a_agente_t1e6.json",
-    "nome_json": "A Agente - T1E6 - Qual Era Mesmo o Seu Nome - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/10/inix-agente-tp1e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "american_horror_story_t2e9.json",
-    "nome_json": "American Horror Story - T2E9 - O Cabide - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-american-horror-story-tp2e09.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "american_horror_story_t3e1.json",
-    "nome_json": "American Horror Story - T3E1 - Feitiçaria: Bruxaria - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-american-horror-story-tp3e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "american_horror_story_t4e1.json",
-    "nome_json": "American Horror Story - T4E1 - Monstros Entre Nós - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/09/inix-american-horror-story-tp4e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "the_walking_dead_daryl_dixon_t3e6.json",
-    "nome_json": "The Walking Dead: Daryl Dixon - T3E6 - : Caminhos Escuros - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "the_walking_dead_daryl_dixon_t3e7.json",
-    "nome_json": "The Walking Dead: Daryl Dixon - T3E7 - : O Último Horizonte - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep07_26.html",
-    "tentativas": 3
-  },
-  {
     "arquivo": "solo_leveling_t2e9.json",
     "nome_json": "Solo Leveling - T2E9 - Tudo valeu a pena - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/09/inix-solo-leveling-tp2e09.html",
+    "tentativas": 3
+  },
+  {
+    "arquivo": "9_1_1_t1e8.json",
+    "nome_json": "9-1-1 - T1E8 - O Carma É uma V... - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/10/inix-911-tp1e08.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "9_1_1_t1e9.json",
+    "nome_json": "9-1-1 - T1E9 - Sem Saída - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/10/inix-911-tp1e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "9_1_1_t2e5.json",
+    "nome_json": "9-1-1 - T2E5 - – Pessoas Horríveis - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/10/inix-9-1-1-tp2e05.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "9_1_1_t2e10.json",
+    "nome_json": "9-1-1 - T2E10 - – Feliz Ex-Natal - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/10/inix-9-1-1-tp2e10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "9_1_1_t4e5.json",
+    "nome_json": "9-1-1 - T4E5 - – Buck Começa - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/10/inix-9-1-1-tp4e05.html",
     "tentativas": 2
   }
 ]
