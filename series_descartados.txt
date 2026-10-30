@@ -1200,3 +1200,5 @@ contos_de_terror_t5e4.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp
 contos_de_terror_t5e19.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp5e19.html	3 falhas
 fam_lia_moderna_t1e13.json	https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e13.html	3 falhas
 fam_lia_moderna_t1e14.json	https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e14.html	3 falhas
+bordertown_t1e10.json	https://viniseries3.blogspot.com/2026/05/inix-bordertown-tp1e10.html	3 falhas
+big_bang_a_teoria_t5e1.json	https://viniraveon.blogspot.com/2026/04/inix-big-bang-teoria-tp5e01.html	3 falhas
