@@ -1515,3 +1515,13 @@ o_ver_o_que_mudou_minha_vida_t3e9.json	https://vini7xgseries2.blogspot.com/2025/
 o_ver_o_que_mudou_minha_vida_t3e10.json	https://vini7xgseries2.blogspot.com/2025/09/inix-o-verao-que-mudou-minha-vida-tp3e10.html	3 falhas
 o_ver_o_que_mudou_minha_vida_t3e11.json	https://vini7xgseries2.blogspot.com/2025/09/inix-o-verao-que-mudou-minha-vida-tp3e11.html	3 falhas
 shadowhunters_instrumentos_mortais_t2e16.json	https://viniraveon.blogspot.com/2025/05/inix-tp2e16_16.html	3 falhas
+gatilho_t1e3.json	https://viniraveon.blogspot.com/2025/09/inix-gatilho-tp1e03.html	3 falhas
+filhos_da_anarquia_t4e12.json	https://viniraveon.blogspot.com/2025/09/inix-filhos-da-anarquia-tp4e12.html	3 falhas
+filhos_da_anarquia_t4e13.json	https://viniraveon.blogspot.com/2025/09/inix-filhos-da-anarquia-tp4e13.html	3 falhas
+filhos_da_anarquia_t4e14.json	https://viniraveon.blogspot.com/2025/09/inix-filhos-da-anarquia-tp4e14.html	3 falhas
+filhos_da_anarquia_t5e4.json	https://viniraveon.blogspot.com/2025/09/inix-filhos-da-anarquia-tp5e05.html	3 falhas
+black_clover_t1e12.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e12.html	3 falhas
+black_clover_t1e13.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e13.html	3 falhas
+black_clover_t1e19.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e19.html	3 falhas
+black_clover_t1e20.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20.html	3 falhas
+black_clover_t1e21.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20_13.html	3 falhas
