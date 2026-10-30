@@ -1,0 +1,235 @@
+name: Corrigir Nomes e Deletar Duplicatas pelo Link
+
+on:
+  workflow_dispatch: # Roda na mão
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corrigir-por-link
+  cancel-in-progress: false
+
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Instalar Python e Playwright
+        run: |
+          pip install playwright beautifulsoup4 requests
+          playwright install chromium
+          playwright install-deps
+
+      - name: Processar Lotes
+        run: |
+          cat > corrigir.py << 'PYEOF'
+          import asyncio
+          import re
+          import json
+          import requests
+          import sys
+          from bs4 import BeautifulSoup
+          from pathlib import Path
+          from playwright.async_api import async_playwright
+
+          BASE_URL = "https://www.vini7xgrave.site"
+          HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+          
+          ARQ_FILA = Path("filmes_fila.txt")
+          ARQ_PROCESSADOS = Path("links_corrigidos.txt")
+
+          if not ARQ_FILA.exists():
+              print("Fila não encontrada.")
+              sys.exit(0)
+
+          # 1. Carrega TODOS os JSONs e cria um mapa: { "link_do_video": ["arquivo1.json", "arquivo2.json"] }
+          mapa_videos = {}
+          for arq in Path(".").glob("*.json"):
+              if any(x in arq.name for x in ['pendentes', 'fila', 'feitas', 'descartados', 'cache']): continue
+              try:
+                  conteudo = arq.read_text(encoding="utf-8")
+                  soup = BeautifulSoup(conteudo, 'html.parser')
+                  script = soup.find("script", type="application/ld+json")
+                  if script:
+                      dados = json.loads(script.string)
+                      url_video = dados.get("contentUrl", "").strip()
+                      if url_video:
+                          if url_video not in mapa_videos:
+                              mapa_videos[url_video] = []
+                          mapa_videos[url_video].append(arq.name)
+              except: pass
+
+          print(f"Mapa carregado: {len(mapa_videos)} links únicos encontrados no repositório.")
+
+          processados = set()
+          if ARQ_PROCESSADOS.exists():
+              processados = set(line.strip() for line in ARQ_PROCESSADOS.read_text(encoding="utf-8").splitlines() if line.strip())
+
+          todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
+          faltam = [u for u in todas_urls if u not in processados]
+          lote = faltam[:100] # Processa 100 links do site por vez
+
+          print(f"Total na fila: {len(todas_urls)} | Faltam processar: {len(faltam)} | Lote atual: {len(lote)}")
+
+          async def extrair_dados_site(context, url_site):
+              page = await context.new_page()
+              capturados = []
+              def on_response(res):
+                  u = res.url
+                  if re.search(r"[.](mp4|m3u8)([?]|$)", u, re.I) or 'tankie' in u or 'oneplayer' in u:
+                      capturados.append(u)
+              page.on("response", on_response)
+              
+              try:
+                  await page.goto(url_site, wait_until="domcontentloaded", timeout=20000)
+                  try: await page.wait_for_selector("iframe", timeout=10000) 
+                  except: pass 
+                  await asyncio.sleep(3.0) 
+                  html = await page.content()
+                  soup = BeautifulSoup(html, 'html.parser')
+                  
+                  # Pega o Título (H1 ou Title)
+                  h1 = soup.find('h1')
+                  titulo_raw = h1.get_text(strip=True) if h1 else (soup.title.text if soup.title else "")
+                  
+                  # Se não capturou o vídeo na rede, tenta no HTML
+                  if not capturados:
+                      for iframe in soup.find_all('iframe'):
+                          src = iframe.get('src', '')
+                          if 'google' not in src.lower() and 'ads' not in src.lower():
+                              capturados.append(src)
+                  if not capturados:
+                      match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
+                      if match: capturados.append(match.group(1))
+                      
+              except Exception: pass
+              finally: await page.close()
+              
+              link_video = list(dict.fromkeys(capturados))[0] if capturados else None
+              return titulo_raw, link_video
+
+          def limpar_titulo(raw):
+              raw = raw.replace('🍿Clau', '').replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
+              partes = [p.strip() for p in re.split(r'\s+-\s+', raw) if p.strip()]
+              titulo = max(partes, key=len) if partes else raw
+              
+              match_ano = re.search(r'\b(19\d{2}|20\d{2})\b', titulo)
+              ano = match_ano.group(1) if match_ano else ""
+              
+              titulo = re.sub(r'\b(19\d{2}|20\d{2})\b', '', titulo)
+              titulo = re.sub(r'[\(\)\[\]]', '', titulo)
+              titulo = re.sub(r'\s+', ' ', titulo).strip()
+              return titulo, ano
+
+          async def main():
+              async with async_playwright() as pw:
+                  browser = await pw.chromium.launch(headless=True)
+                  context = await browser.new_context(user_agent=HEADERS["User-Agent"])
+                  
+                  for url_site in lote:
+                      print(f"\n--> Verificando site: {url_site}")
+                      titulo_raw, link_video = await extrair_dados_site(context, url_site)
+                      
+                      if link_video and link_video in mapa_videos:
+                          arquivos_antigos = mapa_videos[link_video]
+                          titulo_limpo, ano = limpar_titulo(titulo_raw)
+                          
+                          slug = re.sub(r'[^a-z0-9]', '_', titulo_limpo.lower())
+                          slug = re.sub(r'_+', '_', slug).strip('_')
+                          nome_arquivo_novo = f"{slug}_{ano}.json" if ano else f"{slug}.json"
+                          nome_json_final = f"{titulo_limpo} ({ano}) - 🍿Clau" if ano else f"{titulo_limpo} - 🍿Clau"
+                          
+                          print(f"    Video encontrado! Titulo: '{titulo_limpo}' ({ano})")
+                          
+                          # Pega o primeiro arquivo antigo para ser o "oficial"
+                          arquivo_oficial = arquivos_antigos[0]
+                          
+                          # Se o nome do arquivo mudou, renomeia
+                          if arquivo_oficial != nome_arquivo_novo:
+                              print(f"    Renomeando: {arquivo_oficial} -> {nome_arquivo_novo}")
+                              p_antigo = Path(arquivo_oficial)
+                              p_novo = Path(nome_arquivo_novo)
+                              if p_antigo.exists():
+                                  p_antigo.rename(p_novo)
+                              
+                          # Atualiza o JSON interno com o nome bonito
+                          p_final = Path(nome_arquivo_novo)
+                          if p_final.exists():
+                              txt = p_final.read_text(encoding="utf-8")
+                              soup = BeautifulSoup(txt, "html.parser")
+                              script = soup.find("script", type="application/ld+json")
+                              if script:
+                                  dados = json.loads(script.string)
+                                  dados["name"] = nome_json_final
+                                  novo_html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json.dumps(dados, ensure_ascii=False, indent=2)}\n</script>\n<title>{nome_json_final}</title>\n</head>\n<body>\n<h1>{nome_json_final}</h1>\n</body>\n</html>"
+                                  p_final.write_text(novo_html, encoding="utf-8")
+
+                          # Deleta os duplicados que apontam pro mesmo video
+                          for dup in arquivos_antigos[1:]:
+                              print(f"    Deletando duplicata: {dup}")
+                              p_dup = Path(dup)
+                              if p_dup.exists() and p_dup != p_final:
+                                  p_dup.unlink()
+                                  
+                      else:
+                          print(f"    Video nao encontrado no repo (ou falhou ao raspar).")
+                      
+                      with open(ARQ_PROCESSADOS, "a", encoding="utf-8") as f:
+                          f.write(url_site + "\n")
+
+                  await browser.close()
+
+          if __name__ == "__main__":
+              asyncio.run(main())
+          PYEOF
+
+          python3 corrigir.py
+
+      - name: Salvar arquivos e progresso
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add -f links_corrigidos.txt 2>/dev/null || true
+          git add -A # Importante para salvar renomeações e exclusões
+          
+          if git diff --cached --quiet; then
+            echo "Nada novo."
+            exit 0
+          fi
+          
+          git commit -m "fix: renomear arquivos e remover duplicatas usando o link do video"
+          
+          for i in $(seq 1 5); do
+            if git push origin HEAD:main; then
+              echo "[SUCESSO] Push OK"
+              exit 0
+            fi
+            git pull --rebase origin main --autostash || git pull origin main --no-rebase -X ours --no-edit
+            sleep 3
+          done
+
+      - name: Disparar proxima run
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.PAT_CHAIN }}
+          REPO: ${{ github.repository }}
+        run: |
+          TOTAL=$(wc -l < filmes_fila.txt)
+          PROCESSADOS=$(wc -l < links_corrigidos.txt 2>/dev/null || echo 0)
+          FALTAM=$((TOTAL - PROCESSADOS))
+          
+          echo "Faltam $FALTAM links do site para verificar."
+          
+          if [ "$FALTAM" -le 0 ]; then
+            echo "✅ Tudo corrigido!"; exit 0
+          fi
+
+          sleep 30
+          gh workflow run "corrigir_por_link.yml" --repo "$REPO" --ref main || true
