@@ -279,15 +279,11 @@ jobs:
           
           echo "Linhas no filmes_feitos.txt: $(wc -l < filmes_feitos.txt 2>/dev/null || echo 0)"
           
+          # Adiciona os arquivos forçados e também o .py para evitar o erro de unstaged changes
           git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
           git add *.json
           git add *.txt
-          
-          if git diff --cached --name-only | grep -q "filmes_feitos.txt"; then
-            echo "[OK] filmes_feitos.txt esta no stage para commit!"
-          else
-            echo "[ERRO] filmes_feitos.txt NAO entrou no stage!"
-          fi
+          git add *.py
           
           if git diff --cached --quiet; then
             echo "Nada novo para commitar localmente."
@@ -304,16 +300,24 @@ jobs:
             fi
             
             echo "[FALHA] Push falhou. Baixando atualizacoes remotas e mesclando..."
-            if ! git pull --rebase origin main; then
+            
+            # O --autostash guarda qualquer alteracao pendente antes de tentar sincronizar
+            if ! git pull --rebase origin main --autostash; then
               echo "Rebase deu conflito. Usando merge..."
-              git rebase --abort
+              git rebase --abort 2>/dev/null || true
               git pull origin main --no-rebase -X ours --no-edit
             fi
             
             git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
             git add *.json
             git add *.txt
-            git commit -m "feat: mega extracao de filmes (retry $i)" || true
+            git add *.py
+            
+            # Se o pull trouxe alteracoes (como novos arquivos da serie), commita
+            if ! git diff --cached --quiet; then
+              git commit -m "feat: mega extracao de filmes (retry $i)" || true
+            fi
+            
             sleep $((RANDOM % 10 + 5))
           done
           
@@ -340,7 +344,7 @@ jobs:
           RECENTES=$(gh run list --workflow="mega_extrair_filmes.yml" --limit 100 --json event,createdAt --jq "[.[] | select(.event == \"workflow_dispatch\") | select(.createdAt > \"$LIMITE_ISO\")] | length" --repo "$REPO" 2>/dev/null || echo 0)
           
           if [ "$RECENTES" -ge 30 ]; then
-            echo "⚠️ Limite de 30 runs/hora atingido."; exit 0
+            echo "⚠️ Limite de 30 runs/hora atingido. Aguardando cron."; exit 0
           fi
 
           echo "🔁 Disparando proxima run em 30 segundos..."
