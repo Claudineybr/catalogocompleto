@@ -1,14 +1,32 @@
 [
   {
-    "arquivo": "fam_lia_moderna_t1e13.json",
-    "nome_json": "Família Moderna - T1E13 - – Quinze Por Cento - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e13.html",
-    "tentativas": 3
+    "arquivo": "bordertown_t1e10.json",
+    "nome_json": "Bordertown - T1E10 - – O jogo final - Parte 1 - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2026/05/inix-bordertown-tp1e10.html",
+    "tentativas": 2
   },
   {
-    "arquivo": "fam_lia_moderna_t1e14.json",
-    "nome_json": "Família Moderna - T1E14 - – Pouso na Lua - 🍿Clau",
-    "url": "https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e14.html",
-    "tentativas": 3
+    "arquivo": "big_bang_a_teoria_t5e1.json",
+    "nome_json": "Big Bang: A Teoria - T5E1 - – Análise do Reflexo do Skank - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2026/04/inix-big-bang-teoria-tp5e01.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "stranger_things_hist_rias_de_85_t1e4.json",
+    "nome_json": "Stranger Things: Histórias de 85 - T1E4 - – A Festa do Pijama - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2026/04/inix-stranger-things-historias-de-85_02904007.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "stranger_things_hist_rias_de_85_t1e5.json",
+    "nome_json": "Stranger Things: Histórias de 85 - T1E5 - – Conformidade - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2026/04/inix-stranger-things-historias-de-85_01565312907.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "o_mentalista_t1e12.json",
+    "nome_json": "O Mentalista - T1E12 - – Rum Vermelho - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2026/04/inix-o-mentalista-tp1e12.html",
+    "tentativas": 2
   }
 ]

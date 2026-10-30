@@ -1198,3 +1198,5 @@ todo_mundo_odeia_o_chris_t4e22.json	https://viniraveon.blogspot.com/2025/03/inix
 contos_de_terror_t3e6.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp3e06_17.html	3 falhas
 contos_de_terror_t5e4.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp5e04.html	3 falhas
 contos_de_terror_t5e19.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp5e19.html	3 falhas
+fam_lia_moderna_t1e13.json	https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e13.html	3 falhas
+fam_lia_moderna_t1e14.json	https://viniseries3.blogspot.com/2026/06/inix-familia-moderna-tp1e14.html	3 falhas
