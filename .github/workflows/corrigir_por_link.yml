@@ -78,7 +78,7 @@ jobs:
           print(f"Total na fila: {len(todas_urls)} | Ja processados (pulados): {len(processados)} | Faltam: {len(faltam)}")
           print(f"Processando lote atual de {len(lote)} links...\n")
 
-          # CONTADORES DE PROGRESSO
+          # CONTADORES DE PROGRESSO (Globais)
           renomeados_count = 0
           duplicatas_deletadas = 0
           videos_nao_encontrados = 0
@@ -135,7 +135,7 @@ jobs:
               return titulo, ano
 
           async def main():
-              nonlocal renomeados_count, duplicatas_deletadas, videos_nao_encontrados, falhas_raspagem
+              global renomeados_count, duplicatas_deletadas, videos_nao_encontrados, falhas_raspagem
               
               async with async_playwright() as pw:
                   browser = await pw.chromium.launch(headless=True)
@@ -191,7 +191,7 @@ jobs:
                                   duplicatas_deletadas += 1
                                   
                       else:
-                          # O video existe no site mas nao esta no repo (pode ser um filme novo)
+                          # O video existe no site mas nao esta no repo
                           print(f"[?] Video no site, mas nao encontrado no repo: {url_site}")
                           
                       with open(ARQ_PROCESSADOS, "a", encoding="utf-8") as f:
