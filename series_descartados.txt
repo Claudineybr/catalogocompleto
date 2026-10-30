@@ -1427,3 +1427,15 @@ kaiju_no_8_t1e7.json	https://viniraveon.blogspot.com/2025/11/inix-kaiju-no-8-tp1
 kaiju_no_8_t1e8.json	https://viniraveon.blogspot.com/2025/11/inix-kaiju-no-8-tp1e08.html	3 falhas
 kaiju_no_8_t1e9.json	https://viniraveon.blogspot.com/2025/11/inix-kaiju-no-8-tp1e09.html	3 falhas
 kaiju_no_8_t1e10.json	https://viniraveon.blogspot.com/2025/11/inix-kaiju-no-8-tp1e10.html	3 falhas
+vikings_t2e3.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e03.html	3 falhas
+vikings_t2e4.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e04.html	3 falhas
+vikings_t2e5.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e05.html	3 falhas
+vikings_t2e6.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e06.html	3 falhas
+vikings_t2e7.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e07.html	3 falhas
+vikings_t2e8.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e08.html	3 falhas
+vikings_t2e9.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e09.html	3 falhas
+vikings_t2e10.json	https://viniseries3.blogspot.com/2026/05/inix-vikings-tp2e10.html	3 falhas
+mushuku_tensei_t2e5.json	https://marcosx7.blogspot.com/2025/11/inix-mushoku-tensei-tp02ep05_2.html	3 falhas
+mushuku_tensei_t2e6.json	https://marcosx7.blogspot.com/2025/11/inix-mushoku-tensei-tp02ep06.html	3 falhas
+mushuku_tensei_t2e8.json	https://marcosx7.blogspot.com/2025/11/inix-mushoku-tensei-tp02ep08.html	3 falhas
+legados_t1e2.json	https://vini7xgseries2.blogspot.com/2025/10/inix-legados-tp1e02.html	3 falhas
