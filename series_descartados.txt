@@ -1525,3 +1525,10 @@ black_clover_t1e13.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-
 black_clover_t1e19.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e19.html	3 falhas
 black_clover_t1e20.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20.html	3 falhas
 black_clover_t1e21.json	https://marcosx7.blogspot.com/2025/09/inix-black-clover-tp1e20_13.html	3 falhas
+legends_of_tomorrow_t2e4.json	https://viniraveon.blogspot.com/2025/09/inix-lendas-do-amanha-tp2e04.html	3 falhas
+legends_of_tomorrow_t5e4.json	https://viniraveon.blogspot.com/2025/09/inix-lendas-do-amanha-tp5e04.html	3 falhas
+pssica_t1e1.json	https://vini7xgseries2.blogspot.com/2025/09/inix-pssica-tp1e01.html	3 falhas
+pssica_t1e2.json	https://vini7xgseries2.blogspot.com/2025/09/inix-pssica-tp1e02.html	3 falhas
+pssica_t1e3.json	https://vini7xgseries2.blogspot.com/2025/09/inix-pssica-tp1e03.html	3 falhas
+pssica_t1e4.json	https://vini7xgseries2.blogspot.com/2025/09/inix-pssica-tp1e04.html	3 falhas
+minha_vida_com_a_fam_lia_walter_t2e1.json	https://viniraveon.blogspot.com/2025/08/inix-minha-vida-com-familia-walter-tp2e01.html	3 falhas
