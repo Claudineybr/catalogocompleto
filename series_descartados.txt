@@ -1338,3 +1338,8 @@ desejo_sombrio_t2e12.json	https://marcosx7.blogspot.com/2026/01/arc-desejo-sombr
 desejo_sombrio_t2e13.json	https://marcosx7.blogspot.com/2026/01/arc-desejo-sombrio-tp02e013.html	3 falhas
 desejo_sombrio_t2e14.json	https://marcosx7.blogspot.com/2026/01/arc-desejo-sombrio-tp02ep14.html	3 falhas
 desejo_sombrio_t2e15.json	https://marcosx7.blogspot.com/2026/01/arc-desejo-sombrio-tp02ep15.html	3 falhas
+chernobyl_t1e1.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e01.html	3 falhas
+chernobyl_t1e2.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e02.html	3 falhas
+chernobyl_t1e3.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e03.html	3 falhas
+chernobyl_t1e4.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e04.html	3 falhas
+chernobyl_t1e5.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e05.html	3 falhas
