@@ -1,824 +1,422 @@
 [
   {
-    "arquivo": "ini_x_t1e0.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T1E0 - Episódios - 🍿Clau",
-    "url": "https://www.vini7xgrave.site/search/label/Epis%C3%B3dios",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e1.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E1 - Sanctum - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e01_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e2.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E2 - Sangue da Minha Vida - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e02_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e3.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E3 - O Filho das Trevas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e03_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e4.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E4 - O Sagrado Não Mente - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e0.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e5.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E5 - O Homem Sem Face - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e05_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e6.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E6 - Memento Mori - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e06_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e7.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E7 - Nunca Mentem - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e07_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e8.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E8 - A Velha Guarda - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e08_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e9.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E9 - O Fim da Ilusão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e09_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e10.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E10 - O Vazio - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e10_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e11.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E11 - Ashes to Ashes - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e11_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e12.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E12 - Ajuste de Contas - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e12_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t6e13.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T6E13 - Sangue de Sanctum - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e13_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "ini_x_t7e3.json",
-    "nome_json": "𝑽iNi𝟕x👾 - T7E3 - False Gods - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e03_25.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e1.json",
-    "nome_json": "Você (You) - T1E1 - Conhecendo-te - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e01_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e2.json",
-    "nome_json": "Você (You) - T1E2 - O Último Cara Decente - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e3.json",
-    "nome_json": "Você (You) - T1E3 - Talvez - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_22.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e4.json",
-    "nome_json": "Você (You) - T1E4 - O Capitão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e04_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e5.json",
-    "nome_json": "Você (You) - T1E5 - Vivendo com o Passado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e6.json",
-    "nome_json": "Você (You) - T1E6 - Amor Real - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e7.json",
-    "nome_json": "Você (You) - T1E7 - Tudo Bem? - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e8.json",
-    "nome_json": "Você (You) - T1E8 - Fim de Semana - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e9.json",
-    "nome_json": "Você (You) - T1E9 - Cativeiro - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t1e10.json",
-    "nome_json": "Você (You) - T1E10 - Mudanças - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e10_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e1.json",
-    "nome_json": "Você (You) - T2E1 - Voltar a Amar - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e01_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e2.json",
-    "nome_json": "Você (You) - T2E2 - Justiça Poética - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e02_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e3.json",
-    "nome_json": "Você (You) - T2E3 - O que há de errado com o Joe? - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e03_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e4.json",
-    "nome_json": "Você (You) - T2E4 - O Bom, o Mau e o Hendy - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e04_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e5.json",
-    "nome_json": "Você (You) - T2E5 - A Boa, o Mau e o Hendy - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e05_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e6.json",
-    "nome_json": "Você (You) - T2E6 - Farewell, My Bunny - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e06_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e7.json",
-    "nome_json": "Você (You) - T2E7 - Exposição - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e07_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e8.json",
-    "nome_json": "Você (You) - T2E8 - Feito para Amar - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e9.json",
-    "nome_json": "Você (You) - T2E9 - Yummy Mummy - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e09_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t2e10.json",
-    "nome_json": "Você (You) - T2E10 - Amor, na verdade - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e1.json",
-    "nome_json": "Você (You) - T3E1 - E Viveram Felizes para Sempre - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e01_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e2.json",
-    "nome_json": "Você (You) - T3E2 - Então, o que é Amor? - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e02_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e3.json",
-    "nome_json": "Você (You) - T3E3 - Isso Não É Exagero - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e03_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e4.json",
-    "nome_json": "Você (You) - T3E4 - Pergunte ao Amor - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e03_77.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e5.json",
-    "nome_json": "Você (You) - T3E5 - Traga o Bebê de Volta - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e04_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e6.json",
-    "nome_json": "Você (You) - T3E6 - W.O.M.B. - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp3e06_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e7.json",
-    "nome_json": "Você (You) - T3E7 - A Química do Amor - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp3e07.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e8.json",
-    "nome_json": "Você (You) - T3E8 - Swing e Punição - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp3e08.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e9.json",
-    "nome_json": "Você (You) - T3E9 - Vermelho é a Cor do Amor - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp3e09.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t3e10.json",
-    "nome_json": "Você (You) - T3E10 - O Fim do Amor - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp3e10.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e1.json",
-    "nome_json": "Você (You) - T4E1 - Joe Faz um Novo Amigo - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e01_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e2.json",
-    "nome_json": "Você (You) - T4E2 - Retrato de um Assassino - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e02_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e3.json",
-    "nome_json": "Você (You) - T4E3 - Até que a Morte nos Separe - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e03_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e4.json",
-    "nome_json": "Você (You) - T4E4 - Hampsie - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e04_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e5.json",
-    "nome_json": "Você (You) - T4E5 - O Rapaz de Oz - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e05_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e6.json",
-    "nome_json": "Você (You) - T4E6 - Amanhã é um Novo Mundo - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e06_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e7.json",
-    "nome_json": "Você (You) - T4E7 - Seis Suspeitos - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e07_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e8.json",
-    "nome_json": "Você (You) - T4E8 - Onde Está o Joe? - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e08_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e9.json",
-    "nome_json": "Você (You) - T4E9 - Ela Não Me Ama - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e09_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t4e10.json",
-    "nome_json": "Você (You) - T4E10 - O Manto de Joe - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e10_21.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e1.json",
-    "nome_json": "Você (You) - T5E1 - Obrigado pelas Lembranças - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e01_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e2.json",
-    "nome_json": "Você (You) - T5E2 - Retrato de um Golpista Quando Jovem - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e02_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e3.json",
-    "nome_json": "Você (You) - T5E3 - A Insustentável Leveza de Ser Joe Goldberg - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e03_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e4.json",
-    "nome_json": "Você (You) - T5E4 - Não Há Lugar Como o Lar - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e04_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e5.json",
-    "nome_json": "Você (You) - T5E5 - O Conforto dos Estranhos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e05_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e6.json",
-    "nome_json": "Você (You) - T5E6 - O Bom, o Mau e o Hendy - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e06_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e7.json",
-    "nome_json": "Você (You) - T5E7 - Fora da Floresta - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e07_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e8.json",
-    "nome_json": "Você (You) - T5E8 - O Passado Nunca Morre - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e08_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e9.json",
-    "nome_json": "Você (You) - T5E9 - Pecados do Pai - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e09_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "voc_you_t5e10.json",
-    "nome_json": "Você (You) - T5E10 - A Morte de Jonathan Moore - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e10_24.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "tp5_e10_t1e0.json",
-    "nome_json": "- TP5|E10 - T1E0 - Episódios - 🍿Clau",
-    "url": "https://www.vini7xgrave.site/search/label/Epis%C3%B3dios",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "perfil_falso_t2e1.json",
-    "nome_json": "Perfil Falso - T2E1 - O Sonho Proibido - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e01_59.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "perfil_falso_t2e3.json",
-    "nome_json": "Perfil Falso - T2E3 - Anatomia de uma Obsessão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e03_23.html",
-    "tentativas": 2
-  },
-  {
     "arquivo": "perfil_falso_t2e8.json",
     "nome_json": "Perfil Falso - T2E8 - O Que os Olhos Não Veem - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_1.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "perfil_falso_t2e10.json",
     "nome_json": "Perfil Falso - T2E10 - Sangue e Esperança - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_53.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "a_vizinha_da_mulher_na_janela_t1e7.json",
     "nome_json": "A Vizinha da Mulher na Janela - T1E7 - Confronto Final - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_65.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t1e6.json",
-    "nome_json": "Cobra Kai - T1E6 - Diga Sim - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_67.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t1e9.json",
-    "nome_json": "Cobra Kai - T1E9 - Diferentes, Mas Iguais - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t2e1.json",
     "nome_json": "Cobra Kai - T2E1 - Cobra Kai Nunca Morre - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e01_81.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t2e3.json",
     "nome_json": "Cobra Kai - T2E3 - Fogo Amigo - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e03_70.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t2e6.json",
     "nome_json": "Cobra Kai - T2E6 - Pegando Leve - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e06_58.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t2e8.json",
     "nome_json": "Cobra Kai - T2E8 - Glória da Juventude - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t2e9.json",
     "nome_json": "Cobra Kai - T2E9 - O Jogo Virou - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e09_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t2e10.json",
-    "nome_json": "Cobra Kai - T2E10 - Choque de Estilos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_4.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t3e3.json",
     "nome_json": "Cobra Kai - T3E3 - Agora Você Vai Pagar - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/context-httpsschema_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t3e6.json",
     "nome_json": "Cobra Kai - T3E6 - Rei do Karatê - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e06_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t4e3.json",
-    "nome_json": "Cobra Kai - T4E3 - Então Aprenda - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e03_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "cobra_kai_t4e5.json",
     "nome_json": "Cobra Kai - T4E5 - Herança - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e05_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t4e7.json",
-    "nome_json": "Cobra Kai - T4E7 - Ganchos de Direita - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e07_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t5e2.json",
-    "nome_json": "Cobra Kai - T5E2 - De Volta ao Zero - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e02_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t5e3.json",
-    "nome_json": "Cobra Kai - T5E3 - Jogada Certa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e03_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t6e3.json",
-    "nome_json": "Cobra Kai - T6E3 - Contas a Acertar - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e03_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t6e6.json",
-    "nome_json": "Cobra Kai - T6E6 - Laços de Sangue - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e06_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t6e7.json",
-    "nome_json": "Cobra Kai - T6E7 - Honra Acima de Tudo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e07_20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "cobra_kai_t6e13.json",
-    "nome_json": "Cobra Kai - T6E13 - Raízes e Asas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e13_20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e2.json",
     "nome_json": "Diários de um Vampiro - T1E2 - A Noite do Cometa - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e3.json",
     "nome_json": "Diários de um Vampiro - T1E3 - Friday Night Bites - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e5.json",
     "nome_json": "Diários de um Vampiro - T1E5 - Você Está Morto para Mim - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e10.json",
     "nome_json": "Diários de um Vampiro - T1E10 - O Vento Sopra - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e10_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e11.json",
-    "nome_json": "Diários de um Vampiro - T1E11 - Bloodlines - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e11_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e15.json",
     "nome_json": "Diários de um Vampiro - T1E15 - A Morte Vem a Cavalo - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e15_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e17.json",
     "nome_json": "Diários de um Vampiro - T1E17 - Let the Right One In - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e17_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e18.json",
-    "nome_json": "Diários de um Vampiro - T1E18 - Under Control - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e18_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e20.json",
-    "nome_json": "Diários de um Vampiro - T1E20 - Blood Brothers - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e20_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t1e22.json",
     "nome_json": "Diários de um Vampiro - T1E22 - Founder's Day - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e22_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t2e4.json",
     "nome_json": "Diários de um Vampiro - T2E4 - Caminho da Memória - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e04_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t2e8.json",
-    "nome_json": "Diários de um Vampiro - T2E8 - Rose - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t2e9.json",
     "nome_json": "Diários de um Vampiro - T2E9 - Katerina - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e09_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t2e11.json",
-    "nome_json": "Diários de um Vampiro - T2E11 - À Luz da Lua - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e11_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t2e15.json",
-    "nome_json": "Diários de um Vampiro - T2E15 - O Jantar - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e15_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t2e16.json",
-    "nome_json": "Diários de um Vampiro - T2E16 - A Convidada - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e16_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t2e20.json",
-    "nome_json": "Diários de um Vampiro - T2E20 - O Último Dia - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e20_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t2e21.json",
     "nome_json": "Diários de um Vampiro - T2E21 - O Sol Também Se Levanta - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e21_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t3e1.json",
-    "nome_json": "Diários de um Vampiro - T3E1 - O Nascimento do Vampiro - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e01_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t3e2.json",
     "nome_json": "Diários de um Vampiro - T3E2 - O Híbrido - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e02_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t3e5.json",
     "nome_json": "Diários de um Vampiro - T3E5 - O Acerto de Contas - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e05_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t3e6.json",
-    "nome_json": "Diários de um Vampiro - T3E6 - A Próxima Ceia - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e06_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t3e16.json",
-    "nome_json": "Diários de um Vampiro - T3E16 - O Lado Perigoso da Compaixão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e16_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t3e17.json",
-    "nome_json": "Diários de um Vampiro - T3E17 - Quebra de Confiança - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e17_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t3e19.json",
     "nome_json": "Diários de um Vampiro - T3E19 - Coração da Escuridão - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e19_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t3e22.json",
     "nome_json": "Diários de um Vampiro - T3E22 - Morra por Mim - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e22_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t4e1.json",
     "nome_json": "Diários de um Vampiro - T4E1 - Dores Crescentes - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e01_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t4e12.json",
-    "nome_json": "Diários de um Vampiro - T4E12 - Um Novo Começo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e12_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t4e13.json",
-    "nome_json": "Diários de um Vampiro - T4E13 - A Cura - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e13_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t4e18.json",
-    "nome_json": "Diários de um Vampiro - T4E18 - American Gothic - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e18_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t4e19.json",
     "nome_json": "Diários de um Vampiro - T4E19 - Foto de Família - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e19_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t5e1.json",
-    "nome_json": "Diários de um Vampiro - T5E1 - Eu Sei o Que Vocês Fizeram no Verão Passado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e01_65.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t5e6.json",
-    "nome_json": "Diários de um Vampiro - T5E6 - Manipulado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e06_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t5e16.json",
-    "nome_json": "Diários de um Vampiro - T5E16 - Enquanto Você Dormia - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t5e20.json",
-    "nome_json": "Diários de um Vampiro - T5E20 - What Lies Beneath - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e20.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t5e21.json",
-    "nome_json": "Diários de um Vampiro - T5E21 - Terra Prometida - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e21.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t6e7.json",
-    "nome_json": "Diários de um Vampiro - T6E7 - Fazer Você Se Lembrar - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e07.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t6e8.json",
-    "nome_json": "Diários de um Vampiro - T6E8 - A Última Ceia - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e08.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t6e11.json",
-    "nome_json": "Diários de um Vampiro - T6E11 - Despertar - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e11.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t6e18.json",
     "nome_json": "Diários de um Vampiro - T6E18 - Nunca Me Deixe Ir - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e18.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t7e8.json",
-    "nome_json": "Diários de um Vampiro - T7E8 - O Pacto - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e08.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t7e10.json",
     "nome_json": "Diários de um Vampiro - T7E10 - Segredos e Mentiras - 🍿Clau",
     "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e10.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t7e12.json",
-    "nome_json": "Diários de um Vampiro - T7E12 - O Ataque - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e12.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t8e7.json",
-    "nome_json": "Diários de um Vampiro - T8E7 - O Último Banquete - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp8e07.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t8e9.json",
-    "nome_json": "Diários de um Vampiro - T8E9 - O Simples Jogo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp8e09.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t8e12.json",
-    "nome_json": "Diários de um Vampiro - T8E12 - O Diabo na Casa dos Salvatore - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp8e12.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "di_rios_de_um_vampiro_t8e17.json",
     "nome_json": "Diários de um Vampiro - T8E17 - Especial - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-episodio-especial.html",
+    "tentativas": 3
+  },
+  {
+    "arquivo": "maniac_t1e3.json",
+    "nome_json": "Maniac - T1E3 - :Com o Pé Esquerdo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "maniac_t1e6.json",
+    "nome_json": "Maniac - T1E6 - :A Ilha - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "maniac_t1e7.json",
+    "nome_json": "Maniac - T1E7 - :Ceci n'est pas une Drill - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "maniac_t1e9.json",
+    "nome_json": "Maniac - T1E9 - :Utangatta - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e02.json",
+    "nome_json": "Z Nation - T1E02 - Fracking Zombies - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_60.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e03.json",
+    "nome_json": "Z Nation - T1E03 - Banquete em Philly - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_49.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e04.json",
+    "nome_json": "Z Nation - T1E04 - Zumbi de Metal Completo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e04_77.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e05.json",
+    "nome_json": "Z Nation - T1E05 - Lar Doce Zumbi - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_43.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e06.json",
+    "nome_json": "Z Nation - T1E06 - Ressurreição Z - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_62.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e07.json",
+    "nome_json": "Z Nation - T1E07 - Bem-vindo ao FU-Bar - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e08.json",
+    "nome_json": "Z Nation - T1E08 - Zunami - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "z_nation_t1e09.json",
+    "nome_json": "Z Nation - T1E09 - Morra Zumbi Morra... De Novo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "anne_com_um_e_t3e9.json",
+    "nome_json": "Anne com um \"E - T3E9 - Uma escuridão assustadora - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e09_29.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e1.json",
+    "nome_json": "Os Originais (The Originals) - T1E1 - : Sempre e Para Sempre - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e01_19.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e7.json",
+    "nome_json": "Os Originais (The Originals) - T1E7 - : Afundando - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_41.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e8.json",
+    "nome_json": "Os Originais (The Originals) - T1E8 - : O Rio no Limiar - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_9.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e11.json",
+    "nome_json": "Os Originais (The Originals) - T1E11 - : Après Moi, Le Déluge - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e11_7.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e15.json",
+    "nome_json": "Os Originais (The Originals) - T1E15 - : Le Grand Guignol - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e15_7.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t2e5.json",
+    "nome_json": "Os Originais (The Originals) - T2E5 - : A Porta Vermelha - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e05_7.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t2e11.json",
+    "nome_json": "Os Originais (The Originals) - T2E11 - : Irmandade dos Condenados - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t2e12.json",
+    "nome_json": "Os Originais (The Originals) - T2E12 - : Santuário - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t3e10.json",
+    "nome_json": "Os Originais (The Originals) - T3E10 - : Um Fantasma ao Longo do Mississippi - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e10_7.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t3e11.json",
+    "nome_json": "Os Originais (The Originals) - T3E11 - : Selvagem de Coração - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t3e12.json",
+    "nome_json": "Os Originais (The Originals) - T3E12 - : Anjos Mortos - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t3e13.json",
+    "nome_json": "Os Originais (The Originals) - T3E13 - : Caixa em Forma de Coração - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t3e17.json",
+    "nome_json": "Os Originais (The Originals) - T3E17 - : Atrás do Horizonte Negro - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e17.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t4e9.json",
+    "nome_json": "Os Originais (The Originals) - T4E9 - :Rainha da fúria - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t4e10.json",
+    "nome_json": "Os Originais (The Originals) - T4E10 - :Fantasmas do passado - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e1.json",
+    "nome_json": "Os Originais (The Originals) - T5E1 - :A história de Hayley - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e01_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e2.json",
+    "nome_json": "Os Originais (The Originals) - T5E2 - :Uma dica deixada para trás - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e02_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e3.json",
+    "nome_json": "Os Originais (The Originals) - T5E3 - :Ne me quitte pas - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e03_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e4.json",
+    "nome_json": "Os Originais (The Originals) - T5E4 - :Entre os mortos - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e04_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e5.json",
+    "nome_json": "Os Originais (The Originals) - T5E5 - :Não me deixem ficar louco - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e05_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e6.json",
+    "nome_json": "Os Originais (The Originals) - T5E6 - :O que, você acredita em fantasmas? - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e06_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e7.json",
+    "nome_json": "Os Originais (The Originals) - T5E7 - :Deixe o lobo sair - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e07_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e8.json",
+    "nome_json": "Os Originais (The Originals) - T5E8 - :O tipo certo de monstro - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e08_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e9.json",
+    "nome_json": "Os Originais (The Originals) - T5E9 - :Nós temos que continuar - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e11.json",
+    "nome_json": "Os Originais (The Originals) - T5E11 - :Até que nos encontremos de novo - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e12.json",
+    "nome_json": "Os Originais (The Originals) - T5E12 - :O conto das duas lobas - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e13.json",
+    "nome_json": "Os Originais (The Originals) - T5E13 - :Quando o espelho se quebra - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e13.html",
     "tentativas": 2
   }
 ]
