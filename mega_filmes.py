@@ -16,7 +16,7 @@ ARQ_PENDENTES = Path("filmes_pendentes.json")
 ARQ_DESCARTADOS = Path("filmes_descartados.txt")
 
 FILMES_MORTOS = [] 
-MAX_TENTATIVAS = 5
+MAX_TENTATIVAS = 3
 
 def log(*args):
     print(*args, flush=True)
@@ -36,7 +36,7 @@ if not ARQ_FILA.exists():
             if not entries: break
             for entry in entries:
                 link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
-                if link: urls.append(link.split("?")[0])
+                if link: urls.append(link.split("?")[0].strip())
             start_index += 150
             if len(entries) < 150: break
         except: break
@@ -44,7 +44,7 @@ if not ARQ_FILA.exists():
 
 feitas = set()
 if ARQ_FEITAS.exists():
-    feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
+    feitas = set(line.strip() for line in ARQ_FEITAS.read_text(encoding="utf-8").splitlines() if line.strip())
 
 pendentes_dict = {}
 if ARQ_PENDENTES.exists():
@@ -63,10 +63,13 @@ if ARQ_PENDENTES.exists():
 
 pendentes = list(pendentes_dict.values())
 
-fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
+todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
+fila = [u for u in todas_urls if u not in feitas]
 lote = fila[:500]
 
-log(f"Faltam {len(fila)} itens na fila. Pendentes (limpos): {len(pendentes)}.")
+log(f"Total na fila original: {len(todas_urls)}")
+log(f"Total de itens JA FEITOS (lidos do txt): {len(feitas)}")
+log(f"Faltam {len(fila)} itens. Pendentes (limpos): {len(pendentes)}.")
 
 async def extrair_video_playwright(context, url_ep):
     page = await context.new_page()
@@ -96,13 +99,30 @@ async def extrair_video_playwright(context, url_ep):
     if capturados: return list(dict.fromkeys(capturados))[0]
     return None
 
-def limpar_titulo_pagina(soup_title):
-    if not soup_title: return "Filme Desconhecido"
-    titulo = re.sub(r'^.*?-\s*', '', soup_title)
-    titulo = re.sub(r'-\s*viniseries.*$', '', titulo, flags=re.I)
-    titulo = titulo.split('-')[0].strip()
-    # Remove o ano do final do título para não duplicar com o que vamos adicionar
-    return re.sub(r'\s*\(\d{4}\)$', '', titulo).strip()
+def extrair_titulo(soup):
+    og_title = soup.find('meta', property='og:title')
+    if og_title and og_title.get('content'):
+        titulo_raw = og_title['content']
+    else:
+        h1 = soup.find('h1')
+        if h1: titulo_raw = h1.text
+        else: titulo_raw = soup.title.text if soup.title else "Filme Desconhecido"
+    
+    titulo_raw = titulo_raw.replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
+    
+    partes = [p.strip() for p in titulo_raw.split(' - ') if p.strip()]
+    partes_validas = [p for p in partes if not any(x in p.lower() for x in ['vini', 'grave', 'online', 'blogspot', 'assistir'])]
+    
+    if partes_validas: return max(partes_validas, key=len)
+    return "Filme Desconhecido"
+
+def extrair_ano_da_url(url_pagina):
+    match = re.search(r'/([^/]+)\.html', url_pagina)
+    if match:
+        slug = match.group(1)
+        anos = re.findall(r'\b(19\d{2}|20\d{2})\b', slug)
+        if anos: return anos[-1]
+    return ""
 
 def salvar_json(nome_arquivo, nome_json, link_video):
     dados = {
@@ -120,7 +140,7 @@ async def processar_item(context, url_pagina):
     if any(morta in url_pagina.lower() for morta in FILMES_MORTOS):
         log(f"\n--> [BYPASS] Ignorando filme morto: {url_pagina}")
         with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-            f.write(url_pagina + "\n")
+            f.write(url_pagina.strip() + "\n")
         return
 
     log(f"\n--> Verificando: {url_pagina}")
@@ -128,45 +148,38 @@ async def processar_item(context, url_pagina):
         r = await asyncio.to_thread(requests.get, url_pagina, headers=HEADERS, timeout=20)
         soup = BeautifulSoup(r.text, 'html.parser')
         
-        # Verifica se é série
-        tem_episodio = any('episódio' in tag.get_text().lower() for tag in soup.find_all('a'))
+        tem_episodio = any('epis' in tag.get_text().lower() for tag in soup.find_all('a'))
         if tem_episodio:
-            log(f"    (É uma série. Pulando...)")
+            log(f"    (E uma serie. Pulando...)")
             with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-                f.write(url_pagina + "\n")
+                f.write(url_pagina.strip() + "\n")
             return
 
-        titulo_filme = limpar_titulo_pagina(soup.title.text if soup.title else "")
-        
-        # --- AQUI ESTÁ A CORREÇÃO DO ANO ---
-        # Tenta achar um ano de 4 dígitos (1900 a 2099) na URL
-        match_ano = re.search(r'\b(19|20)\d{2}\b', url_pagina)
-        ano = match_ano.group(0) if match_ano else ""
+        titulo_filme = extrair_titulo(soup)
+        ano = extrair_ano_da_url(url_pagina)
         
         slug = re.sub(r'[^a-z0-9]', '_', titulo_filme.lower())
         slug = re.sub(r'_+', '_', slug).strip('_')
         
-        # Se achou o ano, adiciona no nome do arquivo e no título
         if ano:
             nome_arquivo = f"{slug}_{ano}.json"
-            nome_json_final = f"{titulo_filme} ({ano}) - 🍿Clau"
+            nome_json_final = f"{titulo_filme} ({ano}) - \U0001F37FClau"
         else:
             nome_arquivo = f"{slug}.json"
-            nome_json_final = f"{titulo_filme} - 🍿Clau"
-        # -----------------------------------
+            nome_json_final = f"{titulo_filme} - \U0001F37FClau"
 
         with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
-            f.write(url_pagina + "\n")
+            f.write(url_pagina.strip() + "\n")
 
         if Path(nome_arquivo).exists(): 
-            log(f"    (Já existe: {nome_arquivo})")
+            log(f"    (Ja existe: {nome_arquivo})")
             return
 
-        log(f"    É um filme: '{nome_json_final}'.")
+        log(f"    E um filme: '{nome_json_final}'.")
         link_video = await extrair_video_playwright(context, url_pagina)
         
         if not link_video: 
-            log(f"      [-] Falhou. Adicionando à fila de pendentes.")
+            log(f"      [-] Falhou. Adicionando a fila de pendentes.")
             ja_existe = any(p['arquivo'] == nome_arquivo for p in pendentes)
             if not ja_existe:
                 pendentes.append({
