@@ -2,8 +2,8 @@ name: Mega Extrair Filmes (Lotes de 500)
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Rede de segurança (roda 1x ao dia se a corrente quebrar)
-  workflow_dispatch:       # Permite rodar na mão
+    - cron: '0 0 * * *' # Rede de seguranca (roda 1x ao dia)
+  workflow_dispatch:       # Permite rodar na mao
 
 permissions:
   contents: write
@@ -15,9 +15,9 @@ concurrency:
 jobs:
   extrair:
     runs-on: ubuntu-latest
-    timeout-minutes: 350 # Trava de segurança (quase 6h)
+    timeout-minutes: 350 # Trava de seguranca
     steps:
-      - name: Baixar repositório
+      - name: Baixar repositorio
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
@@ -196,10 +196,10 @@ jobs:
                   
                   if ano:
                       nome_arquivo = f"{slug}_{ano}.json"
-                      nome_json_final = f"{titulo_filme} ({ano}) - 🍿Clau"
+                      nome_json_final = f"{titulo_filme} ({ano}) - \U0001F37FClau"
                   else:
                       nome_arquivo = f"{slug}.json"
-                      nome_json_final = f"{titulo_filme} - 🍿Clau"
+                      nome_json_final = f"{titulo_filme} - \U0001F37FClau"
 
                   with open(ARQ_FEITAS, "a", encoding="utf-8") as f:
                       f.write(url_pagina.strip() + "\n")
@@ -279,12 +279,10 @@ jobs:
           
           echo "Linhas no filmes_feitos.txt: $(wc -l < filmes_feitos.txt 2>/dev/null || echo 0)"
           
-          # Força a adição dos arquivos de controle
           git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
           git add *.json
           git add *.txt
           
-          # Verifica se o filmes_feitos.txt entrou no stage
           if git diff --cached --name-only | grep -q "filmes_feitos.txt"; then
             echo "[OK] filmes_feitos.txt esta no stage para commit!"
           else
@@ -322,7 +320,7 @@ jobs:
           echo "[FALHA] Falha apos 10 tentativas"
           exit 1
 
-      - name: Disparar próxima run (se fila não vazia)
+      - name: Disparar proxima run (se fila nao vazia)
         if: success()
         env:
           GH_TOKEN: ${{ secrets.PAT_CHAIN }}
@@ -338,16 +336,22 @@ jobs:
             echo "✅ Fila vazia. Chain encerrada."; exit 0
           fi
 
-          # Limite de segurança: no máximo 30 runs por hora
           LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
           RECENTES=$(gh run list --workflow="mega_extrair_filmes.yml" --limit 100 --json event,createdAt --jq "[.[] | select(.event == \"workflow_dispatch\") | select(.createdAt > \"$LIMITE_ISO\")] | length" --repo "$REPO" 2>/dev/null || echo 0)
           
           if [ "$RECENTES" -ge 30 ]; then
-            echo "⚠️ Limite de 30 runs/hora atingido. Aguardando cron."; exit 0
+            echo "⚠️ Limite de 30 runs/hora atingido."; exit 0
           fi
 
-          echo "🔁 Disparando próxima run em 30 segundos..."
+          echo "🔁 Disparando proxima run em 30 segundos..."
           sleep 30
           
-          # ⚠️ ATENÇÃO: Verifique se o nome do seu arquivo YAML é exatamente "mega_extrair_filmes.yml". Se for outro, mude aqui!
-          gh workflow run "mega_extrair_filmes.yml" --repo "$REPO" --ref main
+          for i in {1..5}; do
+            if gh workflow run "mega_extrair_filmes.yml" --repo "$REPO" --ref main; then
+              echo "✅ Proxima run disparada com sucesso!"
+              break
+            else
+              echo "⚠️ Erro ao disparar (tentativa $i/5). GitHub instavel. Tentando de novo em 15s..."
+              sleep 15
+            fi
+          done
