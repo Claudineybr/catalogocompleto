@@ -1,62 +1,20 @@
 [
   {
-    "arquivo": "contos_de_terror_t1e1.json",
-    "nome_json": "Contos de Terror - T1E1 - O Início - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp1e01.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t1e13.json",
-    "nome_json": "Contos de Terror - T1E13 - O Encontro - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp1e010_12.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t1e14.json",
-    "nome_json": "Contos de Terror - T1E14 - No Coração da Escuridão - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp1e08_12.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t1e16.json",
-    "nome_json": "Contos de Terror - T1E16 - A Herança - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp1e16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t2e22.json",
-    "nome_json": "Contos de Terror - T2E22 - Boa Noite, Doce Grimm - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp2e22.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t3e5.json",
-    "nome_json": "Contos de Terror - T3E5 - O Cucuy - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp3e05_17.html",
-    "tentativas": 2
-  },
-  {
     "arquivo": "contos_de_terror_t3e6.json",
     "nome_json": "Contos de Terror - T3E6 - Histórias Para Nossas Crianças - 🍿Clau",
     "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp3e06_17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "contos_de_terror_t5e4.json",
     "nome_json": "Contos de Terror - T5E4 - A Missão da Donzela - 🍿Clau",
     "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp5e04.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "contos_de_terror_t5e17.json",
-    "nome_json": "Contos de Terror - T5E17 - Código de Honra - 🍿Clau",
-    "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp5e17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "contos_de_terror_t5e19.json",
     "nome_json": "Contos de Terror - T5E19 - Mudança de Jogo - 🍿Clau",
     "url": "https://viniseriesonline.blogspot.com/2025/03/inix-tp5e19.html",
-    "tentativas": 2
+    "tentativas": 3
   }
 ]
