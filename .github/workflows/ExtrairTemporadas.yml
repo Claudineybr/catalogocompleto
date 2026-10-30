@@ -15,7 +15,7 @@ concurrency:
 jobs:
   extrair:
     runs-on: ubuntu-latest
-    timeout-minutes: 350 # Trava de segurança do GitHub (quase 6h)
+    timeout-minutes: 350 # Trava de seguranca (quase 6h)
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v5
@@ -98,7 +98,7 @@ jobs:
 
           todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
           fila = [u for u in todas_urls if u not in feitas]
-          lote = fila[:100] # <-- ALTERADO PARA 100 AQUI
+          lote = fila[:100] 
 
           log(f"Total na fila original: {len(todas_urls)}")
           log(f"Total de series JA FEITAS (lidas do txt): {len(feitas)}")
@@ -230,7 +230,7 @@ jobs:
                               log(f"      [-] Falhou. Adicionando a fila de pendentes.")
                               pendentes.append({
                                   "arquivo": nome_arquivo,
-                                  "nome_json": f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau",
+                                  "nome_json": f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - \U0001F37FClau",
                                   "url": item['url'],
                                   "tentativas": 1
                               })
@@ -238,7 +238,7 @@ jobs:
                               log(f"      [-] Falhou. Ja esta na fila.")
                           continue
                           
-                      salvar_json(nome_arquivo, f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - 🍿Clau", link_video)
+                      salvar_json(nome_arquivo, f"{titulo_serie} - T{item['temp']}E{item['ep']} - {item['titulo']} - \U0001F37FClau", link_video)
                       log(f"      [+] Salvo: {nome_arquivo}")
                       
               except Exception as e:
@@ -330,7 +330,7 @@ jobs:
           echo "[FALHA] Falha apos 10 tentativas"
           exit 1
 
-      - name: Disparar próxima run (se fila não vazia)
+      - name: Disparar proxima run (se fila nao vazia)
         if: success()
         env:
           GH_TOKEN: ${{ secrets.PAT_CHAIN }}
@@ -346,15 +346,22 @@ jobs:
             echo "✅ Fila vazia. Chain encerrada."; exit 0
           fi
 
-          # Limite de segurança: no máximo 30 runs por hora
           LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
           RECENTES=$(gh run list --workflow="ExtrairTemporadas.yml" --limit 100 --json event,createdAt --jq "[.[] | select(.event == \"workflow_dispatch\") | select(.createdAt > \"$LIMITE_ISO\")] | length" --repo "$REPO" 2>/dev/null || echo 0)
           
           if [ "$RECENTES" -ge 30 ]; then
-            echo "⚠️ Limite de 30 runs/hora atingido. Aguardando cron."; exit 0
+            echo "⚠️ Limite de 30 runs/hora atingido."; exit 0
           fi
 
-          echo "🔁 Disparando próxima run em 30 segundos..."
-          sleep 30 # <-- ALTERADO PARA 30 SEGUNDOS AQUI
+          echo "🔁 Disparando proxima run em 30 segundos..."
+          sleep 30
           
-          gh workflow run "ExtrairTemporadas.yml" --repo "$REPO" --ref main
+          for i in {1..5}; do
+            if gh workflow run "ExtrairTemporadas.yml" --repo "$REPO" --ref main; then
+              echo "✅ Proxima run disparada com sucesso!"
+              break
+            else
+              echo "⚠️ Erro ao disparar (tentativa $i/5). GitHub instavel. Tentando de novo em 15s..."
+              sleep 15
+            fi
+          done
