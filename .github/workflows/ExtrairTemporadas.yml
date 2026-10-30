@@ -1,8 +1,8 @@
-name: Mega Extrair Series (Lotes de 300)
+name: Mega Extrair Series (Lotes de 100)
 
 on:
   schedule:
-    - cron: '*/30 * * * *' # Roda a cada 30 minutos
+    - cron: '0 0 * * *' # Rede de segurança (roda 1x ao dia se a corrente quebrar)
   workflow_dispatch:       # Permite rodar na mão
 
 permissions:
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   extrair:
     runs-on: ubuntu-latest
+    timeout-minutes: 350 # Trava de segurança do GitHub (quase 6h)
     steps:
       - name: Baixar repositorio
         uses: actions/checkout@v5
@@ -48,7 +49,7 @@ jobs:
           ARQ_DESCARTADOS = Path("series_descartados.txt")
 
           SERIES_MORTAS = ['true_detective', 'o_cuco_de_cristal', 'o11ze', 'big_bang_a_teoria']
-          MAX_TENTATIVAS = 3 # CORRIGIDO PARA 3
+          MAX_TENTATIVAS = 3 
 
           def log(*args):
               print(*args, flush=True)
@@ -68,7 +69,7 @@ jobs:
                       if not entries: break
                       for entry in entries:
                           link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
-                          if link: urls.append(link.split("?")[0])
+                          if link: urls.append(link.split("?")[0].strip())
                       start_index += 150
                       if len(entries) < 150: break
                   except: break
@@ -76,7 +77,7 @@ jobs:
 
           feitas = set()
           if ARQ_FEITAS.exists():
-              feitas = set(ARQ_FEITAS.read_text(encoding="utf-8").splitlines())
+              feitas = set(line.strip() for line in ARQ_FEITAS.read_text(encoding="utf-8").splitlines() if line.strip())
 
           pendentes_dict = {}
           if ARQ_PENDENTES.exists():
@@ -95,9 +96,12 @@ jobs:
           
           pendentes = list(pendentes_dict.values())
 
-          fila = [u for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip() and u not in feitas]
-          lote = fila[:300]
+          todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
+          fila = [u for u in todas_urls if u not in feitas]
+          lote = fila[:100] # <-- ALTERADO PARA 100 AQUI
 
+          log(f"Total na fila original: {len(todas_urls)}")
+          log(f"Total de series JA FEITAS (lidas do txt): {len(feitas)}")
           log(f"Faltam {len(fila)} series. Pendentes (limpos): {len(pendentes)}.")
 
           async def extrair_video_playwright(context, url_ep):
@@ -112,7 +116,7 @@ jobs:
                   await page.goto(url_ep, wait_until="domcontentloaded", timeout=20000)
                   try: await page.wait_for_selector("iframe", timeout=10000) 
                   except: pass 
-                  await asyncio.sleep(3.0) 
+                  await asyncio.sleep(2.0)
                   html = await page.content()
                   if not capturados:
                       soup = BeautifulSoup(html, 'html.parser')
@@ -197,7 +201,7 @@ jobs:
                       if match_temp:
                           temporada_atual = int(match_temp.group(1))
                           continue
-                      if tag.name == 'a' and 'episódio' in texto.lower():
+                      if tag.name == 'a' and 'epis' in texto.lower():
                           href = tag.get('href')
                           if href:
                               if href.startswith('/'): href = BASE_URL + href
@@ -288,42 +292,69 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
-          git add -f series_feitas.txt series_fila.txt episodios_pendentes.json series_descartados.txt 2>/dev/null || true
+          echo "Linhas no series_feitas.txt: $(wc -l < series_feitas.txt 2>/dev/null || echo 0)"
           
-          # A MÁGICA QUE CORRIGE O ERRO DO .GITHUB:
+          git add -f series_feitas.txt series_fila.txt episodios_pendentes.json series_descartados.txt 2>/dev/null || true
           git add *.json
           git add *.txt
+          
+          git checkout -- episodios_pendentes.json 2>/dev/null || true
+          git checkout -- series_feitas.txt 2>/dev/null || true
           
           if git diff --cached --quiet; then
             echo "Nada novo para commitar."
             exit 0
           fi
           
-          ARQUIVOS=$(git diff --cached --name-only | wc -l)
-          git commit -m "chore: atualizar catalogo de series ($ARQUIVOS arquivos)"
+          git commit -m "feat: extracao de series + progresso"
           
-          # Loop de 5 tentativas para o Push
-          for i in $(seq 1 5); do
-            echo "== Push tentativa $i/5 =="
+          for i in $(seq 1 10); do
+            echo "== Push tentativa $i/10 =="
             if git push origin HEAD:main; then
               echo "[SUCESSO] Push OK na tentativa $i"
               exit 0
             fi
-            echo "[FALHA] Push falhou. Sincronizando com origin/main..."
-            git fetch origin main
-            git reset --mixed origin/main
             
-            git add -f series_feitas.txt series_fila.txt episodios_pendentes.json series_descartados.txt 2>/dev/null || true
-            git add *.json
-            git add *.txt
-            
-            if git diff --cached --quiet; then
-              echo "Nada para commitar apos reset."
-              exit 0
+            echo "[FALHA] Push falhou. Baixando atualizacoes..."
+            if ! git pull --rebase origin main; then
+              echo "Rebase deu conflito. Abortando e usando merge..."
+              git rebase --abort
+              git pull origin main --no-rebase -X ours --no-edit
             fi
-            git commit -m "chore: atualizar catalogo de series (retry $i)"
+            
+            git checkout -- episodios_pendentes.json 2>/dev/null || true
+            git checkout -- series_feitas.txt 2>/dev/null || true
             sleep $((RANDOM % 10 + 5))
           done
           
-          echo "[FALHA] Falha apos 5 tentativas"
+          echo "[FALHA] Falha apos 10 tentativas"
           exit 1
+
+      - name: Disparar próxima run (se fila não vazia)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.PAT_CHAIN }}
+          REPO: ${{ github.repository }}
+        run: |
+          TOTAL=$(wc -l < series_fila.txt)
+          FEITOS=$(sort -u series_feitas.txt | wc -l)
+          FALTAM=$((TOTAL - FEITOS))
+          
+          echo "Total na fila: $TOTAL | Ja feitos: $FEITOS | Faltam: $FALTAM"
+          
+          if [ "$FALTAM" -le 0 ]; then
+            echo "✅ Fila vazia. Chain encerrada."; exit 0
+          fi
+
+          # Limite de segurança: no máximo 30 runs por hora
+          LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          RECENTES=$(gh run list --workflow="ExtrairTemporadas.yml" --limit 100 --json event,createdAt --jq "[.[] | select(.event == \"workflow_dispatch\") | select(.createdAt > \"$LIMITE_ISO\")] | length" --repo "$REPO" 2>/dev/null || echo 0)
+          
+          if [ "$RECENTES" -ge 30 ]; then
+            echo "⚠️ Limite de 30 runs/hora atingido. Aguardando cron."; exit 0
+          fi
+
+          echo "🔁 Disparando próxima run em 30 segundos..."
+          sleep 30 # <-- ALTERADO PARA 30 SEGUNDOS AQUI
+          
+          gh workflow run "ExtrairTemporadas.yml" --repo "$REPO" --ref main

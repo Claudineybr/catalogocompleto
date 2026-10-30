@@ -2,8 +2,8 @@ name: Mega Extrair Filmes (Lotes de 500)
 
 on:
   schedule:
-    - cron: '15,45 * * * *' 
-  workflow_dispatch:       
+    - cron: '0 0 * * *' # Rede de segurança (roda 1x ao dia se a corrente quebrar)
+  workflow_dispatch:       # Permite rodar na mão
 
 permissions:
   contents: write
@@ -15,6 +15,7 @@ concurrency:
 jobs:
   extrair:
     runs-on: ubuntu-latest
+    timeout-minutes: 350 # Trava de segurança (quase 6h)
     steps:
       - name: Baixar repositório
         uses: actions/checkout@v5
@@ -152,7 +153,7 @@ jobs:
               match = re.search(r'/([^/]+)\.html', url_pagina)
               if match:
                   slug = match.group(1)
-                  anos = re.findall(r'\b(19|20)\d{2}\b', slug)
+                  anos = re.findall(r'\b(19\d{2}|20\d{2})\b', slug)
                   if anos: return anos[-1]
               return ""
 
@@ -276,36 +277,77 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           
+          echo "Linhas no filmes_feitos.txt: $(wc -l < filmes_feitos.txt 2>/dev/null || echo 0)"
+          
+          # Força a adição dos arquivos de controle
           git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
           git add *.json
           git add *.txt
+          
+          # Verifica se o filmes_feitos.txt entrou no stage
+          if git diff --cached --name-only | grep -q "filmes_feitos.txt"; then
+            echo "[OK] filmes_feitos.txt esta no stage para commit!"
+          else
+            echo "[ERRO] filmes_feitos.txt NAO entrou no stage!"
+          fi
           
           if git diff --cached --quiet; then
             echo "Nada novo para commitar localmente."
             exit 0
           fi
           
-          git commit -m "feat: mega extracao de filmes (titulos, anos e progresso corrigidos)"
+          git commit -m "feat: mega extracao de filmes + progresso"
           
-          # Loop de 5 tentativas CORRIGIDO
-          for i in $(seq 1 5); do
-            echo "== Push tentativa $i/5 =="
+          for i in $(seq 1 10); do
+            echo "== Push tentativa $i/10 =="
             if git push origin HEAD:main; then
               echo "[SUCESSO] Push OK na tentativa $i"
               exit 0
             fi
             
             echo "[FALHA] Push falhou. Baixando atualizacoes remotas e mesclando..."
-            git pull origin main --no-rebase -X ours --no-edit
+            if ! git pull --rebase origin main; then
+              echo "Rebase deu conflito. Usando merge..."
+              git rebase --abort
+              git pull origin main --no-rebase -X ours --no-edit
+            fi
             
             git add -f filmes_feitos.txt filmes_fila.txt filmes_pendentes.json filmes_descartados.txt 2>/dev/null || true
             git add *.json
             git add *.txt
-            
-            # Aqui estava o erro! Agora ele commita (se precisar) e CONTINUA o loop
-            git commit -m "feat: mega extracao de filmes (merge $i)" || true
+            git commit -m "feat: mega extracao de filmes (retry $i)" || true
             sleep $((RANDOM % 10 + 5))
           done
           
-          echo "[FALHA] Falha apos 5 tentativas"
+          echo "[FALHA] Falha apos 10 tentativas"
           exit 1
+
+      - name: Disparar próxima run (se fila não vazia)
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.PAT_CHAIN }}
+          REPO: ${{ github.repository }}
+        run: |
+          TOTAL=$(wc -l < filmes_fila.txt)
+          FEITOS=$(sort -u filmes_feitos.txt | wc -l)
+          FALTAM=$((TOTAL - FEITOS))
+          
+          echo "Total na fila: $TOTAL | Ja feitos: $FEITOS | Faltam: $FALTAM"
+          
+          if [ "$FALTAM" -le 0 ]; then
+            echo "✅ Fila vazia. Chain encerrada."; exit 0
+          fi
+
+          # Limite de segurança: no máximo 30 runs por hora
+          LIMITE_ISO=$(date -u -d '60 minutes ago' +%Y-%m-%dT%H:%M:%SZ)
+          RECENTES=$(gh run list --workflow="mega_extrair_filmes.yml" --limit 100 --json event,createdAt --jq "[.[] | select(.event == \"workflow_dispatch\") | select(.createdAt > \"$LIMITE_ISO\")] | length" --repo "$REPO" 2>/dev/null || echo 0)
+          
+          if [ "$RECENTES" -ge 30 ]; then
+            echo "⚠️ Limite de 30 runs/hora atingido. Aguardando cron."; exit 0
+          fi
+
+          echo "🔁 Disparando próxima run em 30 segundos..."
+          sleep 30
+          
+          # ⚠️ ATENÇÃO: Verifique se o nome do seu arquivo YAML é exatamente "mega_extrair_filmes.yml". Se for outro, mude aqui!
+          gh workflow run "mega_extrair_filmes.yml" --repo "$REPO" --ref main
