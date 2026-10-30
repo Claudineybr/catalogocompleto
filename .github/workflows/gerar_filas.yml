@@ -1,0 +1,102 @@
+name: Recriar Filas do Zero
+
+on:
+  workflow_dispatch: # Roda na mão
+
+permissions:
+  contents: write
+
+jobs:
+  criar_filas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Instalar dependencias
+        run: pip install requests
+
+      - name: Raspar Site e Gerar Filas
+        run: |
+          cat > gerar_filas.py << 'PYEOF'
+          import requests
+          import json
+          from pathlib import Path
+          import sys
+
+          BASE_URL = "https://www.vini7xgrave.site"
+          HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+          
+          ARQ_FILA_FILMES = Path("filmes_fila.txt")
+          ARQ_FILA_SERIES = Path("series_fila.txt")
+
+          print("Buscando links no site...")
+          urls = []
+          start_index = 1
+          
+          while True:
+              url_feed = f"{BASE_URL}/feeds/posts/default?alt=json&max-results=150&start-index={start_index}"
+              print(f"Lendo página {start_index} a {start_index+149}...")
+              try:
+                  r = requests.get(url_feed, headers=HEADERS, timeout=15)
+                  if r.status_code != 200: 
+                      print(f"Fim das páginas ou erro HTTP {r.status_code}")
+                      break
+                      
+                  data = r.json()
+                  entries = data.get("feed", {}).get("entry", [])
+                  if not entries: 
+                      break
+                      
+                  for entry in entries:
+                      link = next((l["href"] for l in entry.get("link", []) if l.get("rel") == "alternate"), None)
+                      if link: 
+                          urls.append(link.split("?")[0].strip())
+                          
+                  start_index += 150
+                  if len(entries) < 150: 
+                      break
+              except Exception as e: 
+                  print(f"Erro: {e}")
+                  break
+
+          print(f"Total de links encontrados no site: {len(urls)}")
+          
+          # Remove duplicatas mantendo a ordem
+          urls = list(dict.fromkeys(urls))
+
+          # Salva tudo na fila de filmes e de séries (o robô de cada um vai filtrar o que é o que)
+          ARQ_FILA_FILMES.write_text("\n".join(urls), encoding="utf-8")
+          ARQ_FILA_SERIES.write_text("\n".join(urls), encoding="utf-8")
+
+          print(f"Arquivos 'filmes_fila.txt' e 'series_fila.txt' criados com {len(urls)} links cada.")
+          PYEOF
+
+          python3 gerar_filas.py
+
+      - name: Salvar arquivos e progresso
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Adiciona os novos arquivos de fila
+          git add filmes_fila.txt series_fila.txt
+          
+          if git diff --cached --quiet; then
+            echo "Nada novo para commitar."
+            exit 0
+          fi
+          
+          git commit -m "chore: recriar filas de filmes e series do zero"
+          
+          for i in $(seq 1 5); do
+            if git push origin HEAD:main; then
+              echo "[SUCESSO] Push OK"
+              exit 0
+            fi
+            echo "[FALHA] Push falhou. Sincronizando..."
+            git pull --rebase origin main --autostash || git pull origin main --no-rebase -X ours --no-edit
+            sleep 3
+          done
