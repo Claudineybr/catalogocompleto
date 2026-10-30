@@ -1270,3 +1270,4 @@ true_detective_t4e3.json	https://viniraveon.blogspot.com/2026/02/inix-true-detec
 true_detective_t4e4.json	https://viniraveon.blogspot.com/2026/02/inix-true-detective-tp4e04.html	3 falhas
 true_detective_t4e5.json	https://viniraveon.blogspot.com/2026/02/inix-true-detective-tp4e05.html	3 falhas
 true_detective_t4e6.json	https://viniraveon.blogspot.com/2026/02/inix-true-detective-tp4e06.html	3 falhas
+suits_homens_de_terno_t8e8.json	https://marcosx7.blogspot.com/2026/01/inix-suits-tp8e08.html	3 falhas
