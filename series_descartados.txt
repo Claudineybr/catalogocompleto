@@ -1343,3 +1343,11 @@ chernobyl_t1e2.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e0
 chernobyl_t1e3.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e03.html	3 falhas
 chernobyl_t1e4.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e04.html	3 falhas
 chernobyl_t1e5.json	https://viniraveon.blogspot.com/2025/12/inix-chernobyl-tp1e05.html	3 falhas
+it_bem_vindos_derry_t1e1.json	https://viniraveon.blogspot.com/2025/10/inix-it-bem-vindos-derry-tp1e01.html	3 falhas
+it_bem_vindos_derry_t1e2.json	https://viniraveon.blogspot.com/2025/10/inix-it-bem-vindos-derry-tp1e01_31.html	3 falhas
+it_bem_vindos_derry_t1e3.json	https://viniraveon.blogspot.com/2025/11/inix-it-bem-vindos-derry-tp1e03.html	3 falhas
+it_bem_vindos_derry_t1e4.json	https://viniraveon.blogspot.com/2025/11/inix-it-bem-vindos-derry-tp1e04.html	3 falhas
+it_bem_vindos_derry_t1e5.json	https://viniraveon.blogspot.com/2025/11/inix-it-bem-vindos-derry-tp1e05.html	3 falhas
+it_bem_vindos_derry_t1e6.json	https://viniraveon.blogspot.com/2025/11/inix-it-bem-vindos-derry-tp1e06.html	3 falhas
+it_bem_vindos_derry_t1e7.json	https://viniraveon.blogspot.com/2025/12/inix-it-bem-vindos-derry-tp1e07.html	3 falhas
+it_bem_vindos_derry_t1e8.json	https://viniraveon.blogspot.com/2025/12/inix-it-bem-vindos-derry-tp1e07_14.html	3 falhas
