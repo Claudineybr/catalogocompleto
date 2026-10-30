@@ -1451,3 +1451,6 @@ american_horror_story_t4e1.json	https://viniraveon.blogspot.com/2025/09/inix-ame
 the_walking_dead_daryl_dixon_t3e6.json	https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep06.html	3 falhas
 the_walking_dead_daryl_dixon_t3e7.json	https://marcosx7.blogspot.com/2025/10/arc-walking-dead-daryl-tp03ep07_26.html	3 falhas
 solo_leveling_t2e9.json	https://vini7xgseries2.blogspot.com/2025/09/inix-solo-leveling-tp2e09.html	3 falhas
+9_1_1_t1e8.json	https://viniseries3.blogspot.com/2025/10/inix-911-tp1e08.html	3 falhas
+9_1_1_t1e9.json	https://viniseries3.blogspot.com/2025/10/inix-911-tp1e09.html	3 falhas
+9_1_1_t4e5.json	https://viniseries3.blogspot.com/2025/10/inix-9-1-1-tp4e05.html	3 falhas
