@@ -1,0 +1,92 @@
+name: Auditar com Link de Video
+
+on:
+  workflow_dispatch:
+
+jobs:
+  auditar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+
+      - name: Instalar dependências
+        run: pip install requests beautifulsoup4
+
+      - name: Comparar Site, Arquivos e Link
+        env:
+          URL_SERIE: "https://www.vini7xgrave.site/2022/08/arqueiro-verde.html"
+        run: |
+          cat > /tmp/auditar.py << 'PYEOF'
+          import os, re, json, requests
+          from bs4 import BeautifulSoup
+
+          URL = os.environ["URL_SERIE"]
+          HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+          print(f"=== LENDO O SITE: {URL} ===")
+          try:
+              r = requests.get(URL, headers=HEADERS, timeout=20)
+              soup = BeautifulSoup(r.text, 'html.parser')
+          except Exception as e:
+              print(f"Erro ao acessar o site: {e}")
+              exit(1)
+
+          # 1. O QUE ESTÁ NO SITE
+          eps_site = set()
+          temporada_atual = 1
+          for tag in soup.find_all(['b', 'h2', 'h3', 'p', 'a', 'div']):
+              texto = tag.get_text(strip=True)
+              m_temp = re.search(r'(\d+)\s*[ªº]\s*Temporada', texto, re.I)
+              if m_temp:
+                  temporada_atual = int(m_temp.group(1))
+                  continue
+              if tag.name == 'a' and 'episódio' in texto.lower():
+                  m_ep = re.search(r'Episódio\s*(\d+)', texto, re.I)
+                  if m_ep:
+                      eps_site.add((temporada_atual, int(m_ep.group(1))))
+          
+          print(f"-> O site tem {len(eps_site)} episódios mapeados.")
+          print("\n=== DETALHES DOS SEUS ARQUIVOS ===")
+
+          # 2. O QUE ESTÁ NOS ARQUIVOS E NO LINK
+          for arquivo in sorted(os.listdir('.')):
+              if not arquivo.endswith('.json'): continue
+              if any(x in arquivo for x in ['pendentes', 'fila', 'feitas', 'descartados', 'catalog']): continue
+              
+              match_arq = re.search(r'_t(\d+)e(\d+)', arquivo, re.I)
+              if not match_arq: continue # Pula filmes
+              
+              t_arq, e_arq = int(match_arq.group(1)), int(match_arq.group(2))
+              
+              try:
+                  with open(arquivo, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                      
+                      # Pega o NAME
+                      match_name = re.search(r'"name"\s*:\s*"([^"]*)"', content)
+                      nome_json = match_name.group(1) if match_name else "SEM NAME"
+                      match_nome_tag = re.search(r'\bT(\d+)E(\d+)\b', nome_json, re.I)
+                      tag_name = f"T{int(match_nome_tag.group(1))}E{int(match_nome_tag.group(2))}" if match_nome_tag else "S/ TAG"
+
+                      # Pega o LINK
+                      match_url = re.search(r'"(?:contentUrl|embedUrl)"\s*:\s*"([^"]*)"', content)
+                      url_video = match_url.group(1) if match_url else ""
+                      
+                      # Tenta extrair T/E do LINK
+                      tag_url = "N/A"
+                      m_url_1 = re.search(r'(?i)(\d+)x(\d+)', url_video) # Ex: 1x1
+                      m_url_2 = re.search(r'(?i)s(\d+)e(\d+)', url_video) # Ex: s01e01
+                      if m_url_1: tag_url = f"T{int(m_url_1.group(1))}E{int(m_url_1.group(2))}"
+                      elif m_url_2: tag_url = f"T{int(m_url_2.group(1))}E{int(m_url_2.group(2))}"
+                      
+                      # Printa a linha de auditoria
+                      status = "✅" if f"T{t_arq}E{e_arq}" == tag_name else "❌"
+                      print(f"{status} ARQ: T{t_arq}E{e_arq} | NAME: {tag_name} | LINK: {tag_url}")
+                      print(f"   Nome: {nome_json}")
+                      print(f"   Link: {url_video}")
+                      
+              except Exception as e:
+                  print(f"Erro no arquivo {arquivo}: {e}")
+          PYEOF
+          python3 /tmp/auditar.py
