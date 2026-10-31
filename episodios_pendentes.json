@@ -1,8 +1,404 @@
 [
   {
-    "arquivo": "classe_dos_her_is_fracos_t2e8.json",
-    "nome_json": "Classe dos Heróis Fracos - T2E8 -  - 🍿Clau",
-    "url": "https://marcosx7.blogspot.com/2025/05/arc-classe-dos-herois-fraco-tp02ep07.html",
-    "tentativas": 3
+    "arquivo": "the_walking_dead_t1e1.json",
+    "nome_json": "The Walking Dead - T1E1 - Dias Passados - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp1e01_13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t6e3.json",
+    "nome_json": "The Walking Dead - T6E3 - Obrigado - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp6e03.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t6e4.json",
+    "nome_json": "The Walking Dead - T6E4 - Aqui Não É Aqui - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/05/inix-tp6e04.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e1.json",
+    "nome_json": "The Walking Dead - T11E1 - Acheron: Parte I - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e01.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e2.json",
+    "nome_json": "The Walking Dead - T11E2 - Acheron: Parte II - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e02.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e3.json",
+    "nome_json": "The Walking Dead - T11E3 - Caçados - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e03.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e4.json",
+    "nome_json": "The Walking Dead - T11E4 - Performance - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e04.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e5.json",
+    "nome_json": "The Walking Dead - T11E5 - Das Cinzas - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e05.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e6.json",
+    "nome_json": "The Walking Dead - T11E6 - Por Dentro - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e06.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e7.json",
+    "nome_json": "The Walking Dead - T11E7 - Promessas Quebradas - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e07.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e8.json",
+    "nome_json": "The Walking Dead - T11E8 - Por Sangue - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e08.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e9.json",
+    "nome_json": "The Walking Dead - T11E9 - Não Tem Outro Jeito - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e10.json",
+    "nome_json": "The Walking Dead - T11E10 - Novas Assombrações - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e11.json",
+    "nome_json": "The Walking Dead - T11E11 - Elemento Rebelde - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e12.json",
+    "nome_json": "The Walking Dead - T11E12 - Os Sortudos - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e13.json",
+    "nome_json": "The Walking Dead - T11E13 - Senhores da Guerra - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e14.json",
+    "nome_json": "The Walking Dead - T11E14 - O Núcleo Podre - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e15.json",
+    "nome_json": "The Walking Dead - T11E15 - Confiar - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e15.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e16.json",
+    "nome_json": "The Walking Dead - T11E16 - Atos de Deus - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e17.json",
+    "nome_json": "The Walking Dead - T11E17 - Confinamento - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e17.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e18.json",
+    "nome_json": "The Walking Dead - T11E18 - Um Novo Acordo - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e18.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e19.json",
+    "nome_json": "The Walking Dead - T11E19 - Variante - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e19.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e20.json",
+    "nome_json": "The Walking Dead - T11E20 - O que Foi Perdido - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e20.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e21.json",
+    "nome_json": "The Walking Dead - T11E21 - Posto Avançado 22 - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e21.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e22.json",
+    "nome_json": "The Walking Dead - T11E22 - Fé - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e22.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e23.json",
+    "nome_json": "The Walking Dead - T11E23 - Família - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e23.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "the_walking_dead_t11e24.json",
+    "nome_json": "The Walking Dead - T11E24 - Descanse em Paz - 🍿Clau",
+    "url": "https://viniseries3.blogspot.com/2025/05/inix-tp11e24.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e1.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E1 - Piloto - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e01_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e2.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E2 - A Verdade Dói - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e02_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e3.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E3 - Dois Seios e Basquete - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e03_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e4.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E4 - Apego às Tralhas - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e04_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e5.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E5 - Fazendo a Nota - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e05_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e6.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E6 - Trabalhando Duro - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e06_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e7.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E7 - Ele Disse, Ela Disse - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e07_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e8.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E8 - Mordendo e Farejando - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e08_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e9.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E9 - Terminando e Quebrando - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e09_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e10.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E10 - Um Pouco de Romance - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e10_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e11.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E11 - Tudo Pode Acontecer - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e11_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t1e12.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T1E12 - Falha na Comunicação - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e12_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e1.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E1 - A Mamãe Está Fora de Casa Parte 1 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp1e13_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e2.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E2 - A Mamãe Está Fora de Casa Parte 2 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e02_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e3.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E3 - Sem Regras - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e03_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e4.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E4 - O Pai Perfeito - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e04_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e5.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E5 - Na Tristeza e na Alegria - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e05_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e6.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E6 - Saindo Escondida - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e06_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e7.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E7 - O Jardim de Michael - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e07_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e8.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E8 - Deixe Que Comam Torta - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e08_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e9.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E9 - Jay É Mandada Embora - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e09_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e10.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E10 - Todo Mundo Está Assistindo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e10_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e11.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E11 - O Hamster Morreu? - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e11_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e12.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E12 - Aprendendo a Ganhar - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e12_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e13.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E13 - Tempo de Qualidade - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e13_10.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e14.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E14 - Saiam! - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e14.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e15.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E15 - A Viagem de Família - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e15.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e16.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E16 - Mesa Para Muitos Parte 1 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e17.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E17 - Mesa Para Muitos Parte 2 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e17.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e18.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E18 - Encontro Duplo - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e18.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e19.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E19 - Meu Pai Me Pediu Para Te Nocautear - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e19.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e20.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E20 - Janet, a Autoritária - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e20.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e21.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E21 - Relacionamento de Trabalho - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e21.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e22.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E22 - Jr. Kyle, Garoto Gênio - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e22.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e23.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E23 - O Problema nas Costas - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e23.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e24.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E24 - Eu Sou Bonita? - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e24.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e25.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E25 - O Show de Boliche - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e25.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e26.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E26 - Jr. Tira a Carta - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e26.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e27.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E27 - Aniversário Parte 1 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e27.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "eu_a_patroa_e_as_crian_as_t2e28.json",
+    "nome_json": "Eu, a Patroa e as Crianças - T2E28 - Aniversário Parte 2 - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/05/inix-tp2e28.html",
+    "tentativas": 2
   }
 ]

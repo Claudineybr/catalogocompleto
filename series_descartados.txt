@@ -1867,3 +1867,4 @@ dungeon_meshi_t1e21.json	https://vini7xgseries2.blogspot.com/2025/06/inix-tp1e21
 dungeon_meshi_t1e22.json	https://vini7xgseries2.blogspot.com/2025/06/inix-tp1e22.html	3 falhas
 dungeon_meshi_t1e23.json	https://vini7xgseries2.blogspot.com/2025/06/inix-tp1e23.html	3 falhas
 dungeon_meshi_t1e24.json	https://vini7xgseries2.blogspot.com/2025/06/inix-tp1e24.html	3 falhas
+classe_dos_her_is_fracos_t2e8.json	https://marcosx7.blogspot.com/2025/05/arc-classe-dos-herois-fraco-tp02ep07.html	3 falhas
