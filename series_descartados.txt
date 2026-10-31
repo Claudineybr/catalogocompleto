@@ -2534,3 +2534,9 @@ uma_fam_lia_perfeita_t1e4.json	https://viniseriesonline.blogspot.com/2025/04/ini
 uma_fam_lia_perfeita_t1e5.json	https://viniseriesonline.blogspot.com/2025/04/inix-tp1e05.html	3 falhas
 uma_fam_lia_perfeita_t1e6.json	https://viniseriesonline.blogspot.com/2025/04/inix-tp1e06.html	3 falhas
 uma_fam_lia_perfeita_t1e7.json	https://viniseriesonline.blogspot.com/2025/04/inix-tp1e07.html	3 falhas
+ini_x_t1e26.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e26.html	3 falhas
+ini_x_t1e27.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e27.html	3 falhas
+ini_x_t1e28.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e28.html	3 falhas
+ini_x_t1e29.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e29.html	3 falhas
+ini_x_t1e30.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e30.html	3 falhas
+ini_x_t1e31.json	https://viniseriesonline.blogspot.com/2025/03/inix-tp2e31.html	3 falhas
