@@ -1,0 +1,180 @@
+import asyncio
+import re
+import json
+import requests
+import sys
+from bs4 import BeautifulSoup
+from pathlib import Path
+from playwright.async_api import async_playwright
+
+BASE_URL = "https://www.vini7xgrave.site"
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+
+ARQ_FILA = Path("filmes_fila.txt")
+ARQ_PROCESSADOS = Path("links_corrigidos.txt")
+
+if not ARQ_FILA.exists():
+    print("Arquivo filmes_fila.txt nao encontrado.")
+    sys.exit(0)
+
+# 1. Carrega TODOS os JSONs e cria um mapa: { "link_do_video": ["arquivo1.json", "arquivo2.json"] }
+mapa_videos = {}
+for arq in Path(".").glob("*.json"):
+    if any(x in arq.name for x in ['pendentes', 'fila', 'feitas', 'descartados', 'cache', 'renomeados']): continue
+    try:
+        conteudo = arq.read_text(encoding="utf-8")
+        soup = BeautifulSoup(conteudo, 'html.parser')
+        script = soup.find("script", type="application/ld+json")
+        if script:
+            dados = json.loads(script.string)
+            url_video = dados.get("contentUrl", "").strip()
+            if url_video:
+                if url_video not in mapa_videos:
+                    mapa_videos[url_video] = []
+                mapa_videos[url_video].append(arq.name)
+    except: pass
+
+print(f"Mapa carregado: {len(mapa_videos)} links únicos de video encontrados no repositório.")
+
+processados = set()
+if ARQ_PROCESSADOS.exists():
+    processados = set(line.strip() for line in ARQ_PROCESSADOS.read_text(encoding="utf-8").splitlines() if line.strip())
+
+todas_urls = [u.strip() for u in ARQ_FILA.read_text(encoding="utf-8").splitlines() if u.strip()]
+faltam = [u for u in todas_urls if u not in processados]
+lote = faltam[:100] # Processa 100 links do site por vez
+
+print(f"Total na fila: {len(todas_urls)} | Ja processados (pulados): {len(processados)} | Faltam: {len(faltam)}")
+print(f"Processando lote atual de {len(lote)} links...\n")
+
+# CONTADORES DE PROGRESSO (Globais)
+renomeados_count = 0
+duplicatas_deletadas = 0
+videos_nao_encontrados = 0
+falhas_raspagem = 0
+
+async def extrair_dados_site(context, url_site):
+    page = await context.new_page()
+    capturados = []
+    def on_response(res):
+        u = res.url
+        if re.search(r"[.](mp4|m3u8)([?]|$)", u, re.I) or 'tankie' in u or 'oneplayer' in u:
+            capturados.append(u)
+    page.on("response", on_response)
+    
+    try:
+        await page.goto(url_site, wait_until="domcontentloaded", timeout=20000)
+        try: await page.wait_for_selector("iframe", timeout=10000) 
+        except: pass 
+        await asyncio.sleep(3.0) 
+        html = await page.content()
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Pega o Título (H1 ou Title)
+        h1 = soup.find('h1')
+        titulo_raw = h1.get_text(strip=True) if h1 else (soup.title.text if soup.title else "")
+        
+        # Se não capturou o vídeo na rede, tenta no HTML
+        if not capturados:
+            for iframe in soup.find_all('iframe'):
+                src = iframe.get('src', '')
+                if 'google' not in src.lower() and 'ads' not in src.lower():
+                    capturados.append(src)
+        if not capturados:
+            match = re.search(r'(https?://[^"\']+(?:tankie|oneplayer)[^"\']+)', html)
+            if match: capturados.append(match.group(1))
+            
+    except Exception: pass
+    finally: await page.close()
+    
+    link_video = list(dict.fromkeys(capturados))[0] if capturados else None
+    return titulo_raw, link_video
+
+def limpar_titulo(raw):
+    raw = raw.replace('🍿Clau', '').replace('𝑴arcø𝒔x⁷👾', '').replace('Marcos', '').strip()
+    partes = [p.strip() for p in re.split(r'\s+-\s+', raw) if p.strip()]
+    titulo = max(partes, key=len) if partes else raw
+    
+    match_ano = re.search(r'\b(19\d{2}|20\d{2})\b', titulo)
+    ano = match_ano.group(1) if match_ano else ""
+    
+    titulo = re.sub(r'\b(19\d{2}|20\d{2})\b', '', titulo)
+    titulo = re.sub(r'[\(\)\[\]]', '', titulo)
+    titulo = re.sub(r'\s+', ' ', titulo).strip()
+    return titulo, ano
+
+async def main():
+    global renomeados_count, duplicatas_deletadas, videos_nao_encontrados, falhas_raspagem
+    
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch(headless=True)
+        context = await browser.new_context(user_agent=HEADERS["User-Agent"])
+        
+        for url_site in lote:
+            titulo_raw, link_video = await extrair_dados_site(context, url_site)
+            
+            if not titulo_raw:
+                print(f"[-] Falha ao abrir/raspar: {url_site}")
+                falhas_raspagem += 1
+            elif not link_video:
+                print(f"[-] Video nao encontrado no site: {url_site}")
+                videos_nao_encontrados += 1
+            elif link_video and link_video in mapa_videos:
+                arquivos_antigos = mapa_videos[link_video]
+                titulo_limpo, ano = limpar_titulo(titulo_raw)
+                
+                slug = re.sub(r'[^a-z0-9]', '_', titulo_limpo.lower())
+                slug = re.sub(r'_+', '_', slug).strip('_')
+                nome_arquivo_novo = f"{slug}_{ano}.json" if ano else f"{slug}.json"
+                nome_json_final = f"{titulo_limpo} ({ano}) - 🍿Clau" if ano else f"{titulo_limpo} - 🍿Clau"
+                
+                arquivo_oficial = arquivos_antigos[0]
+                
+                # Renomeia
+                if arquivo_oficial != nome_arquivo_novo:
+                    p_antigo = Path(arquivo_oficial)
+                    p_novo = Path(nome_arquivo_novo)
+                    if p_antigo.exists():
+                        p_antigo.rename(p_novo)
+                        print(f"[+] Renomeado: {arquivo_oficial} -> {nome_arquivo_novo}")
+                        renomeados_count += 1
+                    
+                # Atualiza o JSON interno
+                p_final = Path(nome_arquivo_novo)
+                if p_final.exists():
+                    txt = p_final.read_text(encoding="utf-8")
+                    soup = BeautifulSoup(txt, "html.parser")
+                    script = soup.find("script", type="application/ld+json")
+                    if script:
+                        dados = json.loads(script.string)
+                        dados["name"] = nome_json_final
+                        novo_html = f"<!DOCTYPE html>\n<html lang=\"pt-BR\">\n<head>\n<script type=\"application/ld+json\">\n{json.dumps(dados, ensure_ascii=False, indent=2)}\n</script>\n<title>{nome_json_final}</title>\n</head>\n<body>\n<h1>{nome_json_final}</h1>\n</body>\n</html>"
+                        p_final.write_text(novo_html, encoding="utf-8")
+
+                # Deleta os duplicados
+                for dup in arquivos_antigos[1:]:
+                    p_dup = Path(dup)
+                    if p_dup.exists() and p_dup != p_final:
+                        p_dup.unlink()
+                        print(f"[X] Duplicata deletada: {dup}")
+                        duplicatas_deletadas += 1
+                        
+            else:
+                # O video existe no site mas nao esta no repo
+                print(f"[?] Video no site, mas nao encontrado no repo: {url_site}")
+                
+            with open(ARQ_PROCESSADOS, "a", encoding="utf-8") as f:
+                f.write(url_site + "\n")
+
+        await browser.close()
+
+if __name__ == "__main__":
+    asyncio.run(main())
+    print(f"\n=========================================")
+    print(f"=== RESUMO DA RUN ===")
+    print(f"Links processados neste lote: {len(lote)}")
+    print(f"Arquivos renomeados: {renomeados_count}")
+    print(f"Duplicatas deletadas: {duplicatas_deletadas}")
+    print(f"Videos nao encontrados no site: {videos_nao_encontrados}")
+    print(f"Falhas ao abrir o site: {falhas_raspagem}")
+    print(f"=========================================\n")
