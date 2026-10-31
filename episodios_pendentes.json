@@ -1,770 +1,494 @@
 [
   {
-    "arquivo": "tp5_e10_t1e0.json",
-    "nome_json": "- TP5|E10 - T1E0 - Episódios - 🍿Clau",
-    "url": "https://www.vini7xgrave.site/search/label/Epis%C3%B3dios",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e1.json",
-    "nome_json": "Game of Thrones (GOT) - T2E1 - O Norte Se Lembra - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e01_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e2.json",
-    "nome_json": "Game of Thrones (GOT) - T2E2 - As Terras de Noite - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e3.json",
-    "nome_json": "Game of Thrones (GOT) - T2E3 - O Que Está Morto Não Pode Morrer - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e03_82.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e4.json",
-    "nome_json": "Game of Thrones (GOT) - T2E4 - Jardim de Ossos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e5.json",
-    "nome_json": "Game of Thrones (GOT) - T2E5 - O Fantasma de Harrenhal - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e6.json",
-    "nome_json": "Game of Thrones (GOT) - T2E6 - Os Velhos Deuses e os Novos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e7.json",
-    "nome_json": "Game of Thrones (GOT) - T2E7 - Um Homem Sem Honra - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e8.json",
-    "nome_json": "Game of Thrones (GOT) - T2E8 - Príncipe de Winterfell - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e9.json",
-    "nome_json": "Game of Thrones (GOT) - T2E9 - A Batalha de Blackwater - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e09_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t2e10.json",
-    "nome_json": "Game of Thrones (GOT) - T2E10 - Valar Morghulis - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e1.json",
-    "nome_json": "Game of Thrones (GOT) - T3E1 - Valar Dohaeris - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e01_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e2.json",
-    "nome_json": "Game of Thrones (GOT) - T3E2 - As Terras da Tempestade - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e3.json",
-    "nome_json": "Game of Thrones (GOT) - T3E3 - O Caminho do Castigo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e03_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e4.json",
-    "nome_json": "Game of Thrones (GOT) - T3E4 - E Agora Sua Vigília Terminou - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e5.json",
-    "nome_json": "Game of Thrones (GOT) - T3E5 - Beijada pelo Fogo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e6.json",
-    "nome_json": "Game of Thrones (GOT) - T3E6 - A Escalada - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e7.json",
-    "nome_json": "Game of Thrones (GOT) - T3E7 - O Urso e a Donzela - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e8.json",
-    "nome_json": "Game of Thrones (GOT) - T3E8 - Segundos Filhos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e08_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e9.json",
-    "nome_json": "Game of Thrones (GOT) - T3E9 - As Chuvas de Castamere - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e09_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t3e10.json",
-    "nome_json": "Game of Thrones (GOT) - T3E10 - Mhysa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e10_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e1.json",
-    "nome_json": "Game of Thrones (GOT) - T4E1 - Dois Espadas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e01_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e2.json",
-    "nome_json": "Game of Thrones (GOT) - T4E2 - O Leão e a Rosa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e3.json",
-    "nome_json": "Game of Thrones (GOT) - T4E3 - Quebrador de Correntes - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e03_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e4.json",
-    "nome_json": "Game of Thrones (GOT) - T4E4 - O Guarda-Costa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e5.json",
-    "nome_json": "Game of Thrones (GOT) - T4E5 - Primeiro do Seu Nome - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e6.json",
-    "nome_json": "Game of Thrones (GOT) - T4E6 - As Leis dos Deuses e dos Homens - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e7.json",
-    "nome_json": "Game of Thrones (GOT) - T4E7 - Sem Saída - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e8.json",
-    "nome_json": "Game of Thrones (GOT) - T4E8 - A Montanha e a Víbora - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e08_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e9.json",
-    "nome_json": "Game of Thrones (GOT) - T4E9 - Os Patrulheiros - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e08_91.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t4e10.json",
-    "nome_json": "Game of Thrones (GOT) - T4E10 - Os Filhos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e10_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e1.json",
-    "nome_json": "Game of Thrones (GOT) - T5E1 - As Guerras que Virão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e01_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e2.json",
-    "nome_json": "Game of Thrones (GOT) - T5E2 - A Casa de Preto e Branco - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e3.json",
-    "nome_json": "Game of Thrones (GOT) - T5E3 - O Alto Pardal - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e03_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e4.json",
-    "nome_json": "Game of Thrones (GOT) - T5E4 - Os Filhos da Harpia - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e5.json",
-    "nome_json": "Game of Thrones (GOT) - T5E5 - Mate o Menino - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e6.json",
-    "nome_json": "Game of Thrones (GOT) - T5E6 - Irmãos de Armas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e7.json",
-    "nome_json": "Game of Thrones (GOT) - T5E7 - O Dom - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e8.json",
-    "nome_json": "Game of Thrones (GOT) - T5E8 - Forte do Casamento - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e08_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e9.json",
-    "nome_json": "Game of Thrones (GOT) - T5E9 - A Dança dos Dragões - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e09_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t5e10.json",
-    "nome_json": "Game of Thrones (GOT) - T5E10 - Misericórdia - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e10_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e1.json",
-    "nome_json": "Game of Thrones (GOT) - T6E1 - A Mulher Vermelha - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e01_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e2.json",
-    "nome_json": "Game of Thrones (GOT) - T6E2 - Casa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e3.json",
-    "nome_json": "Game of Thrones (GOT) - T6E3 - Perjuro - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e03_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e4.json",
-    "nome_json": "Game of Thrones (GOT) - T6E4 - O Livro do Estranho - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e5.json",
-    "nome_json": "Game of Thrones (GOT) - T6E5 - A Porta - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e6.json",
-    "nome_json": "Game of Thrones (GOT) - T6E6 - Sangue do Meu Sangue - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e7.json",
-    "nome_json": "Game of Thrones (GOT) - T6E7 - O Homem Quebrado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e8.json",
-    "nome_json": "Game of Thrones (GOT) - T6E8 - Ninguém - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e08_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e9.json",
-    "nome_json": "Game of Thrones (GOT) - T6E9 - A Batalha dos Bastardos - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e09_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t6e10.json",
-    "nome_json": "Game of Thrones (GOT) - T6E10 - Os Ventos do Inverno - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp6e10_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e1.json",
-    "nome_json": "Game of Thrones (GOT) - T7E1 - Pedra do Dragão - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp7e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e2.json",
-    "nome_json": "Game of Thrones (GOT) - T7E2 - Nascida da Tormenta - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e02_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e3.json",
-    "nome_json": "Game of Thrones (GOT) - T7E3 - A Justiça da Rainha - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e03_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e4.json",
-    "nome_json": "Game of Thrones (GOT) - T7E4 - O Botim de Guerra - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e04_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e5.json",
-    "nome_json": "Game of Thrones (GOT) - T7E5 - Forte do Dragão - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e05_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e6.json",
-    "nome_json": "Game of Thrones (GOT) - T7E6 - Além da Muralha - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e06_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t7e7.json",
-    "nome_json": "Game of Thrones (GOT) - T7E7 - O Dragão e o Lobo - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e07_23.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e1.json",
-    "nome_json": "Game of Thrones (GOT) - T8E1 - Winterfell - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e01.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e2.json",
-    "nome_json": "Game of Thrones (GOT) - T8E2 - Um Cavaleiro dos Sete Reinos - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e02.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e3.json",
-    "nome_json": "Game of Thrones (GOT) - T8E3 - A Longa Noite - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e03.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e4.json",
-    "nome_json": "Game of Thrones (GOT) - T8E4 - Os Últimos dos Starks - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e04.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e5.json",
-    "nome_json": "Game of Thrones (GOT) - T8E5 - Os Sinos - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e05.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "game_of_thrones_got_t8e6.json",
-    "nome_json": "Game of Thrones (GOT) - T8E6 - O Trono de Ferro - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp8e06.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "irmandade_t2e2.json",
-    "nome_json": "Irmandade - T2E2 - Velhas Feridas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e02_20.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "bates_motel_t1e1.json",
-    "nome_json": "Bates Motel - T1E1 - Primeiro Contato - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e01_41.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "bates_motel_t1e9.json",
-    "nome_json": "Bates Motel - T1E9 - O Suplício - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_19.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e2.json",
-    "nome_json": "Diários de um Vampiro - T1E2 - A Noite do Cometa - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_17.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e3.json",
-    "nome_json": "Diários de um Vampiro - T1E3 - Friday Night Bites - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_17.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t1e15.json",
-    "nome_json": "Diários de um Vampiro - T1E15 - A Morte Vem a Cavalo - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e15_17.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t4e1.json",
-    "nome_json": "Diários de um Vampiro - T4E1 - Dores Crescentes - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e01_17.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t6e18.json",
-    "nome_json": "Diários de um Vampiro - T6E18 - Nunca Me Deixe Ir - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp6e18.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t7e10.json",
-    "nome_json": "Diários de um Vampiro - T7E10 - Segredos e Mentiras - 🍿Clau",
-    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp7e10.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "di_rios_de_um_vampiro_t8e17.json",
-    "nome_json": "Diários de um Vampiro - T8E17 - Especial - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-episodio-especial.html",
-    "tentativas": 3
-  },
-  {
-    "arquivo": "prison_break_em_busca_da_verdade_t2e7.json",
-    "nome_json": "Prison Break: Em Busca da Verdade - T2E7 - Enterrado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e07_16.html",
-    "tentativas": 2
-  },
-  {
     "arquivo": "prison_break_em_busca_da_verdade_t2e10.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T2E10 - Ponto de Encontro - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t2e11.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T2E11 - Bolshoi Booze - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e11_16.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "prison_break_em_busca_da_verdade_t2e13.json",
-    "nome_json": "Prison Break: Em Busca da Verdade - T2E13 - Encurralado - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e13_64.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e6.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E6 - A Entrega - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e06_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e7.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E7 - O Artista da Fuga - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e07_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e8.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E8 - Ladrões de Bagdá - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e08_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e9.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E9 - Grande Farsa - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e09_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e10.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E10 - Enfrentando o Dragão - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e10_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e11.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E11 - O Muro - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e11_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e12.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E12 - Auto Ajuda - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e12_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e13.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E13 - Tratamento Silencioso - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e13_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e14.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E14 - Justa Causa - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e14_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e15.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E15 - No Meio da Tempestade - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e16.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E16 - Os Caçadores - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e17.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E17 - A Vítima - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e17.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e18.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E18 - Versões - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e18.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e19.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E19 - S.O.B. - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e19.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e20.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E20 - Vai doer - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e20.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e21.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E21 - Pela Mãe - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e21.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e22.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E22 - Retaliação - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e22.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e23.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E23 - A Última Viagem - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e06_46.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t4e24.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T4E24 - O Fim - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp4e24.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "prison_break_em_busca_da_verdade_t5e1.json",
     "nome_json": "Prison Break: Em Busca da Verdade - T5E1 - O Retorno de Ogygia - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e01_17.html",
-    "tentativas": 2
-  },
-  {
-    "arquivo": "prison_break_em_busca_da_verdade_t5e3.json",
-    "nome_json": "Prison Break: Em Busca da Verdade - T5E3 - Mentiras Reunidas - 🍿Clau",
-    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp5e03_16.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "ini_x_t1e0.json",
     "nome_json": "𝑽iNi𝟕x👾 - T1E0 - Episódios - 🍿Clau",
     "url": "https://www.vini7xgrave.site/search/label/Epis%C3%B3dios",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e1.json",
     "nome_json": "Rick e Morty - T2E1 - Um Rickle em Tempo - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e01_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e2.json",
     "nome_json": "Rick e Morty - T2E2 - Parasitas Interdimensionais - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e02_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e3.json",
     "nome_json": "Rick e Morty - T2E3 - O Parque de Anatomia - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e03_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e4.json",
     "nome_json": "Rick e Morty - T2E4 - Total Rickall - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e04_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e5.json",
     "nome_json": "Rick e Morty - T2E5 - Get Schwifty - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e05_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e6.json",
     "nome_json": "Rick e Morty - T2E6 - Os Ricks devem ficar juntos - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e06_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e7.json",
     "nome_json": "Rick e Morty - T2E7 - Grandes Problemas no Pequeno Rick - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e07_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e8.json",
     "nome_json": "Rick e Morty - T2E8 - Interdimensional Cable 2: Tempting Fate - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e08_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e9.json",
     "nome_json": "Rick e Morty - T2E9 - Olá, Sr. Cagador - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e09_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t2e10.json",
     "nome_json": "Rick e Morty - T2E10 - O Casamento do Pássaro-Pessoa - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp2e10_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e1.json",
     "nome_json": "Rick e Morty - T3E1 - A Redenção de Rick - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e01_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e2.json",
     "nome_json": "Rick e Morty - T3E2 - Rickmanceando a Pedra - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e02_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e3.json",
     "nome_json": "Rick e Morty - T3E3 - Rick Picles - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e03_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e4.json",
     "nome_json": "Rick e Morty - T3E4 - Vingadores 3: O Retorno do Fimdomundador - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e04_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e5.json",
     "nome_json": "Rick e Morty - T3E5 - A Conspiração do Dirly Giratório - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e05_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e6.json",
     "nome_json": "Rick e Morty - T3E6 - Descanso e Ricklaxamento - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e06_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e7.json",
     "nome_json": "Rick e Morty - T3E7 - A Mistura Ricklântica - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e07_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e8.json",
     "nome_json": "Rick e Morty - T3E8 - As Lembranças de Morty - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e08_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e9.json",
     "nome_json": "Rick e Morty - T3E9 - O ABC da Beth - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e09_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "rick_e_morty_t3e10.json",
     "nome_json": "Rick e Morty - T3E10 - O Rickchuriano Mortydata - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp3e10_15.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e02.json",
     "nome_json": "Z Nation - T1E02 - Fracking Zombies - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_60.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e03.json",
     "nome_json": "Z Nation - T1E03 - Banquete em Philly - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_49.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e04.json",
     "nome_json": "Z Nation - T1E04 - Zumbi de Metal Completo - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e04_77.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e05.json",
     "nome_json": "Z Nation - T1E05 - Lar Doce Zumbi - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_43.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e06.json",
     "nome_json": "Z Nation - T1E06 - Ressurreição Z - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_62.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e07.json",
     "nome_json": "Z Nation - T1E07 - Bem-vindo ao FU-Bar - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_11.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e08.json",
     "nome_json": "Z Nation - T1E08 - Zunami - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_11.html",
-    "tentativas": 2
+    "tentativas": 3
   },
   {
     "arquivo": "z_nation_t1e09.json",
     "nome_json": "Z Nation - T1E09 - Morra Zumbi Morra... De Novo - 🍿Clau",
     "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e09_11.html",
+    "tentativas": 3
+  },
+  {
+    "arquivo": "apenas_um_show_t1e8.json",
+    "nome_json": "Apenas Um Show - T1E8 - – Os Unicórnios Têm Que Ir Embora - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp1e08.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t1e15.json",
+    "nome_json": "Os Originais (The Originals) - T1E15 - : Le Grand Guignol - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e15_7.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t4e9.json",
+    "nome_json": "Os Originais (The Originals) - T4E9 - :Rainha da fúria - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp4e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e1.json",
+    "nome_json": "Os Originais (The Originals) - T5E1 - :A história de Hayley - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e01_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e2.json",
+    "nome_json": "Os Originais (The Originals) - T5E2 - :Uma dica deixada para trás - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e02_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e3.json",
+    "nome_json": "Os Originais (The Originals) - T5E3 - :Ne me quitte pas - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e03_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e4.json",
+    "nome_json": "Os Originais (The Originals) - T5E4 - :Entre os mortos - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e04_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e5.json",
+    "nome_json": "Os Originais (The Originals) - T5E5 - :Não me deixem ficar louco - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e05_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e6.json",
+    "nome_json": "Os Originais (The Originals) - T5E6 - :O que, você acredita em fantasmas? - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e06_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e7.json",
+    "nome_json": "Os Originais (The Originals) - T5E7 - :Deixe o lobo sair - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e07_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e8.json",
+    "nome_json": "Os Originais (The Originals) - T5E8 - :O tipo certo de monstro - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e08_16.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e9.json",
+    "nome_json": "Os Originais (The Originals) - T5E9 - :Nós temos que continuar - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e09.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e11.json",
+    "nome_json": "Os Originais (The Originals) - T5E11 - :Até que nos encontremos de novo - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e11.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e12.json",
+    "nome_json": "Os Originais (The Originals) - T5E12 - :O conto das duas lobas - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e12.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "os_originais_the_originals_t5e13.json",
+    "nome_json": "Os Originais (The Originals) - T5E13 - :Quando o espelho se quebra - 🍿Clau",
+    "url": "https://vini7xgseries2.blogspot.com/2025/04/inix-tp5e13.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e1.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E1 - – Refrigerante Diet de Boa Qualidade - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e01_59.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e2.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E2 - – Masturbação é Importante - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_95.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e3.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E3 - – Sentimentos Podem se Tornar Amplificados - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_43.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e4.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E4 - – Dominar é uma Habilidade Sagrada - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e04_20.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e5.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E5 - – Meu animal de estimação - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_46.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e6.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E6 - – Boas Festas - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_95.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e7.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E7 - – Você está me matando, Ernie - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_15.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "dying_for_sex_morrendo_por_sexo_t1e8.json",
+    "nome_json": "Dying for Sex (Morrendo Por Sexo) - T1E8 - – Não é tão sério assim - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_68.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e1.json",
+    "nome_json": "Caçador de Demônios - T1E1 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e01_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e2.json",
+    "nome_json": "Caçador de Demônios - T1E2 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e02_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e3.json",
+    "nome_json": "Caçador de Demônios - T1E3 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e03_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e4.json",
+    "nome_json": "Caçador de Demônios - T1E4 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e04_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e5.json",
+    "nome_json": "Caçador de Demônios - T1E5 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e05_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e6.json",
+    "nome_json": "Caçador de Demônios - T1E6 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e06_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e7.json",
+    "nome_json": "Caçador de Demônios - T1E7 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e07_6.html",
+    "tentativas": 2
+  },
+  {
+    "arquivo": "ca_ador_de_dem_nios_t1e8.json",
+    "nome_json": "Caçador de Demônios - T1E8 -  - 🍿Clau",
+    "url": "https://viniraveon.blogspot.com/2025/04/inix-tp1e08_6.html",
     "tentativas": 2
   }
 ]
