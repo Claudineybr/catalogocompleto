@@ -1,0 +1,123 @@
+name: Consertar Temporadas pelo Link
+
+on:
+  workflow_dispatch: # Roda só na mão
+
+permissions:
+  contents: write
+
+jobs:
+  consertar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Ler Link, Corrigir Nome e Renomear Arquivos
+        run: |
+          cat > /tmp/consertar.py << 'PYEOF'
+          import os, re, json
+
+          arquivos = os.listdir('.')
+          corrigidos = 0
+          ignorados = 0
+
+          print("=== INICIANDO O CONSERTO PELO LINK ===")
+
+          for arquivo in arquivos:
+              if not arquivo.endswith('.json'): continue
+              if any(x in arquivo for x in ['pendentes', 'fila', 'feitas', 'descartados', 'catalog', 'index']): continue
+              
+              try:
+                  with open(arquivo, 'r', encoding='utf-8') as f:
+                      content = f.read()
+                      
+                      # 1. Extrai o LINK DO VÍDEO
+                      url_match = re.search(r'"(?:contentUrl|embedUrl)"\s*:\s*"([^"]*)"', content)
+                      if not url_match: continue
+                      url = url_match.group(1)
+                      
+                      # 2. Tenta achar T/E no link (ex: 3x5.mp4)
+                      m_url = re.search(r'(\d+)x(\d+)', url)
+                      if not m_url: 
+                          ignorados += 1
+                          continue
+                          
+                      temp_real = int(m_url.group(1))
+                      ep_real = int(m_url.group(2))
+                      tag_real = f"T{temp_real}E{ep_real}"
+
+                      # 3. Pega o NOME atual e a CAPA
+                      match_name = re.search(r'"name"\s*:\s*"([^"]*)"', content)
+                      nome_atual = match_name.group(1) if match_name else arquivo.replace('.json', '')
+                      
+                      match_capa = re.search(r'"thumbnailUrl"\s*:\s*\[\s*"([^"]+)"', content)
+                      capa_url = match_capa.group(1) if match_capa else "https://via.placeholder.com/500x750?text=Sem+Capa"
+
+                      # 4. Limpa o nome antigo para tirar a tag errada
+                      # Remove T1E1, T2E10 etc.
+                      nome_limpo = re.sub(r'(?i)\bT\d+E\d+\b', '', nome_atual).strip(' -')
+                      partes = [p.strip() for p in re.split(r'\s+-\s+', nome_limpo) if p.strip()]
+                      
+                      if len(partes) > 1:
+                          serie_nome = partes[0]
+                          ep_nome = " - ".join(partes[1:])
+                          # Remove o 🍿Clau se estiver no ep_nome
+                          ep_nome = ep_nome.replace('🍿Clau', '').strip(' -')
+                          novo_nome_json = f"{serie_nome} - {tag_real} - {ep_nome} - 🍿Clau"
+                      else:
+                          serie_nome = partes[0] if partes else "Serie Desconhecida"
+                          novo_nome_json = f"{serie_nome} - {tag_real} - 🍿Clau"
+
+                      # 5. Monta o JSON novo
+                      novo_json = {
+                          "@context": "https://schema.org", "@type": "VideoObject",
+                          "name": novo_nome_json,
+                          "description": f"Assista {novo_nome_json}",
+                          "thumbnailUrl": [capa_url],
+                          "uploadDate": "2020-01-01T00:00:00+00:00", "inLanguage": "pt",
+                          "contentUrl": url, "embedUrl": url
+                      }
+                      
+                      # 6. Gera o novo nome do arquivo
+                      slug = re.sub(r'[^a-z0-9]', '_', serie_nome.lower())
+                      slug = re.sub(r'_+', '_', slug).strip('_')
+                      novo_arquivo = f"{slug}_{tag_real.lower()}.json"
+
+                      with open(novo_arquivo, 'w', encoding='utf-8') as f_out:
+                          json.dump(novo_json, f_out, ensure_ascii=False, indent=2)
+
+                      if arquivo != novo_arquivo:
+                          os.remove(arquivo)
+
+                      corrigidos += 1
+                      if corrigidos % 100 == 0:
+                          print(f"  -> {corrigidos} arquivos consertados...")
+
+              except Exception as e:
+                  print(f"Erro em {arquivo}: {e}")
+
+          print(f"\n=== FINALIZADO ===")
+          print(f"✅ Arquivos corrigidos e renomeados: {corrigidos}")
+          print(f"⚠️ Arquivos ignorados (link sem 1x1): {ignorados}")
+          PYEOF
+          python3 /tmp/consertar.py
+
+      - name: Salvar correções
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Nada novo."; exit 0; fi
+          git commit -m "fix: consertar temporadas e episodios usando o link do video"
+          
+          for i in $(seq 1 5); do
+            if git push origin HEAD:main; then break; fi
+            git fetch origin main
+            git reset --mixed origin/main
+            git add -A
+            git commit -m "fix: retry $i" || true
+            sleep 3
+          done
