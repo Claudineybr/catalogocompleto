@@ -1,0 +1,193 @@
+name: Aplicar Capas do repo testes
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_repo:
+        description: 'URL do repo FONTE (com as capas)'
+        required: true
+        default: 'https://github.com/Claudineybr/testes.git'
+      source_branch:
+        description: 'Branch do repo fonte'
+        default: 'main'
+      dry_run:
+        description: 'Simular sem modificar nada?'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout do repo DESTINO (catalogocompleto)
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Clonar repo FONTE (testes)
+        env:
+          SRC_URL: ${{ inputs.source_repo }}
+          SRC_BRANCH: ${{ inputs.source_branch }}
+        run: |
+          TMP=$(mktemp -d)
+          echo "Clonando $SRC_URL..."
+          if git clone --depth 1 --branch "$SRC_BRANCH" "$SRC_URL" "$TMP/fonte" 2>/dev/null; then
+            echo "OK (branch $SRC_BRANCH)"
+          else
+            git clone --depth 1 "$SRC_URL" "$TMP/fonte"
+            echo "OK (branch default)"
+          fi
+          echo "FONTE_DIR=$TMP/fonte" >> $GITHUB_ENV
+
+          echo "Arquivos no fonte:"
+          echo "  .html: $(find "$TMP/fonte" -name '*.html' | wc -l)"
+          echo "  .htm:  $(find "$TMP/fonte" -name '*.htm'  | wc -l)"
+          echo "  .json: $(find "$TMP/fonte" -name '*.json' | wc -l)"
+
+      - name: Extrair mapa e aplicar capas
+        env:
+          PYTHONUNBUFFERED: '1'
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          python3 -u << 'PYEOF'
+          import os, re, sys
+          from pathlib import Path
+
+          PLACEHOLDER = "https://via.placeholder.com/500x750?text=Sem+Capa"
+          FONTE_DIR   = Path(os.environ['FONTE_DIR'])
+          DRY_RUN     = os.environ.get('DRY_RUN', 'false').lower() == 'true'
+
+          # ---------------- helpers ----------------
+          def clean_url(u):
+              if not u: return ""
+              u = u.replace('\\\\n', '').replace('\\n', '')
+              u = u.replace('\\\\r', '').replace('\\r', '')
+              u = u.replace('\\\\t', '').replace('\\t', '')
+              u = re.sub(r'[\s,]+', '', u)
+              return u.lower().rstrip('/')
+
+          def is_valid_cover(u):
+              if not u or not isinstance(u, str): return False
+              u = u.strip()
+              if len(u) < 20: return False
+              if not (u.startswith('http://') or u.startswith('https://')): return False
+              if 'via.placeholder.com' in u: return False
+              if 'placehold.co' in u: return False
+              return True
+
+          def norm_protocol(u):
+              return re.sub(r'^https?://', '', u)
+
+          def extract_video(html):
+              for pat in [r'"contentUrl"\s*:\s*"([^"]+)"',
+                          r'<video[^>]+src=["\']([^"\']+)["\']',
+                          r'<source[^>]+src=["\']([^"\']+\.(?:mp4|m3u8)[^"\']*)["\']']:
+                  m = re.search(pat, html, re.I)
+                  if m: return m.group(1)
+              return None
+
+          def extract_cover(html):
+              for pat in [r'"thumbnailUrl"\s*:\s*(?:\[\s*)?"([^"]+)"',
+                          r'<meta[^>]*property=["\']og:image["\'][^>]*content=["\']([^"\']+)["\']',
+                          r'<video[^>]+poster=["\']([^"\']+)["\']']:
+                  m = re.search(pat, html, re.I)
+                  if m and is_valid_cover(m.group(1)): return m.group(1)
+              return None
+
+          # ---------------- 1) mapa FONTE ----------------
+          print(f"Lendo repo fonte: {FONTE_DIR}")
+          mapa = {}
+          fonte_total = fonte_com_video = fonte_com_capa = 0
+          for arq in FONTE_DIR.rglob('*.html'):
+              if '.git' in arq.parts: continue
+              fonte_total += 1
+              try: texto = arq.read_text(encoding='utf-8', errors='ignore')
+              except: continue
+              video = extract_video(texto)
+              if not video: continue
+              fonte_com_video += 1
+              cover = extract_cover(texto)
+              if not cover: continue
+              fonte_com_capa += 1
+              key = norm_protocol(clean_url(video))
+              if key and key not in mapa:
+                  mapa[key] = cover
+
+          print(f"Fonte: {fonte_total} HTMLs, {fonte_com_video} com vídeo, {fonte_com_capa} com capa")
+          print(f"Mapa: {len(mapa)} URLs únicas")
+          if not mapa:
+              print("::error::Mapa vazio — repo fonte não tem capas válidas.")
+              sys.exit(1)
+
+          # ---------------- 2) aplica no DESTINO ----------------
+          print(f"\nAplicando nos HTMLs do repo destino (DRY_RUN={DRY_RUN})...")
+          total = sem_placeholder = alterados = sem_url = sem_match = 0
+          sem_match_list = []
+
+          for arq in sorted(Path('.').rglob('*.html')):
+              if '.git' in arq.parts: continue
+              total += 1
+              try: texto = arq.read_text(encoding='utf-8', errors='ignore')
+              except: continue
+              if PLACEHOLDER not in texto:
+                  sem_placeholder += 1
+                  continue
+              video = extract_video(texto)
+              if not video:
+                  sem_url += 1
+                  sem_match_list.append(f"{arq.name}\t(SEM_VIDEO_URL)")
+                  continue
+              key = norm_protocol(clean_url(video))
+              cover = mapa.get(key)
+              if not cover:
+                  sem_match += 1
+                  sem_match_list.append(f"{arq.name}\t{video}")
+                  continue
+
+              novo = texto.replace(PLACEHOLDER, cover)
+              if novo != texto:
+                  if not DRY_RUN:
+                      arq.write_text(novo, encoding='utf-8')
+                  alterados += 1
+                  print(f"[{'DRY' if DRY_RUN else 'ok'}] {arq.name}")
+
+          Path('nao_encontrados.txt').write_text('\n'.join(sem_match_list), encoding='utf-8')
+
+          print(f"\n{'='*50}")
+          print(f"Total HTMLs:      {total}")
+          print(f"Já com capa:      {sem_placeholder}")
+          print(f"Com placeholder:  {total - sem_placeholder}")
+          print(f"{'Aplicaria' if DRY_RUN else 'Aplicados'}: {alterados}")
+          print(f"Sem video URL:    {sem_url}")
+          print(f"Sem match:        {sem_match}")
+          print(f"{'='*50}")
+          PYEOF
+
+      - name: Upload relatório de não encontrados
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nao-encontrados
+          if-no-files-found: ignore
+          path: nao_encontrados.txt
+          retention-days: 30
+
+      - name: Commitar capas aplicadas
+        if: inputs.dry_run == false
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "*.html" nao_encontrados.txt 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "Nada novo pra commitar."
+            exit 0
+          fi
+          git commit -m "Auto: capas sincronizadas do repo testes [skip ci]"
+          git push
