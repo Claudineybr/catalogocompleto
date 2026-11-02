@@ -1,4 +1,4 @@
-name: Aplicar Capas (à prova de burro)
+name: Aplicar Capas nos JSONs (do repo testes)
 
 on:
   workflow_dispatch:
@@ -48,26 +48,27 @@ jobs:
           def key(u):
               return re.sub(r'^https?://', '', clean(u))
 
-          def video_of(html):
+          def video_of(text):
+              # funciona tanto pra HTML (JSON-LD) quanto pra JSON puro
               for p in [r'"contentUrl"\s*:\s*"([^"]+)"',
                         r'<video[^>]+src=["\']([^"\']+)["\']']:
-                  m = re.search(p, html, re.I)
+                  m = re.search(p, text, re.I)
                   if m: return m.group(1)
               return None
 
-          def cover_of(html):
+          def cover_of(text):
               for p in [r'"thumbnailUrl"\s*:\s*(?:\[\s*)?"([^"]+)"',
                         r'<video[^>]+poster=["\']([^"\']+)["\']']:
-                  m = re.search(p, html, re.I)
+                  m = re.search(p, text, re.I)
                   if m:
                       c = m.group(1).strip()
                       if len(c) > 20 and c.startswith(('http://','https://')) and 'placeholder' not in c:
                           return c
               return None
 
-          # ========== 1) MAPA: URL do vídeo → capa ==========
+          # ========== 1) MAPA: URL do vídeo → capa (fonte: testes .html) ==========
           print("=" * 70)
-          print("1) CONSTRUINDO MAPA DO REPO TESTES")
+          print("1) CONSTRUINDO MAPA DO REPO TESTES (.html)")
           print("=" * 70)
           mapa = {}
           for arq in SRC.rglob('*.html'):
@@ -82,14 +83,13 @@ jobs:
                       mapa[k] = c
 
           print(f"Mapa: {len(mapa)} URLs -> capa")
-          # mostra o exemplo específico
           k_ex = "hd5.oneplayer.site/token/fhd5/tt0443649.mp4"
           if k_ex in mapa:
-              print(f"✅ tt0443649 no mapa -> {mapa[k_ex][:80]}...")
+              print(f"✅ tt0443649 no mapa -> {mapa[k_ex][:60]}...")
           else:
               print(f"❌ tt0443649 NÃO está no mapa do testes")
 
-          # ========== 2) APLICA NO DESTINO ==========
+          # ========== 2) APLICA NO DESTINO (.json e .html) ==========
           print()
           print("=" * 70)
           print("2) APLICANDO NO REPO DESTINO (catalogocompleto)")
@@ -102,11 +102,15 @@ jobs:
           sem_match = 0
           exemplo_visto = False
 
-          for arq in sorted(Path('.').rglob('*.html')):
+          # O PULO DO GATO: procura .json E .html
+          for arq in sorted(Path('.').rglob('*.*')):
               if '.git' in arq.parts: continue
+              if arq.suffix.lower() not in ('.json', '.html', '.htm'): continue
+              
               total += 1
               try: t = arq.read_text(encoding='utf-8', errors='ignore')
               except: continue
+              
               if PLACEHOLDER not in t: continue
               com_ph += 1
 
@@ -119,7 +123,6 @@ jobs:
               c = mapa.get(k)
               if not c:
                   sem_match += 1
-                  # se for o tt0443649, avisa
                   if 'tt0443649' in v:
                       print(f"  ❌ {arq.name}: URL {v} NÃO está no mapa")
                   continue
@@ -132,23 +135,22 @@ jobs:
                       print(f"  ✅ {arq.name} recebeu capa do tt0443649")
                       exemplo_visto = True
 
-          if not exemplo_visto and 'tt0443649' in mapa:
+          if not exemplo_visto and k_ex in mapa:
               print(f"  ⚠️ tt0443649 estava no mapa, mas nenhum arquivo do destino tem essa URL")
 
           print()
           print("=" * 70)
           print("RESUMO")
           print("=" * 70)
-          print(f"Total HTMLs:      {total}")
+          print(f"Total arquivos:   {total} (.json e .html)")
           print(f"Com placeholder:  {com_ph}")
           print(f"Alterados:        {alterados}")
           print(f"Sem video URL:    {sem_url}")
           print(f"Sem match:        {sem_match}")
           print("=" * 70)
 
-          # sinaliza no GitHub Actions se nada foi feito
           if alterados == 0:
-              print("::error::Nenhum arquivo alterado. Verifique se o run anterior já aplicou ou se o mapa está vazio.")
+              print("::error::Nenhum arquivo alterado.")
               sys.exit(1)
           PYEOF
 
@@ -160,8 +162,8 @@ jobs:
           echo "=== Arquivos modificados ==="
           git diff --cached --name-only | head -20
           if git diff --cached --quiet; then
-            echo "::error::git diff vazio — nada pra commitar. O Python disse que alterou, mas o git não viu diferença."
+            echo "::error::git diff vazio — nada pra commitar."
             exit 1
           fi
-          git commit -m "Auto: capas por URL do video [skip ci]"
+          git commit -m "Auto: capas aplicadas nos JSONs [skip ci]"
           git push
