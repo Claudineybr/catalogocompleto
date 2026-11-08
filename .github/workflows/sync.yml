@@ -1,0 +1,268 @@
+name: Sincronizar, Limpar e Padronizar
+
+on:
+  schedule:
+    - cron: '0 */12 * * *' # Roda de 12 em 12 horas
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Instalar dependencias Python
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install beautifulsoup4
+
+      - name: Baixar, Filtrar e Padronizar Nomes
+        run: |
+          set -e
+          T=$(mktemp -d)
+
+          # 1. Clona apenas o catálogo de novos
+          git clone --depth 1 https://github.com/Claudineybr/catalogocompleto2.git "$T/novos"
+
+          # 2. Roda o script Python de filtragem, padronização e reconstrução
+          cat > "$T/filtrar.py" << 'PYEOF'
+          import re
+          import shutil
+          import unicodedata
+          import json
+          import textwrap
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+
+          dir_novos = Path("NOVOS_PATH")
+          dir_saida = Path("SAIDA_PATH")
+          dir_saida.mkdir(parents=True, exist_ok=True)
+
+          links_vistos = set()
+          copiados = 0
+          arquivos = []
+          urls_quebradas = []
+
+          arquivos.extend(list(dir_novos.glob("*.json")))
+          arquivos.extend(list(dir_novos.glob("*.html")))
+
+          def prioridade(arq):
+              return len(arq.name)
+          arquivos.sort(key=prioridade, reverse=True)
+
+          def limpar_lixo(raw_text):
+              if not raw_text: return ""
+              texto_norm = unicodedata.normalize('NFKD', str(raw_text))
+              texto_norm = "".join([c for c in texto_norm if not unicodedata.combining(c)])
+              for lixo in ['🍿Clau', '🕸️ PK', '🕸️', 'PK', '👾', 'Marcos', 'Clau', 'clau']:
+                  texto_norm = re.sub(re.escape(lixo), '', texto_norm, flags=re.IGNORECASE)
+              return texto_norm.strip()
+
+          def limpar_titulo(raw_text):
+              texto_norm = limpar_lixo(raw_text)
+              if not texto_norm: return "Desconhecido"
+
+              texto_norm = re.sub(r'(?i)\bT\d+E\d+\b', '', texto_norm)
+              texto_norm = re.sub(r'(?i)_t\d+e\d+', '', texto_norm)
+              texto_norm = re.sub(r'(?i)Epis[oó]dio\s*\d+', '', texto_norm)
+
+              partes = [p.strip() for p in re.split(r'\s+[-–—]\s+', texto_norm) if p.strip()]
+              partes_limpas = []
+
+              for p in partes:
+                  p_lower = p.lower()
+                  if any(pref in p_lower for pref in ['vini', 'marcos', 'inix', 'lili', 'estrelinha', 'grave', 'site', 'online', 'blogspot', 'assistir', 'download']):
+                      continue
+                  p_limpo = re.sub(r'(?i)\bT\d+E\d+\b', '', p).strip()
+                  if p_limpo:
+                      partes_limpas.append(p_limpo)
+
+              titulo_final = ' - '.join(partes_limpas) if partes_limpas else partes[0] if partes else "Desconhecido"
+              titulo_final = re.sub(r'\s*\(?\d{4}\)?\s*$', '', titulo_final).strip()
+              titulo_final = re.sub(r'\s*\(\d+\)$', '', titulo_final).strip()
+              titulo_final = re.sub(r'[\s.:;,]+$', '', titulo_final).strip()
+
+              return titulo_final if titulo_final else "Desconhecido"
+
+          def clean_url(url):
+              if not url: return ""
+              url = url.strip()
+              url = re.sub(r'<[^>]+>', '', url)
+              match = re.search(r'(https?://[^\s"]+)', url)
+              if match: url = match.group(1)
+              elif not url.startswith('http'): url = 'http://' + url
+              return url.split()[0] if url.split() else ""
+
+          # --- TEMPLATE EXATO DO NOVO CARD VISUAL ---
+          template_base = textwrap.dedent("""
+              <script type="application/ld+json">
+              __JSON__
+              </script>
+
+              <h1>__NOME__</h1>
+
+              <div style="background: #0b0b12; border-radius:20px; overflow:hidden; box-shadow:0 25px 60px rgba(0,0,0,.8); margin:25px 0; border:1px solid rgba(255,255,255,.06);">
+
+                <a href="__URL__" target="_blank" style="display: block; position: relative; text-decoration: none;">
+
+                  <img src="__CAPA__" style="width:100%; display:block;">
+
+                  <div style="position:absolute; inset:0; background:linear-gradient(to top, rgba(0,0,0,0.7), transparent);"></div>
+
+                  <div style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); width:70px; height:70px; background:linear-gradient(135deg,#7a00ff,#c000ff); border-radius:50%; display:flex; align-items:center; justify-content:center; box-shadow:0 0 20px rgba(120,0,255,.6); color:white; font-size:26px; border:2px solid rgba(255,255,255,.2);">▶</div>
+
+                  <div style="position:absolute; top:12px; right:12px; background:#ff003c; padding:6px 12px; border-radius:20px; font-size:11px; color:#fff; font-weight:bold;">HD</div>
+                </a>
+
+              </div>
+          """).strip()
+
+          for arq in arquivos:
+              if any(x in arq.name for x in ['pendentes', 'fila', 'feitas', 'descartados', 'cache', 'renomeados', 'lista', 'index']):
+                  continue
+
+              try:
+                  content = arq.read_text(encoding='utf-8-sig')
+                  soup_old = BeautifulSoup(content, 'html.parser')
+
+                  url_match = re.search(r'"(?:contentUrl|embedUrl)"\s*:\s*"([^"]*)"', content)
+                  url = url_match.group(1) if url_match else ""
+                  nova_url = clean_url(url)
+
+                  if not nova_url:
+                      urls_quebradas.append(arq.name)
+                      nova_url = url if url else "http://quebrado.com/video.mp4"
+
+                  clean_url_lower = nova_url.split('?')[0].lower()
+                  if clean_url_lower in links_vistos:
+                      continue
+                  links_vistos.add(clean_url_lower)
+
+                  match_name = re.search(r'"name"\s*:\s*"([^"]*)"', content)
+                  nome_atual = match_name.group(1) if match_name else arq.name.replace('.json', '').replace('.html', '')
+                  if len(nome_atual) < 5:
+                      nome_atual = arq.name.replace('.json', '').replace('.html', '')
+
+                  match_ano = re.search(r'\b(19\d{2}|20\d{2})\b', nome_atual)
+                  ano = match_ano.group(1) if match_ano else ""
+
+                  thumb_match = re.search(r'"thumbnailUrl"\s*:\s*\[\s*"([^"]*)"', content)
+                  thumb_atual = thumb_match.group(1) if thumb_match else "https://via.placeholder.com/500x750?text=Sem+Capa"
+
+                  desc_match = re.search(r'"description"\s*:\s*"([^"]*)"', content)
+                  descricao_atual = desc_match.group(1) if desc_match else "Assista ao filme"
+
+                  # LÓGICA DE SEPARAÇÃO DE SÉRIES E FILMES
+                  m_ep = re.search(r'(?i)_t(\d+)e(\d+)', arq.name)
+                  if not m_ep: m_ep = re.search(r'(?i)t(\d+)e(\d+)', nome_atual)
+
+                  ep_tag = None  # <-- CORREÇÃO: inicializa antes do if
+
+                  if m_ep:
+                      ep_tag = f"T{int(m_ep.group(1))}E{int(m_ep.group(2))}"
+
+                      nome_str = limpar_lixo(nome_atual)
+                      nome_str = re.sub(r'(?i)T\d+E\d+', '', nome_str) # Remove a tag do meio do texto
+                      nome_str = re.sub(r'(\s*-\s*)+', ' - ', nome_str).strip(' -') # Conserta os hifens duplos
+
+                      partes = [p.strip() for p in nome_str.split(' - ') if p.strip()]
+                      if len(partes) >= 2:
+                          show_name = partes[0]
+                          ep_name = ' - '.join(partes[1:])
+                          novo_nome_json = f"{show_name} {ep_tag} - {ep_name} - 🍿Clau"
+                          titulo_base = show_name
+                      else:
+                          show_name = nome_str
+                          novo_nome_json = f"{show_name} {ep_tag} - 🍿Clau"
+                          titulo_base = show_name
+                  else:
+                      titulo_limpo = limpar_titulo(nome_atual)
+                      novo_nome_json = f"{titulo_limpo} ({ano}) - 🍿Clau" if ano else f"{titulo_limpo} - 🍿Clau"
+                      titulo_base = titulo_limpo
+
+                  slug = re.sub(r'[^a-z0-9]', '_', titulo_base.lower())
+                  slug = re.sub(r'_+', '_', slug).strip('_')
+
+                  if ep_tag:
+                      novo_nome_arq = f"{slug}_{ep_tag.lower()}.json"
+                  else:
+                      novo_nome_arq = f"{slug}_{ano}.json" if ano else f"{slug}.json"
+
+                  novo_json = {
+                      "@context": "https://schema.org",
+                      "@type": "VideoObject",
+                      "supportPlatform": [
+                          "https://schema.org/IOSPlatform",
+                          "https://schema.org/AndroidPlatform"
+                      ],
+                      "name": novo_nome_json,
+                      "description": descricao_atual,
+                      "thumbnailUrl": [thumb_atual],
+                      "contentUrl": nova_url
+                  }
+
+                  json_str = json.dumps(novo_json, ensure_ascii=False, indent=2)
+
+                  novo_html = template_base.replace("__JSON__", json_str).replace("__NOME__", novo_nome_json).replace("__URL__", nova_url).replace("__CAPA__", thumb_atual)
+                  novo_html = novo_html.replace("https://redetoons.cards", "https://redetoons.my")
+
+                  nome_arq_final = novo_nome_arq.replace(".json", ".html")
+                  (dir_saida / nome_arq_final).write_text(novo_html, encoding='utf-8')
+                  copiados += 1
+
+              except Exception as e:
+                  print(f"[ERRO] Falha em {arq.name}: {e}")
+                  dest_name = arq.name.replace('.json', '.html') if '.json' in arq.name else arq.name
+                  shutil.copy2(arq, dir_saida / dest_name)
+
+          if urls_quebradas:
+              (dir_saida / "urls_invalidas.txt").write_text("\n".join(urls_quebradas), encoding="utf-8")
+
+          print(f"Total de arquivos processados e padronizados: {copiados}")
+          PYEOF
+
+          sed -i "s|NOVOS_PATH|$T/novos|g; s|SAIDA_PATH|$T/saida|g" "$T/filtrar.py"
+
+          python3 "$T/filtrar.py"
+
+          find . -maxdepth 1 -name "*.json" -delete
+          find . -maxdepth 1 -name "*.html" ! -name "index.html" -delete
+
+          cp -f "$T"/saida/*.html .
+
+          if [ -f "$T/saida/urls_invalidas.txt" ]; then
+            cp -f "$T/saida/urls_invalidas.txt" .
+          fi
+
+      - name: Salvar alterações
+        run: |
+          git config user.name "Claudineybr"
+          git config user.email "Claudineybr@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "Sem mudancas."
+            exit 0
+          fi
+
+          git commit -m "sync: novo formato de nome de serie (Nome T1E1 - Ep - Selo) e padrao json-ld"
+
+          for i in $(seq 1 5); do
+            if git push origin HEAD:main; then
+              echo "[SUCESSO] Push OK"
+              exit 0
+            fi
+            echo "[FALHA] Conflito. Sincronizando..."
+            git pull origin main --no-rebase -X ours --no-edit || true
+            sleep $((RANDOM % 5 + 3))
+          done
