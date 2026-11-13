@@ -1,0 +1,467 @@
+name: Corrigir Nomes e Sufixo
+
+# Normaliza TODOS os .html: nome do arquivo (nome_do_filme_ano / nome_da_serie_t01ep01), sufixo " - 🍿Clau" no
+# name/description/title, remove "marc_sx7"/"Marcøsx7"/vini7x/👾 e "--" solto. O Python está EMBUTIDO abaixo.
+# Nunca apaga arquivo (exceto, se você marcar a opção, duplicata EXATA de um arquivo limpo), nunca usa --force,
+# não mexe em filas (*.txt) nem em .github/.
+
+on:
+  workflow_dispatch:
+    inputs:
+      remover_duplicatas:
+        description: 'Remover arquivos marc_sx7/vini7x que são duplicata EXATA (mesmo vídeo) de um arquivo limpo? (padrão: NÃO apaga nada)'
+        required: false
+        default: false
+        type: boolean
+      buscar_anos_no_feed:
+        description: 'Consultar o feed do site para descobrir o ano de filmes sem ano? (lento: 1 página a cada 15 s, ~8 min; padrão: NÃO)'
+        required: false
+        default: false
+        type: boolean
+  push:
+    branches: [main]
+    paths:
+      - '**.html'
+      - '.github/workflows/corrigir_nomes.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: corrigir-nomes
+  cancel-in-progress: false
+
+jobs:
+  corrigir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Configurar Python 3
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Estado antes (git status)
+        run: |
+          git status
+          echo "HTMLs: $(ls *.html 2>/dev/null | wc -l)"
+
+      - name: Gravar o script Python (embutido)
+        run: |
+          cat > /tmp/corrigir_nomes.py << 'PYEOF'
+          # -*- coding: utf-8 -*-
+          """Normaliza nomes de arquivo e conteúdo dos .html do catálogo.  (Este código é embutido no corrigir_nomes.yml)
+
+          Padrão de NOME DE ARQUIVO
+            filme : nome_do_filme_ano.html          ex.: 007_casino_royale_2006.html
+            série : nome_da_serie_t01ep01.html      ex.: 9_1_1_t02ep11.html
+          Padrão de CONTEÚDO ("name", "description" e <title> terminam com ' - 🍿Clau')
+            filme : Nome (Ano) - 🍿Clau
+            série : Nome - T2E11 – Título - 🍿Clau      (T/E em maiúsculo, sem zero à esquerda, travessão antes do título)
+
+          Garantias: nunca apaga arquivo, nunca sobrescreve um destino que já existe, nunca mexe em URLs/links, e
+          rodar duas vezes não altera nada na segunda. Variáveis: DRY_RUN=1 (só mostra), USAR_FEED=1 (consulta o feed para achar o ano; 1 página a cada 15 s).
+          """
+          import re, os, sys, json, html, time, glob, unicodedata, collections
+          from pathlib import Path
+
+          SUFIXO = "🍿Clau"
+          DRY = (os.environ.get("DRY_RUN") or "0") == "1"
+          USAR_FEED = (os.environ.get("USAR_FEED") or "0") == "1"   # padrão: NÃO consulta o feed (o Blogger limita ~11 req/min por IP)
+          REMOVER_DUPLICATAS = (os.environ.get("REMOVER_DUPLICATAS") or "0") == "1"   # OPT-IN: remove duplicata exata (mesmo vídeo)
+          BASE_URL = "https://www.vini7xgrave.site"
+
+          # lixo que o site coloca nos títulos: alien, vini7x (ViNi7x, @vini7xg, "do vini7x") e Marcøsx7 / marc_sx7
+          LIXO = re.compile(
+              r"\U0001F47E+️?|(?:\bdo\s+)?@?vini\s*7x\w*|marc[\s_øo0-]{0,3}s[\s_]?x[\s_]?7\w*", re.I)
+          LIXO_STEM = re.compile(r"(?:^|_)(?:marc_?[o0]?_?s_?x_?7|vini7x[a-z0-9]*)(?=_|$)", re.I)
+
+          # --------------------------------------------------------------------------------------------------
+          # Séries cujo nome foi perdido em versões anteriores do workflow.
+          # Chave = nome atual em lowercase (após strip). Valor = nome correto.
+          # Se aparecer mais alguma série "reduzida" (ex.: "9", "24", "13"), adicione aqui.
+          # --------------------------------------------------------------------------------------------------
+          ALIAS_CORRECAO = {
+              "9":           "9-1-1",
+              "911":         "9-1-1",
+              "9 lone star": "9-1-1 Lone Star",
+              "9 lonestar":  "9-1-1 Lone Star",
+          }
+
+          SERIE_ARQ = re.compile(r"^(?P<stem>.+?)_t(?P<t>\d+)e(?:p)?(?P<e>\d+)(?:_\d+)?\.html$", re.I)
+          SERIE_NOME = re.compile(
+              r"^(?P<serie>.*?)\s*(?:[-–—]\s*)?\bT(?P<t>\d+)E(?P<e>\d+)\b\s*(?:[-–—]\s*(?P<tit>.*))?$", re.I | re.S)
+          PADRAO_FILME = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*_(?:19|20)\d{2}\.html$")
+          PADRAO_SERIE = re.compile(r"^[a-z0-9]+(?:_[a-z0-9]+)*_t\d{2}ep\d{2}\.html$")
+
+          RX_NAME = re.compile(r'("name":\s*")((?:[^"\\]|\\.)*)(")')
+          RX_DESC = re.compile(r'("description":\s*")((?:[^"\\]|\\.)*)(")')
+          RX_TITLE = re.compile(r"(<title>)([^<]*)(</title>)")
+          RX_VTITLE = re.compile(r'(<video\b[^>]*?\btitle=")([^"]*)(")')
+          RX_LINK = re.compile(r'"contentUrl":\s*"([^"]*)"')
+
+
+          def slug(t):
+              t = unicodedata.normalize("NFKD", str(t or ""))
+              t = "".join(c for c in t if not unicodedata.combining(c))
+              return re.sub(r"_+", "_", re.sub(r"[^a-z0-9]", "_", t.lower())).strip("_")
+
+
+          # ------------------------------------------------------------------ texto
+          def limpar_base(n):
+              """Tira lixo do site, o sufixo (em qualquer grafia) e traços soltos; NÃO mexe em acentos/pontuação."""
+              n = html.unescape(str(n or ""))
+              nk = unicodedata.normalize("NFKC", n)          # "𝑽iNi𝟕x" (letras matemáticas) -> "ViNi7x"
+              if LIXO.search(nk) and not LIXO.search(n):
+                  n = nk
+              n = LIXO.sub(" ", n)
+              n = re.sub(r"\s*[-–—]*\s*🍿\s*Clau\s*", " ", n, flags=re.I)
+              n = re.sub(r"(?:\s*[-–—]\s*){2,}", " - ", n)    # '--', '- -', ' -  - ' (traço sem nada no meio) -> ' - '
+              n = re.sub(r"\s+", " ", n)
+              return n.strip(" -–—|:")
+
+
+          def ano_do_arquivo(f):
+              m = re.search(r"_((?:19|20)\d{2})(?:_\d+)?\.html$", f)
+              return m.group(1) if m else ""
+
+
+          def nome_filme(base, dica_ano=""):
+              """Retorna (titulo, ano). ano='' quando não dá para decidir sem inventar/duplicar (ex.: ano no meio do título)."""
+              ano, t = "", base
+              while True:
+                  m = re.search(r"\s*\(\s*((?:19|20)\d{2})\s*\)\s*$", t)
+                  if not m:
+                      break
+                  ano = ano or m.group(1)
+                  t = t[:m.start()]
+              ref = ano or dica_ano
+              if ref and re.search(r"\s+" + ref + r"$", t) and len(t) > len(ref) + 1:
+                  ano = ano or ref
+                  t = re.sub(r"\s+" + ref + r"$", "", t)
+              elif not ano and dica_ano:
+                  if re.search(r"(?<!\d)" + dica_ano + r"(?!\d)", t):
+                      return t.strip(" -–—|:"), ""        # o ano está no meio do título (ex.: '... 2018 (LEGENDADO)'): não mexo
+                  ano = dica_ano
+              return t.strip(" -–—|:"), ano
+
+
+          def montar_nome_serie(serie, t, e, tit):
+              n = f"{serie} - T{int(t)}E{int(e)}"
+              if tit:
+                  n += f" – {tit}"
+              return f"{n} - {SUFIXO}"
+
+
+          def montar_nome_filme(titulo, ano):
+              return f"{titulo} ({ano}) - {SUFIXO}" if ano else f"{titulo} - {SUFIXO}"
+
+
+          # ------------------------------------------------------------------ arquivo
+          def ler_campos(texto):
+              m = RX_NAME.search(texto)
+              if not m:
+                  return None
+              try:
+                  return json.loads('"' + m.group(2) + '"')
+              except Exception:
+                  return None
+
+
+          def planejar(f, texto, ano_feed=""):
+              """Retorna dict(novo_arquivo, novo_nome, motivo_skip)."""
+              nome = ler_campos(texto)
+              if nome is None:
+                  return {"skip": "sem JSON-LD/name"}
+              base = limpar_base(nome)
+              m_nome = SERIE_NOME.match(base)
+              m_arq = SERIE_ARQ.match(f)
+              if m_nome or m_arq:
+                  if m_arq and m_nome and (int(m_arq["t"]), int(m_arq["e"])) != (int(m_nome["t"]), int(m_nome["e"])):
+                      return {"skip": f"arquivo T{int(m_arq['t'])}E{int(m_arq['e'])} x nome T{int(m_nome['t'])}E{int(m_nome['e'])}"}
+                  if m_nome:
+                      t, e = int(m_nome["t"]), int(m_nome["e"])
+                      serie = m_nome["serie"].strip(" -–—|:")
+                      serie = ALIAS_CORRECAO.get(serie.lower(), serie)          # NOVO: aplica alias conhecido
+                      if len(serie) < 2:                                        # NOVO: nome corrompido, não deixa passar
+                          return {"skip": f"série com nome suspeito: '{serie}' "
+                                          f"(adicione em ALIAS_CORRECAO)"}
+                      tit = (m_nome["tit"] or "").strip(" -–—|:")
+                  else:
+                      # name sem T#E# (ex.: "Marc Sx7 O Domo De Vidro"): o T#E# vem do nome do arquivo; o título do episódio é desconhecido
+                      t, e = int(m_arq["t"]), int(m_arq["e"])
+                      serie = base.strip(" -–—|:")
+                      serie = ALIAS_CORRECAO.get(serie.lower(), serie)          # NOVO
+                      tit = ""
+                      if len(serie) < 2:
+                          return {"skip": "série sem nome utilizável"}
+                  if m_arq:
+                      stem = LIXO_STEM.sub("", m_arq["stem"]).strip("_")
+                      stem = re.sub(r"_+", "_", stem)
+                      if len(stem) < 2:              # NOVO: stem corrompido (ex.: "9") -> regenera a partir do nome já corrigido
+                          stem = slug(serie)
+                  else:
+                      stem = slug(serie)
+                  if not stem:
+                      return {"skip": "stem vazio"}
+                  return {"tipo": "serie", "arquivo": f"{stem}_t{t:02d}ep{e:02d}.html",
+                          "nome": montar_nome_serie(serie, t, e, tit)}
+              titulo, ano = nome_filme(base, ano_do_arquivo(f) or ano_feed)
+              if len(titulo) < 2:
+                  return {"skip": "título vazio"}
+              novo_nome = montar_nome_filme(titulo, ano)
+              if not ano:
+                  limpo = re.sub(r"_+", "_", LIXO_STEM.sub("", f[:-5])).strip("_") + ".html"
+                  return {"tipo": "filme_sem_ano", "arquivo": limpo if limpo != f and len(limpo) > 5 else None, "nome": novo_nome}
+              return {"tipo": "filme", "arquivo": f"{slug(titulo)}_{ano}.html", "nome": novo_nome}
+
+
+          def json_str(s):
+              return json.dumps(s, ensure_ascii=False)[1:-1].replace("</", "<\\/")
+
+
+          def aplicar_conteudo(texto, nome, arq_antigo, arq_novo):
+              """Troca name/description/<title> (e o title="" do <video> dos arquivos antigos; só estes campos) e o nome do arquivo em @id/url. Retorna (novo_texto, mudou)."""
+              orig = texto
+              texto = RX_NAME.sub(lambda m: m.group(1) + (m.group(2) if _igual(m.group(2), nome) else json_str(nome)) + m.group(3), texto, 1)
+              desc = "Assista " + nome
+              texto = RX_DESC.sub(lambda m: m.group(1) + (m.group(2) if _igual(m.group(2), desc) else json_str(desc)) + m.group(3), texto, 1)
+              texto = RX_TITLE.sub(lambda m: m.group(1) + (m.group(2) if html.unescape(m.group(2)) == nome else html.escape(nome)) + m.group(3), texto, 1)
+              texto = RX_VTITLE.sub(lambda m: m.group(1) + (m.group(2) if html.unescape(m.group(2)) == nome else html.escape(nome)) + m.group(3), texto, 1)
+              if arq_antigo != arq_novo:
+                  texto = texto.replace("/" + arq_antigo, "/" + arq_novo)
+              return texto, texto != orig
+
+
+          def _igual(bruto, esperado):
+              try:
+                  return json.loads('"' + bruto + '"') == esperado
+              except Exception:
+                  return False
+
+
+          # ------------------------------------------------------------------ feed (opcional): ano dos filmes sem ano
+          def anos_do_feed():
+              """contentUrl -> ano, só quando o link pertence a UM único post com ano no título. Falha = {} (sem erro)."""
+              if not USAR_FEED:
+                  return {}
+              import urllib.request, urllib.error
+              por_link = collections.defaultdict(set)
+              start = 1
+              try:
+                  while True:
+                      url = f"{BASE_URL}/feeds/posts/default?alt=json&max-results=150&start-index={start}"
+                      req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/124.0 Safari/537.36"})
+                      try:
+                          feed = json.loads(urllib.request.urlopen(req, timeout=30).read().decode("utf-8")).get("feed", {})
+                      except urllib.error.HTTPError as ex:
+                          print(f"(feed: HTTP {ex.code}; paro aqui e sigo sem os anos que faltam — sem retentativa, para não piorar o 429)")
+                          break
+                      ents = feed.get("entry", []) or []
+                      for e in ents:
+                          titulo = unicodedata.normalize("NFKC", (e.get("title") or {}).get("$t", ""))
+                          corpo = (e.get("content") or {}).get("$t", "")
+                          m = re.search(r"\(\s*((?:19|20)\d{2})\s*\)\s*$|\s((?:19|20)\d{2})\s*$", titulo.strip())
+                          ano = (m.group(1) or m.group(2)) if m else ""
+                          for lk in re.findall(r'"contentUrl":\s*"([^"]+)"', corpo):
+                              por_link[lk].add(ano)
+                      if len(ents) < 150:
+                          break
+                      start += 150
+                      time.sleep(15)   # respeita o limite do Blogger (~11-12 req/min por IP): 4 req/min
+              except Exception as ex:
+                  print(f"(feed indisponível para buscar anos: {str(ex)[:80]}; sigo sem ele)")
+                  return {}
+              return {lk: next(iter(a)) for lk, a in por_link.items() if len(a) == 1 and next(iter(a))}
+
+
+          # ------------------------------------------------------------------ main
+          def main():
+              raiz = Path(".")
+              arquivos = sorted(p.name for p in raiz.glob("*.html"))
+              st = collections.Counter()
+              renomeios, alterados, ignorados, conflitos = [], [], [], []
+              textos = {f: (raiz / f).read_text(encoding="utf-8") for f in arquivos}
+              st["lidos"] = len(arquivos)
+
+              # filmes sem ano: tenta descobrir pelo feed (só se existir algum)
+              ano_por_link = {}
+              precisa = [f for f in arquivos if not PADRAO_FILME.match(f) and not PADRAO_SERIE.match(f) and not ano_do_arquivo(f)]
+              if precisa:
+                  ano_por_link = anos_do_feed()
+
+              planos = {}
+              for f in arquivos:
+                  lk = RX_LINK.search(textos[f])
+                  ano_feed = ano_por_link.get(lk.group(1), "") if lk else ""
+                  planos[f] = planejar(f, textos[f], ano_feed)
+
+              existentes = set(arquivos)
+              reservados = {}                      # destino -> origem (evita 2 origens para o mesmo destino)
+              mapa, duplicatas = {}, []
+
+              def link_de(nome_arq):
+                  m = RX_LINK.search(textos.get(nome_arq, ""))
+                  return m.group(1) if m else None
+
+              for f in arquivos:
+                  p = planos[f]
+                  if "skip" in p:
+                      ignorados.append((f, p["skip"]))
+                      continue
+                  novo = p["arquivo"] or f
+                  if novo != f:
+                      dono = novo if novo in existentes else reservados.get(novo)
+                      if dono is None:
+                          reservados[novo] = f
+                          mapa[f] = novo
+                      else:
+                          lk_a, lk_b = link_de(f), link_de(dono)
+                          if lk_a and lk_a == lk_b:
+                              duplicatas.append((f, novo))        # (origem, destino FINAL que fica)
+                              conflitos.append((f, novo, f"DUPLICATA do mesmo vídeo de {dono}"))
+                              novo = f
+                          elif p["tipo"] in ("filme", "filme_sem_ano") and LIXO_STEM.search(f[:-5]):
+                              # vídeo DIFERENTE com o mesmo título/ano e o nome atual tem lixo do site: usa _2, _3... (mesma regra do robô)
+                              base = novo[:-5]
+                              n = 2
+                              while f"{base}_{n}.html" in existentes or f"{base}_{n}.html" in reservados:
+                                  n += 1
+                              novo = f"{base}_{n}.html"
+                              reservados[novo] = f
+                              mapa[f] = novo
+                          else:
+                              conflitos.append((f, novo, "destino já existe com OUTRO vídeo" if novo in existentes else "outro arquivo já vai para este destino"))
+                              novo = f
+                  p["final"] = novo
+
+              for f in arquivos:
+                  p = planos[f]
+                  if "skip" in p:
+                      continue
+                  novo = p["final"]
+                  texto, mudou = aplicar_conteudo(textos[f], p["nome"], f, novo)
+                  if mudou:
+                      alterados.append(f)
+                  if novo == f:
+                      if mudou and not DRY:
+                          (raiz / f).write_text(texto, encoding="utf-8")
+                  else:
+                      renomeios.append((f, novo))
+                      if not DRY:
+                          (raiz / novo).write_text(texto, encoding="utf-8")   # grava o destino (conteúdo corrigido)...
+                          (raiz / f).unlink()   # ...e só então remove a ORIGEM do rename. Único unlink do script.
+                  if p["tipo"] == "filme_sem_ano" and novo == f:
+                      ignorados.append((f, "filme sem ano conhecido (não invento ano)"))
+
+              removidas, mapa_aux = [], dict(mapa)
+              if REMOVER_DUPLICATAS and not DRY:
+                  for f, destino in duplicatas:
+                      alvo = raiz / destino
+                      if not alvo.exists() or LIXO_STEM.search(destino[:-5]):
+                          continue
+                      m = RX_LINK.search(alvo.read_text(encoding="utf-8"))
+                      if m and link_de(f) == m.group(1):          # duplicata EXATA (mesmo contentUrl) de um arquivo limpo que FICA
+                          (raiz / f).unlink()
+                          removidas.append(f)
+                          mapa_aux[f] = destino
+
+              # arquivos auxiliares que citam nomes de arquivo (relatórios e filas de retentativa)
+              if mapa_aux and not DRY:
+                  aux = list(raiz.glob("relatorio_*.txt")) + [raiz / "filmes_pendentes.json", raiz / "episodios_pendentes.json"]
+                  for a in aux:
+                      if not a.exists():
+                          continue
+                      t0 = a.read_text(encoding="utf-8")
+                      t1 = re.sub(r"[A-Za-z0-9_]+\.html", lambda m: mapa_aux.get(m.group(0), m.group(0)), t0)
+                      if a.suffix == ".json":      # campo "stem" dos episódios pendentes
+                          stems = {v[:-5]: n[:-5] for v, n in mapa_aux.items()}
+                          t1 = re.sub(r'"([a-z0-9_]+)"', lambda m: '"' + stems.get(m.group(1), m.group(1)) + '"', t1)
+                      if t1 != t0:
+                          a.write_text(t1, encoding="utf-8")
+
+              st["renomeados"], st["conteudo_alterado"] = len(renomeios), len(alterados)
+              st["ignorados"], st["conflitos_de_nome"] = len(ignorados), len(conflitos)
+              st["duplicatas_exatas"], st["duplicatas_removidas"] = len(duplicatas), len(removidas)
+
+              rel = [f"{a}  ->  {b}" for a, b in renomeios]
+              Path(os.environ.get("RELATORIO") or "/tmp/relatorio_corrigir_nomes.txt").write_text(
+                  "RENOMEADOS (antes -> depois)\n" + "\n".join(rel) +
+                  "\n\nCONFLITOS (não renomeados, nada foi apagado)\n" + "\n".join(f"{a}  ->  {b}  [{m}]" for a, b, m in conflitos) +
+                  "\n\nREMOVIDAS (duplicata exata, REMOVER_DUPLICATAS=1)\n" + "\n".join(removidas) + "\n\nIGNORADOS\n" + "\n".join(f"{a}  [{m}]" for a, m in ignorados) + "\n", encoding="utf-8")
+
+              print("=" * 70)
+              print("RESUMO" + ("  (DRY-RUN: nada foi gravado)" if DRY else ""))
+              for k, v in st.items():
+                  print(f"  {k}: {v}")
+              print("\nExemplos de renomeados (antes -> depois):")
+              for a, b in renomeios[:12]:
+                  print(f"  {a}  ->  {b}")
+              if conflitos:
+                  print("\nConflitos de nome (destino já existe; NADA foi apagado ou sobrescrito):")
+                  for a, b, m in conflitos[:12]:
+                      print(f"  {a}  ->  {b}  [{m}]")
+              motivos = collections.Counter(m for _, m in ignorados)
+              if motivos:
+                  print("\nIgnorados por motivo:")
+                  for m, n in motivos.most_common():
+                      print(f"  {n}  {m}")
+              print("=" * 70)
+
+
+          if __name__ == "__main__":
+              main()
+
+
+          PYEOF
+          python3 -c "import ast;ast.parse(open('/tmp/corrigir_nomes.py').read());print('script ok')"
+
+      - name: Corrigir, commitar e dar push
+        env:
+          USAR_FEED: ${{ (inputs.buscar_anos_no_feed == true || inputs.buscar_anos_no_feed == 'true') && '1' || '0' }}
+          REMOVER_DUPLICATAS: ${{ (inputs.remover_duplicatas == true || inputs.remover_duplicatas == 'true') && '1' || '0' }}
+          RELATORIO: /tmp/relatorio_corrigir_nomes.txt
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config diff.renameLimit 30000
+
+          ok=0
+          for tentativa in 1 2 3 4 5; do
+            echo "=== Tentativa $tentativa: rodando o script ==="
+            python3 /tmp/corrigir_nomes.py
+
+            git add -A
+            git reset .github/ 2>/dev/null || true
+
+            echo "=== git diff --stat ==="
+            git diff --cached --shortstat
+            git diff --cached --stat=100 | tail -n 15
+
+            if git diff --cached --quiet; then
+              echo "Nada para commitar: tudo já está no padrão."
+              ok=1; break
+            fi
+
+            git commit -m "chore: normaliza nomes e sufixo 🍿Clau"
+            if git push origin HEAD:main; then ok=1; break; fi
+
+            echo "Push recusado (alguém atualizou o repo). Descarto o commit LOCAL, pego o estado novo e rodo de novo (o script é idempotente)."
+            git fetch origin main
+            git reset --hard origin/main
+            sleep $((RANDOM % 10 + 5))
+          done
+          if [ "$ok" != "1" ]; then echo "::error::Não consegui dar push depois de 5 tentativas"; exit 1; fi
+
+      - name: Guardar relatório (renomeados antes/depois, conflitos, ignorados)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: relatorio-corrigir-nomes
+          path: /tmp/relatorio_corrigir_nomes.txt
+          if-no-files-found: ignore
