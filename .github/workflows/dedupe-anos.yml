@@ -160,13 +160,15 @@ jobs:
                   else:
                       ult = None
                   out.append(parte)
-              novo = "_".join(out) or "arquivo"
-              return novo + p.suffix
+              novo_stem = "_".join(out) or "arquivo"
+              novo_nome = novo_stem + p.suffix
+              # Preserva subdiretorios (importante para rglob)
+              if str(p.parent) in ("", "."):
+                  return novo_nome
+              return (p.parent / novo_nome).as_posix()
 
 
           def process_ldjson(text, modo, rt):
-              """Parseia o JSON-LD e limpa só os VALORES string.
-              Mantém emoji (🍿Clau), chaves, tipos, URLs, etc. intactos."""
               try:
                   data = json.loads(text)
               except json.JSONDecodeError as e:
@@ -260,45 +262,64 @@ jobs:
               campos = cfg.get("campos", ["titulo", "serie"])
               rt = monta_regex_tokens(cfg.get("remover_tokens") or [])
 
-              items = json.loads(entrada.read_text(encoding="utf-8"))
-              processos, json_mod, vazios = [], 0, 0
+              processos = []
 
-              for item in items:
-                  old_link = item.get("link")
-                  mudou = False
-                  for campo in campos:
-                      v = item.get(campo)
-                      if isinstance(v, str):
-                          novo = limpa_texto(v, modo, rt)
-                          if not novo:
-                              novo = "(sem titulo)"
-                              vazios += 1
-                          if novo != v:
-                              item[campo] = novo
+              # ---- Passo 1: catalogo.json (opcional) ----
+              if entrada.exists():
+                  items = json.loads(entrada.read_text(encoding="utf-8"))
+                  json_mod, vazios = 0, 0
+
+                  for item in items:
+                      old_link = item.get("link")
+                      mudou = False
+                      for campo in campos:
+                          v = item.get(campo)
+                          if isinstance(v, str):
+                              novo = limpa_texto(v, modo, rt)
+                              if not novo:
+                                  novo = "(sem titulo)"
+                                  vazios += 1
+                              if novo != v:
+                                  item[campo] = novo
+                                  mudou = True
+                      new_link = old_link
+                      if cfg.get("renomear_html") and old_link:
+                          new_link = limpa_slug(old_link, modo, rt)
+                          if new_link != old_link:
+                              item["link"] = new_link
                               mudou = True
-                  new_link = old_link
-                  if cfg.get("renomear_html") and old_link:
-                      new_link = limpa_slug(old_link, modo, rt)
-                      if new_link != old_link:
-                          item["link"] = new_link
-                          mudou = True
-                  if mudou:
-                      json_mod += 1
-                  processos.append((old_link, new_link))
+                      if mudou:
+                          json_mod += 1
+                      processos.append((old_link, new_link))
 
-              if vazios:
-                  print(f"[aviso] {vazios} titulos ficaram vazios.")
+                  if vazios:
+                      print(f"[aviso] {vazios} titulos ficaram vazios.")
 
-              if dry:
-                  print(f"[dry_run] JSON: {json_mod} entradas seriam alteradas.")
+                  if dry:
+                      print(f"[dry_run] JSON: {json_mod} entradas seriam alteradas.")
+                  else:
+                      saida.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
+                      print(f"JSON gravado ({json_mod} entradas alteradas).")
               else:
-                  saida.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding="utf-8")
-                  print(f"JSON gravado ({json_mod} entradas alteradas).")
+                  print(f"[info] {entrada} nao encontrado - processando apenas HTML.")
 
+              # ---- Passo 2: HTML ----
               if cfg.get("processar_html"):
                   html_dir = Path(cfg["html_dir"])
+
+                  # Se nao ha entradas do JSON, descobrir HTMLs diretamente
+                  if processos:
+                      alvos = processos
+                  else:
+                      alvos = []
+                      for f in sorted(html_dir.rglob("*.html")):
+                          rel = f.relative_to(html_dir).as_posix()
+                          novo = limpa_slug(rel, modo, rt) if cfg.get("renomear_html") else rel
+                          alvos.append((rel, novo))
+                      print(f"[info] {len(alvos)} arquivos HTML descobertos em {html_dir}")
+
                   vistos, ok, miss, err = set(), 0, 0, 0
-                  for old_link, new_link in processos:
+                  for old_link, new_link in alvos:
                       if not old_link or old_link in vistos:
                           continue
                       vistos.add(old_link)
