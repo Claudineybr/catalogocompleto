@@ -1,4 +1,4 @@
-ame: Corrigir Titulos e Tracos em Excesso
+name: Corrigir Titulos e Tracos em Excesso
 # Botão "Run workflow": varre os .html, limpa traços duplicados/sobrando,
 # corrige títulos corrompidos (911, IT, Spider-Noir, etc), padroniza os nomes
 # dos arquivos e atualiza o catalogo.json automaticamente.
