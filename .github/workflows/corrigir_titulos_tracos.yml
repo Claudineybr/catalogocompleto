@@ -50,29 +50,32 @@ jobs:
               if not isinstance(t, str):
                   return t
 
-              # 1. Caso da serie 9-1-1 / 911
-              # Transforma '9 - T1E1 – 1 - 1 - – Piloto' -> '911 - T1E1 – Piloto'
-              if re.search(r'9\s*-\s*T(\d+)E(\d+)\s*[-–—]\s*1\s*-\s*1\s*[-–—]', t):
-                  t = re.sub(r'9\s*-\s*(T\d+E\d+)\s*[-–—]\s*1\s*-\s*1\s*[-–—]\s*', r'911 - \1 – ', t)
-                  t = t.replace('Ocean’s 9 - 1 - 1', 'Ocean’s 9-1-1')
-                  t = t.replace("Ocean's 9 - 1 - 1", "Ocean's 9-1-1")
+              # 1. Caso da serie 9-1-1 / 911:
+              # Pega '9 T2E3 - 1 - 1 –', '9 - T2E3 - 1 - 1 –', '9 T1E1 – 1 - 1 - –'
+              t = re.sub(r'9\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*1\s*[-–—]\s*1\s*[-–—]+\s*', r'911 - \1 – ', t)
+              t = re.sub(r'9\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*1\s*[-–—]\s*1\b\s*', r'911 - \1 – ', t)
 
-              # Se sobrar apenas 9 - T1E1 ...
-              t = re.sub(r'^9\s*-\s*(T\d+E\d+)\b', r'911 - \1', t)
+              # Padroniza 9-1-1 para 911 quando estiver com T...E...
+              t = re.sub(r'\b9[-–—]1[-–—]1\s*[-–—]\s*(T\d+E\d+)', r'911 - \1', t)
+              t = re.sub(r'\b9\s*[-–—]?\s*(T\d+E\d+)\b', r'911 - \1', t)
+
+              # Casos especificos de titulos de episodios
+              t = t.replace('Ocean’s 9 - 1 - 1', 'Ocean’s 9-1-1')
+              t = t.replace("Ocean's 9 - 1 - 1", "Ocean's 9-1-1")
 
               # 2. IT: Bem-Vindos a Derry
-              t = re.sub(r'IT:\s*Bem\s*-\s*(T\d+E\d+)\s*[-–—]\s*Vindos a Derry\s*[-–—]+', r'IT: Bem-Vindos a Derry - \1 –', t)
+              t = re.sub(r'IT:\s*Bem\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*Vindos a Derry\s*[-–—]+', r'IT: Bem-Vindos a Derry - \1 –', t)
 
               # 3. Spider-Noir
-              t = re.sub(r'Spider\s*-\s*(T\d+E\d+)\s*[-–—]\s*Noir\s*[-–—]+', r'Spider-Noir - \1 –', t)
+              t = re.sub(r'Spider\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*Noir\s*[-–—]+', r'Spider-Noir - \1 –', t)
 
               # 4. Lendas do Amanha
               if '(Legends of Tomorrow)' in t:
-                  t = re.sub(r'Lendas do Amanha\s*-\s*(T\d+E\d+)\s*[-–—]\s*\(Legends of Tomorrow\)\s*[-–—]+', r'Lendas do Amanha (Legends of Tomorrow) - \1 –', t)
+                  t = re.sub(r'Lendas do Amanha\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*\(Legends of Tomorrow\)\s*[-–—]+', r'Lendas do Amanha (Legends of Tomorrow) - \1 –', t)
 
               # 5. Re:ZERO
               if 'Starting Life in Another World' in t:
-                  t = re.sub(r'Re:ZERO\s*-\s*(T\d+E\d+)\s*[-–—]\s*Starting Life in Another World\s*[-–—]+', r'Re:ZERO: Starting Life in Another World - \1 –', t)
+                  t = re.sub(r'Re:ZERO\s*[-–—]?\s*(T\d+E\d+)\s*[-–—]\s*Starting Life in Another World\s*[-–—]+', r'Re:ZERO: Starting Life in Another World - \1 –', t)
 
               # 6. Limpeza geral de combinacoes de tracos repetidos: '- –', '– -', '--', '– –', etc
               for _ in range(5):
@@ -86,7 +89,6 @@ jobs:
               t = re.sub(r'\s{2,}', ' ', t).strip()
               return t
 
-          # Varre todos os .html e .json do repositorio
           raiz = Path(".")
           arquivos_html = [p for p in raiz.rglob("*.html") if p.name not in IGNORAR and ".github" not in p.parts]
           arquivos_json = [p for p in raiz.rglob("*.json") if p.name not in {"catalogo.json", "classificacao.json", "titulos.json", "capas.json"} and ".github" not in p.parts]
@@ -96,7 +98,7 @@ jobs:
 
           alterados = 0
 
-          # Processar HTMLs
+          # Processar HTMLs com regex callback (pega qualquer formatacao)
           for p in arquivos_html:
               try:
                   texto = p.read_text(encoding="utf-8", errors="ignore")
@@ -106,36 +108,14 @@ jobs:
 
               novo_texto = texto
 
-              # 1. Substituir no <title>
-              m_t = re.search(r'<title>(.*?)</title>', novo_texto)
-              if m_t:
-                  old_t = m_t.group(1)
-                  new_t = limpar_texto(old_t)
-                  if new_t != old_t:
-                      novo_texto = novo_texto.replace(f'<title>{old_t}</title>', f'<title>{new_t}</title>')
+              # Substituir no <title>
+              novo_texto = re.sub(r'<title>(.*?)</title>', lambda m: f'<title>{limpar_texto(m.group(1))}</title>', novo_texto, flags=re.DOTALL|re.I)
 
-              # 2. Substituir no <h1>
-              m_h = re.search(r'<h1>(.*?)</h1>', novo_texto)
-              if m_h:
-                  old_h = m_h.group(1)
-                  new_h = limpar_texto(old_h)
-                  if new_h != old_h:
-                      novo_texto = novo_texto.replace(f'<h1>{old_h}</h1>', f'<h1>{new_h}</h1>')
+              # Substituir no <h1>
+              novo_texto = re.sub(r'<h1>(.*?)</h1>', lambda m: f'<h1>{limpar_texto(m.group(1))}</h1>', novo_texto, flags=re.DOTALL|re.I)
 
-              # 3. Substituir no JSON-LD ("name" e "description")
-              m_n = re.search(r'"name":\s*"([^"]*)"', novo_texto)
-              if m_n:
-                  old_n = m_n.group(1)
-                  new_n = limpar_texto(old_n)
-                  if new_n != old_n:
-                      novo_texto = novo_texto.replace(f'"name": "{old_n}"', f'"name": "{new_n}"')
-
-              m_d = re.search(r'"description":\s*"([^"]*)"', novo_texto)
-              if m_d:
-                  old_d = m_d.group(1)
-                  new_d = limpar_texto(old_d)
-                  if new_d != old_d:
-                      novo_texto = novo_texto.replace(f'"description": "{old_d}"', f'"description": "{new_d}"')
+              # Substituir no ld+json (name e description)
+              novo_texto = re.sub(r'"(name|description)":\s*"([^"]*)"', lambda m: f'"{m.group(1)}": "{limpar_texto(m.group(2))}"', novo_texto, flags=re.I)
 
               if novo_texto != texto:
                   alterados += 1
