@@ -1,46 +1,215 @@
 name: Corrigir Titulos e Tracos em Excesso
-# Botão "Run workflow": varre os .html, limpa traços duplicados/sobrando,
-# corrige títulos corrompidos (911, IT, Spider-Noir, etc), padroniza os nomes
-# dos arquivos e atualiza o catalogo.json automaticamente.
-"on":
+
+# Botão "Run workflow": varre os arquivos (.html e .json),
+# limpa traços duplicados/excessivos, corrige títulos corrompidos (como 911),
+# renomeia arquivos 9_t* para 911_t* e commita as alterações diretamente.
+# NÃO cria nem altera catalogo.json.
+
+on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Apenas simular (nao altera nem commita nada)"
+        description: "Apenas simular (nao altera nem envia nada)"
         type: boolean
         default: false
+
 permissions:
   contents: write
+
 concurrency:
   group: corrigir-titulos-tracos
   cancel-in-progress: false
+
 jobs:
   limpar:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
-      - name: Baixar o codigo
+      - name: Baixar o repositorio
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Limpar titulos, tracos e renomear arquivos
+
+      - name: Limpar titulos e renomear arquivos
         env:
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
           python -u - <<'PYEOF'
-          import html as htmllib, json, os, re, sys, unicodedata
+          import os, re, sys, json
           from pathlib import Path
+
           DRY = os.environ.get("DRY_RUN", "false").lower() == "true"
           IGNORAR = {"index.html", "serie.html", "404.html"}
-          def limpar_titulo(t):
-              # 1. 9-1-1 / 911 (ex: '9 - T1E1 – 1 - 1 - – Piloto - 🍿Clau' -> '911 - T1E1 – Piloto - 🍿Clau')
-              if re.search(r'9\s*-\s*T(\d+)E(\d+)\s*[–-]\s*1\s*-\s*1\s*-\s*[–-]', t):
-                  t = re.sub(r'9\s*-\s*(T\d+E\d+)\s*[–-]\s*1\s*-\s*1\s*-\s*[–-]\s*', r'911 - \1 – ', t)
+
+          def limpar_texto(t):
+              if not isinstance(t, str):
+                  return t
+
+              # 1. Caso da serie 9-1-1 / 911
+              # Transforma '9 - T1E1 – 1 - 1 - – Piloto' -> '911 - T1E1 – Piloto'
+              if re.search(r'9\s*-\s*T(\d+)E(\d+)\s*[-–—]\s*1\s*-\s*1\s*[-–—]', t):
+                  t = re.sub(r'9\s*-\s*(T\d+E\d+)\s*[-–—]\s*1\s*-\s*1\s*[-–—]\s*', r'911 - \1 – ', t)
                   t = t.replace('Ocean’s 9 - 1 - 1', 'Ocean’s 9-1-1')
                   t = t.replace("Ocean's 9 - 1 - 1", "Ocean's 9-1-1")
+
+              # Se sobrar apenas 9 - T1E1 ...
+              t = re.sub(r'^9\s*-\s*(T\d+E\d+)\b', r'911 - \1', t)
+
               # 2. IT: Bem-Vindos a Derry
-              if re.search(r'IT:\s*Bem\s*-\s*T(\d+)E(\d+)\s*[–-]\s*Vindos a Derry\s*[–-]\s*[–-]\s*', t):
-                  t = re.sub(r'IT:\s*Bem\s*-\s*(T\d+E\d+)\s*[–-]\s*Vindos a Derry\s*[–-]\s*[–-]\s*', r'IT: Bem-Vindos a Derry - \1 – ', t)
+              t = re.sub(r'IT:\s*Bem\s*-\s*(T\d+E\d+)\s*[-–—]\s*Vindos a Derry\s*[-–—]+', r'IT: Bem-Vindos a Derry - \1 –', t)
+
               # 3. Spider-Noir
+              t = re.sub(r'Spider\s*-\s*(T\d+E\d+)\s*[-–—]\s*Noir\s*[-–—]+', r'Spider-Noir - \1 –', t)
+
+              # 4. Lendas do Amanha
+              if '(Legends of Tomorrow)' in t:
+                  t = re.sub(r'Lendas do Amanha\s*-\s*(T\d+E\d+)\s*[-–—]\s*\(Legends of Tomorrow\)\s*[-–—]+', r'Lendas do Amanha (Legends of Tomorrow) - \1 –', t)
+
+              # 5. Re:ZERO
+              if 'Starting Life in Another World' in t:
+                  t = re.sub(r'Re:ZERO\s*-\s*(T\d+E\d+)\s*[-–—]\s*Starting Life in Another World\s*[-–—]+', r'Re:ZERO: Starting Life in Another World - \1 –', t)
+
+              # 6. Limpeza geral de combinacoes de tracos repetidos: '- –', '– -', '--', '– –', etc
+              for _ in range(5):
+                  t = re.sub(r'\s*[-–—]\s*[-–—]\s*', ' – ', t)
+                  t = re.sub(r'[-–—]{2,}', ' – ', t)
+
+              # Remove tracos soltos antes do sufixo 🍿Clau
+              t = re.sub(r'\s*[-–—]\s*🍿Clau', ' - 🍿Clau', t)
+
+              # Remove espacos multiplos
+              t = re.sub(r'\s{2,}', ' ', t).strip()
+              return t
+
+          # Varre todos os .html e .json do repositorio
+          raiz = Path(".")
+          arquivos_html = [p for p in raiz.rglob("*.html") if p.name not in IGNORAR and ".github" not in p.parts]
+          arquivos_json = [p for p in raiz.rglob("*.json") if p.name not in {"catalogo.json", "classificacao.json", "titulos.json", "capas.json"} and ".github" not in p.parts]
+
+          print(f"Arquivos HTML encontrados: {len(arquivos_html)}")
+          print(f"Arquivos JSON encontrados: {len(arquivos_json)}")
+
+          alterados = 0
+
+          # Processar HTMLs
+          for p in arquivos_html:
+              try:
+                  texto = p.read_text(encoding="utf-8", errors="ignore")
+              except Exception as e:
+                  print(f"Erro ao ler {p}: {e}")
+                  continue
+
+              novo_texto = texto
+
+              # 1. Substituir no <title>
+              m_t = re.search(r'<title>(.*?)</title>', novo_texto)
+              if m_t:
+                  old_t = m_t.group(1)
+                  new_t = limpar_texto(old_t)
+                  if new_t != old_t:
+                      novo_texto = novo_texto.replace(f'<title>{old_t}</title>', f'<title>{new_t}</title>')
+
+              # 2. Substituir no <h1>
+              m_h = re.search(r'<h1>(.*?)</h1>', novo_texto)
+              if m_h:
+                  old_h = m_h.group(1)
+                  new_h = limpar_texto(old_h)
+                  if new_h != old_h:
+                      novo_texto = novo_texto.replace(f'<h1>{old_h}</h1>', f'<h1>{new_h}</h1>')
+
+              # 3. Substituir no JSON-LD ("name" e "description")
+              m_n = re.search(r'"name":\s*"([^"]*)"', novo_texto)
+              if m_n:
+                  old_n = m_n.group(1)
+                  new_n = limpar_texto(old_n)
+                  if new_n != old_n:
+                      novo_texto = novo_texto.replace(f'"name": "{old_n}"', f'"name": "{new_n}"')
+
+              m_d = re.search(r'"description":\s*"([^"]*)"', novo_texto)
+              if m_d:
+                  old_d = m_d.group(1)
+                  new_d = limpar_texto(old_d)
+                  if new_d != old_d:
+                      novo_texto = novo_texto.replace(f'"description": "{old_d}"', f'"description": "{new_d}"')
+
+              if novo_texto != texto:
+                  alterados += 1
+                  if DRY:
+                      print(f"[DRY-RUN HTML] {p.name}")
+                  else:
+                      p.write_text(novo_texto, encoding="utf-8")
+
+          # Processar JSONs individuais (se houver)
+          for p in arquivos_json:
+              try:
+                  texto = p.read_text(encoding="utf-8", errors="ignore")
+                  data = json.loads(texto)
+              except Exception:
+                  continue
+
+              mod = False
+              if isinstance(data, dict):
+                  for k in ("name", "titulo", "title", "description", "serie"):
+                      if k in data and isinstance(data[k], str):
+                          limpo = limpar_texto(data[k])
+                          if limpo != data[k]:
+                              data[k] = limpo
+                              mod = True
+              if mod:
+                  alterados += 1
+                  if DRY:
+                      print(f"[DRY-RUN JSON] {p.name}")
+                  else:
+                      p.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          print(f"Total de arquivos com conteudo corrigido: {alterados}")
+
+          # Renomear arquivos 9_t* para 911_t*
+          renomeados = 0
+          for p in list(raiz.rglob("*.html")) + list(raiz.rglob("*.json")):
+              if p.name.startswith("9_t") and p.name not in IGNORAR:
+                  novo_nome = p.parent / ("911_" + p.name[2:])
+                  if DRY:
+                      print(f"[DRY-RUN Renomear] {p.name} -> {novo_nome.name}")
+                  else:
+                      if novo_nome.exists():
+                          novo_nome.unlink()
+                      p.rename(novo_nome)
+                      print(f"[Renomeado] {p.name} -> {novo_nome.name}")
+                  renomeados += 1
+
+          print(f"Total de arquivos renomeados: {renomeados}")
+          PYEOF
+
+      - name: Exibir alteracoes encontradas
+        run: |
+          git status --short
+
+      - name: Salvar alteracoes no repositorio (Commit e Push)
+        if: ${{ inputs.dry_run == false }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+              echo "Nenhuma diferenca para commitar."
+              exit 0
+          fi
+          git commit -m "fix: corrige titulos e remove tracos excessivos [skip ci]"
+          for i in 1 2 3 4 5; do
+              echo "Enviando alteracoes (tentativa $i)..."
+              if git push origin HEAD:"$GITHUB_REF_NAME"; then
+                  echo "Push concluido com sucesso!"
+                  exit 0
+              fi
+              echo "Falha no push, tentando pull com rebase..."
+              git pull --rebase origin "$GITHUB_REF_NAME" || true
+              sleep 5
+          done
+          echo "Erro: nao foi possivel realizar o push."
+          exit 1
