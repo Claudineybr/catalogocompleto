@@ -1,0 +1,46 @@
+ame: Corrigir Titulos e Tracos em Excesso
+# Botão "Run workflow": varre os .html, limpa traços duplicados/sobrando,
+# corrige títulos corrompidos (911, IT, Spider-Noir, etc), padroniza os nomes
+# dos arquivos e atualiza o catalogo.json automaticamente.
+"on":
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Apenas simular (nao altera nem commita nada)"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: corrigir-titulos-tracos
+  cancel-in-progress: false
+jobs:
+  limpar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Baixar o codigo
+        uses: actions/checkout@v4
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Limpar titulos, tracos e renomear arquivos
+        env:
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          python -u - <<'PYEOF'
+          import html as htmllib, json, os, re, sys, unicodedata
+          from pathlib import Path
+          DRY = os.environ.get("DRY_RUN", "false").lower() == "true"
+          IGNORAR = {"index.html", "serie.html", "404.html"}
+          def limpar_titulo(t):
+              # 1. 9-1-1 / 911 (ex: '9 - T1E1 – 1 - 1 - – Piloto - 🍿Clau' -> '911 - T1E1 – Piloto - 🍿Clau')
+              if re.search(r'9\s*-\s*T(\d+)E(\d+)\s*[–-]\s*1\s*-\s*1\s*-\s*[–-]', t):
+                  t = re.sub(r'9\s*-\s*(T\d+E\d+)\s*[–-]\s*1\s*-\s*1\s*-\s*[–-]\s*', r'911 - \1 – ', t)
+                  t = t.replace('Ocean’s 9 - 1 - 1', 'Ocean’s 9-1-1')
+                  t = t.replace("Ocean's 9 - 1 - 1", "Ocean's 9-1-1")
+              # 2. IT: Bem-Vindos a Derry
+              if re.search(r'IT:\s*Bem\s*-\s*T(\d+)E(\d+)\s*[–-]\s*Vindos a Derry\s*[–-]\s*[–-]\s*', t):
+                  t = re.sub(r'IT:\s*Bem\s*-\s*(T\d+E\d+)\s*[–-]\s*Vindos a Derry\s*[–-]\s*[–-]\s*', r'IT: Bem-Vindos a Derry - \1 – ', t)
+              # 3. Spider-Noir
