@@ -56,7 +56,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           ok=0
           for i in 1 2 3 4 5; do
-            git add -A -- filmes_feitos.txt filmes_consertados.txt filmes_descartados.txt filmes_erros.json series_feitas.txt series_consertadas.txt series_descartados.txt series_erros.json
+            git add -A   # só há mudança nos arquivos de progresso que existiam (os que não existem são ignorados)
             if git diff --cached --quiet; then echo "Nada para commitar (progresso já estava vazio)."; ok=1; break; fi
             git commit -m "chore: reset semanal do progresso (refazer tudo)"
             if git push origin HEAD:main; then ok=1; break; fi
