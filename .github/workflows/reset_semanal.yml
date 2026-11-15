@@ -1,0 +1,68 @@
+name: Reset Semanal do Progresso
+
+# Uma vez por semana (domingo 02:00 no horário de Cuiabá) apaga as listas de "já feitos" e "descartados" para os robôs
+# de Filmes e Séries refazerem tudo e consertarem o que estiver quebrado.
+# Também zera os descartados e o contador de erros, para dar nova chance a posts que foram arrumados no site.
+# NUNCA apaga: as filas (filmes_fila.txt / series_fila.txt), os arquivos .html e os pendentes.
+# Também dá para rodar na hora pelo botão "Run workflow".
+
+on:
+  schedule:
+    - cron: '0 6 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: reset-semanal
+  cancel-in-progress: false
+
+jobs:
+  resetar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v5
+
+      - name: Esperar os robôs que estiverem rodando (até 30 min)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 30); do
+            n=0
+            for wf in Filmes.yml series.yml; do
+              c=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow="$wf" --status in_progress --json databaseId --jq 'length' 2>/dev/null || echo 0)
+              n=$((n + c))
+            done
+            if [ "$n" = "0" ]; then echo "Nenhum robô rodando."; break; fi
+            echo "$n robô(s) rodando; aguardando 1 min ($i/30)..."
+            sleep 60
+          done
+
+      - name: Apagar só o progresso
+        run: |
+          echo "Antes:"
+          wc -l filmes_feitos.txt filmes_consertados.txt filmes_descartados.txt filmes_erros.json series_feitas.txt series_consertadas.txt series_descartados.txt series_erros.json 2>/dev/null || true
+          rm -f filmes_feitos.txt filmes_consertados.txt filmes_descartados.txt filmes_erros.json series_feitas.txt series_consertadas.txt series_descartados.txt series_erros.json
+          echo "Filas preservadas:"
+          wc -l filmes_fila.txt series_fila.txt 2>/dev/null || true
+
+      - name: Commit e push (só se mudou algo)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ok=0
+          for i in 1 2 3 4 5; do
+            git add -A -- filmes_feitos.txt filmes_consertados.txt filmes_descartados.txt filmes_erros.json series_feitas.txt series_consertadas.txt series_descartados.txt series_erros.json
+            if git diff --cached --quiet; then echo "Nada para commitar (progresso já estava vazio)."; ok=1; break; fi
+            git commit -m "chore: reset semanal do progresso (refazer tudo)"
+            if git push origin HEAD:main; then ok=1; break; fi
+            git fetch origin main
+            git reset --hard origin/main
+            rm -f filmes_feitos.txt filmes_consertados.txt filmes_descartados.txt filmes_erros.json series_feitas.txt series_consertadas.txt series_descartados.txt series_erros.json
+            sleep $((RANDOM % 10 + 5))
+          done
+          if [ "$ok" != "1" ]; then echo "::error::Não consegui dar push"; exit 1; fi
