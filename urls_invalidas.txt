@@ -1,2 +1,0 @@
-series_erros.json
-filmes_erros.json
