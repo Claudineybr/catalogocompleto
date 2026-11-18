@@ -1,0 +1,58 @@
+name: LIMPEZA TOTAL (Apagar Tudo)
+
+on:
+  workflow_dispatch: # Só roda quando você clicar no botão manualmente
+
+permissions:
+  contents: write
+
+jobs:
+  limpar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar repositorio
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Apagar tudo, exceto .github e .git
+        run: |
+          echo "Iniciando limpeza radical..."
+          
+          # O comando abaixo varre a pasta raiz (maxdepth 1) e apaga tudo
+          # EXCETO a pasta .git (controle do Git) e .github (onde ficam os YAMLs)
+          find . -maxdepth 1 -mindepth 1 ! -name '.git' ! -name '.github' -exec rm -rf {} +
+          
+          echo "Limpeza concluída! O que sobrou no repositório foi:"
+          ls -la
+
+      - name: Salvar e enviar a limpeza
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # O -A é ESSENCIAL para registrar os arquivos que foram DELETADOS
+          git add -A
+          
+          if git diff --cached --quiet; then
+            echo "O repositório já está limpo (nada para deletar)."
+            exit 0
+          fi
+          
+          git commit -m "chore: LIMPEZA TOTAL - apagando arquivos para reconstruir o catalogo"
+          
+          # Loop para garantir que o Push vai passar
+          for i in $(seq 1 5); do
+            echo "== Push tentativa $i/5 =="
+            if git push origin HEAD:main; then
+              echo "[SUCESSO] Limpeza concluida e enviada para o GitHub!"
+              exit 0
+            fi
+            
+            echo "[FALHA] Push falhou. Sincronizando..."
+            git pull --rebase origin main --autostash || git pull origin main --no-rebase -X ours --no-edit
+            sleep $((RANDOM % 5 + 3))
+          done
+          
+          echo "[FALHA] Falha apos 5 tentativas"
+          exit 1
